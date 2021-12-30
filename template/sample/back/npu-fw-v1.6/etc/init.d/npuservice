@@ -1,0 +1,56 @@
+#! /bin/bash
+#
+# npuservice       Bring up/down npu service
+#
+# chkconfig: - 10 90
+# description: Download firmware to npu and boot npu service.
+#
+
+function get_soc_type()
+{
+	str=$(tr -d '\0' < /proc/device-tree/compatible)
+
+	if [ "`echo ${str} |grep rk3399pro`" != "" ]; then
+		echo rk3399pro
+	elif [ "`echo ${str} |grep rk3399`" != "" ]; then
+		echo rk3399
+	elif [ "`echo ${str} |grep rk3228h`" != "" ]; then
+		echo rk3228h
+	else
+		echo
+	fi
+}
+
+function start()
+{
+	if [ "`get_soc_type`" == "rk3399pro" ]; then
+		npu_upgrade MiniLoaderAll.bin uboot.img trust.img boot.img
+		sleep 1
+		npu_transfer_proxy &
+		sleep 5
+	fi
+}
+
+function stop()
+{
+	if [ "`get_soc_type`" == "rk3399pro" ]; then
+		killall npu_transfer_proxy
+		npu_powerctrl -d
+	fi
+}
+
+case "$1" in
+start)
+	start
+	;;
+stop)
+	stop
+	;;
+restart)
+	stop
+	start
+	;;
+*)
+	exit 0
+
+esac

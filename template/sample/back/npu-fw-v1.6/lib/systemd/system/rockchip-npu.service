@@ -1,0 +1,10 @@
+[Unit]
+Description=Rockchip NPU service
+#Requires=display-manager.service
+#After=display-manager.service
+[Service]
+Type=simple
+ExecStart=/etc/init.d/npuservice start
+StandardOutput=null
+[Install]
+WantedBy=multi-user.target
