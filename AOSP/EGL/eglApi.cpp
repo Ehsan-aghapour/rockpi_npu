@@ -49,6 +49,8 @@
 
 
 //Ehsan
+#include <fstream>
+#include<sys/ioctl.h>
 #include "rknn_api.h"
 
 using namespace android;
@@ -1348,195 +1350,12 @@ private:
 
 
 
-//Ehsan
-void print_attr(rknn_tensor_attr attr){
-	ALOGI("tensor name:%s\nindex:%d\t n_dims:%d\t",attr.name,attr.index,attr.n_dims);
-	ALOGI("Dims: ");
-	for(int i=0;i<attr.n_dims;i++){
-		ALOGI("%d  ",attr.dims[i]);
-	}
-	ALOGI("\nelements:%d \t size:%d \t type:%d \t qtype:%d \t scale:%f\n",attr.n_elems,attr.size,(int)attr.type,(int)attr.qnt_type,attr.scale);
-}
 
-void print_input(rknn_input input,int n){
-	float* t=(float*)(input.buf);
-	for(int i=0;i<n;i++){
-			ALOGI("%-4d:%-9.1f",i,t[i]);
-			if(((i+1)%10)==0){
-				ALOGI("\n");
-			}
-	}
-}
-
-void print_output(rknn_output output,int n){
-	float* t=(float*)(output.buf);
-	for(int i=0;i<n;i++){
-			ALOGI("%-4d:%-12f",i,t[i]);
-			if(((i+1)%10)==0){
-				ALOGI("\n");
-			}
-	}
-}
 EGLBoolean eglSwapBuffersWithDamageKHR(EGLDisplay dpy, EGLSurface draw,
         EGLint *rects, EGLint n_rects)
 {
     ATRACE_CALL();
     clearError();
-
-    static int i=1;
-    ALOGI("Ehsan:$d\n",i);
-    i++;
-    if(i%1000==0){
-    char *mParamPath="/data/dataset/model.rknn";
-    FILE *fp = fopen(mParamPath, "rb");
-    if(fp == NULL) {
-	//LOGE("fopen %s fail!\n", mParamPath);
-	ALOGI("fopen %s fail!\n", mParamPath);
-	return -1;
-    }
-    fseek(fp, 0, SEEK_END);
-    int model_len = ftell(fp);
-    void *model = malloc(model_len);
-    fseek(fp, 0, SEEK_SET);
-    if(model_len != fread(model, 1, model_len, fp)) {
-	//LOGE("fread %s fail!\n", mParamPath);
-	ALOGI("fread %s fail!\n", mParamPath);
-	free(model);
-	fclose(fp);
-	return -1;
-    }
-
-    fclose(fp);
-
-    // RKNN_FLAG_ASYNC_MASK: enable async mode to use NPU efficiently.
-    //int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM|RKNN_FLAG_ASYNC_MASK);
-    rknn_context ctx = 0;
-    int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM);
-    free(model);
-
-	if(ret < 0) {
-		//LOGE("rknn_init fail! ret=%d\n", ret);
-		ALOGI("rknn_init fail! ret=%d\n", ret);
-		return -1;
-	}
-    	
-	rknn_input_output_num io_num;
-	ret = rknn_query(ctx, RKNN_QUERY_IN_OUT_NUM, &io_num, sizeof(io_num));
-	if(ret < 0) {
-		ALOGI("rknn_query fail! ret=%d\n",ret);
-		return -1;
-	}
-
-
-	rknn_tensor_attr output0_attr;
-	output0_attr.index = 0;
-	ret = rknn_query(ctx, RKNN_QUERY_OUTPUT_ATTR, &output0_attr,
-	sizeof(output0_attr));
-	if(ret < 0) {
-		ALOGI("rknn_query fail! ret=%d\n",ret);
-		return -1;
-	}
-
-
-	rknn_tensor_attr input0_attr;
-	input0_attr.index = 0;
-	ret = rknn_query(ctx, RKNN_QUERY_INPUT_ATTR, &input0_attr,
-	sizeof(input0_attr));
-	if(ret < 0) {
-		ALOGI("rknn_query fail! ret=%d\n",ret);
-		return -1;
-	}
-
-
-
-
-	ALOGI("\n\n*************\n");
-	print_attr(input0_attr);
-	ALOGI("\n\n*************\n");
-	print_attr(output0_attr);
-
-	float data[475];
-	for(int i=0;i<475;i++){
-		data[i]=i;
-	}
-	rknn_input inputs[1];
-	inputs[0].index = 0;
-	inputs[0].buf = data;
-	inputs[0].size = sizeof(data);
-	inputs[0].pass_through = false;
-	//inputs[0].pass_through = true;
-	//inputs[0].type = RKNN_TENSOR_UINT8;
-	inputs[0].type = RKNN_TENSOR_FLOAT32;
-	inputs[0].fmt = RKNN_TENSOR_NHWC;
-	ret = rknn_inputs_set(ctx, 1, inputs);
-	if(ret < 0) {
-		ALOGI("rknn_input_set fail! ret=%d\n", ret);
-		return -1;
-	}
-
-
-
-	rknn_output outputs[1];
-	outputs[0].want_float = true;
-	outputs[0].is_prealloc = false;
-
-
-
-
-	//t1=std::chrono::high_resolution_clock::now();
-	ret = rknn_run(ctx, NULL);
-	if(ret < 0) {
-		ALOGI("rknn_run fail! ret=%d\n", ret);
-		return -1;
-	}
-	//t2=std::chrono::high_resolution_clock::now();
-
-
-
-
-	ret = rknn_outputs_get(ctx, 1, outputs, NULL);
-	if(ret < 0) {
-		ALOGI("rknn_outputs_get fail! ret=%d\n", ret);
-		return -1;
-	}
-	//auto t3=std::chrono::high_resolution_clock::now();
-
-	//double run_latency=std::chrono::duration_cast<std::chrono::duration<double>>(t2-t1).count();
-	//double getout_latency=std::chrono::duration_cast<std::chrono::duration<double>>(t3-t2).count();
-	//ALOGI("\nrun latency:%f \t get output latency:%f \n",1000.0*run_latency,1000.0*getout_latency);
-
-
-	_rknn_perf_run run_time;
-	ret = rknn_query(ctx, RKNN_QUERY_PERF_RUN, &run_time,sizeof(run_time));
-	if(ret < 0) {
-		ALOGI("rknn_query fail! ret=%d\n",ret);
-		return -1;
-	}
-	ALOGI("run_time:%ld\n",run_time.run_duration);
-
-
-	_rknn_sdk_version version;
-	ret = rknn_query(ctx, RKNN_QUERY_SDK_VERSION, &version,sizeof(version));
-	if(ret < 0) {
-		ALOGI("rknn_query fail! ret=%d\n",ret);
-		return -1;
-	}
-	ALOGI("api version:%s \t drive version:%s \n",version.api_version,version.drv_version);
-
-
-	//print_output(outputs[0]);
-	ALOGI("\n\n*************\n");
-	print_input(inputs[0],input0_attr.n_elems);
-	ALOGI("\n\n*************\n");
-	print_output(outputs[0],output0_attr.n_elems);
-
-	rknn_outputs_release(ctx, 1, outputs);
-
-	rknn_destroy(ctx);
-
-	}
-
-
 
     const egl_display_ptr dp = validate_display(dpy);
     if (!dp) return EGL_FALSE;
@@ -1592,10 +1411,792 @@ EGLBoolean eglSwapBuffersWithDamageKHR(EGLDisplay dpy, EGLSurface draw,
     }
 }
 
-EGLBoolean eglSwapBuffers(EGLDisplay dpy, EGLSurface surface)
+//Ehsan rename to eglSwapBuffers_org
+EGLBoolean eglSwapBuffers_org(EGLDisplay dpy, EGLSurface surface)
 {
     return eglSwapBuffersWithDamageKHR(dpy, surface, NULL, 0);
 }
+
+
+//Ehsan ********************************
+
+void print_attr(rknn_tensor_attr attr){
+	ALOGI("tensor name:%s\nindex:%d\t n_dims:%d\t",attr.name,attr.index,attr.n_dims);
+	ALOGI("Dims: ");
+	for(int i=0;i<attr.n_dims;i++){
+		ALOGI("%d  ",attr.dims[i]);
+	}
+	ALOGI("\nelements:%d \t size:%d \t type:%d \t qtype:%d \t scale:%f\n",attr.n_elems,attr.size,(int)attr.type,(int)attr.qnt_type,attr.scale);
+}
+
+void print_input(rknn_input input,int n){
+	float* t=(float*)(input.buf);
+	for(int i=0;i<n;i++){
+			ALOGI("%-4d:%-9.1f",i,t[i]);
+			if(((i+1)%10)==0){
+				ALOGI("\n");
+			}
+	}
+}
+
+void print_output(rknn_output output,int n){
+	float* t=(float*)(output.buf);
+	for(int i=0;i<n;i++){
+			ALOGI("%-4d:%-12f",i,t[i]);
+			if(((i+1)%10)==0){
+				ALOGI("\n");
+			}
+	}
+}
+
+
+//Ehsan: calculate diff time
+uint64_t diff_time(timespec start, timespec stop){
+    uint64_t out;
+    out=((uint64_t)stop.tv_sec*(uint64_t)1.0e9+(uint64_t)stop.tv_nsec)-((uint64_t)start.tv_sec*(uint64_t)1.0e9+(uint64_t)start.tv_nsec);
+    return out;
+}
+
+
+
+/*Ehsan: data frequency strucutre for kernel IOCTL API *************************/
+
+struct f{
+        uint64_t gf;
+        uint32_t f1;
+        uint32_t f2;
+	uint64_t  capturing=0;
+};
+
+
+//Ehsan pointer wrapper for IOCTL
+union ptr{
+	int8_t* a;
+	uint64_t padding;
+};
+
+#define Pandoon_MAGIC (0xAA)
+#define next_state _IO(Pandoon_MAGIC,'c')
+#define capture_freqs _IOR(Pandoon_MAGIC,'n',struct f )
+#define Apply_freqs _IOW(Pandoon_MAGIC,'a', union ptr)
+
+/*****************************************************************/
+
+
+
+
+
+/*Ehsan: Gator kernel IOCTL API *************************/
+
+union ptr32{
+ int* a;
+ uint64_t padding;
+};
+
+#define capture_data _IOR('g','c',union ptr32)
+
+/***********************************************************/
+
+//String Hash -> converts  String to unique uint
+unsigned int str2int(const char* str, int h = 0)
+{
+    return !str[h] ? 5381 : (str2int(str, h+1)*33) ^ str[h];
+}
+
+/*Ehsan: get processname by reading file from /proc filesystem ***********/
+const char* get_process_name_by_pid(const int pid){
+    char* name = (char*)calloc(1024,sizeof(char));
+    if(name){
+        sprintf(name, "/proc/%d/cmdline",pid);
+        FILE* f = fopen(name,"r");
+        if(f){
+            size_t size;
+            size = fread(name, sizeof(char), 1024, f);
+            if(size>0){
+                if('\n'==name[size-1])
+                    name[size-1]='\0';
+            }
+            fclose(f);
+        }
+    }
+    return name;
+}
+/****************************************************************************/
+
+/* Migrate rockpi
+static HIAI_ModelManager *modelManager = NULL;
+*/
+rknn_context ctx = 0;
+
+/* Migrate rockpi
+static HIAI_TensorBuffer *inputtensor = NULL;
+static HIAI_TensorBuffer *inputtensor2 = NULL;
+*/
+rknn_input inputs[1];
+
+/* Migrate rockpi
+static HIAI_TensorBuffer *outputtensor = NULL;
+*/
+rknn_output outputs[1];
+
+/* Migrate rockpi
+static HIAI_ModelBuffer *modelBuffer = NULL;
+*/
+void *model=NULL;
+
+int data_state[475];
+int j=0;
+
+//float dataBuff[475]={0};
+int br=0;
+int i0=0;
+int i1=0;
+int i2=0;
+
+/* Migrate rockpi
+//inputtensor = HIAI_TensorBuffer_create(input_N, input_C, input_H, input_W);// , input2_C = 1 , input2_H = 24 , input2_W = 1);
+//inputtensor2 = HIAI_TensorBuffer_create(input_N, input2_C, input2_H, input2_W);
+HIAI_TensorBuffer *inputtensorbuffer[] = {inputtensor, inputtensor2};
+//outputtensor = HIAI_TensorBuffer_create(output_N, output_C, output_H, output_W);
+HIAI_TensorBuffer *outputtensorbuffer[] = {outputtensor};
+*/
+float *inputbuffer = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(inputtensor);
+float *inputbuffer2 = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(inputtensor2);
+float *outputBuffer = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(outputtensor);
+
+rknn_tensor_attr output0_attr;
+rknn_tensor_attr input0_attr;
+rknn_input inputs[1];
+rknn_output outputs[1];
+
+int input_Number=1;
+int output_Number=1;
+const char* modelName;
+int outputsize;
+
+static std::mutex mtxx;
+
+
+
+static int fddd=-1;
+void *new_frame_thread(void *tt) {
+	timespec t_now=*((timespec *)tt);
+    static std::ofstream myfile;
+	//static std::ofstream myfileout;
+	static bool is_init=false;
+	//static int fddd;
+	static int fdddkernel;
+	static std::ifstream cfgss;
+	static bool pandoon_opened=false;
+	//static bool data_opened=false;
+	static bool frst=true;
+	static struct f freqs;
+	static int frame_number=0;
+	static uint64_t totaltime=0;
+	static timespec last_swap;
+	int jj;
+
+	union ptr32 ptr_data;
+	union ptr ptr_freqs;
+
+	static uint64_t frame_time[9];
+	static bool pass=0;
+	//ALOGI("11_before mutex lock");
+	mtxx.lock();
+	//ALOGI("22Aftermutex lock");
+	if(!is_init)
+	{
+		//is_init=1;
+		//mtxx.unlock()
+        //ALOGI("33 inside if init==0");
+		static int fff=0;
+
+		if(!cfgss.is_open()){
+			//ALOGI("44inside if cfgss is not opened");
+			cfgss.open("/data/dataset/configs.txt");
+			if(!cfgss){
+				ALOGE("Cannot open configs file! Check: /data/dataset/configs.txt");
+				//mtxx.lock();
+				//is_init=0;
+				mtxx.unlock();
+				return 0;
+			}
+			cfgss>>br;
+			//101 for setting a constant frequency at next line with a number:
+			// F_GPU + F_A73*8 + F_A53*9*8
+			if(br==101){
+				cfgss>>fff;
+				i0=7-int(fff%8);
+				i1=int(fff/8)%9;
+				i2=int(fff/72);
+				ALOGI("Set Constant Frequency, GPU:%d, A73:%d, A53:%d.",i0,i1,i2);
+			}
+
+
+			if(br==102){
+				pass=1;
+				ALOGI("Set Frequency with your desired governor.");
+			}
+
+			else{
+				ALOGI("Set Frequency using Pandoon_NN_Model with %d Percent exploration using greedy epsilon policy",br);
+				srand(time(0));
+			}
+			//cfgss.close();
+
+		}
+
+		//ALOGI("66 after if cfgss ");
+		//close(fddd);
+		if (!pandoon_opened){
+			//ALOGI("77 inside if pandoon not opened,PID:%d ",getpid());
+			fddd = open("/dev/pandoon_device", O_RDWR);
+			if (fddd<0){
+				ALOGI("Pandoon Not Opened. ERROR CODE:%d, ERROR MEANING:%s",errno,strerror(errno));
+				mtxx.unlock();
+				close(fddd);
+				return NULL;
+			}
+			ALOGI("Pandoon Opened!, /dev/pandoon_device, file descriptor:%d, PID:%d.",fddd,getpid());
+			pandoon_opened=true;
+		}
+		if (fddd!=-1){
+			if(!pass){
+				jj=ioctl(fddd,capture_freqs, &freqs);
+                //ALOGI("second capture_freqs:%d",jj);
+				if(jj<0){
+					ALOGI("Capture Freqs IOCtl error, error:%d, meaning:%s",errno,strerror(errno));
+					//close(fddd);
+					mtxx.unlock();
+					return NULL;
+				}
+				ALOGI("Freqs Captured, F_GPU:%" PRIu64", FA73:%u, FA53:%u, Capturing:%" PRIu64,freqs.gf,freqs.f2,freqs.f1,freqs.capturing);
+			}
+			//ALOGI("freqs:%" PRIu64,freqs.capturing);
+			if(freqs.capturing or pass){
+				//ALOGI("10 inside if freqs.capturing in init");
+				frame_number=0;
+				totaltime=0;
+				//ALOGI("F capturing...\n");
+				pandoon_opened=true;
+				if(!myfile.is_open()){
+					//ALOGI("11 inside if my file data12 is not opened");
+					std::string nnn="/data/Data" + std::to_string(fff) + ".csv";
+					myfile.open(nnn);
+				}
+				if(!myfile.is_open())
+				{
+					ALOGI("Cannot Open Data file at /data/ (Maybe Permisson Problem), Error: %s \n Trying /data/dataset/ Dir",strerror(errno));
+					//__android_log_print(ANDROID_LOG_INFO, "pandoon", "data/Data.csv file: %s",strerror(errno));
+					myfile.open("/data/dataset/Data"+ std::to_string(fff)+".csv");
+				}
+				if(!myfile.is_open()){
+					ALOGI("Cannot open myfile data at /data/dataset too, Error:%s.",strerror(errno));
+					//return -1;
+					mtxx.unlock();
+					//close(fddd);
+					return NULL;
+				}
+				else
+				{
+					ALOGI("Data and out file has opened");
+					myfile<<"Data:";
+					//myfileout<<"out:";
+					last_swap=t_now;
+					//ALOGI("avalin0");
+
+					/*** Gator
+					if (!fdddkernel){
+						ALOGI("Gator is not Opened");
+						fdddkernel=open("/proc/gator_data", O_RDWR);
+					}
+					if (fdddkernel==0){
+						ALOGI("Cannot open kernel Gator interface!, Error: %s", strerror(errno));
+						mtxx.unlock();
+						//close(fddd);
+						return 0;
+					}
+					ALOGI("Gator Opened!");
+					*******/
+
+					ptr_data.padding=0;
+					ptr_data.a=data_state;
+
+					/* Gaotr
+					jj=ioctl(fdddkernel,capture_data,ptr_data.a);
+
+        	                        if(jj<0)
+                	                        ALOGI("Gator IOCtl error, error:%d, Meaning: %s",errno,strerror(errno));
+
+					ALOGI("Gator data captured successfully! return value:%d",jj);
+					//for(int i=0;i<158;i++){
+							//ALOGI("key:%d,value:%d ",i,data_state[i]);
+					//}
+					 *
+					 */
+
+
+					/********Open and load model ****************/
+					const char *mpath="/data/dataset/model.rknn";
+					FILE *fp = fopen(mpath, "rb");
+					if(fp == NULL) {
+						ALOGE("fopen %s fail!\n", mParamPath);
+						fclose(fp);
+						return NULL;
+					}
+					fseek(fp, 0, SEEK_END);
+					int model_len = ftell(fp);
+					model = malloc(model_len);
+					fseek(fp, 0, SEEK_SET);
+					if(model_len != fread(model, 1, model_len, fp)) {
+						ALOGE("fread %s fail!\n", mParamPath);
+						free(model);
+						fclose(fp);
+						mtxx.unlock();
+						return NULL;
+					}
+					fclose(fp);
+
+
+					/*********** init context *************/
+					int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM);
+					free(model);
+					if(ret < 0) {
+						ALOGE("rknn_init fail! ret=%d\n", ret);
+						mtxx.unlock();
+						return NULL;
+					}
+
+
+					ALOGI("Model loaded from file, ret = %d\n", ret);
+
+					output0_attr.index = 0;
+					ret = rknn_query(ctx, RKNN_QUERY_OUTPUT_ATTR, &output0_attr,
+					sizeof(output0_attr));
+					if(ret < 0) {
+						ALOGI("rknn_query fail! ret=%d\n",ret);
+						return NULL;
+					}
+					input0_attr.index = 0;
+					ret = rknn_query(ctx, RKNN_QUERY_INPUT_ATTR, &input0_attr,
+					sizeof(input0_attr));
+					if(ret < 0) {
+						ALOGI("rknn_query fail! ret=%d\n",ret);
+						return NULL;
+					}
+
+
+
+
+					inputs[0].index = 0;
+					inputs[0].buf = inputbuffer;
+					inputs[0].size = sizeof(inputbuffer);
+					inputs[0].pass_through = false;
+					//inputs[0].pass_through = true;
+					//inputs[0].type = RKNN_TENSOR_UINT8;
+					inputs[0].type = RKNN_TENSOR_FLOAT32;
+					inputs[0].fmt = RKNN_TENSOR_NHWC;
+
+
+					outputs[0].want_float = true;
+					outputs[0].is_prealloc = false;
+
+					timespec t1,t2,t3;
+					clock_gettime(CLOCK_MONOTONIC, &t1);
+					for(int i=0;i<475;i++){
+						inputbuffer[i]=i;
+					}
+					ret = rknn_inputs_set(ctx, 1, inputs);
+					clock_gettime(CLOCK_MONOTONIC, &t2);
+					if(ret < 0) {
+						ALOGE("rknn_input_set fail! ret=%d\n", ret);
+						return NULL;
+					}
+
+
+					ret = rknn_run(ctx, NULL);
+					if(ret < 0) {
+						ALOGE("rknn_run fail! ret=%d\n", ret);
+						return NULL;
+					}
+
+					ret = rknn_outputs_get(ctx, 1, outputs, NULL);
+					if(ret < 0) {
+						ALOGE("rknn_outputs_get fail! ret=%d\n", ret);
+						return NULL;
+					}
+
+					_rknn_perf_run run_time;
+					ret = rknn_query(ctx, RKNN_QUERY_PERF_RUN, &run_time,sizeof(run_time));
+					if(ret < 0) {
+						ALOGE("rknn_query fail! ret=%d\n",ret);
+						return NULL;
+					}
+					clock_gettime(CLOCK_MONOTONIC, &t3);
+					uint64_t input_setting_time=diff_time(t1,t2);
+					ALOGI("Model runed ret: %d", ret);
+					uint64_t inference_time = diff_time(t2,t3);
+					ALOGI("input setting time:%lu us\n",(long unsigned int)(input_setting_time/1000));
+					ALOGI("inference time:%lu us.\n",(long unsigned int)(inference_time/1000));
+
+					ALOGI("run_time:%ld\n",run_time.run_duration);
+
+					outputBuffer=(float*)(outputs[0].buf);
+
+					ALOGI("\n\n*************\n");
+					print_input(inputs[0],input0_attr.n_elems);
+					ALOGI("\n\n*************\n");
+					print_output(outputs[0],output0_attr.n_elems);
+
+
+					/*
+					//int input_Number = 2;
+					int input_N = 1;
+					int input_C = 475;
+					int input_H = 1;
+					int input_W = 1;
+					int input2_C = 504;
+					int input2_H = 1;
+					int input2_W = 1;
+					//int output_Number = 1;
+					int output_N = 1;
+					int output_C = 504;
+					int output_H = 1;
+					int output_W = 1;*/
+
+
+					is_init=true;
+					ALOGI("Initialized!");
+				}
+			}
+			else{
+				//close(fddd);
+				ALOGI("It is not capturing in init");
+			}
+		}
+	    else{
+			ALOGI("Cannot open Pandoon interface!, Error: %s", strerror(errno));
+        }
+
+	}
+	//mtxx.unlock();
+	else if(freqs.capturing or pass)
+	{
+		//ALOGI("20 inside else of isinit if capturing or pass");
+
+
+		/*int PID=getpid();
+                const char* name;
+                name=get_process_name_by_pid(PID);
+                ALOGI("pid:%d, APP: %s\n",PID,name);
+                ALOGI("isinit:%d",is_init);*/
+
+		frame_time[frame_number]=diff_time(last_swap,t_now);
+		totaltime+=frame_time[frame_number];
+		//ALOGI("frame time, %llu,%llu,%llu",(unsigned long long)frame_time[frame_number],(unsigned long long)t_now.tv_nsec,(unsigned long long)last_swap.tv_nsec);
+		//ALOGI("21 frame time diff");
+		if((frame_number+1)%3 ==0){
+
+			ptr_data.padding=0;
+			ptr_data.a=data_state;
+			/* Gator *****
+			ioctl(fdddkernel,capture_data,ptr_data.a);
+			*********/
+
+			data_state[94]=frame_time[frame_number-2]/1000000;
+			data_state[95]=frame_time[frame_number-1]/1000000;
+			data_state[96]=frame_time[frame_number]/1000000;
+			//data_state[91]=256000*(data_state[91]/freqs.gf);
+			data_state[91]=data_state[91]/1000;
+			data_state[58]=freqs.gf/1000000;
+			int ofst=158*j;
+			for(int i=0;i<158;i++){
+				inputbuffer[i+ofst]=data_state[i];
+			}
+			//inputbuffer[57]=inputbuffer[59]=inputbuffer[61]=inputbuffer[62]=inputbuffer[63]=0;
+			//inputbuffer[215]=inputbuffer[217]=inputbuffer[219]=inputbuffer[220]=inputbuffer[221]=0;
+			//inputbuffer[373]=inputbuffer[375]=inputbuffer[377]=inputbuffer[378]=inputbuffer[379]=0;
+			//inputbuffer[58]=inputbuffer[216]=inputbuffer[374]=freqs.gf/float(1000);
+
+			j++;
+		}
+
+		if(frame_number==8)
+        {
+			inputbuffer[474]=totaltime/float(1000000);
+			int8_t dfreqs[3];
+
+			// constant freqs:
+			if(br==101){
+				//static bool frst=true;
+				//if(frst){
+				dfreqs[0]=i0;
+				dfreqs[1]=i1;
+				dfreqs[2]=i2;
+
+				ptr_freqs.padding=0;
+				ptr_freqs.a=dfreqs;
+				jj=ioctl(fddd, Apply_freqs,ptr_freqs.a);
+				if(jj<0){
+					ALOGI("Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
+					mtxx.unlock();
+					return NULL;
+				}
+				//frst=false;
+				if(frst)
+					ALOGI("br=101, Constant freqs for evaluation.F(GPU):%d,F(A73):%d,F(A53):%d",i0,i1,i2);
+				frst=false;
+			}
+			else if( (rand()%100) > br){
+				ioctl(fddd,next_state);
+				//ALOGI("23 if of exploration(random)");
+			}
+			else if(!pass){
+				//ALOGI("24 if not pass(model using)");
+				////timespec t_start, t_end;
+				////clock_gettime(CLOCK_MONOTONIC, &t_start);
+				ret = rknn_inputs_set(ctx, 1, inputs);
+				if(ret < 0) {
+					ALOGE("rknn_input_set fail! ret=%d\n", ret);
+					return NULL;
+				}
+
+				ret = rknn_run(ctx, NULL);
+				if(ret < 0) {
+					ALOGE("rknn_run fail! ret=%d\n", ret);
+					return NULL;
+				}
+				ret = rknn_outputs_get(ctx, 1, outputs, NULL);
+				if(ret < 0) {
+					ALOGE("rknn_outputs_get fail! ret=%d\n", ret);
+					return NULL;
+				}
+				////clock_gettime(CLOCK_MONOTONIC, &t_end);
+				////uint64_t inference_time;
+				////inference_time=diff_time(t_start,t_end);
+				////ALOGI("run return:%d,inference time:%lu us\n",ret2,(long unsigned int)(inference_time/1000));
+				//ALOGI("run model ret2: %d", ret2);
+				//float *outputBuffer = (float *) HIAI_TensorBuffer_getRawBuffer(outputtensor);
+				//int outputsize = output_N * output_C * output_H * output_W;
+				////for (int i=0; i<outputsize; i++){
+				////	ALOGI("output%d:%f",i,outputBuffer[i]);
+					//myfile<<outputBuffer[i]<<", ";
+				////}
+				//myfile<<'\n';
+				//myfile.close();
+				int ii=0;
+				int targ=0;
+				/*
+				float minv=outputBuffer[ii];
+				for(ii=1;ii<504;ii++){
+					if(outputBuffer[ii]<minv){
+						minv=outputBuffer[ii];
+						targ=ii;
+					}
+				}*/
+
+				/*
+				myfileout<<'\n';
+                                for(int ii=0;ii<504;ii++){
+                                        myfileout<<','<<outputBuffer[ii];
+                                }*/
+
+
+
+				float minv;
+				int kkk=1;
+				if(br<100)
+					kkk=rand()%20;
+
+				for(int iii=0;iii<kkk;iii++){
+					ii=0;
+					targ=0;
+					minv=outputBuffer[0];
+					for(int ii=1;ii<504;ii++){
+						if(outputBuffer[ii]<minv){
+							minv=outputBuffer[ii];
+	                        targ=ii;
+        	            }
+					}
+					//if(iii<kkk-1)
+					outputBuffer[targ]=FLT_MAX;
+				}
+
+
+				//ALOGI("25 model selected f:%d",targ);
+				dfreqs[0]=7-int(targ%8);
+				dfreqs[1]=int(targ/8)%9;
+				dfreqs[2]=int(targ/72);
+				/*
+				int ii=0;
+				dfreqs[0]=ii;
+				float minv=outputBuffer[ii++];
+				while(ii<8){
+					if(outputBuffer[ii]<minv){
+						minv=outputBuffer[ii];
+						dfreqs[0]=ii;
+					}
+					ii++;
+				}
+				dfreqs[1]=ii-8;
+				minv=outputBuffer[ii++];
+				while(ii<17){
+					if(outputBuffer[ii]<minv){
+						minv=outputBuffer[ii];
+						dfreqs[1]=ii-8;
+					}
+					ii++;
+				}
+
+				dfreqs[2]=ii-17;
+				minv=outputBuffer[ii++];
+				while(ii<24){
+					if(outputBuffer[ii]<minv){
+						minv=outputBuffer[ii];
+						dfreqs[2]=ii-17;
+					}
+					ii++;
+				}*/
+				////ALOGI("indexes:%d,%d,%d",dfreqs[0],dfreqs[1],dfreqs[2]);
+				//ioctl(fddd, next_state);
+
+
+				ptr_freqs.padding=0;
+				ptr_freqs.a=dfreqs;
+				jj=ioctl(fddd, Apply_freqs,ptr_freqs.a);
+	            if(jj<0){
+	            	ALOGI("Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
+					mtxx.unlock();
+					return NULL;
+
+
+				}
+				//////ioctl(fddd, Apply_freqs,&dfreqs);
+				//ALOGI("26 ioctl of model applied");
+			}
+
+
+
+
+			myfile<<'\n';
+			for(int i=0;i<475;i++){
+				myfile<<", "<<inputbuffer[i];
+			}
+			//ALOGI("27 writed in myfile");
+			j=0;
+			totaltime=0;
+            //frame_number=0;
+            //max_frame_time=0;
+        }
+		if (frame_number==0)
+		{
+			//ALOGI("28 inside if of frame number =0");
+			if(!pass){
+				ioctl(fddd,capture_freqs, &freqs);
+				myfile<<'\n'<<freqs.gf<<", " <<freqs.f2<<", "<<freqs.f1;
+				//ALOGI("inside of if pass=0 means using pandonn ");
+				//myfile<<'\n'<<dfreqs[0]<<", "<<dfreqs[1]<<", "<<dfreqs[2];
+				////ALOGI("frequencies:%lu,%u,%u",freqs.gf,freqs.f1,freqs.f2);
+			}
+		}
+
+		//ALOGI("frame time:%lu",(long unsigned int)frame_time);
+		//if (frame_time > max_frame_time)
+			//max_frame_time=frame_time;
+		//myfile<<", "<<frame_time;
+		//myfile<<", "<<total_time;
+		frame_number++;
+		frame_number=frame_number%9;
+		last_swap=t_now;
+	}
+	else
+	{
+		//ALOGI("29 inside else of if capturing means it is initiated but not capturing");
+		/*if(!pass){
+			//ALOGI("30 inside if pass=0 of not capturing bu initiated");
+			ioctl(fddd,capture_freqs, &freqs);
+		}*/
+		is_init=false;
+		ALOGI("Set is_init=0");
+		myfile.close();
+		//myfileout.close();
+		cfgss.close();
+		//close(fddd);
+		frst=true;
+		last_swap=t_now;
+		rknn_outputs_release(ctx, 1, outputs);
+		rknn_destroy(ctx);
+		model=NULL;
+		ctx=0;
+	}
+	//ALOGI("30 before mutex unlock");
+	mtxx.unlock();
+	//ALOGI("31 after mutex unlocked");
+	pthread_exit(NULL);
+	return NULL;
+
+}
+
+
+EGLBoolean eglSwapBuffers(EGLDisplay dpy, EGLSurface surface)
+{
+	//ALOGE("salam\n");
+	//__android_log_print(ANDROID_LOG_INFO, "pandoon", "Hellowrold");
+	//ALOGI("FFF");
+	static timespec t_now;
+	clock_gettime(CLOCK_MONOTONIC, &t_now);
+	//ALOGI("salam,%llu,%llu",(unsigned long long)t_now.tv_sec,(unsigned long long)t_now.tv_nsec);
+	EGLBoolean ret;
+	ret=eglSwapBuffers_org(dpy, surface);
+	//static int fd;
+	//static std::ofstream myfile;
+	//struct f freqs;
+	static bool is_game=0;
+	static bool game_checked=0;
+	int pid;
+
+	//each process independently check the file (memory and variables of processes are indepent)
+	if(!game_checked){
+		std::string games[20];
+		std::ifstream glists;
+		glists.open("/data/game_lists");
+		if(glists.is_open()){
+			int len_games=0;
+			while(getline(glists, games[len_games++])){
+				if(len_games>19){
+					break;
+				}
+			}
+			glists.close();
+			pid=getpid();
+    			const char* name=get_process_name_by_pid(pid);
+			for(int j=0;j<len_games;j++)
+				if(name==games[j]){
+					is_game=true;
+					ALOGI("Game started, name:%s, PID:%d.",name,pid);
+				}
+			game_checked=true;
+		}
+
+	}
+	if(!is_game){
+		return ret;
+	}
+	pthread_t model_thread;
+	if(pthread_create( &model_thread, NULL, new_frame_thread, &t_now)) {
+            ALOGI("Log Thread could not be created");
+        }
+        else{
+            pthread_detach(model_thread);
+        }
+
+	return ret;
+}
+
+
+//Ehsan *****************************************************
+
+
 
 EGLBoolean eglCopyBuffers(  EGLDisplay dpy, EGLSurface surface,
                             NativePixmapType target)
