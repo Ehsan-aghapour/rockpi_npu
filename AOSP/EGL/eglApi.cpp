@@ -53,6 +53,7 @@
 #include<sys/ioctl.h>
 #include "rknn_api.h"
 
+
 using namespace android;
 
 // ----------------------------------------------------------------------------
@@ -1560,14 +1561,14 @@ HIAI_TensorBuffer *inputtensorbuffer[] = {inputtensor, inputtensor2};
 //outputtensor = HIAI_TensorBuffer_create(output_N, output_C, output_H, output_W);
 HIAI_TensorBuffer *outputtensorbuffer[] = {outputtensor};
 */
-float *inputbuffer = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(inputtensor);
+float inputbuffer[475];//(float *) HIAI_TensorBuffer_getRawBuffer(inputtensor);
 float *inputbuffer2 = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(inputtensor2);
 float *outputBuffer = NULL;//(float *) HIAI_TensorBuffer_getRawBuffer(outputtensor);
 
 rknn_tensor_attr output0_attr;
 rknn_tensor_attr input0_attr;
-rknn_input inputs[1];
-rknn_output outputs[1];
+//rknn_input inputs[1];
+//rknn_output outputs[1];
 
 int input_Number=1;
 int output_Number=1;
@@ -1579,11 +1580,157 @@ static std::mutex mtxx;
 
 
 static int fddd=-1;
-void *new_frame_thread(void *tt) {
-	timespec t_now=*((timespec *)tt);
+static int* cnt=0;
+static bool is_init=false;
+
+
+
+class Thread final
+{
+public:
+    /** Start a new thread
+     *
+     * Thread will be pinned to a given core id if value is non-negative
+     *
+     * @param[in] core_pin Core id to pin the thread on. If negative no thread pinning will take place
+     */
+    /*explicit Thread();
+
+    Thread(const Thread &) = delete;
+    Thread &operator=(const Thread &) = delete;
+    Thread(Thread &&)                 = delete;
+    Thread &operator=(Thread &&) = delete;*/
+	void Create();
+
+    /** Destructor. Make the thread join. */
+    ~Thread();
+
+    /** Request the worker thread to start executing workloads.
+     *
+     * The thread will start by executing workloads[info.thread_id] and will then call the feeder to
+     * get the index of the following workload to run.
+     *
+     * @note This function will return as soon as the workloads have been sent to the worker thread.
+     * wait() needs to be called to ensure the execution is complete.
+     */
+    //void start(std::vector<IScheduler::Workload> *workloads, ThreadFeeder &feeder, const ThreadInfo &info);
+    void start();
+
+    /** Wait for the current kernel execution to complete. */
+    void wait();
+
+    /** Function ran by the worker thread. */
+    void worker_thread();
+
+    bool				done{false};
+private:
+    std::thread                        _thread{};
+    //ThreadInfo                         _info{};
+    //std::vector<IScheduler::Workload> *_workloads{ nullptr };
+    //ThreadFeeder                      *_feeder{ nullptr };
+    std::mutex                         _m{};
+    std::condition_variable            _cv{};
+    bool                               _wait_for_work{ false };
+    bool                               _job_complete{ true };
+    std::exception_ptr                 _current_exception{ nullptr };
+    //int                                _core_pin{ -1 };
+    std::mutex                         _m_create{};
+    bool								created{ false};
+
+};
+
+
+/*Thread::Thread()
+//    : _core_pin(core_pin)
+{
+    _thread = std::thread(&Thread::worker_thread, this);
+    //_thread = std::thread(&Thread::worker_thread);
+}*/
+
+void Thread::Create()
+//    : _core_pin(core_pin)
+{
+	{
+        std::unique_lock<std::mutex> lock(_m_create);
+        if(!created){
+        	created=true;
+        	lock.unlock();
+        	ALOGI("DRPM__Ehsan: Creating Thread, PID:%d.",getpid());
+        	_thread = std::thread(&Thread::worker_thread, this);
+
+        }
+	}
+    //_thread = std::thread(&Thread::worker_thread);
+}
+
+Thread::~Thread()
+{
+    //std::cerr<<"tamam\n";
+    // Make sure worker thread has ended
+    if(_thread.joinable())
+    {
+        //ThreadFeeder feeder;
+        //start(nullptr, feeder, ThreadInfo());
+        start();
+        _thread.join();
+    }
+}
+
+Thread worker_thread;
+timespec t_switch;
+
+//void Thread::start(std::vector<IScheduler::Workload> *workloads, ThreadFeeder &feeder, const ThreadInfo &info)
+void Thread::start()
+{
+    //_workloads = workloads;
+    //_feeder    = &feeder;
+    //_info      = info;
+	ALOGI("DRPM__Ehsan: start function before mutex, PID:%d.",getpid());
+	clock_gettime(CLOCK_MONOTONIC, &t_switch);
+    {
+        std::lock_guard<std::mutex> lock(_m);
+        _wait_for_work = true;
+        _job_complete  = false;
+        ALOGI("DRPM__Ehsan: start function after mutex, PID:%d.",getpid());
+    }
+    _cv.notify_one();
+}
+
+
+void Thread::wait()
+{
+	ALOGI("DRPM__Ehsan: in waiting, PID:%d.",getpid());
+    {
+        std::unique_lock<std::mutex> lock(_m);
+        ALOGI("DRPM__Ehsan: wait lock aquired, PID:%d.",getpid());
+        _cv.wait(lock, [&] { return _job_complete; });
+    }
+
+    if(_current_exception)
+    {
+        std::rethrow_exception(_current_exception);
+    }
+}
+
+/*float s[1000];
+void process_workloads(int i)
+{
+	//std::cerr<<"process\n";
+	for (int j=0;j<i;j++){
+		s[j]=i*1.2;
+	}
+}*/
+
+
+
+////void *new_frame_thread(void *tt) {
+void *new_frame_thread() {
+	ALOGI("DRPM__Ehsan: in function, PID:%d.",getpid());
+	////timespec t_now=*((timespec *)tt);
+	timespec t_now=t_switch;
     static std::ofstream myfile;
 	//static std::ofstream myfileout;
-	static bool is_init=false;
+	//static bool is_init=false;
 	//static int fddd;
 	static int fdddkernel;
 	static std::ifstream cfgss;
@@ -1601,21 +1748,27 @@ void *new_frame_thread(void *tt) {
 
 	static uint64_t frame_time[9];
 	static bool pass=0;
-	//ALOGI("11_before mutex lock");
+	ALOGI("11_before mutex lock");
 	mtxx.lock();
-	//ALOGI("22Aftermutex lock");
+	ALOGI("22Aftermutex lock");
+	//static cnt=0;
 	if(!is_init)
 	{
+		/*(*cnt)++;
+		if((*cnt)<100){
+			return NULL;
+		}
+		(*cnt)=0;*/
 		//is_init=1;
 		//mtxx.unlock()
-        //ALOGI("33 inside if init==0");
+        ALOGI("33 inside if init==0");
 		static int fff=0;
 
 		if(!cfgss.is_open()){
-			//ALOGI("44inside if cfgss is not opened");
+			ALOGI("44inside if cfgss is not opened");
 			cfgss.open("/data/dataset/configs.txt");
 			if(!cfgss){
-				ALOGE("Cannot open configs file! Check: /data/dataset/configs.txt");
+				ALOGE("DRPM_Ehsan: Cannot open configs file! Check: /data/dataset/configs.txt");
 				//mtxx.lock();
 				//is_init=0;
 				mtxx.unlock();
@@ -1629,69 +1782,69 @@ void *new_frame_thread(void *tt) {
 				i0=7-int(fff%8);
 				i1=int(fff/8)%9;
 				i2=int(fff/72);
-				ALOGI("Set Constant Frequency, GPU:%d, A73:%d, A53:%d.",i0,i1,i2);
+				ALOGI("DRPM_Ehsan: Set Constant Frequency, GPU:%d, A73:%d, A53:%d.",i0,i1,i2);
 			}
 
 
 			if(br==102){
 				pass=1;
-				ALOGI("Set Frequency with your desired governor.");
+				ALOGI("DRPM_Ehsan: Set Frequency with your desired governor.");
 			}
 
 			else{
-				ALOGI("Set Frequency using Pandoon_NN_Model with %d Percent exploration using greedy epsilon policy",br);
+				ALOGI("DRPM_Ehsan: Set Frequency using Pandoon_NN_Model with %d Percent exploration using greedy epsilon policy",br);
 				srand(time(0));
 			}
 			//cfgss.close();
 
 		}
 
-		//ALOGI("66 after if cfgss ");
+		ALOGI("66 after if cfgss ");
 		//close(fddd);
 		if (!pandoon_opened){
-			//ALOGI("77 inside if pandoon not opened,PID:%d ",getpid());
+			ALOGI("77 inside if pandoon not opened,PID:%d ",getpid());
 			fddd = open("/dev/pandoon_device", O_RDWR);
 			if (fddd<0){
-				ALOGI("Pandoon Not Opened. ERROR CODE:%d, ERROR MEANING:%s",errno,strerror(errno));
+				ALOGI("DRPM_Ehsan: Pandoon Not Opened. ERROR CODE:%d, ERROR MEANING:%s",errno,strerror(errno));
 				mtxx.unlock();
 				close(fddd);
 				return NULL;
 			}
-			ALOGI("Pandoon Opened!, /dev/pandoon_device, file descriptor:%d, PID:%d.",fddd,getpid());
+			ALOGI("DRPM_Ehsan: Pandoon Opened!, /dev/pandoon_device, file descriptor:%d, PID:%d.",fddd,getpid());
 			pandoon_opened=true;
 		}
 		if (fddd!=-1){
 			if(!pass){
 				jj=ioctl(fddd,capture_freqs, &freqs);
-                //ALOGI("second capture_freqs:%d",jj);
+                ALOGI("second capture_freqs:%d",jj);
 				if(jj<0){
-					ALOGI("Capture Freqs IOCtl error, error:%d, meaning:%s",errno,strerror(errno));
+					ALOGI("DRPM_Ehsan: Capture Freqs IOCtl error, error:%d, meaning:%s",errno,strerror(errno));
 					//close(fddd);
 					mtxx.unlock();
 					return NULL;
 				}
 				ALOGI("Freqs Captured, F_GPU:%" PRIu64", FA73:%u, FA53:%u, Capturing:%" PRIu64,freqs.gf,freqs.f2,freqs.f1,freqs.capturing);
 			}
-			//ALOGI("freqs:%" PRIu64,freqs.capturing);
+			ALOGI("freqs:%" PRIu64,freqs.capturing);
 			if(freqs.capturing or pass){
-				//ALOGI("10 inside if freqs.capturing in init");
+				ALOGI("10 inside if freqs.capturing in init");
 				frame_number=0;
 				totaltime=0;
 				//ALOGI("F capturing...\n");
 				pandoon_opened=true;
 				if(!myfile.is_open()){
-					//ALOGI("11 inside if my file data12 is not opened");
+					ALOGI("11 inside if my file data12 is not opened");
 					std::string nnn="/data/Data" + std::to_string(fff) + ".csv";
 					myfile.open(nnn);
 				}
 				if(!myfile.is_open())
 				{
-					ALOGI("Cannot Open Data file at /data/ (Maybe Permisson Problem), Error: %s \n Trying /data/dataset/ Dir",strerror(errno));
+					ALOGI("DRPM_Ehsan: Cannot Open Data file at /data/ (Maybe Permisson Problem), Error: %s \n Trying /data/dataset/ Dir",strerror(errno));
 					//__android_log_print(ANDROID_LOG_INFO, "pandoon", "data/Data.csv file: %s",strerror(errno));
 					myfile.open("/data/dataset/Data"+ std::to_string(fff)+".csv");
 				}
 				if(!myfile.is_open()){
-					ALOGI("Cannot open myfile data at /data/dataset too, Error:%s.",strerror(errno));
+					ALOGI("DRPM_Ehsan: Cannot open myfile data at /data/dataset too, Error:%s.",strerror(errno));
 					//return -1;
 					mtxx.unlock();
 					//close(fddd);
@@ -1703,7 +1856,7 @@ void *new_frame_thread(void *tt) {
 					myfile<<"Data:";
 					//myfileout<<"out:";
 					last_swap=t_now;
-					//ALOGI("avalin0");
+					ALOGI("avalin0");
 
 					/*** Gator
 					if (!fdddkernel){
@@ -1740,7 +1893,7 @@ void *new_frame_thread(void *tt) {
 					const char *mpath="/data/dataset/model.rknn";
 					FILE *fp = fopen(mpath, "rb");
 					if(fp == NULL) {
-						ALOGE("fopen %s fail!\n", mParamPath);
+						ALOGE("DRPM_Ehsan: fopen %s fail!\n", mpath);
 						fclose(fp);
 						return NULL;
 					}
@@ -1749,7 +1902,7 @@ void *new_frame_thread(void *tt) {
 					model = malloc(model_len);
 					fseek(fp, 0, SEEK_SET);
 					if(model_len != fread(model, 1, model_len, fp)) {
-						ALOGE("fread %s fail!\n", mParamPath);
+						ALOGE("DRPM_Ehsan: fread %s fail!\n", mpath);
 						free(model);
 						fclose(fp);
 						mtxx.unlock();
@@ -1762,26 +1915,26 @@ void *new_frame_thread(void *tt) {
 					int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM);
 					free(model);
 					if(ret < 0) {
-						ALOGE("rknn_init fail! ret=%d\n", ret);
+						ALOGE("DRPM_Ehsan: rknn_init fail! ret=%d\n", ret);
 						mtxx.unlock();
 						return NULL;
 					}
 
 
-					ALOGI("Model loaded from file, ret = %d\n", ret);
+					ALOGI("DRPM_Ehsan: Model loaded from file, ret = %d\n", ret);
 
 					output0_attr.index = 0;
 					ret = rknn_query(ctx, RKNN_QUERY_OUTPUT_ATTR, &output0_attr,
 					sizeof(output0_attr));
 					if(ret < 0) {
-						ALOGI("rknn_query fail! ret=%d\n",ret);
+						ALOGI("DRPM_Ehsan: rknn_query fail! ret=%d\n",ret);
 						return NULL;
 					}
 					input0_attr.index = 0;
 					ret = rknn_query(ctx, RKNN_QUERY_INPUT_ATTR, &input0_attr,
 					sizeof(input0_attr));
 					if(ret < 0) {
-						ALOGI("rknn_query fail! ret=%d\n",ret);
+						ALOGI("DRPM_Ehsan: rknn_query fail! ret=%d\n",ret);
 						return NULL;
 					}
 
@@ -1809,43 +1962,43 @@ void *new_frame_thread(void *tt) {
 					ret = rknn_inputs_set(ctx, 1, inputs);
 					clock_gettime(CLOCK_MONOTONIC, &t2);
 					if(ret < 0) {
-						ALOGE("rknn_input_set fail! ret=%d\n", ret);
+						ALOGE("DRPM_Ehsan: rknn_input_set fail! ret=%d\n", ret);
 						return NULL;
 					}
 
 
 					ret = rknn_run(ctx, NULL);
 					if(ret < 0) {
-						ALOGE("rknn_run fail! ret=%d\n", ret);
+						ALOGE("DRPM_Ehsan: rknn_run fail! ret=%d\n", ret);
 						return NULL;
 					}
 
 					ret = rknn_outputs_get(ctx, 1, outputs, NULL);
 					if(ret < 0) {
-						ALOGE("rknn_outputs_get fail! ret=%d\n", ret);
+						ALOGE("DRPM_Ehsan: rknn_outputs_get fail! ret=%d\n", ret);
 						return NULL;
 					}
 
 					_rknn_perf_run run_time;
 					ret = rknn_query(ctx, RKNN_QUERY_PERF_RUN, &run_time,sizeof(run_time));
 					if(ret < 0) {
-						ALOGE("rknn_query fail! ret=%d\n",ret);
+						ALOGE("DRPM_Ehsan: rknn_query fail! ret=%d\n",ret);
 						return NULL;
 					}
 					clock_gettime(CLOCK_MONOTONIC, &t3);
 					uint64_t input_setting_time=diff_time(t1,t2);
-					ALOGI("Model runed ret: %d", ret);
+					ALOGI("DRPM_Ehsan: Model runed ret: %d", ret);
 					uint64_t inference_time = diff_time(t2,t3);
-					ALOGI("input setting time:%lu us\n",(long unsigned int)(input_setting_time/1000));
-					ALOGI("inference time:%lu us.\n",(long unsigned int)(inference_time/1000));
+					ALOGI("DRPM_Ehsan: input setting time:%lu us\n",(long unsigned int)(input_setting_time/1000));
+					ALOGI("DRPM_Ehsan: inference time:%lu us.\n",(long unsigned int)(inference_time/1000));
 
-					ALOGI("run_time:%ld\n",run_time.run_duration);
+					ALOGI("DRPM_Ehsan: run_time:%ld\n",run_time.run_duration);
 
 					outputBuffer=(float*)(outputs[0].buf);
 
-					ALOGI("\n\n*************\n");
+					ALOGI("DRPM_Ehsan: \n\n*************\n");
 					print_input(inputs[0],input0_attr.n_elems);
-					ALOGI("\n\n*************\n");
+					ALOGI("DRPM_Ehsan: \n\n*************\n");
 					print_output(outputs[0],output0_attr.n_elems);
 
 
@@ -1866,7 +2019,7 @@ void *new_frame_thread(void *tt) {
 
 
 					is_init=true;
-					ALOGI("Initialized!");
+					ALOGI("DRPM_Ehsan: Initialized!");
 				}
 			}
 			else{
@@ -1875,13 +2028,14 @@ void *new_frame_thread(void *tt) {
 			}
 		}
 	    else{
-			ALOGI("Cannot open Pandoon interface!, Error: %s", strerror(errno));
+			ALOGI("DRPM_Ehsan: Cannot open Pandoon interface!, Error: %s", strerror(errno));
         }
 
 	}
 	//mtxx.unlock();
 	else if(freqs.capturing or pass)
 	{
+		ALOGI("DRPM__Ehsan: Capturing, PID:%d.",getpid());
 		//ALOGI("20 inside else of isinit if capturing or pass");
 
 
@@ -1938,13 +2092,13 @@ void *new_frame_thread(void *tt) {
 				ptr_freqs.a=dfreqs;
 				jj=ioctl(fddd, Apply_freqs,ptr_freqs.a);
 				if(jj<0){
-					ALOGI("Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
+					ALOGI("DRPM_Ehsan: Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
 					mtxx.unlock();
 					return NULL;
 				}
 				//frst=false;
 				if(frst)
-					ALOGI("br=101, Constant freqs for evaluation.F(GPU):%d,F(A73):%d,F(A53):%d",i0,i1,i2);
+					ALOGI("DRPM_Ehsan: br=101, Constant freqs for evaluation.F(GPU):%d,F(A73):%d,F(A53):%d",i0,i1,i2);
 				frst=false;
 			}
 			else if( (rand()%100) > br){
@@ -1955,9 +2109,9 @@ void *new_frame_thread(void *tt) {
 				//ALOGI("24 if not pass(model using)");
 				////timespec t_start, t_end;
 				////clock_gettime(CLOCK_MONOTONIC, &t_start);
-				ret = rknn_inputs_set(ctx, 1, inputs);
+				int ret = rknn_inputs_set(ctx, 1, inputs);
 				if(ret < 0) {
-					ALOGE("rknn_input_set fail! ret=%d\n", ret);
+					ALOGE("DRPM_Ehsan: rknn_input_set fail! ret=%d\n", ret);
 					return NULL;
 				}
 
@@ -1968,7 +2122,7 @@ void *new_frame_thread(void *tt) {
 				}
 				ret = rknn_outputs_get(ctx, 1, outputs, NULL);
 				if(ret < 0) {
-					ALOGE("rknn_outputs_get fail! ret=%d\n", ret);
+					ALOGE("DRPM_Ehsan: rknn_outputs_get fail! ret=%d\n", ret);
 					return NULL;
 				}
 				////clock_gettime(CLOCK_MONOTONIC, &t_end);
@@ -2002,6 +2156,8 @@ void *new_frame_thread(void *tt) {
                                 }*/
 
 
+				//comment for debug test
+				//targ=4+(5*8)+(4*72);
 
 				float minv;
 				int kkk=1;
@@ -2023,7 +2179,7 @@ void *new_frame_thread(void *tt) {
 				}
 
 
-				//ALOGI("25 model selected f:%d",targ);
+				ALOGI("25 model selected f:%d",targ);
 				dfreqs[0]=7-int(targ%8);
 				dfreqs[1]=int(targ/8)%9;
 				dfreqs[2]=int(targ/72);
@@ -2065,7 +2221,7 @@ void *new_frame_thread(void *tt) {
 				ptr_freqs.a=dfreqs;
 				jj=ioctl(fddd, Apply_freqs,ptr_freqs.a);
 	            if(jj<0){
-	            	ALOGI("Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
+	            	ALOGI("DRPM_Ehsan: Apply freqs ioctl error, ret=%d, error:%d, meaning: %s",jj,errno,strerror(errno));
 					mtxx.unlock();
 					return NULL;
 
@@ -2117,7 +2273,7 @@ void *new_frame_thread(void *tt) {
 			ioctl(fddd,capture_freqs, &freqs);
 		}*/
 		is_init=false;
-		ALOGI("Set is_init=0");
+		ALOGI("DRPM_Ehsan: Set is_init=0");
 		myfile.close();
 		//myfileout.close();
 		cfgss.close();
@@ -2132,12 +2288,57 @@ void *new_frame_thread(void *tt) {
 	//ALOGI("30 before mutex unlock");
 	mtxx.unlock();
 	//ALOGI("31 after mutex unlocked");
-	pthread_exit(NULL);
+	//pthread_exit(NULL);
 	return NULL;
 
 }
 
+void Thread::worker_thread()
+{
+    //set_thread_affinity(_core_pin);
 
+    while(true)
+    {
+        std::unique_lock<std::mutex> lock(_m);
+        _cv.wait(lock, [&] { return _wait_for_work; });
+        //std::cerr<<"notified\n";
+        _wait_for_work = false;
+
+        _current_exception = nullptr;
+
+        // Time to exit
+        //if(_workloads == nullptr)
+        if(done)
+        {
+            return;
+        }
+
+/*
+ * #ifndef EXCEPTIONS_DISABLEDD
+        try
+        {
+//#endif
+            process_workloads(1000);
+
+//#ifndef EXCEPTIONS_DISABLEDD
+        }
+        catch(...)
+        {
+            _current_exception = std::current_exception();
+        }
+//#endif
+ */
+        //process_workloads(1000);
+        new_frame_thread();
+        _job_complete = true;
+        ALOGI("DRPM__Ehsan: job complete, PID:%d.",getpid());
+        lock.unlock();
+        _cv.notify_one();
+    }
+}
+
+
+static bool *game_checked=new bool(false);
 EGLBoolean eglSwapBuffers(EGLDisplay dpy, EGLSurface surface)
 {
 	//ALOGE("salam\n");
@@ -2152,14 +2353,15 @@ EGLBoolean eglSwapBuffers(EGLDisplay dpy, EGLSurface surface)
 	//static std::ofstream myfile;
 	//struct f freqs;
 	static bool is_game=0;
-	static bool game_checked=0;
 	int pid;
 
 	//each process independently check the file (memory and variables of processes are indepent)
-	if(!game_checked){
+	//static bool checking=false;
+	if(!(*game_checked)){
+		//checking=true;
 		std::string games[20];
 		std::ifstream glists;
-		glists.open("/data/game_lists");
+		glists.open("/data/dataset/game_list.txt");
 		if(glists.is_open()){
 			int len_games=0;
 			while(getline(glists, games[len_games++])){
@@ -2172,23 +2374,39 @@ EGLBoolean eglSwapBuffers(EGLDisplay dpy, EGLSurface surface)
     			const char* name=get_process_name_by_pid(pid);
 			for(int j=0;j<len_games;j++)
 				if(name==games[j]){
+					worker_thread.Create();
 					is_game=true;
-					ALOGI("Game started, name:%s, PID:%d.",name,pid);
+					ALOGI("DRPM_Ehsan: Game started, name:%s, PID:%d.",name,pid);
 				}
-			game_checked=true;
+			*game_checked=true;
 		}
 
 	}
-	if(!is_game){
-		return ret;
+	if(is_game){
+		worker_thread.wait();
+		ALOGI("DRPM__Ehsan: After wait, PID:%d.",getpid());
+		worker_thread.start();
+		ALOGI("DRPM__Ehsan: After start, PID:%d.",getpid());
 	}
-	pthread_t model_thread;
+
+	/*if(!is_init){
+		(*cnt)++;
+		if((*cnt)<100){
+			return ret;
+		}
+		(*cnt)=0;
+	}*/
+	/*pthread_t model_thread;
 	if(pthread_create( &model_thread, NULL, new_frame_thread, &t_now)) {
-            ALOGI("Log Thread could not be created");
-        }
-        else{
-            pthread_detach(model_thread);
-        }
+		ALOGI("DRPM_Ehsan: Log Thread could not be created");
+    }
+	else{
+		pthread_detach(model_thread);
+	}*/
+	//new_frame_thread(&t_now);
+
+	//*t_switch=clock_gettime(CLOCK_MONOTONIC, &t_now);
+
 
 	return ret;
 }

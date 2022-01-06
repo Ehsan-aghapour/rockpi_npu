@@ -73,6 +73,7 @@ int main(){
 	// RKNN_FLAG_ASYNC_MASK: enable async mode to use NPU efficiently.
 	//int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM|RKNN_FLAG_ASYNC_MASK);
 	int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_PRIOR_MEDIUM);
+	//int ret = rknn_init(&ctx, model, model_len, RKNN_FLAG_COLLECT_PERF_MASK);
 	free(model);
 
 	if(ret < 0) {
@@ -108,8 +109,7 @@ int main(){
 		return -1;
 	}
 
-
-
+	
 
 	printf("\n\n*************\n");
 	print_attr(input0_attr);
@@ -135,8 +135,18 @@ int main(){
 		return -1;
 	}
 
+	ret = rknn_run(ctx, NULL);
+	if(ret < 0) {
+		printf("rknn_run fail! ret=%d\n", ret);
+		return -1;
+	}
 
-
+	ret = rknn_inputs_set(ctx, 1, inputs);
+	if(ret < 0) {
+		printf("rknn_input_set fail! ret=%d\n", ret);
+		return -1;
+	}
+	
 	rknn_output outputs[1];
 	outputs[0].want_float = true;
 	outputs[0].is_prealloc = false;
@@ -190,6 +200,12 @@ int main(){
 	print_input(inputs[0],input0_attr.n_elems);
 	printf("\n\n*************\n");
 	print_output(outputs[0],output0_attr.n_elems);
+	
+	rknn_perf_detail perf_detail;
+	ret = rknn_query(ctx, RKNN_QUERY_PERF_DETAIL, &perf_detail,sizeof(rknn_perf_detail));
+	printf("%s", perf_detail.perf_data);
+
+	
 
 	rknn_outputs_release(ctx, 1, outputs);
 

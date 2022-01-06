@@ -18,7 +18,7 @@ def load_model():
     rknn.load_rknn('./model.rknn')  # Load RKNN model
     print('loading model done')
     print('--> Init runtime environment')
-    ret = rknn.init_runtime(target='rk3399pro')  # Initialize the RKNN runtime environment
+    ret = rknn.init_runtime(target='rk3399pro',device_id="J9PKXNK04S")  # Initialize the RKNN runtime environment
     #ret = rknn.init_runtime()  # Initialize the RKNN runtime environment
     if ret != 0:
         print('Init runtime environment failed')

@@ -18,7 +18,7 @@ if __name__ == '__main__':
     '''
  
     #rknn.config(channel_mean_value='0 0 0 255', reorder_channel='0 1 2')
-    rknn.config(target_platform='RK3399Pro')
+    rknn.config(target_platform=['rk3399pro'])
  
     '''
     load TensorFlow model
