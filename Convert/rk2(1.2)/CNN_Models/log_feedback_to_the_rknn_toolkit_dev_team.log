@@ -1,0 +1,15 @@
+D Using CPPUTILS: True
+I Start importing tensorflow...
+D import clients finished
+E Catch exception when loading tensorflow model: /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/Resnet50/ResNet50.pb!
+E Traceback (most recent call last):
+E   File "rknn/base/RKNNlib/converter/convert_tf.py", line 102, in rknn.base.RKNNlib.converter.convert_tf.convert_tf.__init__
+E   File "rknn/base/RKNNlib/converter/tensorflowloader.py", line 42, in rknn.base.RKNNlib.converter.tensorflowloader.TF_Graph_Preprocess.__init__
+E   File "rknn/base/RKNNlib/converter/tensorflowloader.py", line 66, in rknn.base.RKNNlib.converter.tensorflowloader.TF_Graph_Preprocess.scan_and_optim_graph
+E   File "/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/tensorflow/python/framework/graph_util_impl.py", line 174, in extract_sub_graph
+E     _assert_nodes_are_present(name_to_node, dest_nodes)
+E   File "/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/tensorflow/python/framework/graph_util_impl.py", line 133, in _assert_nodes_are_present
+E     assert d in name_to_node, "%s is not in graph" % d
+E AssertionError: act_softmax/Softmax is not in graph
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues

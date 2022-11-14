@@ -1,0 +1,2110 @@
+D Using CPPUTILS: True
+I Start importing onnx...
+I Current ONNX Model use ir_version 3 opset_version 8
+I Call RKNN onnx optimize fail, skip optimize
+D Calc tensor Initializer_resnetv17_dense0_bias (1000,)
+D Calc tensor Initializer_resnetv17_dense0_weight (1000, 2048)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm9_running_var (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm9_running_mean (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm9_beta (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm9_gamma (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv9_bias (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv9_weight (2048, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm8_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm8_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm8_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm8_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv8_weight (512, 512, 3, 3)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm7_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm7_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm7_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm7_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv7_bias (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv7_weight (512, 2048, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm6_running_var (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm6_running_mean (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm6_beta (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm6_gamma (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv6_bias (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv6_weight (2048, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm5_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm5_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm5_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm5_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv5_weight (512, 512, 3, 3)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm4_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm4_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm4_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm4_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv4_bias (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv4_weight (512, 2048, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm3_running_var (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm3_running_mean (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm3_beta (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm3_gamma (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv3_weight (2048, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm2_running_var (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm2_running_mean (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm2_beta (2048,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm2_gamma (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv2_bias (2048,)
+D Calc tensor Initializer_resnetv17_stage4_conv2_weight (2048, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm1_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm1_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm1_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm1_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv1_weight (512, 512, 3, 3)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm0_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm0_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm0_beta (512,)
+D Calc tensor Initializer_resnetv17_stage4_batchnorm0_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv0_bias (512,)
+D Calc tensor Initializer_resnetv17_stage4_conv0_weight (512, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm18_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm18_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm18_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm18_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv18_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv18_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm17_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm17_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm17_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm17_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv17_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm16_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm16_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm16_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm16_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv16_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv16_weight (256, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm15_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm15_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm15_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm15_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv15_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv15_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm14_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm14_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm14_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm14_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv14_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm13_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm13_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm13_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm13_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv13_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv13_weight (256, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm12_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm12_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm12_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm12_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv12_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv12_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm11_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm11_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm11_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm11_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv11_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm10_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm10_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm10_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm10_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv10_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv10_weight (256, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm9_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm9_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm9_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm9_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv9_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv9_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm8_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm8_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm8_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm8_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv8_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm7_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm7_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm7_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm7_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv7_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv7_weight (256, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm6_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm6_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm6_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm6_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv6_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv6_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm5_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm5_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm5_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm5_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv5_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm4_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm4_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm4_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm4_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv4_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv4_weight (256, 1024, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm3_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm3_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm3_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm3_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv3_weight (1024, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm2_running_var (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm2_running_mean (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm2_beta (1024,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm2_gamma (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv2_bias (1024,)
+D Calc tensor Initializer_resnetv17_stage3_conv2_weight (1024, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm1_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm1_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm1_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm1_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv1_weight (256, 256, 3, 3)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm0_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm0_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm0_beta (256,)
+D Calc tensor Initializer_resnetv17_stage3_batchnorm0_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv0_bias (256,)
+D Calc tensor Initializer_resnetv17_stage3_conv0_weight (256, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm12_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm12_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm12_beta (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm12_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv12_bias (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv12_weight (512, 128, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm11_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm11_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm11_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm11_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv11_weight (128, 128, 3, 3)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm10_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm10_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm10_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm10_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv10_bias (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv10_weight (128, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm9_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm9_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm9_beta (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm9_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv9_bias (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv9_weight (512, 128, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm8_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm8_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm8_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm8_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv8_weight (128, 128, 3, 3)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm7_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm7_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm7_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm7_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv7_bias (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv7_weight (128, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm6_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm6_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm6_beta (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm6_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv6_bias (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv6_weight (512, 128, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm5_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm5_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm5_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm5_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv5_weight (128, 128, 3, 3)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm4_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm4_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm4_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm4_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv4_bias (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv4_weight (128, 512, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm3_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm3_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm3_beta (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm3_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv3_weight (512, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm2_running_var (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm2_running_mean (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm2_beta (512,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm2_gamma (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv2_bias (512,)
+D Calc tensor Initializer_resnetv17_stage2_conv2_weight (512, 128, 1, 1)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm1_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm1_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm1_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm1_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv1_weight (128, 128, 3, 3)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm0_running_var (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm0_running_mean (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm0_beta (128,)
+D Calc tensor Initializer_resnetv17_stage2_batchnorm0_gamma (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv0_bias (128,)
+D Calc tensor Initializer_resnetv17_stage2_conv0_weight (128, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm9_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm9_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm9_beta (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm9_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv9_bias (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv9_weight (256, 64, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm8_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm8_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm8_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm8_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv8_weight (64, 64, 3, 3)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm7_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm7_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm7_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm7_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv7_bias (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv7_weight (64, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm6_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm6_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm6_beta (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm6_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv6_bias (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv6_weight (256, 64, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm5_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm5_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm5_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm5_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv5_weight (64, 64, 3, 3)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm4_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm4_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm4_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm4_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv4_bias (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv4_weight (64, 256, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm3_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm3_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm3_beta (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm3_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv3_weight (256, 64, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm2_running_var (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm2_running_mean (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm2_beta (256,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm2_gamma (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv2_bias (256,)
+D Calc tensor Initializer_resnetv17_stage1_conv2_weight (256, 64, 1, 1)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm1_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm1_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm1_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm1_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv1_weight (64, 64, 3, 3)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm0_running_var (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm0_running_mean (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm0_beta (64,)
+D Calc tensor Initializer_resnetv17_stage1_batchnorm0_gamma (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv0_bias (64,)
+D Calc tensor Initializer_resnetv17_stage1_conv0_weight (64, 64, 1, 1)
+D Calc tensor Initializer_resnetv17_batchnorm0_running_var (64,)
+D Calc tensor Initializer_resnetv17_batchnorm0_running_mean (64,)
+D Calc tensor Initializer_resnetv17_batchnorm0_beta (64,)
+D Calc tensor Initializer_resnetv17_batchnorm0_gamma (64,)
+D Calc tensor Initializer_resnetv17_conv0_weight (64, 3, 7, 7)
+D Calc tensor Conv_resnetv17_conv0_fwd (1, 64, 112, 112)
+D Calc tensor BatchNormalization_resnetv17_batchnorm0_fwd (1, 64, 112, 112)
+D Calc tensor Relu_resnetv17_relu0_fwd (1, 64, 112, 112)
+D Calc tensor MaxPool_resnetv17_pool0_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv0_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm0_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu0_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv1_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm1_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu1_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv2_fwd (1, 256, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm2_fwd (1, 256, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv3_fwd (1, 256, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm3_fwd (1, 256, 56, 56)
+D Calc tensor Add_resnetv17_stage1__plus0 (1, 256, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_activation0 (1, 256, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv4_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm4_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu2_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv5_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm5_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu3_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv6_fwd (1, 256, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm6_fwd (1, 256, 56, 56)
+D Calc tensor Add_resnetv17_stage1__plus1 (1, 256, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_activation1 (1, 256, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv7_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm7_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu4_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv8_fwd (1, 64, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm8_fwd (1, 64, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_relu5_fwd (1, 64, 56, 56)
+D Calc tensor Conv_resnetv17_stage1_conv9_fwd (1, 256, 56, 56)
+D Calc tensor BatchNormalization_resnetv17_stage1_batchnorm9_fwd (1, 256, 56, 56)
+D Calc tensor Add_resnetv17_stage1__plus2 (1, 256, 56, 56)
+D Calc tensor Relu_resnetv17_stage1_activation2 (1, 256, 56, 56)
+D Calc tensor Conv_resnetv17_stage2_conv0_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm0_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu0_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv1_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm1_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu1_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv2_fwd (1, 512, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm2_fwd (1, 512, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv3_fwd (1, 512, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm3_fwd (1, 512, 28, 28)
+D Calc tensor Add_resnetv17_stage2__plus0 (1, 512, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_activation0 (1, 512, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv4_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm4_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu2_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv5_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm5_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu3_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv6_fwd (1, 512, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm6_fwd (1, 512, 28, 28)
+D Calc tensor Add_resnetv17_stage2__plus1 (1, 512, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_activation1 (1, 512, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv7_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm7_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu4_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv8_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm8_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu5_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv9_fwd (1, 512, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm9_fwd (1, 512, 28, 28)
+D Calc tensor Add_resnetv17_stage2__plus2 (1, 512, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_activation2 (1, 512, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv10_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm10_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu6_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv11_fwd (1, 128, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm11_fwd (1, 128, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_relu7_fwd (1, 128, 28, 28)
+D Calc tensor Conv_resnetv17_stage2_conv12_fwd (1, 512, 28, 28)
+D Calc tensor BatchNormalization_resnetv17_stage2_batchnorm12_fwd (1, 512, 28, 28)
+D Calc tensor Add_resnetv17_stage2__plus3 (1, 512, 28, 28)
+D Calc tensor Relu_resnetv17_stage2_activation3 (1, 512, 28, 28)
+D Calc tensor Conv_resnetv17_stage3_conv0_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm0_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu0_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv1_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm1_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu1_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv2_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm2_fwd (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv3_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm3_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus0 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation0 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv4_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm4_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu2_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv5_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm5_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu3_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv6_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm6_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus1 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation1 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv7_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm7_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu4_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv8_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm8_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu5_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv9_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm9_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus2 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation2 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv10_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm10_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu6_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv11_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm11_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu7_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv12_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm12_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus3 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation3 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv13_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm13_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu8_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv14_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm14_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu9_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv15_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm15_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus4 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation4 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv16_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm16_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu10_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv17_fwd (1, 256, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm17_fwd (1, 256, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_relu11_fwd (1, 256, 14, 14)
+D Calc tensor Conv_resnetv17_stage3_conv18_fwd (1, 1024, 14, 14)
+D Calc tensor BatchNormalization_resnetv17_stage3_batchnorm18_fwd (1, 1024, 14, 14)
+D Calc tensor Add_resnetv17_stage3__plus5 (1, 1024, 14, 14)
+D Calc tensor Relu_resnetv17_stage3_activation5 (1, 1024, 14, 14)
+D Calc tensor Conv_resnetv17_stage4_conv0_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm0_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu0_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv1_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm1_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu1_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv2_fwd (1, 2048, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm2_fwd (1, 2048, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv3_fwd (1, 2048, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm3_fwd (1, 2048, 7, 7)
+D Calc tensor Add_resnetv17_stage4__plus0 (1, 2048, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_activation0 (1, 2048, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv4_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm4_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu2_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv5_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm5_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu3_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv6_fwd (1, 2048, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm6_fwd (1, 2048, 7, 7)
+D Calc tensor Add_resnetv17_stage4__plus1 (1, 2048, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_activation1 (1, 2048, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv7_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm7_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu4_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv8_fwd (1, 512, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm8_fwd (1, 512, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_relu5_fwd (1, 512, 7, 7)
+D Calc tensor Conv_resnetv17_stage4_conv9_fwd (1, 2048, 7, 7)
+D Calc tensor BatchNormalization_resnetv17_stage4_batchnorm9_fwd (1, 2048, 7, 7)
+D Calc tensor Add_resnetv17_stage4__plus2 (1, 2048, 7, 7)
+D Calc tensor Relu_resnetv17_stage4_activation2 (1, 2048, 7, 7)
+D Calc tensor GlobalAveragePool_resnetv17_pool1_fwd (1, 2048, 1, 1)
+D Calc tensor Flatten_flatten_473 (1, 2048)
+D Calc tensor Gemm_resnetv17_dense0_fwd (1, 1000)
+D import clients finished
+I build output layer attach_Gemm_resnetv17_dense0_fwd:out0
+I Try match layer: Gemm_resnetv17_dense0_fwd:out0
+I Match r_gemm_2_fc_wb, convert ONNX layer: ['Gemm_resnetv17_dense0_fwd', 'Initializer_resnetv17_dense0_weight', 'Initializer_resnetv17_dense0_bias'](OPs: ['Gemm', 'Constant_0', 'Constant_1']) to ['fullconnect']
+I Try match layer: Flatten_flatten_473:out0
+I Match r_flatten, convert ONNX layer: ['Flatten_flatten_473'](OPs: ['Flatten']) to ['reshape']
+I Try match layer: GlobalAveragePool_resnetv17_pool1_fwd:out0
+I Match r_global_avgpool, convert ONNX layer: ['GlobalAveragePool_resnetv17_pool1_fwd'](OPs: ['GlobalAveragePool']) to ['pooling']
+I Try match layer: Relu_resnetv17_stage4_activation2:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_activation2'](OPs: ['Relu']) to ['relu']
+I Try match layer: Add_resnetv17_stage4__plus2:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage4__plus2'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm9_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm9_fwd', 'Initializer_resnetv17_stage4_batchnorm9_gamma', 'Initializer_resnetv17_stage4_batchnorm9_beta', 'Initializer_resnetv17_stage4_batchnorm9_running_mean', 'Initializer_resnetv17_stage4_batchnorm9_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage4_activation1:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_activation1'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage4_conv9_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv9_fwd', 'Initializer_resnetv17_stage4_conv9_weight', 'Initializer_resnetv17_stage4_conv9_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage4__plus1:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage4__plus1'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage4_relu5_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu5_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm6_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm6_fwd', 'Initializer_resnetv17_stage4_batchnorm6_gamma', 'Initializer_resnetv17_stage4_batchnorm6_beta', 'Initializer_resnetv17_stage4_batchnorm6_running_mean', 'Initializer_resnetv17_stage4_batchnorm6_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage4_activation0:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_activation0'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm8_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm8_fwd', 'Initializer_resnetv17_stage4_batchnorm8_gamma', 'Initializer_resnetv17_stage4_batchnorm8_beta', 'Initializer_resnetv17_stage4_batchnorm8_running_mean', 'Initializer_resnetv17_stage4_batchnorm8_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage4_conv6_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv6_fwd', 'Initializer_resnetv17_stage4_conv6_weight', 'Initializer_resnetv17_stage4_conv6_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage4__plus0:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage4__plus0'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_resnetv17_stage4_conv8_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage4_conv8_fwd', 'Initializer_resnetv17_stage4_conv8_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage4_relu3_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu3_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm2_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm2_fwd', 'Initializer_resnetv17_stage4_batchnorm2_gamma', 'Initializer_resnetv17_stage4_batchnorm2_beta', 'Initializer_resnetv17_stage4_batchnorm2_running_mean', 'Initializer_resnetv17_stage4_batchnorm2_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm3_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm3_fwd', 'Initializer_resnetv17_stage4_batchnorm3_gamma', 'Initializer_resnetv17_stage4_batchnorm3_beta', 'Initializer_resnetv17_stage4_batchnorm3_running_mean', 'Initializer_resnetv17_stage4_batchnorm3_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage4_relu4_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu4_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm5_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm5_fwd', 'Initializer_resnetv17_stage4_batchnorm5_gamma', 'Initializer_resnetv17_stage4_batchnorm5_beta', 'Initializer_resnetv17_stage4_batchnorm5_running_mean', 'Initializer_resnetv17_stage4_batchnorm5_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage4_conv2_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv2_fwd', 'Initializer_resnetv17_stage4_conv2_weight', 'Initializer_resnetv17_stage4_conv2_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage4_conv3_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage4_conv3_fwd', 'Initializer_resnetv17_stage4_conv3_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm7_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm7_fwd', 'Initializer_resnetv17_stage4_batchnorm7_gamma', 'Initializer_resnetv17_stage4_batchnorm7_beta', 'Initializer_resnetv17_stage4_batchnorm7_running_mean', 'Initializer_resnetv17_stage4_batchnorm7_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage4_conv5_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage4_conv5_fwd', 'Initializer_resnetv17_stage4_conv5_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage4_relu1_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu1_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Relu_resnetv17_stage3_activation5:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation5'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage4_conv7_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv7_fwd', 'Initializer_resnetv17_stage4_conv7_weight', 'Initializer_resnetv17_stage4_conv7_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage4_relu2_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu2_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm1_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm1_fwd', 'Initializer_resnetv17_stage4_batchnorm1_gamma', 'Initializer_resnetv17_stage4_batchnorm1_beta', 'Initializer_resnetv17_stage4_batchnorm1_running_mean', 'Initializer_resnetv17_stage4_batchnorm1_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Add_resnetv17_stage3__plus5:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus5'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage3_activation4:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation4'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm4_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm4_fwd', 'Initializer_resnetv17_stage4_batchnorm4_gamma', 'Initializer_resnetv17_stage4_batchnorm4_beta', 'Initializer_resnetv17_stage4_batchnorm4_running_mean', 'Initializer_resnetv17_stage4_batchnorm4_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage4_conv1_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage4_conv1_fwd', 'Initializer_resnetv17_stage4_conv1_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm18_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm18_fwd', 'Initializer_resnetv17_stage3_batchnorm18_gamma', 'Initializer_resnetv17_stage3_batchnorm18_beta', 'Initializer_resnetv17_stage3_batchnorm18_running_mean', 'Initializer_resnetv17_stage3_batchnorm18_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Add_resnetv17_stage3__plus4:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus4'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_resnetv17_stage4_conv4_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv4_fwd', 'Initializer_resnetv17_stage4_conv4_weight', 'Initializer_resnetv17_stage4_conv4_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage4_relu0_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage4_relu0_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv18_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv18_fwd', 'Initializer_resnetv17_stage3_conv18_weight', 'Initializer_resnetv17_stage3_conv18_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm15_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm15_fwd', 'Initializer_resnetv17_stage3_batchnorm15_gamma', 'Initializer_resnetv17_stage3_batchnorm15_beta', 'Initializer_resnetv17_stage3_batchnorm15_running_mean', 'Initializer_resnetv17_stage3_batchnorm15_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_activation3:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation3'](OPs: ['Relu']) to ['relu']
+I Try match layer: Add_resnetv17_stage3__plus3:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus3'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage4_batchnorm0_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage4_batchnorm0_fwd', 'Initializer_resnetv17_stage4_batchnorm0_gamma', 'Initializer_resnetv17_stage4_batchnorm0_beta', 'Initializer_resnetv17_stage4_batchnorm0_running_mean', 'Initializer_resnetv17_stage4_batchnorm0_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu11_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu11_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv15_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv15_fwd', 'Initializer_resnetv17_stage3_conv15_weight', 'Initializer_resnetv17_stage3_conv15_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm12_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm12_fwd', 'Initializer_resnetv17_stage3_batchnorm12_gamma', 'Initializer_resnetv17_stage3_batchnorm12_beta', 'Initializer_resnetv17_stage3_batchnorm12_running_mean', 'Initializer_resnetv17_stage3_batchnorm12_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_activation2:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation2'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage4_conv0_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage4_conv0_fwd', 'Initializer_resnetv17_stage4_conv0_weight', 'Initializer_resnetv17_stage4_conv0_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm17_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm17_fwd', 'Initializer_resnetv17_stage3_batchnorm17_gamma', 'Initializer_resnetv17_stage3_batchnorm17_beta', 'Initializer_resnetv17_stage3_batchnorm17_running_mean', 'Initializer_resnetv17_stage3_batchnorm17_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu9_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu9_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv12_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv12_fwd', 'Initializer_resnetv17_stage3_conv12_weight', 'Initializer_resnetv17_stage3_conv12_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage3__plus2:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus2'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage3_activation1:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation1'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv17_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv17_fwd', 'Initializer_resnetv17_stage3_conv17_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm14_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm14_fwd', 'Initializer_resnetv17_stage3_batchnorm14_gamma', 'Initializer_resnetv17_stage3_batchnorm14_beta', 'Initializer_resnetv17_stage3_batchnorm14_running_mean', 'Initializer_resnetv17_stage3_batchnorm14_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu7_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu7_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm9_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm9_fwd', 'Initializer_resnetv17_stage3_batchnorm9_gamma', 'Initializer_resnetv17_stage3_batchnorm9_beta', 'Initializer_resnetv17_stage3_batchnorm9_running_mean', 'Initializer_resnetv17_stage3_batchnorm9_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Add_resnetv17_stage3__plus1:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus1'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage3_relu10_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu10_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv14_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv14_fwd', 'Initializer_resnetv17_stage3_conv14_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm11_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm11_fwd', 'Initializer_resnetv17_stage3_batchnorm11_gamma', 'Initializer_resnetv17_stage3_batchnorm11_beta', 'Initializer_resnetv17_stage3_batchnorm11_running_mean', 'Initializer_resnetv17_stage3_batchnorm11_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage3_conv9_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv9_fwd', 'Initializer_resnetv17_stage3_conv9_weight', 'Initializer_resnetv17_stage3_conv9_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm6_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm6_fwd', 'Initializer_resnetv17_stage3_batchnorm6_gamma', 'Initializer_resnetv17_stage3_batchnorm6_beta', 'Initializer_resnetv17_stage3_batchnorm6_running_mean', 'Initializer_resnetv17_stage3_batchnorm6_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_activation0:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_activation0'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm16_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm16_fwd', 'Initializer_resnetv17_stage3_batchnorm16_gamma', 'Initializer_resnetv17_stage3_batchnorm16_beta', 'Initializer_resnetv17_stage3_batchnorm16_running_mean', 'Initializer_resnetv17_stage3_batchnorm16_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu8_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu8_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv11_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv11_fwd', 'Initializer_resnetv17_stage3_conv11_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage3_relu5_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu5_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv6_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv6_fwd', 'Initializer_resnetv17_stage3_conv6_weight', 'Initializer_resnetv17_stage3_conv6_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage3__plus0:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage3__plus0'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_resnetv17_stage3_conv16_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv16_fwd', 'Initializer_resnetv17_stage3_conv16_weight', 'Initializer_resnetv17_stage3_conv16_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm13_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm13_fwd', 'Initializer_resnetv17_stage3_batchnorm13_gamma', 'Initializer_resnetv17_stage3_batchnorm13_beta', 'Initializer_resnetv17_stage3_batchnorm13_running_mean', 'Initializer_resnetv17_stage3_batchnorm13_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu6_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu6_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm8_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm8_fwd', 'Initializer_resnetv17_stage3_batchnorm8_gamma', 'Initializer_resnetv17_stage3_batchnorm8_beta', 'Initializer_resnetv17_stage3_batchnorm8_running_mean', 'Initializer_resnetv17_stage3_batchnorm8_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu3_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu3_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm2_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm2_fwd', 'Initializer_resnetv17_stage3_batchnorm2_gamma', 'Initializer_resnetv17_stage3_batchnorm2_beta', 'Initializer_resnetv17_stage3_batchnorm2_running_mean', 'Initializer_resnetv17_stage3_batchnorm2_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm3_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm3_fwd', 'Initializer_resnetv17_stage3_batchnorm3_gamma', 'Initializer_resnetv17_stage3_batchnorm3_beta', 'Initializer_resnetv17_stage3_batchnorm3_running_mean', 'Initializer_resnetv17_stage3_batchnorm3_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage3_conv3_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv3_fwd', 'Initializer_resnetv17_stage3_conv3_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage3_conv13_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv13_fwd', 'Initializer_resnetv17_stage3_conv13_weight', 'Initializer_resnetv17_stage3_conv13_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm10_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm10_fwd', 'Initializer_resnetv17_stage3_batchnorm10_gamma', 'Initializer_resnetv17_stage3_batchnorm10_beta', 'Initializer_resnetv17_stage3_batchnorm10_running_mean', 'Initializer_resnetv17_stage3_batchnorm10_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage3_conv8_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv8_fwd', 'Initializer_resnetv17_stage3_conv8_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm5_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm5_fwd', 'Initializer_resnetv17_stage3_batchnorm5_gamma', 'Initializer_resnetv17_stage3_batchnorm5_beta', 'Initializer_resnetv17_stage3_batchnorm5_running_mean', 'Initializer_resnetv17_stage3_batchnorm5_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage3_conv2_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv2_fwd', 'Initializer_resnetv17_stage3_conv2_weight', 'Initializer_resnetv17_stage3_conv2_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage2_activation3:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_activation3'](OPs: ['Relu']) to ['relu']
+I Try match layer: Add_resnetv17_stage2__plus3:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage2__plus3'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_resnetv17_stage3_conv10_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv10_fwd', 'Initializer_resnetv17_stage3_conv10_weight', 'Initializer_resnetv17_stage3_conv10_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage3_relu4_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu4_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv5_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv5_fwd', 'Initializer_resnetv17_stage3_conv5_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage3_relu1_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu1_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm12_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm12_fwd', 'Initializer_resnetv17_stage2_batchnorm12_gamma', 'Initializer_resnetv17_stage2_batchnorm12_beta', 'Initializer_resnetv17_stage2_batchnorm12_running_mean', 'Initializer_resnetv17_stage2_batchnorm12_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_activation2:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_activation2'](OPs: ['Relu']) to ['relu']
+I Try match layer: Add_resnetv17_stage2__plus2:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage2__plus2'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm7_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm7_fwd', 'Initializer_resnetv17_stage3_batchnorm7_gamma', 'Initializer_resnetv17_stage3_batchnorm7_beta', 'Initializer_resnetv17_stage3_batchnorm7_running_mean', 'Initializer_resnetv17_stage3_batchnorm7_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage3_relu2_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu2_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm1_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm1_fwd', 'Initializer_resnetv17_stage3_batchnorm1_gamma', 'Initializer_resnetv17_stage3_batchnorm1_beta', 'Initializer_resnetv17_stage3_batchnorm1_running_mean', 'Initializer_resnetv17_stage3_batchnorm1_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage2_conv12_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv12_fwd', 'Initializer_resnetv17_stage2_conv12_weight', 'Initializer_resnetv17_stage2_conv12_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm9_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm9_fwd', 'Initializer_resnetv17_stage2_batchnorm9_gamma', 'Initializer_resnetv17_stage2_batchnorm9_beta', 'Initializer_resnetv17_stage2_batchnorm9_running_mean', 'Initializer_resnetv17_stage2_batchnorm9_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_activation1:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_activation1'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv7_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv7_fwd', 'Initializer_resnetv17_stage3_conv7_weight', 'Initializer_resnetv17_stage3_conv7_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm4_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm4_fwd', 'Initializer_resnetv17_stage3_batchnorm4_gamma', 'Initializer_resnetv17_stage3_batchnorm4_beta', 'Initializer_resnetv17_stage3_batchnorm4_running_mean', 'Initializer_resnetv17_stage3_batchnorm4_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage3_conv1_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage3_conv1_fwd', 'Initializer_resnetv17_stage3_conv1_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage2_relu7_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu7_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv9_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv9_fwd', 'Initializer_resnetv17_stage2_conv9_weight', 'Initializer_resnetv17_stage2_conv9_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage2__plus1:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage2__plus1'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage2_activation0:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_activation0'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage3_conv4_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv4_fwd', 'Initializer_resnetv17_stage3_conv4_weight', 'Initializer_resnetv17_stage3_conv4_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage3_relu0_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage3_relu0_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm11_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm11_fwd', 'Initializer_resnetv17_stage2_batchnorm11_gamma', 'Initializer_resnetv17_stage2_batchnorm11_beta', 'Initializer_resnetv17_stage2_batchnorm11_running_mean', 'Initializer_resnetv17_stage2_batchnorm11_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_relu5_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu5_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm6_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm6_fwd', 'Initializer_resnetv17_stage2_batchnorm6_gamma', 'Initializer_resnetv17_stage2_batchnorm6_beta', 'Initializer_resnetv17_stage2_batchnorm6_running_mean', 'Initializer_resnetv17_stage2_batchnorm6_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Add_resnetv17_stage2__plus0:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage2__plus0'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm3_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm3_fwd', 'Initializer_resnetv17_stage2_batchnorm3_gamma', 'Initializer_resnetv17_stage2_batchnorm3_beta', 'Initializer_resnetv17_stage2_batchnorm3_running_mean', 'Initializer_resnetv17_stage2_batchnorm3_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: BatchNormalization_resnetv17_stage3_batchnorm0_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage3_batchnorm0_fwd', 'Initializer_resnetv17_stage3_batchnorm0_gamma', 'Initializer_resnetv17_stage3_batchnorm0_beta', 'Initializer_resnetv17_stage3_batchnorm0_running_mean', 'Initializer_resnetv17_stage3_batchnorm0_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage2_conv11_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage2_conv11_fwd', 'Initializer_resnetv17_stage2_conv11_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm8_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm8_fwd', 'Initializer_resnetv17_stage2_batchnorm8_gamma', 'Initializer_resnetv17_stage2_batchnorm8_beta', 'Initializer_resnetv17_stage2_batchnorm8_running_mean', 'Initializer_resnetv17_stage2_batchnorm8_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage2_conv6_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv6_fwd', 'Initializer_resnetv17_stage2_conv6_weight', 'Initializer_resnetv17_stage2_conv6_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm2_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm2_fwd', 'Initializer_resnetv17_stage2_batchnorm2_gamma', 'Initializer_resnetv17_stage2_batchnorm2_beta', 'Initializer_resnetv17_stage2_batchnorm2_running_mean', 'Initializer_resnetv17_stage2_batchnorm2_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage2_conv3_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage2_conv3_fwd', 'Initializer_resnetv17_stage2_conv3_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage3_conv0_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage3_conv0_fwd', 'Initializer_resnetv17_stage3_conv0_weight', 'Initializer_resnetv17_stage3_conv0_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage2_relu6_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu6_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv8_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage2_conv8_fwd', 'Initializer_resnetv17_stage2_conv8_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage2_relu3_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu3_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv2_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv2_fwd', 'Initializer_resnetv17_stage2_conv2_weight', 'Initializer_resnetv17_stage2_conv2_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage1_activation2:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_activation2'](OPs: ['Relu']) to ['relu']
+I Try match layer: Add_resnetv17_stage1__plus2:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage1__plus2'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm10_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm10_fwd', 'Initializer_resnetv17_stage2_batchnorm10_gamma', 'Initializer_resnetv17_stage2_batchnorm10_beta', 'Initializer_resnetv17_stage2_batchnorm10_running_mean', 'Initializer_resnetv17_stage2_batchnorm10_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_relu4_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu4_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm5_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm5_fwd', 'Initializer_resnetv17_stage2_batchnorm5_gamma', 'Initializer_resnetv17_stage2_batchnorm5_beta', 'Initializer_resnetv17_stage2_batchnorm5_running_mean', 'Initializer_resnetv17_stage2_batchnorm5_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_relu1_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu1_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm9_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm9_fwd', 'Initializer_resnetv17_stage1_batchnorm9_gamma', 'Initializer_resnetv17_stage1_batchnorm9_beta', 'Initializer_resnetv17_stage1_batchnorm9_running_mean', 'Initializer_resnetv17_stage1_batchnorm9_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage1_activation1:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_activation1'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv10_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv10_fwd', 'Initializer_resnetv17_stage2_conv10_weight', 'Initializer_resnetv17_stage2_conv10_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm7_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm7_fwd', 'Initializer_resnetv17_stage2_batchnorm7_gamma', 'Initializer_resnetv17_stage2_batchnorm7_beta', 'Initializer_resnetv17_stage2_batchnorm7_running_mean', 'Initializer_resnetv17_stage2_batchnorm7_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage2_conv5_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage2_conv5_fwd', 'Initializer_resnetv17_stage2_conv5_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm1_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm1_fwd', 'Initializer_resnetv17_stage2_batchnorm1_gamma', 'Initializer_resnetv17_stage2_batchnorm1_beta', 'Initializer_resnetv17_stage2_batchnorm1_running_mean', 'Initializer_resnetv17_stage2_batchnorm1_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv9_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv9_fwd', 'Initializer_resnetv17_stage1_conv9_weight', 'Initializer_resnetv17_stage1_conv9_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Add_resnetv17_stage1__plus1:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage1__plus1'](OPs: ['Add']) to ['add']
+I Try match layer: Relu_resnetv17_stage1_activation0:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_activation0'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv7_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv7_fwd', 'Initializer_resnetv17_stage2_conv7_weight', 'Initializer_resnetv17_stage2_conv7_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage2_relu2_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu2_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv1_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage2_conv1_fwd', 'Initializer_resnetv17_stage2_conv1_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage1_relu5_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu5_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm6_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm6_fwd', 'Initializer_resnetv17_stage1_batchnorm6_gamma', 'Initializer_resnetv17_stage1_batchnorm6_beta', 'Initializer_resnetv17_stage1_batchnorm6_running_mean', 'Initializer_resnetv17_stage1_batchnorm6_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Add_resnetv17_stage1__plus0:out0
+I Match r_add, convert ONNX layer: ['Add_resnetv17_stage1__plus0'](OPs: ['Add']) to ['add']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm3_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm3_fwd', 'Initializer_resnetv17_stage1_batchnorm3_gamma', 'Initializer_resnetv17_stage1_batchnorm3_beta', 'Initializer_resnetv17_stage1_batchnorm3_running_mean', 'Initializer_resnetv17_stage1_batchnorm3_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm4_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm4_fwd', 'Initializer_resnetv17_stage2_batchnorm4_gamma', 'Initializer_resnetv17_stage2_batchnorm4_beta', 'Initializer_resnetv17_stage2_batchnorm4_running_mean', 'Initializer_resnetv17_stage2_batchnorm4_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage2_relu0_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage2_relu0_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm8_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm8_fwd', 'Initializer_resnetv17_stage1_batchnorm8_gamma', 'Initializer_resnetv17_stage1_batchnorm8_beta', 'Initializer_resnetv17_stage1_batchnorm8_running_mean', 'Initializer_resnetv17_stage1_batchnorm8_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv6_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv6_fwd', 'Initializer_resnetv17_stage1_conv6_weight', 'Initializer_resnetv17_stage1_conv6_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm2_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm2_fwd', 'Initializer_resnetv17_stage1_batchnorm2_gamma', 'Initializer_resnetv17_stage1_batchnorm2_beta', 'Initializer_resnetv17_stage1_batchnorm2_running_mean', 'Initializer_resnetv17_stage1_batchnorm2_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv3_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage1_conv3_fwd', 'Initializer_resnetv17_stage1_conv3_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage2_conv4_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv4_fwd', 'Initializer_resnetv17_stage2_conv4_weight', 'Initializer_resnetv17_stage2_conv4_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage2_batchnorm0_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage2_batchnorm0_fwd', 'Initializer_resnetv17_stage2_batchnorm0_gamma', 'Initializer_resnetv17_stage2_batchnorm0_beta', 'Initializer_resnetv17_stage2_batchnorm0_running_mean', 'Initializer_resnetv17_stage2_batchnorm0_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv8_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage1_conv8_fwd', 'Initializer_resnetv17_stage1_conv8_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage1_relu3_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu3_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage1_conv2_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv2_fwd', 'Initializer_resnetv17_stage1_conv2_weight', 'Initializer_resnetv17_stage1_conv2_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: MaxPool_resnetv17_pool0_fwd:out0
+I Match r_maxpool, convert ONNX layer: ['MaxPool_resnetv17_pool0_fwd'](OPs: ['MaxPool']) to ['pooling']
+I Try match layer: Relu_resnetv17_relu0_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_relu0_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Conv_resnetv17_stage2_conv0_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage2_conv0_fwd', 'Initializer_resnetv17_stage2_conv0_weight', 'Initializer_resnetv17_stage2_conv0_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage1_relu4_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu4_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm5_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm5_fwd', 'Initializer_resnetv17_stage1_batchnorm5_gamma', 'Initializer_resnetv17_stage1_batchnorm5_beta', 'Initializer_resnetv17_stage1_batchnorm5_running_mean', 'Initializer_resnetv17_stage1_batchnorm5_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Relu_resnetv17_stage1_relu1_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu1_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_batchnorm0_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_batchnorm0_fwd', 'Initializer_resnetv17_batchnorm0_gamma', 'Initializer_resnetv17_batchnorm0_beta', 'Initializer_resnetv17_batchnorm0_running_mean', 'Initializer_resnetv17_batchnorm0_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_conv0_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_conv0_fwd', 'Initializer_resnetv17_conv0_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm7_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm7_fwd', 'Initializer_resnetv17_stage1_batchnorm7_gamma', 'Initializer_resnetv17_stage1_batchnorm7_beta', 'Initializer_resnetv17_stage1_batchnorm7_running_mean', 'Initializer_resnetv17_stage1_batchnorm7_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv5_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage1_conv5_fwd', 'Initializer_resnetv17_stage1_conv5_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm1_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm1_fwd', 'Initializer_resnetv17_stage1_batchnorm1_gamma', 'Initializer_resnetv17_stage1_batchnorm1_beta', 'Initializer_resnetv17_stage1_batchnorm1_running_mean', 'Initializer_resnetv17_stage1_batchnorm1_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv1_fwd:out0
+I Match r_conv_no_bias, convert ONNX layer: ['Conv_resnetv17_stage1_conv1_fwd', 'Initializer_resnetv17_stage1_conv1_weight'](OPs: ['Conv', 'Constant_0']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage1_conv7_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv7_fwd', 'Initializer_resnetv17_stage1_conv7_weight', 'Initializer_resnetv17_stage1_conv7_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Relu_resnetv17_stage1_relu2_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu2_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: Relu_resnetv17_stage1_relu0_fwd:out0
+I Match r_relu, convert ONNX layer: ['Relu_resnetv17_stage1_relu0_fwd'](OPs: ['Relu']) to ['relu']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm0_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm0_fwd', 'Initializer_resnetv17_stage1_batchnorm0_gamma', 'Initializer_resnetv17_stage1_batchnorm0_beta', 'Initializer_resnetv17_stage1_batchnorm0_running_mean', 'Initializer_resnetv17_stage1_batchnorm0_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: BatchNormalization_resnetv17_stage1_batchnorm4_fwd:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_resnetv17_stage1_batchnorm4_fwd', 'Initializer_resnetv17_stage1_batchnorm4_gamma', 'Initializer_resnetv17_stage1_batchnorm4_beta', 'Initializer_resnetv17_stage1_batchnorm4_running_mean', 'Initializer_resnetv17_stage1_batchnorm4_running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: Conv_resnetv17_stage1_conv0_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv0_fwd', 'Initializer_resnetv17_stage1_conv0_weight', 'Initializer_resnetv17_stage1_conv0_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_resnetv17_stage1_conv4_fwd:out0
+I Match r_conv, convert ONNX layer: ['Conv_resnetv17_stage1_conv4_fwd', 'Initializer_resnetv17_stage1_conv4_weight', 'Initializer_resnetv17_stage1_conv4_bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I build input layer data:out0
+D connect Flatten_flatten_473_2 0  ~ Gemm_resnetv17_dense0_fwd_1 0
+D connect GlobalAveragePool_resnetv17_pool1_fwd_3 0  ~ Flatten_flatten_473_2 0
+D connect Relu_resnetv17_stage4_activation2_4 0  ~ GlobalAveragePool_resnetv17_pool1_fwd_3 0
+D connect Add_resnetv17_stage4__plus2_5 0  ~ Relu_resnetv17_stage4_activation2_4 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm9_fwd_6 0  ~ Add_resnetv17_stage4__plus2_5 0
+D connect Relu_resnetv17_stage4_activation1_7 0  ~ Add_resnetv17_stage4__plus2_5 1
+D connect Conv_resnetv17_stage4_conv9_fwd_8 0  ~ BatchNormalization_resnetv17_stage4_batchnorm9_fwd_6 0
+D connect Add_resnetv17_stage4__plus1_9 0  ~ Relu_resnetv17_stage4_activation1_7 0
+D connect Relu_resnetv17_stage4_relu5_fwd_10 0  ~ Conv_resnetv17_stage4_conv9_fwd_8 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm6_fwd_11 0  ~ Add_resnetv17_stage4__plus1_9 0
+D connect Relu_resnetv17_stage4_activation0_12 0  ~ Add_resnetv17_stage4__plus1_9 1
+D connect BatchNormalization_resnetv17_stage4_batchnorm8_fwd_13 0  ~ Relu_resnetv17_stage4_relu5_fwd_10 0
+D connect Conv_resnetv17_stage4_conv6_fwd_14 0  ~ BatchNormalization_resnetv17_stage4_batchnorm6_fwd_11 0
+D connect Add_resnetv17_stage4__plus0_15 0  ~ Relu_resnetv17_stage4_activation0_12 0
+D connect Conv_resnetv17_stage4_conv8_fwd_16 0  ~ BatchNormalization_resnetv17_stage4_batchnorm8_fwd_13 0
+D connect Relu_resnetv17_stage4_relu3_fwd_17 0  ~ Conv_resnetv17_stage4_conv6_fwd_14 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm2_fwd_18 0  ~ Add_resnetv17_stage4__plus0_15 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm3_fwd_19 0  ~ Add_resnetv17_stage4__plus0_15 1
+D connect Relu_resnetv17_stage4_relu4_fwd_20 0  ~ Conv_resnetv17_stage4_conv8_fwd_16 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm5_fwd_21 0  ~ Relu_resnetv17_stage4_relu3_fwd_17 0
+D connect Conv_resnetv17_stage4_conv2_fwd_22 0  ~ BatchNormalization_resnetv17_stage4_batchnorm2_fwd_18 0
+D connect Conv_resnetv17_stage4_conv3_fwd_23 0  ~ BatchNormalization_resnetv17_stage4_batchnorm3_fwd_19 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm7_fwd_24 0  ~ Relu_resnetv17_stage4_relu4_fwd_20 0
+D connect Conv_resnetv17_stage4_conv5_fwd_25 0  ~ BatchNormalization_resnetv17_stage4_batchnorm5_fwd_21 0
+D connect Relu_resnetv17_stage4_relu1_fwd_26 0  ~ Conv_resnetv17_stage4_conv2_fwd_22 0
+D connect Relu_resnetv17_stage3_activation5_27 0  ~ Conv_resnetv17_stage4_conv3_fwd_23 0
+D connect Conv_resnetv17_stage4_conv7_fwd_28 0  ~ BatchNormalization_resnetv17_stage4_batchnorm7_fwd_24 0
+D connect Relu_resnetv17_stage4_relu2_fwd_29 0  ~ Conv_resnetv17_stage4_conv5_fwd_25 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm1_fwd_30 0  ~ Relu_resnetv17_stage4_relu1_fwd_26 0
+D connect Add_resnetv17_stage3__plus5_31 0  ~ Relu_resnetv17_stage3_activation5_27 0
+D connect Relu_resnetv17_stage4_activation1_7 0  ~ Conv_resnetv17_stage4_conv7_fwd_28 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm4_fwd_33 0  ~ Relu_resnetv17_stage4_relu2_fwd_29 0
+D connect Conv_resnetv17_stage4_conv1_fwd_34 0  ~ BatchNormalization_resnetv17_stage4_batchnorm1_fwd_30 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm18_fwd_35 0  ~ Add_resnetv17_stage3__plus5_31 0
+D connect Relu_resnetv17_stage3_activation4_32 0  ~ Add_resnetv17_stage3__plus5_31 1
+D connect Add_resnetv17_stage3__plus4_36 0  ~ Relu_resnetv17_stage3_activation4_32 0
+D connect Conv_resnetv17_stage4_conv4_fwd_37 0  ~ BatchNormalization_resnetv17_stage4_batchnorm4_fwd_33 0
+D connect Relu_resnetv17_stage4_relu0_fwd_38 0  ~ Conv_resnetv17_stage4_conv1_fwd_34 0
+D connect Conv_resnetv17_stage3_conv18_fwd_39 0  ~ BatchNormalization_resnetv17_stage3_batchnorm18_fwd_35 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm15_fwd_40 0  ~ Add_resnetv17_stage3__plus4_36 0
+D connect Relu_resnetv17_stage3_activation3_41 0  ~ Add_resnetv17_stage3__plus4_36 1
+D connect Relu_resnetv17_stage4_activation0_12 0  ~ Conv_resnetv17_stage4_conv4_fwd_37 0
+D connect BatchNormalization_resnetv17_stage4_batchnorm0_fwd_43 0  ~ Relu_resnetv17_stage4_relu0_fwd_38 0
+D connect Relu_resnetv17_stage3_relu11_fwd_44 0  ~ Conv_resnetv17_stage3_conv18_fwd_39 0
+D connect Conv_resnetv17_stage3_conv15_fwd_45 0  ~ BatchNormalization_resnetv17_stage3_batchnorm15_fwd_40 0
+D connect Add_resnetv17_stage3__plus3_42 0  ~ Relu_resnetv17_stage3_activation3_41 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm12_fwd_46 0  ~ Add_resnetv17_stage3__plus3_42 0
+D connect Relu_resnetv17_stage3_activation2_47 0  ~ Add_resnetv17_stage3__plus3_42 1
+D connect Conv_resnetv17_stage4_conv0_fwd_48 0  ~ BatchNormalization_resnetv17_stage4_batchnorm0_fwd_43 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm17_fwd_49 0  ~ Relu_resnetv17_stage3_relu11_fwd_44 0
+D connect Relu_resnetv17_stage3_relu9_fwd_50 0  ~ Conv_resnetv17_stage3_conv15_fwd_45 0
+D connect Conv_resnetv17_stage3_conv12_fwd_51 0  ~ BatchNormalization_resnetv17_stage3_batchnorm12_fwd_46 0
+D connect Add_resnetv17_stage3__plus2_52 0  ~ Relu_resnetv17_stage3_activation2_47 0
+D connect Relu_resnetv17_stage3_activation5_27 0  ~ Conv_resnetv17_stage4_conv0_fwd_48 0
+D connect Conv_resnetv17_stage3_conv17_fwd_54 0  ~ BatchNormalization_resnetv17_stage3_batchnorm17_fwd_49 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm14_fwd_55 0  ~ Relu_resnetv17_stage3_relu9_fwd_50 0
+D connect Relu_resnetv17_stage3_relu7_fwd_56 0  ~ Conv_resnetv17_stage3_conv12_fwd_51 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm9_fwd_57 0  ~ Add_resnetv17_stage3__plus2_52 0
+D connect Relu_resnetv17_stage3_activation1_53 0  ~ Add_resnetv17_stage3__plus2_52 1
+D connect Add_resnetv17_stage3__plus1_58 0  ~ Relu_resnetv17_stage3_activation1_53 0
+D connect Relu_resnetv17_stage3_relu10_fwd_59 0  ~ Conv_resnetv17_stage3_conv17_fwd_54 0
+D connect Conv_resnetv17_stage3_conv14_fwd_60 0  ~ BatchNormalization_resnetv17_stage3_batchnorm14_fwd_55 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm11_fwd_61 0  ~ Relu_resnetv17_stage3_relu7_fwd_56 0
+D connect Conv_resnetv17_stage3_conv9_fwd_62 0  ~ BatchNormalization_resnetv17_stage3_batchnorm9_fwd_57 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm6_fwd_63 0  ~ Add_resnetv17_stage3__plus1_58 0
+D connect Relu_resnetv17_stage3_activation0_64 0  ~ Add_resnetv17_stage3__plus1_58 1
+D connect BatchNormalization_resnetv17_stage3_batchnorm16_fwd_65 0  ~ Relu_resnetv17_stage3_relu10_fwd_59 0
+D connect Relu_resnetv17_stage3_relu8_fwd_66 0  ~ Conv_resnetv17_stage3_conv14_fwd_60 0
+D connect Conv_resnetv17_stage3_conv11_fwd_67 0  ~ BatchNormalization_resnetv17_stage3_batchnorm11_fwd_61 0
+D connect Relu_resnetv17_stage3_relu5_fwd_68 0  ~ Conv_resnetv17_stage3_conv9_fwd_62 0
+D connect Conv_resnetv17_stage3_conv6_fwd_69 0  ~ BatchNormalization_resnetv17_stage3_batchnorm6_fwd_63 0
+D connect Add_resnetv17_stage3__plus0_70 0  ~ Relu_resnetv17_stage3_activation0_64 0
+D connect Conv_resnetv17_stage3_conv16_fwd_71 0  ~ BatchNormalization_resnetv17_stage3_batchnorm16_fwd_65 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm13_fwd_72 0  ~ Relu_resnetv17_stage3_relu8_fwd_66 0
+D connect Relu_resnetv17_stage3_relu6_fwd_73 0  ~ Conv_resnetv17_stage3_conv11_fwd_67 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm8_fwd_74 0  ~ Relu_resnetv17_stage3_relu5_fwd_68 0
+D connect Relu_resnetv17_stage3_relu3_fwd_75 0  ~ Conv_resnetv17_stage3_conv6_fwd_69 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm2_fwd_76 0  ~ Add_resnetv17_stage3__plus0_70 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm3_fwd_77 0  ~ Add_resnetv17_stage3__plus0_70 1
+D connect Relu_resnetv17_stage3_activation4_32 0  ~ Conv_resnetv17_stage3_conv16_fwd_71 0
+D connect Conv_resnetv17_stage3_conv13_fwd_79 0  ~ BatchNormalization_resnetv17_stage3_batchnorm13_fwd_72 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm10_fwd_80 0  ~ Relu_resnetv17_stage3_relu6_fwd_73 0
+D connect Conv_resnetv17_stage3_conv8_fwd_81 0  ~ BatchNormalization_resnetv17_stage3_batchnorm8_fwd_74 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm5_fwd_82 0  ~ Relu_resnetv17_stage3_relu3_fwd_75 0
+D connect Conv_resnetv17_stage3_conv2_fwd_83 0  ~ BatchNormalization_resnetv17_stage3_batchnorm2_fwd_76 0
+D connect Conv_resnetv17_stage3_conv3_fwd_78 0  ~ BatchNormalization_resnetv17_stage3_batchnorm3_fwd_77 0
+D connect Relu_resnetv17_stage2_activation3_84 0  ~ Conv_resnetv17_stage3_conv3_fwd_78 0
+D connect Relu_resnetv17_stage3_activation3_41 0  ~ Conv_resnetv17_stage3_conv13_fwd_79 0
+D connect Conv_resnetv17_stage3_conv10_fwd_86 0  ~ BatchNormalization_resnetv17_stage3_batchnorm10_fwd_80 0
+D connect Relu_resnetv17_stage3_relu4_fwd_87 0  ~ Conv_resnetv17_stage3_conv8_fwd_81 0
+D connect Conv_resnetv17_stage3_conv5_fwd_88 0  ~ BatchNormalization_resnetv17_stage3_batchnorm5_fwd_82 0
+D connect Relu_resnetv17_stage3_relu1_fwd_89 0  ~ Conv_resnetv17_stage3_conv2_fwd_83 0
+D connect Add_resnetv17_stage2__plus3_85 0  ~ Relu_resnetv17_stage2_activation3_84 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm12_fwd_90 0  ~ Add_resnetv17_stage2__plus3_85 0
+D connect Relu_resnetv17_stage2_activation2_91 0  ~ Add_resnetv17_stage2__plus3_85 1
+D connect Relu_resnetv17_stage3_activation2_47 0  ~ Conv_resnetv17_stage3_conv10_fwd_86 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm7_fwd_93 0  ~ Relu_resnetv17_stage3_relu4_fwd_87 0
+D connect Relu_resnetv17_stage3_relu2_fwd_94 0  ~ Conv_resnetv17_stage3_conv5_fwd_88 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm1_fwd_95 0  ~ Relu_resnetv17_stage3_relu1_fwd_89 0
+D connect Conv_resnetv17_stage2_conv12_fwd_96 0  ~ BatchNormalization_resnetv17_stage2_batchnorm12_fwd_90 0
+D connect Add_resnetv17_stage2__plus2_92 0  ~ Relu_resnetv17_stage2_activation2_91 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm9_fwd_97 0  ~ Add_resnetv17_stage2__plus2_92 0
+D connect Relu_resnetv17_stage2_activation1_98 0  ~ Add_resnetv17_stage2__plus2_92 1
+D connect Conv_resnetv17_stage3_conv7_fwd_99 0  ~ BatchNormalization_resnetv17_stage3_batchnorm7_fwd_93 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm4_fwd_100 0  ~ Relu_resnetv17_stage3_relu2_fwd_94 0
+D connect Conv_resnetv17_stage3_conv1_fwd_101 0  ~ BatchNormalization_resnetv17_stage3_batchnorm1_fwd_95 0
+D connect Relu_resnetv17_stage2_relu7_fwd_102 0  ~ Conv_resnetv17_stage2_conv12_fwd_96 0
+D connect Conv_resnetv17_stage2_conv9_fwd_103 0  ~ BatchNormalization_resnetv17_stage2_batchnorm9_fwd_97 0
+D connect Add_resnetv17_stage2__plus1_104 0  ~ Relu_resnetv17_stage2_activation1_98 0
+D connect Relu_resnetv17_stage3_activation1_53 0  ~ Conv_resnetv17_stage3_conv7_fwd_99 0
+D connect Conv_resnetv17_stage3_conv4_fwd_106 0  ~ BatchNormalization_resnetv17_stage3_batchnorm4_fwd_100 0
+D connect Relu_resnetv17_stage3_relu0_fwd_107 0  ~ Conv_resnetv17_stage3_conv1_fwd_101 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm11_fwd_108 0  ~ Relu_resnetv17_stage2_relu7_fwd_102 0
+D connect Relu_resnetv17_stage2_relu5_fwd_109 0  ~ Conv_resnetv17_stage2_conv9_fwd_103 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm6_fwd_110 0  ~ Add_resnetv17_stage2__plus1_104 0
+D connect Relu_resnetv17_stage2_activation0_105 0  ~ Add_resnetv17_stage2__plus1_104 1
+D connect Add_resnetv17_stage2__plus0_111 0  ~ Relu_resnetv17_stage2_activation0_105 0
+D connect Relu_resnetv17_stage3_activation0_64 0  ~ Conv_resnetv17_stage3_conv4_fwd_106 0
+D connect BatchNormalization_resnetv17_stage3_batchnorm0_fwd_113 0  ~ Relu_resnetv17_stage3_relu0_fwd_107 0
+D connect Conv_resnetv17_stage2_conv11_fwd_114 0  ~ BatchNormalization_resnetv17_stage2_batchnorm11_fwd_108 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm8_fwd_115 0  ~ Relu_resnetv17_stage2_relu5_fwd_109 0
+D connect Conv_resnetv17_stage2_conv6_fwd_116 0  ~ BatchNormalization_resnetv17_stage2_batchnorm6_fwd_110 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm2_fwd_117 0  ~ Add_resnetv17_stage2__plus0_111 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm3_fwd_112 0  ~ Add_resnetv17_stage2__plus0_111 1
+D connect Conv_resnetv17_stage2_conv3_fwd_118 0  ~ BatchNormalization_resnetv17_stage2_batchnorm3_fwd_112 0
+D connect Conv_resnetv17_stage3_conv0_fwd_119 0  ~ BatchNormalization_resnetv17_stage3_batchnorm0_fwd_113 0
+D connect Relu_resnetv17_stage2_relu6_fwd_120 0  ~ Conv_resnetv17_stage2_conv11_fwd_114 0
+D connect Conv_resnetv17_stage2_conv8_fwd_121 0  ~ BatchNormalization_resnetv17_stage2_batchnorm8_fwd_115 0
+D connect Relu_resnetv17_stage2_relu3_fwd_122 0  ~ Conv_resnetv17_stage2_conv6_fwd_116 0
+D connect Conv_resnetv17_stage2_conv2_fwd_123 0  ~ BatchNormalization_resnetv17_stage2_batchnorm2_fwd_117 0
+D connect Relu_resnetv17_stage1_activation2_124 0  ~ Conv_resnetv17_stage2_conv3_fwd_118 0
+D connect Relu_resnetv17_stage2_activation3_84 0  ~ Conv_resnetv17_stage3_conv0_fwd_119 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm10_fwd_126 0  ~ Relu_resnetv17_stage2_relu6_fwd_120 0
+D connect Relu_resnetv17_stage2_relu4_fwd_127 0  ~ Conv_resnetv17_stage2_conv8_fwd_121 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm5_fwd_128 0  ~ Relu_resnetv17_stage2_relu3_fwd_122 0
+D connect Relu_resnetv17_stage2_relu1_fwd_129 0  ~ Conv_resnetv17_stage2_conv2_fwd_123 0
+D connect Add_resnetv17_stage1__plus2_125 0  ~ Relu_resnetv17_stage1_activation2_124 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm9_fwd_130 0  ~ Add_resnetv17_stage1__plus2_125 0
+D connect Relu_resnetv17_stage1_activation1_131 0  ~ Add_resnetv17_stage1__plus2_125 1
+D connect Conv_resnetv17_stage2_conv10_fwd_132 0  ~ BatchNormalization_resnetv17_stage2_batchnorm10_fwd_126 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm7_fwd_133 0  ~ Relu_resnetv17_stage2_relu4_fwd_127 0
+D connect Conv_resnetv17_stage2_conv5_fwd_134 0  ~ BatchNormalization_resnetv17_stage2_batchnorm5_fwd_128 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm1_fwd_135 0  ~ Relu_resnetv17_stage2_relu1_fwd_129 0
+D connect Conv_resnetv17_stage1_conv9_fwd_136 0  ~ BatchNormalization_resnetv17_stage1_batchnorm9_fwd_130 0
+D connect Add_resnetv17_stage1__plus1_137 0  ~ Relu_resnetv17_stage1_activation1_131 0
+D connect Relu_resnetv17_stage2_activation2_91 0  ~ Conv_resnetv17_stage2_conv10_fwd_132 0
+D connect Conv_resnetv17_stage2_conv7_fwd_139 0  ~ BatchNormalization_resnetv17_stage2_batchnorm7_fwd_133 0
+D connect Relu_resnetv17_stage2_relu2_fwd_140 0  ~ Conv_resnetv17_stage2_conv5_fwd_134 0
+D connect Conv_resnetv17_stage2_conv1_fwd_141 0  ~ BatchNormalization_resnetv17_stage2_batchnorm1_fwd_135 0
+D connect Relu_resnetv17_stage1_relu5_fwd_142 0  ~ Conv_resnetv17_stage1_conv9_fwd_136 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm6_fwd_143 0  ~ Add_resnetv17_stage1__plus1_137 0
+D connect Relu_resnetv17_stage1_activation0_138 0  ~ Add_resnetv17_stage1__plus1_137 1
+D connect Add_resnetv17_stage1__plus0_144 0  ~ Relu_resnetv17_stage1_activation0_138 0
+D connect Relu_resnetv17_stage2_activation1_98 0  ~ Conv_resnetv17_stage2_conv7_fwd_139 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm4_fwd_146 0  ~ Relu_resnetv17_stage2_relu2_fwd_140 0
+D connect Relu_resnetv17_stage2_relu0_fwd_147 0  ~ Conv_resnetv17_stage2_conv1_fwd_141 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm8_fwd_148 0  ~ Relu_resnetv17_stage1_relu5_fwd_142 0
+D connect Conv_resnetv17_stage1_conv6_fwd_149 0  ~ BatchNormalization_resnetv17_stage1_batchnorm6_fwd_143 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm2_fwd_150 0  ~ Add_resnetv17_stage1__plus0_144 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm3_fwd_145 0  ~ Add_resnetv17_stage1__plus0_144 1
+D connect Conv_resnetv17_stage1_conv3_fwd_151 0  ~ BatchNormalization_resnetv17_stage1_batchnorm3_fwd_145 0
+D connect Conv_resnetv17_stage2_conv4_fwd_152 0  ~ BatchNormalization_resnetv17_stage2_batchnorm4_fwd_146 0
+D connect BatchNormalization_resnetv17_stage2_batchnorm0_fwd_153 0  ~ Relu_resnetv17_stage2_relu0_fwd_147 0
+D connect Conv_resnetv17_stage1_conv8_fwd_154 0  ~ BatchNormalization_resnetv17_stage1_batchnorm8_fwd_148 0
+D connect Relu_resnetv17_stage1_relu3_fwd_155 0  ~ Conv_resnetv17_stage1_conv6_fwd_149 0
+D connect Conv_resnetv17_stage1_conv2_fwd_156 0  ~ BatchNormalization_resnetv17_stage1_batchnorm2_fwd_150 0
+D connect MaxPool_resnetv17_pool0_fwd_157 0  ~ Conv_resnetv17_stage1_conv3_fwd_151 0
+D connect Relu_resnetv17_stage2_activation0_105 0  ~ Conv_resnetv17_stage2_conv4_fwd_152 0
+D connect Conv_resnetv17_stage2_conv0_fwd_159 0  ~ BatchNormalization_resnetv17_stage2_batchnorm0_fwd_153 0
+D connect Relu_resnetv17_stage1_relu4_fwd_160 0  ~ Conv_resnetv17_stage1_conv8_fwd_154 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm5_fwd_161 0  ~ Relu_resnetv17_stage1_relu3_fwd_155 0
+D connect Relu_resnetv17_stage1_relu1_fwd_162 0  ~ Conv_resnetv17_stage1_conv2_fwd_156 0
+D connect Relu_resnetv17_relu0_fwd_158 0  ~ MaxPool_resnetv17_pool0_fwd_157 0
+D connect BatchNormalization_resnetv17_batchnorm0_fwd_163 0  ~ Relu_resnetv17_relu0_fwd_158 0
+D connect Relu_resnetv17_stage1_activation2_124 0  ~ Conv_resnetv17_stage2_conv0_fwd_159 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm7_fwd_165 0  ~ Relu_resnetv17_stage1_relu4_fwd_160 0
+D connect Conv_resnetv17_stage1_conv5_fwd_166 0  ~ BatchNormalization_resnetv17_stage1_batchnorm5_fwd_161 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm1_fwd_167 0  ~ Relu_resnetv17_stage1_relu1_fwd_162 0
+D connect Conv_resnetv17_conv0_fwd_164 0  ~ BatchNormalization_resnetv17_batchnorm0_fwd_163 0
+D connect data_176 0  ~ Conv_resnetv17_conv0_fwd_164 0
+D connect Conv_resnetv17_stage1_conv7_fwd_169 0  ~ BatchNormalization_resnetv17_stage1_batchnorm7_fwd_165 0
+D connect Relu_resnetv17_stage1_relu2_fwd_170 0  ~ Conv_resnetv17_stage1_conv5_fwd_166 0
+D connect Conv_resnetv17_stage1_conv1_fwd_168 0  ~ BatchNormalization_resnetv17_stage1_batchnorm1_fwd_167 0
+D connect Relu_resnetv17_stage1_relu0_fwd_171 0  ~ Conv_resnetv17_stage1_conv1_fwd_168 0
+D connect Relu_resnetv17_stage1_activation1_131 0  ~ Conv_resnetv17_stage1_conv7_fwd_169 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm4_fwd_173 0  ~ Relu_resnetv17_stage1_relu2_fwd_170 0
+D connect BatchNormalization_resnetv17_stage1_batchnorm0_fwd_172 0  ~ Relu_resnetv17_stage1_relu0_fwd_171 0
+D connect Conv_resnetv17_stage1_conv0_fwd_174 0  ~ BatchNormalization_resnetv17_stage1_batchnorm0_fwd_172 0
+D connect Conv_resnetv17_stage1_conv4_fwd_175 0  ~ BatchNormalization_resnetv17_stage1_batchnorm4_fwd_173 0
+D connect MaxPool_resnetv17_pool0_fwd_157 0  ~ Conv_resnetv17_stage1_conv0_fwd_174 0
+D connect Relu_resnetv17_stage1_activation0_138 0  ~ Conv_resnetv17_stage1_conv4_fwd_175 0
+D connect Gemm_resnetv17_dense0_fwd_1 0  ~ attach_Gemm_resnetv17_dense0_fwd/out0_0 0
+D Process data_176 ...
+D RKNN output shape(input): (1 224 224 3)
+D Tensor @data_176:out0 type: float32
+D Process Conv_resnetv17_conv0_fwd_164 ...
+D RKNN output shape(convolution): (1 112 112 64)
+D Tensor @Conv_resnetv17_conv0_fwd_164:out0 type: float32
+D Process BatchNormalization_resnetv17_batchnorm0_fwd_163 ...
+D RKNN output shape(batchnormalize): (1 112 112 64)
+D Tensor @BatchNormalization_resnetv17_batchnorm0_fwd_163:out0 type: float32
+D Process Relu_resnetv17_relu0_fwd_158 ...
+D RKNN output shape(relu): (1 112 112 64)
+D Tensor @Relu_resnetv17_relu0_fwd_158:out0 type: float32
+D Process MaxPool_resnetv17_pool0_fwd_157 ...
+D RKNN output shape(pooling): (1 56 56 64)
+D Tensor @MaxPool_resnetv17_pool0_fwd_157:out0 type: float32
+D Process Conv_resnetv17_stage1_conv0_fwd_174 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv0_fwd_174:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm0_fwd_172 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm0_fwd_172:out0 type: float32
+D Process Relu_resnetv17_stage1_relu0_fwd_171 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu0_fwd_171:out0 type: float32
+D Process Conv_resnetv17_stage1_conv1_fwd_168 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv1_fwd_168:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm1_fwd_167 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm1_fwd_167:out0 type: float32
+D Process Relu_resnetv17_stage1_relu1_fwd_162 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu1_fwd_162:out0 type: float32
+D Process Conv_resnetv17_stage1_conv2_fwd_156 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv2_fwd_156:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm2_fwd_150 ...
+D RKNN output shape(batchnormalize): (1 56 56 256)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm2_fwd_150:out0 type: float32
+D Process Conv_resnetv17_stage1_conv3_fwd_151 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv3_fwd_151:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm3_fwd_145 ...
+D RKNN output shape(batchnormalize): (1 56 56 256)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm3_fwd_145:out0 type: float32
+D Process Add_resnetv17_stage1__plus0_144 ...
+D RKNN output shape(add): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus0_144:out0 type: float32
+D Process Relu_resnetv17_stage1_activation0_138 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation0_138:out0 type: float32
+D Process Conv_resnetv17_stage1_conv4_fwd_175 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv4_fwd_175:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm4_fwd_173 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm4_fwd_173:out0 type: float32
+D Process Relu_resnetv17_stage1_relu2_fwd_170 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu2_fwd_170:out0 type: float32
+D Process Conv_resnetv17_stage1_conv5_fwd_166 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv5_fwd_166:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm5_fwd_161 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm5_fwd_161:out0 type: float32
+D Process Relu_resnetv17_stage1_relu3_fwd_155 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu3_fwd_155:out0 type: float32
+D Process Conv_resnetv17_stage1_conv6_fwd_149 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv6_fwd_149:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm6_fwd_143 ...
+D RKNN output shape(batchnormalize): (1 56 56 256)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm6_fwd_143:out0 type: float32
+D Process Add_resnetv17_stage1__plus1_137 ...
+D RKNN output shape(add): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus1_137:out0 type: float32
+D Process Relu_resnetv17_stage1_activation1_131 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation1_131:out0 type: float32
+D Process Conv_resnetv17_stage1_conv7_fwd_169 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv7_fwd_169:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm7_fwd_165 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm7_fwd_165:out0 type: float32
+D Process Relu_resnetv17_stage1_relu4_fwd_160 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu4_fwd_160:out0 type: float32
+D Process Conv_resnetv17_stage1_conv8_fwd_154 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv8_fwd_154:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm8_fwd_148 ...
+D RKNN output shape(batchnormalize): (1 56 56 64)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm8_fwd_148:out0 type: float32
+D Process Relu_resnetv17_stage1_relu5_fwd_142 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu5_fwd_142:out0 type: float32
+D Process Conv_resnetv17_stage1_conv9_fwd_136 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv9_fwd_136:out0 type: float32
+D Process BatchNormalization_resnetv17_stage1_batchnorm9_fwd_130 ...
+D RKNN output shape(batchnormalize): (1 56 56 256)
+D Tensor @BatchNormalization_resnetv17_stage1_batchnorm9_fwd_130:out0 type: float32
+D Process Add_resnetv17_stage1__plus2_125 ...
+D RKNN output shape(add): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus2_125:out0 type: float32
+D Process Relu_resnetv17_stage1_activation2_124 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation2_124:out0 type: float32
+D Process Conv_resnetv17_stage2_conv0_fwd_159 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv0_fwd_159:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm0_fwd_153 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm0_fwd_153:out0 type: float32
+D Process Relu_resnetv17_stage2_relu0_fwd_147 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu0_fwd_147:out0 type: float32
+D Process Conv_resnetv17_stage2_conv1_fwd_141 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv1_fwd_141:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm1_fwd_135 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm1_fwd_135:out0 type: float32
+D Process Relu_resnetv17_stage2_relu1_fwd_129 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu1_fwd_129:out0 type: float32
+D Process Conv_resnetv17_stage2_conv2_fwd_123 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv2_fwd_123:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm2_fwd_117 ...
+D RKNN output shape(batchnormalize): (1 28 28 512)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm2_fwd_117:out0 type: float32
+D Process Conv_resnetv17_stage2_conv3_fwd_118 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv3_fwd_118:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm3_fwd_112 ...
+D RKNN output shape(batchnormalize): (1 28 28 512)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm3_fwd_112:out0 type: float32
+D Process Add_resnetv17_stage2__plus0_111 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus0_111:out0 type: float32
+D Process Relu_resnetv17_stage2_activation0_105 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation0_105:out0 type: float32
+D Process Conv_resnetv17_stage2_conv4_fwd_152 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv4_fwd_152:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm4_fwd_146 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm4_fwd_146:out0 type: float32
+D Process Relu_resnetv17_stage2_relu2_fwd_140 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu2_fwd_140:out0 type: float32
+D Process Conv_resnetv17_stage2_conv5_fwd_134 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv5_fwd_134:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm5_fwd_128 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm5_fwd_128:out0 type: float32
+D Process Relu_resnetv17_stage2_relu3_fwd_122 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu3_fwd_122:out0 type: float32
+D Process Conv_resnetv17_stage2_conv6_fwd_116 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv6_fwd_116:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm6_fwd_110 ...
+D RKNN output shape(batchnormalize): (1 28 28 512)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm6_fwd_110:out0 type: float32
+D Process Add_resnetv17_stage2__plus1_104 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus1_104:out0 type: float32
+D Process Relu_resnetv17_stage2_activation1_98 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation1_98:out0 type: float32
+D Process Conv_resnetv17_stage2_conv7_fwd_139 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv7_fwd_139:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm7_fwd_133 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm7_fwd_133:out0 type: float32
+D Process Relu_resnetv17_stage2_relu4_fwd_127 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu4_fwd_127:out0 type: float32
+D Process Conv_resnetv17_stage2_conv8_fwd_121 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv8_fwd_121:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm8_fwd_115 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm8_fwd_115:out0 type: float32
+D Process Relu_resnetv17_stage2_relu5_fwd_109 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu5_fwd_109:out0 type: float32
+D Process Conv_resnetv17_stage2_conv9_fwd_103 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv9_fwd_103:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm9_fwd_97 ...
+D RKNN output shape(batchnormalize): (1 28 28 512)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm9_fwd_97:out0 type: float32
+D Process Add_resnetv17_stage2__plus2_92 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus2_92:out0 type: float32
+D Process Relu_resnetv17_stage2_activation2_91 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation2_91:out0 type: float32
+D Process Conv_resnetv17_stage2_conv10_fwd_132 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv10_fwd_132:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm10_fwd_126 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm10_fwd_126:out0 type: float32
+D Process Relu_resnetv17_stage2_relu6_fwd_120 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu6_fwd_120:out0 type: float32
+D Process Conv_resnetv17_stage2_conv11_fwd_114 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv11_fwd_114:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm11_fwd_108 ...
+D RKNN output shape(batchnormalize): (1 28 28 128)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm11_fwd_108:out0 type: float32
+D Process Relu_resnetv17_stage2_relu7_fwd_102 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu7_fwd_102:out0 type: float32
+D Process Conv_resnetv17_stage2_conv12_fwd_96 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv12_fwd_96:out0 type: float32
+D Process BatchNormalization_resnetv17_stage2_batchnorm12_fwd_90 ...
+D RKNN output shape(batchnormalize): (1 28 28 512)
+D Tensor @BatchNormalization_resnetv17_stage2_batchnorm12_fwd_90:out0 type: float32
+D Process Add_resnetv17_stage2__plus3_85 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus3_85:out0 type: float32
+D Process Relu_resnetv17_stage2_activation3_84 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation3_84:out0 type: float32
+D Process Conv_resnetv17_stage3_conv0_fwd_119 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv0_fwd_119:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm0_fwd_113 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm0_fwd_113:out0 type: float32
+D Process Relu_resnetv17_stage3_relu0_fwd_107 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu0_fwd_107:out0 type: float32
+D Process Conv_resnetv17_stage3_conv1_fwd_101 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv1_fwd_101:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm1_fwd_95 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm1_fwd_95:out0 type: float32
+D Process Relu_resnetv17_stage3_relu1_fwd_89 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu1_fwd_89:out0 type: float32
+D Process Conv_resnetv17_stage3_conv2_fwd_83 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv2_fwd_83:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm2_fwd_76 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm2_fwd_76:out0 type: float32
+D Process Conv_resnetv17_stage3_conv3_fwd_78 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv3_fwd_78:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm3_fwd_77 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm3_fwd_77:out0 type: float32
+D Process Add_resnetv17_stage3__plus0_70 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus0_70:out0 type: float32
+D Process Relu_resnetv17_stage3_activation0_64 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation0_64:out0 type: float32
+D Process Conv_resnetv17_stage3_conv4_fwd_106 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv4_fwd_106:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm4_fwd_100 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm4_fwd_100:out0 type: float32
+D Process Relu_resnetv17_stage3_relu2_fwd_94 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu2_fwd_94:out0 type: float32
+D Process Conv_resnetv17_stage3_conv5_fwd_88 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv5_fwd_88:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm5_fwd_82 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm5_fwd_82:out0 type: float32
+D Process Relu_resnetv17_stage3_relu3_fwd_75 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu3_fwd_75:out0 type: float32
+D Process Conv_resnetv17_stage3_conv6_fwd_69 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv6_fwd_69:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm6_fwd_63 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm6_fwd_63:out0 type: float32
+D Process Add_resnetv17_stage3__plus1_58 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus1_58:out0 type: float32
+D Process Relu_resnetv17_stage3_activation1_53 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation1_53:out0 type: float32
+D Process Conv_resnetv17_stage3_conv7_fwd_99 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv7_fwd_99:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm7_fwd_93 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm7_fwd_93:out0 type: float32
+D Process Relu_resnetv17_stage3_relu4_fwd_87 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu4_fwd_87:out0 type: float32
+D Process Conv_resnetv17_stage3_conv8_fwd_81 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv8_fwd_81:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm8_fwd_74 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm8_fwd_74:out0 type: float32
+D Process Relu_resnetv17_stage3_relu5_fwd_68 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu5_fwd_68:out0 type: float32
+D Process Conv_resnetv17_stage3_conv9_fwd_62 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv9_fwd_62:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm9_fwd_57 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm9_fwd_57:out0 type: float32
+D Process Add_resnetv17_stage3__plus2_52 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus2_52:out0 type: float32
+D Process Relu_resnetv17_stage3_activation2_47 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation2_47:out0 type: float32
+D Process Conv_resnetv17_stage3_conv10_fwd_86 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv10_fwd_86:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm10_fwd_80 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm10_fwd_80:out0 type: float32
+D Process Relu_resnetv17_stage3_relu6_fwd_73 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu6_fwd_73:out0 type: float32
+D Process Conv_resnetv17_stage3_conv11_fwd_67 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv11_fwd_67:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm11_fwd_61 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm11_fwd_61:out0 type: float32
+D Process Relu_resnetv17_stage3_relu7_fwd_56 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu7_fwd_56:out0 type: float32
+D Process Conv_resnetv17_stage3_conv12_fwd_51 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv12_fwd_51:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm12_fwd_46 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm12_fwd_46:out0 type: float32
+D Process Add_resnetv17_stage3__plus3_42 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus3_42:out0 type: float32
+D Process Relu_resnetv17_stage3_activation3_41 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation3_41:out0 type: float32
+D Process Conv_resnetv17_stage3_conv13_fwd_79 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv13_fwd_79:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm13_fwd_72 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm13_fwd_72:out0 type: float32
+D Process Relu_resnetv17_stage3_relu8_fwd_66 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu8_fwd_66:out0 type: float32
+D Process Conv_resnetv17_stage3_conv14_fwd_60 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv14_fwd_60:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm14_fwd_55 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm14_fwd_55:out0 type: float32
+D Process Relu_resnetv17_stage3_relu9_fwd_50 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu9_fwd_50:out0 type: float32
+D Process Conv_resnetv17_stage3_conv15_fwd_45 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv15_fwd_45:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm15_fwd_40 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm15_fwd_40:out0 type: float32
+D Process Add_resnetv17_stage3__plus4_36 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus4_36:out0 type: float32
+D Process Relu_resnetv17_stage3_activation4_32 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation4_32:out0 type: float32
+D Process Conv_resnetv17_stage3_conv16_fwd_71 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv16_fwd_71:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm16_fwd_65 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm16_fwd_65:out0 type: float32
+D Process Relu_resnetv17_stage3_relu10_fwd_59 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu10_fwd_59:out0 type: float32
+D Process Conv_resnetv17_stage3_conv17_fwd_54 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv17_fwd_54:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm17_fwd_49 ...
+D RKNN output shape(batchnormalize): (1 14 14 256)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm17_fwd_49:out0 type: float32
+D Process Relu_resnetv17_stage3_relu11_fwd_44 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu11_fwd_44:out0 type: float32
+D Process Conv_resnetv17_stage3_conv18_fwd_39 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv18_fwd_39:out0 type: float32
+D Process BatchNormalization_resnetv17_stage3_batchnorm18_fwd_35 ...
+D RKNN output shape(batchnormalize): (1 14 14 1024)
+D Tensor @BatchNormalization_resnetv17_stage3_batchnorm18_fwd_35:out0 type: float32
+D Process Add_resnetv17_stage3__plus5_31 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus5_31:out0 type: float32
+D Process Relu_resnetv17_stage3_activation5_27 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation5_27:out0 type: float32
+D Process Conv_resnetv17_stage4_conv0_fwd_48 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv0_fwd_48:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm0_fwd_43 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm0_fwd_43:out0 type: float32
+D Process Relu_resnetv17_stage4_relu0_fwd_38 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu0_fwd_38:out0 type: float32
+D Process Conv_resnetv17_stage4_conv1_fwd_34 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv1_fwd_34:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm1_fwd_30 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm1_fwd_30:out0 type: float32
+D Process Relu_resnetv17_stage4_relu1_fwd_26 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu1_fwd_26:out0 type: float32
+D Process Conv_resnetv17_stage4_conv2_fwd_22 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv2_fwd_22:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm2_fwd_18 ...
+D RKNN output shape(batchnormalize): (1 7 7 2048)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm2_fwd_18:out0 type: float32
+D Process Conv_resnetv17_stage4_conv3_fwd_23 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv3_fwd_23:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm3_fwd_19 ...
+D RKNN output shape(batchnormalize): (1 7 7 2048)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm3_fwd_19:out0 type: float32
+D Process Add_resnetv17_stage4__plus0_15 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus0_15:out0 type: float32
+D Process Relu_resnetv17_stage4_activation0_12 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation0_12:out0 type: float32
+D Process Conv_resnetv17_stage4_conv4_fwd_37 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv4_fwd_37:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm4_fwd_33 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm4_fwd_33:out0 type: float32
+D Process Relu_resnetv17_stage4_relu2_fwd_29 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu2_fwd_29:out0 type: float32
+D Process Conv_resnetv17_stage4_conv5_fwd_25 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv5_fwd_25:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm5_fwd_21 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm5_fwd_21:out0 type: float32
+D Process Relu_resnetv17_stage4_relu3_fwd_17 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu3_fwd_17:out0 type: float32
+D Process Conv_resnetv17_stage4_conv6_fwd_14 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv6_fwd_14:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm6_fwd_11 ...
+D RKNN output shape(batchnormalize): (1 7 7 2048)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm6_fwd_11:out0 type: float32
+D Process Add_resnetv17_stage4__plus1_9 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus1_9:out0 type: float32
+D Process Relu_resnetv17_stage4_activation1_7 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation1_7:out0 type: float32
+D Process Conv_resnetv17_stage4_conv7_fwd_28 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv7_fwd_28:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm7_fwd_24 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm7_fwd_24:out0 type: float32
+D Process Relu_resnetv17_stage4_relu4_fwd_20 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu4_fwd_20:out0 type: float32
+D Process Conv_resnetv17_stage4_conv8_fwd_16 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv8_fwd_16:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm8_fwd_13 ...
+D RKNN output shape(batchnormalize): (1 7 7 512)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm8_fwd_13:out0 type: float32
+D Process Relu_resnetv17_stage4_relu5_fwd_10 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu5_fwd_10:out0 type: float32
+D Process Conv_resnetv17_stage4_conv9_fwd_8 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv9_fwd_8:out0 type: float32
+D Process BatchNormalization_resnetv17_stage4_batchnorm9_fwd_6 ...
+D RKNN output shape(batchnormalize): (1 7 7 2048)
+D Tensor @BatchNormalization_resnetv17_stage4_batchnorm9_fwd_6:out0 type: float32
+D Process Add_resnetv17_stage4__plus2_5 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus2_5:out0 type: float32
+D Process Relu_resnetv17_stage4_activation2_4 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation2_4:out0 type: float32
+D Process GlobalAveragePool_resnetv17_pool1_fwd_3 ...
+D RKNN output shape(pooling): (1 1 1 2048)
+D Tensor @GlobalAveragePool_resnetv17_pool1_fwd_3:out0 type: float32
+D Process Flatten_flatten_473_2 ...
+D RKNN output shape(reshape): (1 2048)
+D Tensor @Flatten_flatten_473_2:out0 type: float32
+D Process Gemm_resnetv17_dense0_fwd_1 ...
+D RKNN output shape(fullconnect): (1 1000)
+D Tensor @Gemm_resnetv17_dense0_fwd_1:out0 type: float32
+D Process attach_Gemm_resnetv17_dense0_fwd/out0_0 ...
+D RKNN output shape(output): (1 1000)
+D Tensor @attach_Gemm_resnetv17_dense0_fwd/out0_0:out0 type: float32
+I Build mxnet_converted_model complete.
+I Start C2T Switcher...
+D Optimizing network with broadcast_op
+D insert permute Flatten_flatten_473_2_RKNN_mark_perm_177 before Flatten_flatten_473_2
+I End C2T Switcher...
+D Optimizing network with force_1d_tensor, swapper, merge_duplicate_quantize_dequantize, merge_layer, auto_fill_bn, auto_fill_l2normalizescale, auto_fill_instancenormalize, resize_nearest_transformer, eltwise_transform, auto_fill_multiply, auto_fill_zero_bias, proposal_opt_import, special_add_to_conv2d
+D Merge ['Conv_resnetv17_stage4_conv9_fwd_8', 'BatchNormalization_resnetv17_stage4_batchnorm9_fwd_6'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv6_fwd_14', 'BatchNormalization_resnetv17_stage4_batchnorm6_fwd_11'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv8_fwd_16', 'BatchNormalization_resnetv17_stage4_batchnorm8_fwd_13'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv2_fwd_22', 'BatchNormalization_resnetv17_stage4_batchnorm2_fwd_18'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv3_fwd_23', 'BatchNormalization_resnetv17_stage4_batchnorm3_fwd_19'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv5_fwd_25', 'BatchNormalization_resnetv17_stage4_batchnorm5_fwd_21'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv7_fwd_28', 'BatchNormalization_resnetv17_stage4_batchnorm7_fwd_24'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv1_fwd_34', 'BatchNormalization_resnetv17_stage4_batchnorm1_fwd_30'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv4_fwd_37', 'BatchNormalization_resnetv17_stage4_batchnorm4_fwd_33'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv18_fwd_39', 'BatchNormalization_resnetv17_stage3_batchnorm18_fwd_35'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv15_fwd_45', 'BatchNormalization_resnetv17_stage3_batchnorm15_fwd_40'] (convolution)
+D Merge ['Conv_resnetv17_stage4_conv0_fwd_48', 'BatchNormalization_resnetv17_stage4_batchnorm0_fwd_43'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv12_fwd_51', 'BatchNormalization_resnetv17_stage3_batchnorm12_fwd_46'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv17_fwd_54', 'BatchNormalization_resnetv17_stage3_batchnorm17_fwd_49'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv14_fwd_60', 'BatchNormalization_resnetv17_stage3_batchnorm14_fwd_55'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv9_fwd_62', 'BatchNormalization_resnetv17_stage3_batchnorm9_fwd_57'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv11_fwd_67', 'BatchNormalization_resnetv17_stage3_batchnorm11_fwd_61'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv6_fwd_69', 'BatchNormalization_resnetv17_stage3_batchnorm6_fwd_63'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv16_fwd_71', 'BatchNormalization_resnetv17_stage3_batchnorm16_fwd_65'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv3_fwd_78', 'BatchNormalization_resnetv17_stage3_batchnorm3_fwd_77'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv13_fwd_79', 'BatchNormalization_resnetv17_stage3_batchnorm13_fwd_72'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv8_fwd_81', 'BatchNormalization_resnetv17_stage3_batchnorm8_fwd_74'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv2_fwd_83', 'BatchNormalization_resnetv17_stage3_batchnorm2_fwd_76'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv10_fwd_86', 'BatchNormalization_resnetv17_stage3_batchnorm10_fwd_80'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv5_fwd_88', 'BatchNormalization_resnetv17_stage3_batchnorm5_fwd_82'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv12_fwd_96', 'BatchNormalization_resnetv17_stage2_batchnorm12_fwd_90'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv7_fwd_99', 'BatchNormalization_resnetv17_stage3_batchnorm7_fwd_93'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv1_fwd_101', 'BatchNormalization_resnetv17_stage3_batchnorm1_fwd_95'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv9_fwd_103', 'BatchNormalization_resnetv17_stage2_batchnorm9_fwd_97'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv4_fwd_106', 'BatchNormalization_resnetv17_stage3_batchnorm4_fwd_100'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv11_fwd_114', 'BatchNormalization_resnetv17_stage2_batchnorm11_fwd_108'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv6_fwd_116', 'BatchNormalization_resnetv17_stage2_batchnorm6_fwd_110'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv3_fwd_118', 'BatchNormalization_resnetv17_stage2_batchnorm3_fwd_112'] (convolution)
+D Merge ['Conv_resnetv17_stage3_conv0_fwd_119', 'BatchNormalization_resnetv17_stage3_batchnorm0_fwd_113'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv8_fwd_121', 'BatchNormalization_resnetv17_stage2_batchnorm8_fwd_115'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv2_fwd_123', 'BatchNormalization_resnetv17_stage2_batchnorm2_fwd_117'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv10_fwd_132', 'BatchNormalization_resnetv17_stage2_batchnorm10_fwd_126'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv5_fwd_134', 'BatchNormalization_resnetv17_stage2_batchnorm5_fwd_128'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv9_fwd_136', 'BatchNormalization_resnetv17_stage1_batchnorm9_fwd_130'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv7_fwd_139', 'BatchNormalization_resnetv17_stage2_batchnorm7_fwd_133'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv1_fwd_141', 'BatchNormalization_resnetv17_stage2_batchnorm1_fwd_135'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv6_fwd_149', 'BatchNormalization_resnetv17_stage1_batchnorm6_fwd_143'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv3_fwd_151', 'BatchNormalization_resnetv17_stage1_batchnorm3_fwd_145'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv4_fwd_152', 'BatchNormalization_resnetv17_stage2_batchnorm4_fwd_146'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv8_fwd_154', 'BatchNormalization_resnetv17_stage1_batchnorm8_fwd_148'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv2_fwd_156', 'BatchNormalization_resnetv17_stage1_batchnorm2_fwd_150'] (convolution)
+D Merge ['Conv_resnetv17_stage2_conv0_fwd_159', 'BatchNormalization_resnetv17_stage2_batchnorm0_fwd_153'] (convolution)
+D Merge ['Conv_resnetv17_conv0_fwd_164', 'BatchNormalization_resnetv17_batchnorm0_fwd_163'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv5_fwd_166', 'BatchNormalization_resnetv17_stage1_batchnorm5_fwd_161'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv1_fwd_168', 'BatchNormalization_resnetv17_stage1_batchnorm1_fwd_167'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv7_fwd_169', 'BatchNormalization_resnetv17_stage1_batchnorm7_fwd_165'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv0_fwd_174', 'BatchNormalization_resnetv17_stage1_batchnorm0_fwd_172'] (convolution)
+D Merge ['Conv_resnetv17_stage1_conv4_fwd_175', 'BatchNormalization_resnetv17_stage1_batchnorm4_fwd_173'] (convolution)
+I Extend eltwise(SUM) layer Add_resnetv17_stage1__plus0_144.
+I End importing onnx...
+W The RKNN Model generated can not run on simulator when pre_compile is True.
+W The target_platform is not set in config, using default target platform rk1808.
+I Generate input meta ...
+I Load input meta
+I Generate input meta ...
+D import clients finished
+I Load net...
+I Load data...
+I Load input meta
+D Process data_176 ...
+D RKNN output shape(input): (1 224 224 3)
+D Tensor @data_176:out0 type: float32
+D Process Conv_resnetv17_conv0_fwd_164 ...
+D RKNN output shape(convolution): (1 112 112 64)
+D Tensor @Conv_resnetv17_conv0_fwd_164:out0 type: float32
+D Process Relu_resnetv17_relu0_fwd_158 ...
+D RKNN output shape(relu): (1 112 112 64)
+D Tensor @Relu_resnetv17_relu0_fwd_158:out0 type: float32
+D Process MaxPool_resnetv17_pool0_fwd_157 ...
+D RKNN output shape(pooling): (1 56 56 64)
+D Tensor @MaxPool_resnetv17_pool0_fwd_157:out0 type: float32
+D Process Conv_resnetv17_stage1_conv0_fwd_174 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv0_fwd_174:out0 type: float32
+D Process Relu_resnetv17_stage1_relu0_fwd_171 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu0_fwd_171:out0 type: float32
+D Process Conv_resnetv17_stage1_conv1_fwd_168 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv1_fwd_168:out0 type: float32
+D Process Relu_resnetv17_stage1_relu1_fwd_162 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu1_fwd_162:out0 type: float32
+D Process Add_resnetv17_stage1__plus0_144_concat_178 ...
+D RKNN output shape(concat): (1 56 56 128)
+D Tensor @Add_resnetv17_stage1__plus0_144_concat_178:out0 type: float32
+D Process Add_resnetv17_stage1__plus0_144_conv_179 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus0_144_conv_179:out0 type: float32
+D Process Relu_resnetv17_stage1_activation0_138 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation0_138:out0 type: float32
+D Process Conv_resnetv17_stage1_conv4_fwd_175 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv4_fwd_175:out0 type: float32
+D Process Relu_resnetv17_stage1_relu2_fwd_170 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu2_fwd_170:out0 type: float32
+D Process Conv_resnetv17_stage1_conv5_fwd_166 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv5_fwd_166:out0 type: float32
+D Process Relu_resnetv17_stage1_relu3_fwd_155 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu3_fwd_155:out0 type: float32
+D Process Conv_resnetv17_stage1_conv6_fwd_149 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv6_fwd_149:out0 type: float32
+D Process Add_resnetv17_stage1__plus1_137 ...
+D RKNN output shape(add): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus1_137:out0 type: float32
+D Process Relu_resnetv17_stage1_activation1_131 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation1_131:out0 type: float32
+D Process Conv_resnetv17_stage1_conv7_fwd_169 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv7_fwd_169:out0 type: float32
+D Process Relu_resnetv17_stage1_relu4_fwd_160 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu4_fwd_160:out0 type: float32
+D Process Conv_resnetv17_stage1_conv8_fwd_154 ...
+D RKNN output shape(convolution): (1 56 56 64)
+D Tensor @Conv_resnetv17_stage1_conv8_fwd_154:out0 type: float32
+D Process Relu_resnetv17_stage1_relu5_fwd_142 ...
+D RKNN output shape(relu): (1 56 56 64)
+D Tensor @Relu_resnetv17_stage1_relu5_fwd_142:out0 type: float32
+D Process Conv_resnetv17_stage1_conv9_fwd_136 ...
+D RKNN output shape(convolution): (1 56 56 256)
+D Tensor @Conv_resnetv17_stage1_conv9_fwd_136:out0 type: float32
+D Process Add_resnetv17_stage1__plus2_125 ...
+D RKNN output shape(add): (1 56 56 256)
+D Tensor @Add_resnetv17_stage1__plus2_125:out0 type: float32
+D Process Relu_resnetv17_stage1_activation2_124 ...
+D RKNN output shape(relu): (1 56 56 256)
+D Tensor @Relu_resnetv17_stage1_activation2_124:out0 type: float32
+D Process Conv_resnetv17_stage2_conv0_fwd_159 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv0_fwd_159:out0 type: float32
+D Process Relu_resnetv17_stage2_relu0_fwd_147 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu0_fwd_147:out0 type: float32
+D Process Conv_resnetv17_stage2_conv1_fwd_141 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv1_fwd_141:out0 type: float32
+D Process Relu_resnetv17_stage2_relu1_fwd_129 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu1_fwd_129:out0 type: float32
+D Process Conv_resnetv17_stage2_conv2_fwd_123 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv2_fwd_123:out0 type: float32
+D Process Conv_resnetv17_stage2_conv3_fwd_118 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv3_fwd_118:out0 type: float32
+D Process Add_resnetv17_stage2__plus0_111 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus0_111:out0 type: float32
+D Process Relu_resnetv17_stage2_activation0_105 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation0_105:out0 type: float32
+D Process Conv_resnetv17_stage2_conv4_fwd_152 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv4_fwd_152:out0 type: float32
+D Process Relu_resnetv17_stage2_relu2_fwd_140 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu2_fwd_140:out0 type: float32
+D Process Conv_resnetv17_stage2_conv5_fwd_134 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv5_fwd_134:out0 type: float32
+D Process Relu_resnetv17_stage2_relu3_fwd_122 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu3_fwd_122:out0 type: float32
+D Process Conv_resnetv17_stage2_conv6_fwd_116 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv6_fwd_116:out0 type: float32
+D Process Add_resnetv17_stage2__plus1_104 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus1_104:out0 type: float32
+D Process Relu_resnetv17_stage2_activation1_98 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation1_98:out0 type: float32
+D Process Conv_resnetv17_stage2_conv7_fwd_139 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv7_fwd_139:out0 type: float32
+D Process Relu_resnetv17_stage2_relu4_fwd_127 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu4_fwd_127:out0 type: float32
+D Process Conv_resnetv17_stage2_conv8_fwd_121 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv8_fwd_121:out0 type: float32
+D Process Relu_resnetv17_stage2_relu5_fwd_109 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu5_fwd_109:out0 type: float32
+D Process Conv_resnetv17_stage2_conv9_fwd_103 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv9_fwd_103:out0 type: float32
+D Process Add_resnetv17_stage2__plus2_92 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus2_92:out0 type: float32
+D Process Relu_resnetv17_stage2_activation2_91 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation2_91:out0 type: float32
+D Process Conv_resnetv17_stage2_conv10_fwd_132 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv10_fwd_132:out0 type: float32
+D Process Relu_resnetv17_stage2_relu6_fwd_120 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu6_fwd_120:out0 type: float32
+D Process Conv_resnetv17_stage2_conv11_fwd_114 ...
+D RKNN output shape(convolution): (1 28 28 128)
+D Tensor @Conv_resnetv17_stage2_conv11_fwd_114:out0 type: float32
+D Process Relu_resnetv17_stage2_relu7_fwd_102 ...
+D RKNN output shape(relu): (1 28 28 128)
+D Tensor @Relu_resnetv17_stage2_relu7_fwd_102:out0 type: float32
+D Process Conv_resnetv17_stage2_conv12_fwd_96 ...
+D RKNN output shape(convolution): (1 28 28 512)
+D Tensor @Conv_resnetv17_stage2_conv12_fwd_96:out0 type: float32
+D Process Add_resnetv17_stage2__plus3_85 ...
+D RKNN output shape(add): (1 28 28 512)
+D Tensor @Add_resnetv17_stage2__plus3_85:out0 type: float32
+D Process Relu_resnetv17_stage2_activation3_84 ...
+D RKNN output shape(relu): (1 28 28 512)
+D Tensor @Relu_resnetv17_stage2_activation3_84:out0 type: float32
+D Process Conv_resnetv17_stage3_conv0_fwd_119 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv0_fwd_119:out0 type: float32
+D Process Relu_resnetv17_stage3_relu0_fwd_107 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu0_fwd_107:out0 type: float32
+D Process Conv_resnetv17_stage3_conv1_fwd_101 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv1_fwd_101:out0 type: float32
+D Process Relu_resnetv17_stage3_relu1_fwd_89 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu1_fwd_89:out0 type: float32
+D Process Conv_resnetv17_stage3_conv2_fwd_83 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv2_fwd_83:out0 type: float32
+D Process Conv_resnetv17_stage3_conv3_fwd_78 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv3_fwd_78:out0 type: float32
+D Process Add_resnetv17_stage3__plus0_70 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus0_70:out0 type: float32
+D Process Relu_resnetv17_stage3_activation0_64 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation0_64:out0 type: float32
+D Process Conv_resnetv17_stage3_conv4_fwd_106 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv4_fwd_106:out0 type: float32
+D Process Relu_resnetv17_stage3_relu2_fwd_94 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu2_fwd_94:out0 type: float32
+D Process Conv_resnetv17_stage3_conv5_fwd_88 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv5_fwd_88:out0 type: float32
+D Process Relu_resnetv17_stage3_relu3_fwd_75 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu3_fwd_75:out0 type: float32
+D Process Conv_resnetv17_stage3_conv6_fwd_69 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv6_fwd_69:out0 type: float32
+D Process Add_resnetv17_stage3__plus1_58 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus1_58:out0 type: float32
+D Process Relu_resnetv17_stage3_activation1_53 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation1_53:out0 type: float32
+D Process Conv_resnetv17_stage3_conv7_fwd_99 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv7_fwd_99:out0 type: float32
+D Process Relu_resnetv17_stage3_relu4_fwd_87 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu4_fwd_87:out0 type: float32
+D Process Conv_resnetv17_stage3_conv8_fwd_81 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv8_fwd_81:out0 type: float32
+D Process Relu_resnetv17_stage3_relu5_fwd_68 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu5_fwd_68:out0 type: float32
+D Process Conv_resnetv17_stage3_conv9_fwd_62 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv9_fwd_62:out0 type: float32
+D Process Add_resnetv17_stage3__plus2_52 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus2_52:out0 type: float32
+D Process Relu_resnetv17_stage3_activation2_47 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation2_47:out0 type: float32
+D Process Conv_resnetv17_stage3_conv10_fwd_86 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv10_fwd_86:out0 type: float32
+D Process Relu_resnetv17_stage3_relu6_fwd_73 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu6_fwd_73:out0 type: float32
+D Process Conv_resnetv17_stage3_conv11_fwd_67 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv11_fwd_67:out0 type: float32
+D Process Relu_resnetv17_stage3_relu7_fwd_56 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu7_fwd_56:out0 type: float32
+D Process Conv_resnetv17_stage3_conv12_fwd_51 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv12_fwd_51:out0 type: float32
+D Process Add_resnetv17_stage3__plus3_42 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus3_42:out0 type: float32
+D Process Relu_resnetv17_stage3_activation3_41 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation3_41:out0 type: float32
+D Process Conv_resnetv17_stage3_conv13_fwd_79 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv13_fwd_79:out0 type: float32
+D Process Relu_resnetv17_stage3_relu8_fwd_66 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu8_fwd_66:out0 type: float32
+D Process Conv_resnetv17_stage3_conv14_fwd_60 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv14_fwd_60:out0 type: float32
+D Process Relu_resnetv17_stage3_relu9_fwd_50 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu9_fwd_50:out0 type: float32
+D Process Conv_resnetv17_stage3_conv15_fwd_45 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv15_fwd_45:out0 type: float32
+D Process Add_resnetv17_stage3__plus4_36 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus4_36:out0 type: float32
+D Process Relu_resnetv17_stage3_activation4_32 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation4_32:out0 type: float32
+D Process Conv_resnetv17_stage3_conv16_fwd_71 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv16_fwd_71:out0 type: float32
+D Process Relu_resnetv17_stage3_relu10_fwd_59 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu10_fwd_59:out0 type: float32
+D Process Conv_resnetv17_stage3_conv17_fwd_54 ...
+D RKNN output shape(convolution): (1 14 14 256)
+D Tensor @Conv_resnetv17_stage3_conv17_fwd_54:out0 type: float32
+D Process Relu_resnetv17_stage3_relu11_fwd_44 ...
+D RKNN output shape(relu): (1 14 14 256)
+D Tensor @Relu_resnetv17_stage3_relu11_fwd_44:out0 type: float32
+D Process Conv_resnetv17_stage3_conv18_fwd_39 ...
+D RKNN output shape(convolution): (1 14 14 1024)
+D Tensor @Conv_resnetv17_stage3_conv18_fwd_39:out0 type: float32
+D Process Add_resnetv17_stage3__plus5_31 ...
+D RKNN output shape(add): (1 14 14 1024)
+D Tensor @Add_resnetv17_stage3__plus5_31:out0 type: float32
+D Process Relu_resnetv17_stage3_activation5_27 ...
+D RKNN output shape(relu): (1 14 14 1024)
+D Tensor @Relu_resnetv17_stage3_activation5_27:out0 type: float32
+D Process Conv_resnetv17_stage4_conv0_fwd_48 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv0_fwd_48:out0 type: float32
+D Process Relu_resnetv17_stage4_relu0_fwd_38 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu0_fwd_38:out0 type: float32
+D Process Conv_resnetv17_stage4_conv1_fwd_34 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv1_fwd_34:out0 type: float32
+D Process Relu_resnetv17_stage4_relu1_fwd_26 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu1_fwd_26:out0 type: float32
+D Process Conv_resnetv17_stage4_conv2_fwd_22 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv2_fwd_22:out0 type: float32
+D Process Conv_resnetv17_stage4_conv3_fwd_23 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv3_fwd_23:out0 type: float32
+D Process Add_resnetv17_stage4__plus0_15 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus0_15:out0 type: float32
+D Process Relu_resnetv17_stage4_activation0_12 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation0_12:out0 type: float32
+D Process Conv_resnetv17_stage4_conv4_fwd_37 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv4_fwd_37:out0 type: float32
+D Process Relu_resnetv17_stage4_relu2_fwd_29 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu2_fwd_29:out0 type: float32
+D Process Conv_resnetv17_stage4_conv5_fwd_25 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv5_fwd_25:out0 type: float32
+D Process Relu_resnetv17_stage4_relu3_fwd_17 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu3_fwd_17:out0 type: float32
+D Process Conv_resnetv17_stage4_conv6_fwd_14 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv6_fwd_14:out0 type: float32
+D Process Add_resnetv17_stage4__plus1_9 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus1_9:out0 type: float32
+D Process Relu_resnetv17_stage4_activation1_7 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation1_7:out0 type: float32
+D Process Conv_resnetv17_stage4_conv7_fwd_28 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv7_fwd_28:out0 type: float32
+D Process Relu_resnetv17_stage4_relu4_fwd_20 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu4_fwd_20:out0 type: float32
+D Process Conv_resnetv17_stage4_conv8_fwd_16 ...
+D RKNN output shape(convolution): (1 7 7 512)
+D Tensor @Conv_resnetv17_stage4_conv8_fwd_16:out0 type: float32
+D Process Relu_resnetv17_stage4_relu5_fwd_10 ...
+D RKNN output shape(relu): (1 7 7 512)
+D Tensor @Relu_resnetv17_stage4_relu5_fwd_10:out0 type: float32
+D Process Conv_resnetv17_stage4_conv9_fwd_8 ...
+D RKNN output shape(convolution): (1 7 7 2048)
+D Tensor @Conv_resnetv17_stage4_conv9_fwd_8:out0 type: float32
+D Process Add_resnetv17_stage4__plus2_5 ...
+D RKNN output shape(add): (1 7 7 2048)
+D Tensor @Add_resnetv17_stage4__plus2_5:out0 type: float32
+D Process Relu_resnetv17_stage4_activation2_4 ...
+D RKNN output shape(relu): (1 7 7 2048)
+D Tensor @Relu_resnetv17_stage4_activation2_4:out0 type: float32
+D Process GlobalAveragePool_resnetv17_pool1_fwd_3 ...
+D RKNN output shape(pooling): (1 1 1 2048)
+D Tensor @GlobalAveragePool_resnetv17_pool1_fwd_3:out0 type: float32
+D Process Flatten_flatten_473_2_RKNN_mark_perm_177 ...
+D RKNN output shape(permute): (1 2048 1 1)
+D Tensor @Flatten_flatten_473_2_RKNN_mark_perm_177:out0 type: float32
+D Process Flatten_flatten_473_2 ...
+D RKNN output shape(reshape): (1 2048)
+D Tensor @Flatten_flatten_473_2:out0 type: float32
+D Process Gemm_resnetv17_dense0_fwd_1 ...
+D RKNN output shape(fullconnect): (1 1000)
+D Tensor @Gemm_resnetv17_dense0_fwd_1:out0 type: float32
+D Process attach_Gemm_resnetv17_dense0_fwd/out0_0 ...
+D RKNN output shape(output): (1 1000)
+D Tensor @attach_Gemm_resnetv17_dense0_fwd/out0_0:out0 type: float32
+I Build mxnet_converted_model complete.
+I Initialzing network optimizer by /home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/config/npu_config/LION ...
+D Optimizing network with merge_ximum, qnt_adjust_coef, multiply_transform, add_extra_io, format_input_ops, auto_fill_zero_bias, conv_kernel_transform, twod_op_transform, strip_op, extend_unstack_split, merge_layer, transform_layer, broadcast_op, strip_op, auto_fill_reshape_zero, adjust_output_attrs, insert_dtype_converter
+I Start T2C Switcher...
+D Optimizing network with broadcast_op, t2c_fc
+D convert Add_resnetv17_stage1__plus0_144_concat_178(concat) axis 3 to 1
+D insert permute Flatten_flatten_473_2_RKNN_mark_perm_177_RKNN_mark_perm_6 before Flatten_flatten_473_2_RKNN_mark_perm_177
+D remove permute Flatten_flatten_473_2_RKNN_mark_perm_177_RKNN_mark_perm_6
+D remove permute Flatten_flatten_473_2_RKNN_mark_perm_177
+I End T2C Switcher...
+D Optimizing network with merge_ximum, qnt_adjust_coef, multiply_transform, add_extra_io, format_input_ops, auto_fill_zero_bias, conv_kernel_transform, twod_op_transform, strip_op, extend_unstack_split, merge_layer, transform_layer, broadcast_op, strip_op, auto_fill_reshape_zero, adjust_output_attrs, insert_dtype_converter
+D Optimizing network with conv_1xn_transform, proposal_opt, c2drv_convert_axis, c2drv_convert_shape, c2drv_convert_array, c2drv_cast_dtype, c2drv_trans_data
+I Building data ...
+D /home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION
+
+D /home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/x64_linux:/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/x64_linux/RKm
+
+I Packing data ...
+D Packing Add_resnetv17_stage1__plus0_144_conv_179 ...
+D Packing Conv_resnetv17_conv0_fwd_164 ...
+D Packing Conv_resnetv17_stage1_conv0_fwd_174 ...
+D Packing Conv_resnetv17_stage1_conv1_fwd_168 ...
+D Packing Conv_resnetv17_stage1_conv4_fwd_175 ...
+D Packing Conv_resnetv17_stage1_conv5_fwd_166 ...
+D Packing Conv_resnetv17_stage1_conv6_fwd_149 ...
+D Packing Conv_resnetv17_stage1_conv7_fwd_169 ...
+D Packing Conv_resnetv17_stage1_conv8_fwd_154 ...
+D Packing Conv_resnetv17_stage1_conv9_fwd_136 ...
+D Packing Conv_resnetv17_stage2_conv0_fwd_159 ...
+D Packing Conv_resnetv17_stage2_conv10_fwd_132 ...
+D Packing Conv_resnetv17_stage2_conv11_fwd_114 ...
+D Packing Conv_resnetv17_stage2_conv12_fwd_96 ...
+D Packing Conv_resnetv17_stage2_conv1_fwd_141 ...
+D Packing Conv_resnetv17_stage2_conv2_fwd_123 ...
+D Packing Conv_resnetv17_stage2_conv3_fwd_118 ...
+D Packing Conv_resnetv17_stage2_conv4_fwd_152 ...
+D Packing Conv_resnetv17_stage2_conv5_fwd_134 ...
+D Packing Conv_resnetv17_stage2_conv6_fwd_116 ...
+D Packing Conv_resnetv17_stage2_conv7_fwd_139 ...
+D Packing Conv_resnetv17_stage2_conv8_fwd_121 ...
+D Packing Conv_resnetv17_stage2_conv9_fwd_103 ...
+D Packing Conv_resnetv17_stage3_conv0_fwd_119 ...
+D Packing Conv_resnetv17_stage3_conv10_fwd_86 ...
+D Packing Conv_resnetv17_stage3_conv11_fwd_67 ...
+D Packing Conv_resnetv17_stage3_conv12_fwd_51 ...
+D Packing Conv_resnetv17_stage3_conv13_fwd_79 ...
+D Packing Conv_resnetv17_stage3_conv14_fwd_60 ...
+D Packing Conv_resnetv17_stage3_conv15_fwd_45 ...
+D Packing Conv_resnetv17_stage3_conv16_fwd_71 ...
+D Packing Conv_resnetv17_stage3_conv17_fwd_54 ...
+D Packing Conv_resnetv17_stage3_conv18_fwd_39 ...
+D Packing Conv_resnetv17_stage3_conv1_fwd_101 ...
+D Packing Conv_resnetv17_stage3_conv2_fwd_83 ...
+D Packing Conv_resnetv17_stage3_conv3_fwd_78 ...
+D Packing Conv_resnetv17_stage3_conv4_fwd_106 ...
+D Packing Conv_resnetv17_stage3_conv5_fwd_88 ...
+D Packing Conv_resnetv17_stage3_conv6_fwd_69 ...
+D Packing Conv_resnetv17_stage3_conv7_fwd_99 ...
+D Packing Conv_resnetv17_stage3_conv8_fwd_81 ...
+D Packing Conv_resnetv17_stage3_conv9_fwd_62 ...
+D Packing Conv_resnetv17_stage4_conv0_fwd_48 ...
+D Packing Conv_resnetv17_stage4_conv1_fwd_34 ...
+D Packing Conv_resnetv17_stage4_conv2_fwd_22 ...
+D Packing Conv_resnetv17_stage4_conv3_fwd_23 ...
+D Packing Conv_resnetv17_stage4_conv4_fwd_37 ...
+D Packing Conv_resnetv17_stage4_conv5_fwd_25 ...
+D Packing Conv_resnetv17_stage4_conv6_fwd_14 ...
+D Packing Conv_resnetv17_stage4_conv7_fwd_28 ...
+D Packing Conv_resnetv17_stage4_conv8_fwd_16 ...
+D Packing Conv_resnetv17_stage4_conv9_fwd_8 ...
+D Packing Gemm_resnetv17_dense0_fwd_1 ...
+D Generate fake input
+D Compiling start...
+D gcc -Wall -std=c++0x -I. -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/CL -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/VX -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ovxlib -D__linux__ -DLINUX -O3 -c rknn_pre_process.c
+D gcc -Wall -std=c++0x -I. -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/CL -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/VX -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ovxlib -D__linux__ -DLINUX -O3 -c rknn_mxnetconvertedmodel.c
+D gcc -Wall -std=c++0x -I. -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/CL -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/VX -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ovxlib -D__linux__ -DLINUX -O3 -c main.c
+D gcc -Wall -std=c++0x -I. -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/CL -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/VX -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ovxlib -D__linux__ -DLINUX -O3 -c rknn_post_process.c
+D gcc -Wall -std=c++0x -I. -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/CL -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/VX -I/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/include/ovxlib -D__linux__ -DLINUX -O3 -O3  rknn_pre_process.o rknn_mxnetconvertedmodel.o main.o rknn_post_process.o -L/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib -lOpenVX -lOpenVXU -lCLC -lVSC -lGAL -lovxlib -lEmulator -lvdtproxy -L/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/RKm -lOpenVX -lOpenVXU -lCLC -lVSC -lGAL -lovxlib -lEmulator -lvdtproxy -L/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/x64_linux -lOpenVX -lOpenVXU -lCLC -lVSC -lGAL -lovxlib -lEmulator -lvdtproxy -L/home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/x64_linux/RKm -lOpenVX -lOpenVXU -lCLC -lVSC -lGAL -lovxlib -lEmulator -lvdtproxy /home/ehsan/anaconda3/envs/rock-kit/lib/python3.6/site-packages/rknn/simulator/LION/lib/x64_linux/libjpeg.a -o gen_nbg
+D Compiling finished.
+D Generate pre-compile model data start...
+D Create Neural Network: 29ms or 29005us
+D Verify...
+D Verify Graph: 4186ms or 4186163us
+D Start run graph [1] times...
+D Run the 1 time: 1.00ms or 1662.00us
+D vxProcessGraph execution time:
+D Total   1.00ms or 1668.00us
+D Average 1.67ms or 1668.00us
+D  --- Top5 ---
+D   0: 0.000000
+D   1: 0.000000
+D   2: 0.000000
+D   3: 0.000000
+D   4: 0.000000
+D Generate pre-compile model data finished.
+I Dump nbg input meta.
+E Generate nbg failed.
+E Catch exception when building RKNN model!
+E Traceback (most recent call last):
+E   File "rknn/base/ovxconfiggenerator.py", line 275, in rknn.base.ovxconfiggenerator.generate_vx_config_from_files
+E   File "rknn/base/RKNNlib/app/exporter/ovxlib_case/casegenerator.py", line 682, in rknn.base.RKNNlib.app.exporter.ovxlib_case.casegenerator.CaseGenerator.generate
+E   File "rknn/base/RKNNlib/app/exporter/ovxlib_case/casegenerator.py", line 664, in rknn.base.RKNNlib.app.exporter.ovxlib_case.casegenerator.CaseGenerator._gen_special_case
+E   File "rknn/base/RKNNlib/app/exporter/ovxlib_case/casegenerator.py", line 383, in rknn.base.RKNNlib.app.exporter.ovxlib_case.casegenerator.CaseGenerator._nbg_finishing_work
+E   File "rknn/base/RKNNlib/app/exporter/ovxlib_case/casegenerator.py", line 349, in rknn.base.RKNNlib.app.exporter.ovxlib_case.casegenerator.CaseGenerator._fetch_nb
+E Exception: Generate pre-compile model failed.
+E During handling of the above exception, another exception occurred:
+E Traceback (most recent call last):
+E   File "rknn/api/rknn_base.py", line 647, in rknn.api.rknn_base.RKNNBase.build
+E   File "rknn/api/rknn_base.py", line 456, in rknn.api.rknn_base.RKNNBase._build
+E   File "rknn/base/ovxconfiggenerator.py", line 277, in rknn.base.ovxconfiggenerator.generate_vx_config_from_files
+E   File "rknn/api/rknn_log.py", line 323, in rknn.api.rknn_log.RKNNLog.e
+E ValueError: Generate nbg failed.
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues

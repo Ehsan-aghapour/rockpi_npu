@@ -1,0 +1,2485 @@
+[  149.677016] binder: undelivered transaction 89113, process died.
+[  150.714897] binder: release 5297:5300 transaction 89148 out, still active
+[  150.715704] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  150.715707] binder: send failed reply for transaction 89148, target dead
+[  151.773123] binder: undelivered transaction 89171, process died.
+[  152.833941] binder: undelivered transaction 89182, process died.
+[  153.881559] binder: undelivered transaction 89193, process died.
+[  154.935943] binder: undelivered transaction 89202, process died.
+[  155.987842] binder: undelivered transaction 89241, process died.
+[  157.041421] binder: undelivered transaction 89263, process died.
+[  158.093540] binder: undelivered transaction 89272, process died.
+[  159.151815] binder: undelivered transaction 89286, process died.
+[  160.202349] binder_alloc: 5338: binder_alloc_buf, no vma
+[  160.207692] binder: 3303:3316 transaction failed 29189/-3, size 4-0 line 3127
+[  160.207697] binder: send failed reply for transaction 89293 to 5338:5339
+[  160.207802] binder: undelivered TRANSACTION_ERROR: 29189
+[  161.230182] binder: release 5345:5350 transaction 89328 out, still active
+[  161.231240] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  161.231249] binder: send failed reply for transaction 89328, target dead
+[  163.332831] binder: undelivered transaction 89361, process died.
+[  165.434177] binder: undelivered transaction 89381, process died.
+[  166.493466] binder: undelivered transaction 89390, process died.
+[  168.576409] binder: undelivered transaction 89448, process died.
+[  169.635666] binder: undelivered transaction 89459, process died.
+[  170.693084] binder: undelivered transaction 89471, process died.
+[  171.744643] binder: undelivered transaction 89493, process died.
+[  172.778684] binder: undelivered transaction 89572, process died.
+[  173.833085] binder: release 5419:5420 transaction 89604 out, still active
+[  173.834868] binder: 3303:3877 transaction failed 29189/0, size 4-0 line 2944
+[  173.834875] binder: send failed reply for transaction 89604, target dead
+[  174.892992] binder: undelivered transaction 89614, process died.
+[  177.082604] type=1400 audit(1598995691.341:214): avc: denied { create } for pid=5082 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  177.082648] type=1400 audit(1598995742.153:215): avc: denied { module_load } for pid=5437 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  177.088676] gator: loading out-of-tree module taints kernel.
+[  177.095430] gator: Detected CPUID for 6 as 0x41d09
+[  177.095434] gator: Detected CPUID for 0 as 0x41d03
+[  177.095606] gator: Detected CPUID for 4 as 0x41d09
+[  177.095607] gator: Detected CPUID for 5 as 0x41d09
+[  177.095609] gator: Detected CPUID for 7 as 0x41d09
+[  177.095613] gator: Detected CPUID for 1 as 0x41d03
+[  177.095633] gator: Detected CPUID for 3 as 0x41d03
+[  177.095637] gator: Detected CPUID for 2 as 0x41d03
+[  178.034339] binder: undelivered transaction 89710, process died.
+[  179.093787] binder: undelivered transaction 89721, process died.
+[  180.153105] binder: undelivered transaction 89734, process died.
+[  181.201037] binder: undelivered transaction 89742, process died.
+[  182.247554] binder: undelivered transaction 89750, process died.
+[  183.298199] binder: undelivered transaction 89799, process died.
+[  184.352979] binder: undelivered transaction 89809, process died.
+[  185.410526] binder: undelivered transaction 89817, process died.
+[  186.460407] binder: undelivered transaction 89828, process died.
+[  188.525482] binder: undelivered transaction 89886, process died.
+[  189.575055] binder: undelivered transaction 89896, process died.
+[  191.641544] binder: release 5501:5502 transaction 89917 out, still active
+[  191.643088] binder: 3303:3877 transaction failed 29189/0, size 4-0 line 2944
+[  191.643093] binder: send failed reply for transaction 89917, target dead
+[  192.692296] binder: release 5503:5504 transaction 89938 out, still active
+[  192.694181] binder: 3303:3877 transaction failed 29189/0, size 4-0 line 2944
+[  192.694189] binder: send failed reply for transaction 89938, target dead
+[  193.749219] binder: undelivered transaction 89988, process died.
+[  195.835909] binder: undelivered transaction 90006, process died.
+[  196.892954] binder: undelivered transaction 90014, process died.
+[  197.907506] binder: undelivered transaction 90074, process died.
+[  198.220869] gator: perf pmu: armv8_pmuv3
+[  198.220942] gator: Adding cpu counters (based on cpuid) for Cortex-A53
+[  198.220945] gator: Adding cpu counters (based on cpuid) for Cortex-A73
+[  198.220949] gator: Using Cortex-A53 (0x41d03) for cpu 0
+[  198.220950] gator: Using Cortex-A53 (0x41d03) for cpu 1
+[  198.220951] gator: Using Cortex-A53 (0x41d03) for cpu 2
+[  198.220952] gator: Using Cortex-A53 (0x41d03) for cpu 3
+[  198.220953] gator: Using Cortex-A73 (0x41d09) for cpu 4
+[  198.220953] gator: Using Cortex-A73 (0x41d09) for cpu 5
+[  198.220954] gator: Using Cortex-A73 (0x41d09) for cpu 6
+[  198.220954] gator: Using Cortex-A73 (0x41d09) for cpu 7
+[  198.221067] power,key:99
+[  198.221068] power,key:101
+[  198.221121] gator: Detected GPU ID: 25121.
+[  198.221122] gator: Mali-Bifrost architecture detected.
+[  199.975629] binder: undelivered transaction 90132, process died.
+[  201.015803] binder: undelivered transaction 90142, process died.
+[  202.054103] binder: undelivered transaction 90150, process died.
+[  203.094667] binder: undelivered transaction 90162, process died.
+[  204.137644] binder: undelivered transaction 90213, process died.
+[  205.179837] binder: undelivered transaction 90221, process died.
+[  206.225705] binder: undelivered transaction 90229, process died.
+[  207.265893] binder: undelivered transaction 90239, process died.
+[  208.308819] binder: undelivered transaction 90247, process died.
+[  209.368026] binder: undelivered transaction 90296, process died.
+[  210.404808] binder: undelivered transaction 90306, process died.
+[  211.448472] binder: undelivered transaction 90314, process died.
+[  213.526356] binder: undelivered transaction 90332, process died.
+[  214.566858] binder: undelivered transaction 90381, process died.
+[  216.632499] binder: undelivered transaction 90400, process died.
+[  217.673067] binder: undelivered transaction 90408, process died.
+[  217.732194] gator_ioctl called
+[  217.732199] Balee
+[  218.032486] gator_ioctl called
+[  218.032492] Balee
+[  218.332756] gator_ioctl called
+[  218.332760] Balee
+[  218.633084] gator_ioctl called
+[  218.633088] Balee
+[  218.710139] binder: undelivered transaction 90420, process died.
+[  218.933331] gator_ioctl called
+[  218.933338] Balee
+[  219.233608] gator_ioctl called
+[  219.233613] Balee
+[  219.533778] gator_ioctl called
+[  219.533781] Balee
+[  219.741908] binder_alloc: 5666: binder_alloc_buf, no vma
+[  219.742045] binder: release 5666:5667 transaction 91065 out, still active
+[  219.747318] binder: 3303:3877 transaction failed 29189/-3, size 4-0 line 3127
+[  219.747323] binder: send failed reply for transaction 91065, target dead
+[  219.834012] gator_ioctl called
+[  219.834014] Balee
+[  220.134175] gator_ioctl called
+[  220.134178] Balee
+[  220.434325] gator_ioctl called
+[  220.434327] Balee
+[  220.644347] type=1400 audit(1598995742.153:215): avc: denied { module_load } for pid=5437 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  220.644378] type=1400 audit(1598995785.713:216): avc: denied { create } for pid=5669 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  220.734491] gator_ioctl called
+[  220.734497] Balee
+[  220.763378] binder: undelivered transaction 91462, process died.
+[  220.781654] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65816 > 65000
+[  220.996244] type=1400 audit(1598995785.713:216): avc: denied { create } for pid=5669 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  220.996301] type=1400 audit(1598995786.065:217): avc: denied { write } for pid=5726 comm="webview_zygote" name="tombstoned_crash" dev="tmpfs" ino=3001 scontext=u:r:zygote:s0 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1
+[  220.996588] type=1400 audit(1598995786.065:217): avc: denied { write } for pid=5726 comm="webview_zygote" name="tombstoned_crash" dev="tmpfs" ino=3001 scontext=u:r:zygote:s0 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1
+[  220.996646] type=1400 audit(1598995786.065:218): avc: denied { connectto } for pid=5726 comm="webview_zygote" path="/dev/socket/tombstoned_crash" scontext=u:r:zygote:s0 tcontext=u:r:tombstoned:s0 tclass=unix_stream_socket permissive=1
+[  220.998005] type=1400 audit(1598995786.065:218): avc: denied { connectto } for pid=5726 comm="webview_zygote" path="/dev/socket/tombstoned_crash" scontext=u:r:zygote:s0 tcontext=u:r:tombstoned:s0 tclass=unix_stream_socket permissive=1
+[  220.998060] type=1400 audit(1598995786.069:219): avc: denied { use } for pid=5726 comm="webview_zygote" path=2F646174612F746F6D6273746F6E65732F2331303438363330202864656C6574656429 dev="sdd15" ino=1048630 scontext=u:r:zygote:s0 tcontext=u:r:tombstoned:s0 tclass=fd permissive=1
+[  220.998271] type=1400 audit(1598995786.069:219): avc: denied { use } for pid=5726 comm="webview_zygote" path=2F646174612F746F6D6273746F6E65732F2331303438363330202864656C6574656429 dev="sdd15" ino=1048630 scontext=u:r:zygote:s0 tcontext=u:r:tombstoned:s0 tclass=fd permissive=1
+[  220.998295] type=1400 audit(1598995786.069:220): avc: denied { append } for pid=5726 comm="webview_zygote" path=2F646174612F746F6D6273746F6E65732F2331303438363330202864656C6574656429 dev="sdd15" ino=1048630 scontext=u:r:zygote:s0 tcontext=u:object_r:tombstone_data_file:s0 tclass=file permissive=1
+[  221.035057] gator_ioctl called
+[  221.035068] Balee
+[  221.127732] audit: audit_lost=139 audit_rate_limit=5 audit_backlog_limit=64
+[  221.127740] audit: rate limit exceeded
+[  221.335381] gator_ioctl called
+[  221.335386] Balee
+[  221.636013] gator_ioctl called
+[  221.636022] Balee
+[  221.792971] binder: release 5763:5764 transaction 93621 out, still active
+[  221.793978] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  221.793981] binder: send failed reply for transaction 93621, target dead
+[  221.936350] gator_ioctl called
+[  221.936350] Balee
+[  222.236626] gator_ioctl called
+[  222.236633] Balee
+[  222.536882] gator_ioctl called
+[  222.536883] Balee
+[  222.807558] binder: release 5771:5772 transaction 94207 out, still active
+[  222.807637] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  222.807640] binder: send failed reply for transaction 94207, target dead
+[  222.837081] gator_ioctl called
+[  222.837086] Balee
+[  223.018074] audit: audit_lost=141 audit_rate_limit=5 audit_backlog_limit=64
+[  223.018078] audit: rate limit exceeded
+[  223.137302] gator_ioctl called
+[  223.137308] Balee
+[  223.437514] gator_ioctl called
+[  223.437523] Balee
+[  223.737831] gator_ioctl called
+[  223.737834] Balee
+[  223.819471] binder: undelivered transaction 96264, process died.
+[  224.037993] gator_ioctl called
+[  224.037998] Balee
+[  224.338158] gator_ioctl called
+[  224.338162] Balee
+[  224.638328] gator_ioctl called
+[  224.638333] Balee
+[  224.834253] binder: release 5884:5885 transaction 96446 out, still active
+[  224.835331] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  224.835336] binder: send failed reply for transaction 96446, target dead
+[  224.938518] gator_ioctl called
+[  224.938524] Balee
+[  225.238714] gator_ioctl called
+[  225.238714] Balee
+[  225.538914] gator_ioctl called
+[  225.538918] Balee
+[  225.839073] gator_ioctl called
+[  225.839077] Balee
+[  225.847375] binder: release 5892:5893 transaction 96621 out, still active
+[  225.848425] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  225.848430] binder: send failed reply for transaction 96621, target dead
+[  226.139225] gator_ioctl called
+[  226.139230] Balee
+[  226.439399] gator_ioctl called
+[  226.439403] Balee
+[  226.739567] gator_ioctl called
+[  226.739571] Balee
+[  226.860058] binder: release 5894:5895 transaction 96649 out, still active
+[  226.860465] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  226.860468] binder: send failed reply for transaction 96649, target dead
+[  227.039781] gator_ioctl called
+[  227.039786] Balee
+[  227.339952] gator_ioctl called
+[  227.339956] Balee
+[  227.640144] gator_ioctl called
+[  227.640148] Balee
+[  227.875445] binder_alloc: 5896: binder_alloc_buf, no vma
+[  227.875484] binder: release 5896:5897 transaction 96659 out, still active
+[  227.880840] binder: 3303:4999 transaction failed 29189/-3, size 4-0 line 3127
+[  227.880846] binder: send failed reply for transaction 96659, target dead
+[  227.940312] gator_ioctl called
+[  227.940317] Balee
+[  228.240507] gator_ioctl called
+[  228.240512] Balee
+[  228.282461] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  228.370693] type=1400 audit(1598995788.089:229): avc: denied { getattr } for pid=5669 comm="com.tencent.ig" path="/proc/2447" dev="proc" ino=9 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+[  228.370711] audit: audit_lost=189 audit_rate_limit=5 audit_backlog_limit=64
+[  228.370713] audit: rate limit exceeded
+[  228.370725] type=1400 audit(1598995793.441:278): avc: denied { open } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=4181 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  228.371026] type=1400 audit(1598995793.441:278): avc: denied { open } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=4181 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  228.371038] type=1400 audit(1598995793.441:279): avc: denied { getattr } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=4181 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  228.371126] type=1400 audit(1598995793.441:279): avc: denied { getattr } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=4181 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  228.371138] type=1400 audit(1598995793.441:280): avc: denied { open } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:dumpstate_options_prop:s0" dev="tmpfs" ino=4183 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:dumpstate_options_prop:s0 tclass=file permissive=1
+[  228.371192] type=1400 audit(1598995793.441:280): avc: denied { open } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:dumpstate_options_prop:s0" dev="tmpfs" ino=4183 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:dumpstate_options_prop:s0 tclass=file permissive=1
+[  228.371204] type=1400 audit(1598995793.441:281): avc: denied { getattr } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:dumpstate_options_prop:s0" dev="tmpfs" ino=4183 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:dumpstate_options_prop:s0 tclass=file permissive=1
+[  228.371257] type=1400 audit(1598995793.441:281): avc: denied { getattr } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:dumpstate_options_prop:s0" dev="tmpfs" ino=4183 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:dumpstate_options_prop:s0 tclass=file permissive=1
+[  228.371268] type=1400 audit(1598995793.441:282): avc: denied { open } for pid=5905 comm="getprop" path="/dev/__properties__/u:object_r:netd_stable_secret_prop:s0" dev="tmpfs" ino=4186 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:netd_stable_secret_prop:s0 tclass=file permissive=1
+[  228.410460] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65384 > 65000
+[  228.540696] gator_ioctl called
+[  228.540700] Balee
+[  228.840871] gator_ioctl called
+[  228.840875] Balee
+[  229.141046] gator_ioctl called
+[  229.141050] Balee
+[  229.441215] gator_ioctl called
+[  229.441220] Balee
+[  229.741409] gator_ioctl called
+[  229.741414] Balee
+[  230.041583] gator_ioctl called
+[  230.041588] Balee
+[  230.341755] gator_ioctl called
+[  230.341759] Balee
+[  230.641872] gator_ioctl called
+[  230.641876] Balee
+[  230.922644] binder: undelivered transaction 97111, process died.
+[  230.942044] gator_ioctl called
+[  230.942047] Balee
+[  231.242204] gator_ioctl called
+[  231.242209] Balee
+[  231.542398] gator_ioctl called
+[  231.542402] Balee
+[  231.842592] gator_ioctl called
+[  231.842596] Balee
+[  231.936624] binder: undelivered transaction 97441, process died.
+[  232.142766] gator_ioctl called
+[  232.142771] Balee
+[  232.442966] gator_ioctl called
+[  232.442972] Balee
+[  232.566195] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  232.743178] gator_ioctl called
+[  232.743183] Balee
+[  232.977328] binder: release 5968:5969 transaction 97582 out, still active
+[  232.977976] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  232.977982] binder: send failed reply for transaction 97582, target dead
+[  233.043387] gator_ioctl called
+[  233.043392] Balee
+[  233.046250] EXT4-fs error (device sdd12): ext4_mb_generate_buddy:758: group 10, block bitmap and bg descriptor inconsistent: 31313 vs 31574 free clusters
+[  233.059041] EXT4-fs error (device sdd12): ext4_mb_generate_buddy:758: group 11, block bitmap and bg descriptor inconsistent: 30856 vs 29949 free clusters
+[  233.343587] gator_ioctl called
+[  233.343593] Balee
+[  233.428064] hisi_thermal fff30000.tsensor: THERMAL ALARM: 66680 > 65000
+[  233.643804] gator_ioctl called
+[  233.643811] Balee
+[  233.944059] gator_ioctl called
+[  233.944064] Balee
+[  234.077049] type=1400 audit(1598995797.521:322): avc: denied { module_request } for pid=5966 comm=4173796E635461736B202333 kmod="binfmt-464c" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=system permissive=1
+[  234.077128] type=1400 audit(1598995799.145:323): avc: denied { open } for pid=5669 comm=52656E6465725468726561642031 path="/data/game_lists" dev="sdd15" ino=23 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[  234.244230] gator_ioctl called
+[  234.244234] Balee
+[  234.544417] gator_ioctl called
+[  234.544423] Balee
+[  234.844625] gator_ioctl called
+[  234.844625] Balee
+[  234.904334] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  235.083526] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65384 > 65000
+[  235.144839] gator_ioctl called
+[  235.144845] Balee
+[  235.399249] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  235.445055] gator_ioctl called
+[  235.445061] Balee
+[  235.745341] gator_ioctl called
+[  235.745345] Balee
+[  236.045540] gator_ioctl called
+[  236.045540] Balee
+[  236.345733] gator_ioctl called
+[  236.345736] Balee
+[  236.423262] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65816 > 65000
+[  236.645901] gator_ioctl called
+[  236.645905] Balee
+[  236.946067] gator_ioctl called
+[  236.946071] Balee
+[  237.012053] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  237.246239] gator_ioctl called
+[  237.246239] Balee
+[  237.546455] gator_ioctl called
+[  237.546461] Balee
+[  237.846646] gator_ioctl called
+[  237.846651] Balee
+[  238.086278] binder: undelivered transaction 98759, process died.
+[  238.146868] gator_ioctl called
+[  238.146872] Balee
+[  238.447077] gator_ioctl called
+[  238.447077] Balee
+[  238.471253] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65600 > 65000
+[  238.747311] gator_ioctl called
+[  238.747316] Balee
+[  239.047560] gator_ioctl called
+[  239.047566] Balee
+[  239.103225] binder: release 6035:6036 transaction 98961 out, still active
+[  239.104245] binder: 3303:3877 transaction failed 29189/0, size 4-0 line 2944
+[  239.104249] binder: send failed reply for transaction 98961, target dead
+[  239.347847] gator_ioctl called
+[  239.347847] Balee
+[  239.648071] gator_ioctl called
+[  239.648072] Balee
+[  239.948245] gator_ioctl called
+[  239.948251] Balee
+[  240.121720] binder_alloc: 6052: binder_alloc_buf, no vma
+[  240.121758] binder: release 6052:6053 transaction 99252 out, still active
+[  240.127251] binder: 3303:3877 transaction failed 29189/-3, size 4-0 line 3127
+[  240.127256] binder: send failed reply for transaction 99252, target dead
+[  240.248634] gator_ioctl called
+[  240.248640] Balee
+[  240.548841] gator_ioctl called
+[  240.548841] Balee
+[  240.849068] gator_ioctl called
+[  240.849075] Balee
+[  241.140813] binder: undelivered transaction 99438, process died.
+[  241.149326] gator_ioctl called
+[  241.149327] Balee
+[  241.449518] gator_ioctl called
+[  241.449524] Balee
+[  241.749739] gator_ioctl called
+[  241.749745] Balee
+[  242.049959] gator_ioctl called
+[  242.049964] Balee
+[  242.160322] binder: undelivered transaction 99639, process died.
+[  242.350171] gator_ioctl called
+[  242.350171] Balee
+[  242.650376] gator_ioctl called
+[  242.650379] Balee
+[  242.950601] gator_ioctl called
+[  242.950606] Balee
+[  243.172271] binder: release 6059:6060 transaction 99839 out, still active
+[  243.173232] binder: 3303:3877 transaction failed 29189/0, size 4-0 line 2944
+[  243.173234] binder: send failed reply for transaction 99839, target dead
+[  243.250851] gator_ioctl called
+[  243.250851] Balee
+[  243.457331] type=1400 audit(1598995799.145:323): avc: denied { open } for pid=5669 comm=52656E6465725468726561642031 path="/data/game_lists" dev="sdd15" ino=23 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[  243.457364] type=1400 audit(1598995808.529:324): avc: denied { read } for pid=5669 comm="tp_schedule2" name="max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.457488] type=1400 audit(1598995808.529:324): avc: denied { read } for pid=5669 comm="tp_schedule2" name="max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.457498] type=1400 audit(1598995808.529:325): avc: denied { open } for pid=5669 comm="tp_schedule2" path="/proc/sys/fs/inotify/max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.457552] type=1400 audit(1598995808.529:325): avc: denied { open } for pid=5669 comm="tp_schedule2" path="/proc/sys/fs/inotify/max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.457562] type=1400 audit(1598995808.529:326): avc: denied { getattr } for pid=5669 comm="tp_schedule2" path="/proc/sys/fs/inotify/max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.471139] type=1400 audit(1598995808.529:326): avc: denied { getattr } for pid=5669 comm="tp_schedule2" path="/proc/sys/fs/inotify/max_user_watches" dev="proc" ino=58591 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[  243.471170] type=1400 audit(1598995808.541:327): avc: denied { read } for pid=5669 comm=4173796E635461736B202333 name="version" dev="proc" ino=4026532031 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=1
+[  243.471295] type=1400 audit(1598995808.541:327): avc: denied { read } for pid=5669 comm=4173796E635461736B202333 name="version" dev="proc" ino=4026532031 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=1
+[  243.471307] type=1400 audit(1598995808.541:328): avc: denied { open } for pid=5669 comm=4173796E635461736B202333 path="/proc/version" dev="proc" ino=4026532031 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=1
+[  243.551055] gator_ioctl called
+[  243.551055] Balee
+[  243.851250] gator_ioctl called
+[  243.851254] Balee
+[  244.151439] gator_ioctl called
+[  244.151444] Balee
+[  244.189307] binder: undelivered transaction 100200, process died.
+[  244.451658] gator_ioctl called
+[  244.451658] Balee
+[  244.751879] gator_ioctl called
+[  244.751879] Balee
+[  245.052043] gator_ioctl called
+[  245.052047] Balee
+[  245.206172] binder: undelivered transaction 100423, process died.
+[  245.352220] gator_ioctl called
+[  245.352224] Balee
+[  245.652412] gator_ioctl called
+[  245.652413] Balee
+[  245.952644] gator_ioctl called
+[  245.952650] Balee
+[  246.252847] gator_ioctl called
+[  246.252874] Balee
+[  246.553033] gator_ioctl called
+[  246.553037] Balee
+[  246.853251] gator_ioctl called
+[  246.853252] Balee
+[  247.153434] gator_ioctl called
+[  247.153439] Balee
+[  247.237597] binder: undelivered transaction 100837, process died.
+[  247.453624] gator_ioctl called
+[  247.453628] Balee
+[  247.464211] audit: audit_lost=228 audit_rate_limit=5 audit_backlog_limit=64
+[  247.464216] audit: rate limit exceeded
+[  247.753797] gator_ioctl called
+[  247.753797] Balee
+[  248.053964] gator_ioctl called
+[  248.053965] Balee
+[  248.263784] binder: undelivered transaction 101035, process died.
+[  248.354130] gator_ioctl called
+[  248.354134] Balee
+[  248.654333] gator_ioctl called
+[  248.654337] Balee
+[  248.954522] gator_ioctl called
+[  248.954522] Balee
+[  249.254703] gator_ioctl called
+[  249.254705] Balee
+[  249.291722] binder: release 6088:6089 transaction 101244 out, still active
+[  249.292604] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  249.292606] binder: send failed reply for transaction 101244, target dead
+[  249.554897] gator_ioctl called
+[  249.554901] Balee
+[  249.855060] gator_ioctl called
+[  249.855064] Balee
+[  250.155243] gator_ioctl called
+[  250.155243] Balee
+[  250.306383] binder_alloc: 6107: binder_alloc_buf, no vma
+[  250.306440] binder: release 6107:6108 transaction 101479 out, still active
+[  250.311743] binder: 3303:3316 transaction failed 29189/-3, size 4-0 line 3127
+[  250.311745] binder: send failed reply for transaction 101479, target dead
+[  250.455490] gator_ioctl called
+[  250.455490] Balee
+[  250.755657] gator_ioctl called
+[  250.755661] Balee
+[  251.055820] gator_ioctl called
+[  251.055824] Balee
+[  251.324681] binder: undelivered transaction 101674, process died.
+[  251.356001] gator_ioctl called
+[  251.356002] Balee
+[  251.656186] gator_ioctl called
+[  251.656190] Balee
+[  251.956350] gator_ioctl called
+[  251.956354] Balee
+[  252.256577] gator_ioctl called
+[  252.256579] Balee
+[  252.341103] binder: undelivered transaction 101886, process died.
+[  252.556791] gator_ioctl called
+[  252.556791] Balee
+[  252.857001] gator_ioctl called
+[  252.857004] Balee
+[  253.157167] gator_ioctl called
+[  253.157171] Balee
+[  253.235719] type=1400 audit(1598995812.533:336): avc: denied { getattr } for pid=5669 comm="tp_schedule2" path="/proc/2655" dev="proc" ino=11397 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:hal_cas_default:s0 tclass=dir permissive=1
+[  253.235726] audit: audit_lost=254 audit_rate_limit=5 audit_backlog_limit=64
+[  253.235731] audit: rate limit exceeded
+[  253.235770] type=1400 audit(1598995818.305:363): avc: denied { search } for pid=5669 comm="tp_schedule2" name="1" dev="proc" ino=4232 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+[  253.236197] type=1400 audit(1598995818.305:363): avc: denied { search } for pid=5669 comm="tp_schedule2" name="1" dev="proc" ino=4232 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+[  253.236218] type=1400 audit(1598995818.305:364): avc: denied { read } for pid=5669 comm="tp_schedule2" name="cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236314] type=1400 audit(1598995818.305:364): avc: denied { read } for pid=5669 comm="tp_schedule2" name="cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236328] type=1400 audit(1598995818.305:365): avc: denied { open } for pid=5669 comm="tp_schedule2" path="/proc/1/cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236461] type=1400 audit(1598995818.305:365): avc: denied { open } for pid=5669 comm="tp_schedule2" path="/proc/1/cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236480] type=1400 audit(1598995818.305:366): avc: denied { getattr } for pid=5669 comm="tp_schedule2" path="/proc/1/cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236594] type=1400 audit(1598995818.305:366): avc: denied { getattr } for pid=5669 comm="tp_schedule2" path="/proc/1/cmdline" dev="proc" ino=4303 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+[  253.236607] type=1400 audit(1598995818.305:367): avc: denied { search } for pid=5669 comm="tp_schedule2" name="2" dev="proc" ino=3921 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+[  253.457340] gator_ioctl called
+[  253.457340] Balee
+[  253.757504] gator_ioctl called
+[  253.757505] Balee
+[  254.057724] gator_ioctl called
+[  254.057729] Balee
+[  254.357925] gator_ioctl called
+[  254.357928] Balee
+[  254.393370] binder: undelivered transaction 102275, process died.
+[  254.658115] gator_ioctl called
+[  254.658115] Balee
+[  254.958320] gator_ioctl called
+[  254.958321] Balee
+[  255.258536] gator_ioctl called
+[  255.258542] Balee
+[  255.407841] binder: undelivered transaction 102512, process died.
+[  255.559914] gator_ioctl called
+[  255.559918] Balee
+[  255.860145] gator_ioctl called
+[  255.860145] Balee
+[  256.160570] gator_ioctl called
+[  256.160577] Balee
+[  256.460876] gator_ioctl called
+[  256.460883] Balee
+[  256.761142] gator_ioctl called
+[  256.761146] Balee
+[  257.061430] gator_ioctl called
+[  257.061432] Balee
+[  257.361701] gator_ioctl called
+[  257.361708] Balee
+[  257.455449] binder: release 6137:6138 transaction 102911 out, still active
+[  257.456467] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  257.456475] binder: send failed reply for transaction 102911, target dead
+[  257.662123] gator_ioctl called
+[  257.662128] Balee
+[  257.962407] gator_ioctl called
+[  257.962407] Balee
+[  258.262643] gator_ioctl called
+[  258.262644] Balee
+[  258.470296] binder_alloc: 6139: binder_alloc_buf, no vma
+[  258.470301] binder: 3303:4999 transaction failed 29189/-3, size 4-0 line 3127
+[  258.470303] binder: send failed reply for transaction 103105 to 6139:6140
+[  258.470316] binder: undelivered TRANSACTION_ERROR: 29189
+[  258.562872] gator_ioctl called
+[  258.562878] Balee
+[  258.864015] gator_ioctl called
+[  258.864021] Balee
+[  259.164275] gator_ioctl called
+[  259.164275] Balee
+[  259.464556] gator_ioctl called
+[  259.464557] Balee
+[  259.489816] binder: release 6141:6142 transaction 103298 out, still active
+[  259.490740] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  259.490743] binder: send failed reply for transaction 103298, target dead
+[  259.764845] gator_ioctl called
+[  259.764850] Balee
+[  260.065100] gator_ioctl called
+[  260.065105] Balee
+[  260.365355] gator_ioctl called
+[  260.365355] Balee
+[  260.665583] gator_ioctl called
+[  260.665585] Balee
+[  260.965817] gator_ioctl called
+[  260.965822] Balee
+[  261.266045] gator_ioctl called
+[  261.266051] Balee
+[  261.528039] binder: undelivered transaction 103844, process died.
+[  261.566314] gator_ioctl called
+[  261.566314] Balee
+[  261.870501] gator_ioctl called
+[  261.870512] Balee
+[  262.170800] gator_ioctl called
+[  262.170807] Balee
+[  262.471113] gator_ioctl called
+[  262.471120] Balee
+[  262.771405] gator_ioctl called
+[  262.771407] Balee
+[  263.071653] gator_ioctl called
+[  263.071653] Balee
+[  263.371940] gator_ioctl called
+[  263.371946] Balee
+[  263.566061] binder: undelivered transaction 104230, process died.
+[  263.672188] gator_ioctl called
+[  263.672194] Balee
+[  263.972430] gator_ioctl called
+[  263.972430] Balee
+[  264.272742] gator_ioctl called
+[  264.272750] Balee
+[  264.573083] gator_ioctl called
+[  264.573089] Balee
+[  264.594318] binder: undelivered transaction 104434, process died.
+[  264.873323] gator_ioctl called
+[  264.873328] Balee
+[  265.173669] gator_ioctl called
+[  265.173669] Balee
+[  265.473968] gator_ioctl called
+[  265.473974] Balee
+[  265.608690] binder: release 6183:6185 transaction 104646 out, still active
+[  265.609399] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  265.609403] binder: send failed reply for transaction 104646, target dead
+[  265.774222] gator_ioctl called
+[  265.774229] Balee
+[  266.074527] gator_ioctl called
+[  266.074527] Balee
+[  266.374859] gator_ioctl called
+[  266.374870] Balee
+[  266.623955] binder: undelivered transaction 104887, process died.
+[  266.675184] gator_ioctl called
+[  266.675190] Balee
+[  266.975433] gator_ioctl called
+[  266.975439] Balee
+[  267.275764] gator_ioctl called
+[  267.275765] Balee
+[  267.576058] gator_ioctl called
+[  267.576064] Balee
+[  267.637580] binder: undelivered transaction 105092, process died.
+[  267.876303] gator_ioctl called
+[  267.876309] Balee
+[  268.176529] gator_ioctl called
+[  268.176533] Balee
+[  268.476779] gator_ioctl called
+[  268.476779] Balee
+[  268.777091] gator_ioctl called
+[  268.777097] Balee
+[  269.077389] gator_ioctl called
+[  269.077395] Balee
+[  269.377641] gator_ioctl called
+[  269.377645] Balee
+[  269.670607] binder: undelivered transaction 105479, process died.
+[  269.677891] gator_ioctl called
+[  269.677891] Balee
+[  269.978138] gator_ioctl called
+[  269.978143] Balee
+[  270.278379] gator_ioctl called
+[  270.278384] Balee
+[  270.578624] gator_ioctl called
+[  270.578625] Balee
+[  270.699095] binder: release 6206:6207 transaction 105679 out, still active
+[  270.699966] binder: 3303:3316 transaction failed 29189/0, size 4-0 line 2944
+[  270.699970] binder: send failed reply for transaction 105679, target dead
+[  270.878945] gator_ioctl called
+[  270.878955] Balee
+[  271.179240] gator_ioctl called
+[  271.179240] Balee
+[  271.479479] gator_ioctl called
+[  271.479487] Balee
+[  271.779746] gator_ioctl called
+[  271.779752] Balee
+[  272.079970] gator_ioctl called
+[  272.079976] Balee
+[  272.380203] gator_ioctl called
+[  272.380204] Balee
+[  272.680559] gator_ioctl called
+[  272.680568] Balee
+[  272.747261] binder: undelivered transaction 106103, process died.
+[  272.980846] gator_ioctl called
+[  272.980852] Balee
+[  273.281115] gator_ioctl called
+[  273.281122] Balee
+[  273.581390] gator_ioctl called
+[  273.581390] Balee
+[  273.767171] binder: undelivered transaction 106301, process died.
+[  273.881620] gator_ioctl called
+[  273.881626] Balee
+[  274.181850] gator_ioctl called
+[  274.181857] Balee
+[  274.482140] gator_ioctl called
+[  274.482145] Balee
+[  274.782369] gator_ioctl called
+[  274.790471] Balee
+[  274.790472] binder: undelivered transaction 106495, process died.
+[  275.082588] gator_ioctl called
+[  275.082593] Balee
+[  275.382824] gator_ioctl called
+[  275.382832] Balee
+[  275.683107] gator_ioctl called
+[  275.683107] Balee
+[  275.807532] binder: undelivered transaction 106695, process died.
+[  275.983400] gator_ioctl called
+[  275.983409] Balee
+[  276.283677] gator_ioctl called
+[  276.283686] Balee
+[  276.584745] gator_ioctl called
+[  276.584751] Balee
+[  276.834723] binder: undelivered transaction 106932, process died.
+[  276.885026] gator_ioctl called
+[  276.885026] Balee
+[  277.185275] gator_ioctl called
+[  277.185283] Balee
+[  277.485548] gator_ioctl called
+[  277.485553] Balee
+[  277.785798] gator_ioctl called
+[  277.785805] Balee
+[  278.086110] gator_ioctl called
+[  278.086112] Balee
+[  278.386484] gator_ioctl called
+[  278.386490] Balee
+[  278.686728] gator_ioctl called
+[  278.686736] Balee
+[  278.887105] binder: undelivered transaction 107322, process died.
+[  278.986998] gator_ioctl called
+[  278.987006] Balee
+[  279.287278] gator_ioctl called
+[  279.287279] Balee
+[  279.587564] gator_ioctl called
+[  279.587570] Balee
+[  279.887822] gator_ioctl called
+[  279.887829] Balee
+[  280.188148] gator_ioctl called
+[  280.188153] Balee
+[  280.488440] gator_ioctl called
+[  280.488441] Balee
+[  280.788707] gator_ioctl called
+[  280.788715] Balee
+[  280.948160] binder: release 6256:6257 transaction 107747 out, still active
+[  280.949306] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  280.949313] binder: send failed reply for transaction 107747, target dead
+[  281.089041] gator_ioctl called
+[  281.089053] Balee
+[  281.389369] gator_ioctl called
+[  281.389370] Balee
+[  281.689767] gator_ioctl called
+[  281.689777] Balee
+[  281.983161] binder: undelivered transaction 107986, process died.
+[  281.990147] gator_ioctl called
+[  281.990151] Balee
+[  282.290366] gator_ioctl called
+[  282.290373] Balee
+[  282.590633] gator_ioctl called
+[  282.590633] Balee
+[  282.890906] gator_ioctl called
+[  282.890912] Balee
+[  283.009537] binder: undelivered transaction 108181, process died.
+[  283.191187] gator_ioctl called
+[  283.191194] Balee
+[  283.491442] gator_ioctl called
+[  283.491449] Balee
+[  283.791756] gator_ioctl called
+[  283.791756] Balee
+[  284.036740] binder: undelivered transaction 108376, process died.
+[  284.092033] gator_ioctl called
+[  284.092041] Balee
+[  284.392298] gator_ioctl called
+[  284.392304] Balee
+[  284.692560] gator_ioctl called
+[  284.692565] Balee
+[  284.992954] gator_ioctl called
+[  284.992964] Balee
+[  285.061548] binder: undelivered transaction 108580, process died.
+[  285.293248] gator_ioctl called
+[  285.293254] Balee
+[  285.593579] gator_ioctl called
+[  285.593585] Balee
+[  285.893845] gator_ioctl called
+[  285.893851] Balee
+[  286.075522] binder: release 6284:6285 transaction 108778 out, still active
+[  286.076365] binder: 3303:4999 transaction failed 29189/0, size 4-0 line 2944
+[  286.076369] binder: send failed reply for transaction 108778, target dead
+[  286.194145] gator_ioctl called
+[  286.194154] Balee
+[  286.494480] gator_ioctl called
+[  286.494501] Balee
+[  286.794852] gator_ioctl called
+[  286.794859] Balee
+[  287.095113] gator_ioctl called
+[  287.095114] Balee
+[  287.107844] binder: undelivered transaction 109008, process died.
+[  287.395504] gator_ioctl called
+[  287.395513] Balee
+[  287.695933] gator_ioctl called
+[  287.695942] Balee
+[  287.996237] gator_ioctl called
+[  287.996243] Balee
+[  288.296538] gator_ioctl called
+[  288.296539] Balee
+[  288.596821] gator_ioctl called
+[  288.596828] Balee
+[  288.897132] gator_ioctl called
+[  288.897137] Balee
+[  289.197400] gator_ioctl called
+[  289.197406] Balee
+[  289.497728] gator_ioctl called
+[  289.497729] Balee
+[  289.797934] gator_ioctl called
+[  289.797938] Balee
+[  290.098139] gator_ioctl called
+[  290.098146] Balee
+[  290.175651] binder: undelivered transaction 109601, process died.
+[  290.398370] gator_ioctl called
+[  290.398374] Balee
+[  290.698548] gator_ioctl called
+[  290.698548] Balee
+[  290.998739] gator_ioctl called
+[  290.998743] Balee
+[  291.194596] binder: undelivered transaction 109927, process died.
+[  291.298949] gator_ioctl called
+[  291.298954] Balee
+[  291.599137] gator_ioctl called
+[  291.599137] Balee
+[  291.899324] gator_ioctl called
+[  291.899330] Balee
+[  292.200057] gator_ioctl called
+[  292.200059] Balee
+[  292.500275] gator_ioctl called
+[  292.500281] Balee
+[  292.800524] gator_ioctl called
+[  292.800531] Balee
+[  293.100789] gator_ioctl called
+[  293.100795] Balee
+[  293.231117] binder_alloc: 6335: binder_alloc_buf, no vma
+[  293.231553] binder: release 6335:6336 transaction 111382 out, still active
+[  293.236529] binder: 3303:3742 transaction failed 29189/-3, size 4-0 line 3127
+[  293.236535] binder: send failed reply for transaction 111382, target dead
+[  293.401040] gator_ioctl called
+[  293.401045] Balee
+[  293.701206] gator_ioctl called
+[  293.701210] Balee
+[  294.001389] gator_ioctl called
+[  294.001393] Balee
+[  294.247329] binder: undelivered transaction 111475, process died.
+[  294.301561] gator_ioctl called
+[  294.301566] Balee
+[  294.601792] gator_ioctl called
+[  294.601799] Balee
+[  294.902083] gator_ioctl called
+[  294.902090] Balee
+[  295.202517] gator_ioctl called
+[  295.202517] Balee
+[  295.261881] binder_alloc: 6346: binder_alloc_buf, no vma
+[  295.262204] binder: release 6346:6347 transaction 112267 out, still active
+[  295.267259] binder: 3303:3433 transaction failed 29189/-3, size 4-0 line 3127
+[  295.267262] binder: send failed reply for transaction 112267, target dead
+[  295.502719] gator_ioctl called
+[  295.502725] Balee
+[  295.802874] gator_ioctl called
+[  295.802878] Balee
+[  296.103045] gator_ioctl called
+[  296.103050] Balee
+[  296.287377] binder: undelivered transaction 112658, process died.
+[  296.403245] gator_ioctl called
+[  296.403250] Balee
+[  296.703450] gator_ioctl called
+[  296.703454] Balee
+[  297.003625] gator_ioctl called
+[  297.003625] Balee
+[  297.087036] type=1400 audit(1598995818.305:367): avc: denied { search } for pid=5669 comm="tp_schedule2" name="2" dev="proc" ino=3921 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+[  297.087082] type=1400 audit(1598995862.157:555): avc: denied { read } for pid=5669 comm="Thread-3" name="stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  297.087242] type=1400 audit(1598995862.157:555): avc: denied { read } for pid=5669 comm="Thread-3" name="stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  297.087254] type=1400 audit(1598995862.157:556): avc: denied { open } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  297.087336] type=1400 audit(1598995862.157:556): avc: denied { open } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  297.087348] type=1400 audit(1598995862.157:557): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  297.300183] binder_alloc: 6403: binder_alloc_buf, no vma
+[  297.300246] binder: release 6403:6404 transaction 112908 out, still active
+[  297.303811] gator_ioctl called
+[  297.305594] Balee
+[  297.305594] binder: 3303:3742 transaction failed 29189/-3, size 4-0 line 3127
+[  297.305598] binder: send failed reply for transaction 112908, target dead
+[  297.604040] gator_ioctl called
+[  297.604048] Balee
+[  297.904255] gator_ioctl called
+[  297.904259] Balee
+[  298.034721] audit: audit_lost=441 audit_rate_limit=5 audit_backlog_limit=64
+[  298.034728] audit: rate limit exceeded
+[  298.034881] type=1400 audit(1598995862.157:557): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  298.034925] type=1400 audit(1598995863.105:558): avc: denied { read } for pid=5669 comm="Thread-3" name="temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  298.035141] type=1400 audit(1598995863.105:558): avc: denied { read } for pid=5669 comm="Thread-3" name="temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  298.035156] type=1400 audit(1598995863.105:559): avc: denied { open } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  298.204440] gator_ioctl called
+[  298.204446] Balee
+[  298.330270] binder: undelivered transaction 113036, process died.
+[  298.504795] gator_ioctl called
+[  298.504800] Balee
+[  298.805025] gator_ioctl called
+[  298.805032] Balee
+[  298.965298] perf: interrupt took too long (2508 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[  299.105244] gator_ioctl called
+[  299.105244] Balee
+[  299.343728] binder: undelivered transaction 113430, process died.
+[  299.405410] gator_ioctl called
+[  299.405417] Balee
+[  299.705641] gator_ioctl called
+[  299.705646] Balee
+[  300.005897] gator_ioctl called
+[  300.005903] Balee
+[  300.306086] gator_ioctl called
+[  300.306092] Balee
+[  300.606323] gator_ioctl called
+[  300.606330] Balee
+[  300.906524] gator_ioctl called
+[  300.906528] Balee
+[  301.206713] gator_ioctl called
+[  301.206720] Balee
+[  301.506917] gator_ioctl called
+[  301.506924] Balee
+[  301.807112] gator_ioctl called
+[  301.807116] Balee
+[  302.107315] gator_ioctl called
+[  302.107320] Balee
+[  302.209202] hrtimer: interrupt took 2776041 ns
+[  302.391442] binder: undelivered transaction 113972, process died.
+[  302.407494] gator_ioctl called
+[  302.407499] Balee
+[  302.707694] gator_ioctl called
+[  302.707707] Balee
+[  303.008048] gator_ioctl called
+[  303.008054] Balee
+[  303.308254] gator_ioctl called
+[  303.308259] Balee
+[  303.411080] binder: release 6495:6496 transaction 114366 out, still active
+[  303.411771] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  303.411779] binder: send failed reply for transaction 114366, target dead
+[  303.608479] gator_ioctl called
+[  303.608479] Balee
+[  303.908653] gator_ioctl called
+[  303.908658] Balee
+[  304.208871] gator_ioctl called
+[  304.208875] Balee
+[  304.426446] binder: undelivered transaction 114975, process died.
+[  304.509043] gator_ioctl called
+[  304.509049] Balee
+[  304.809242] gator_ioctl called
+[  304.809248] Balee
+[  305.109449] gator_ioctl called
+[  305.109452] Balee
+[  305.409663] gator_ioctl called
+[  305.409663] Balee
+[  305.449797] binder: undelivered transaction 115413, process died.
+[  305.709883] gator_ioctl called
+[  305.709883] Balee
+[  306.010019] gator_ioctl called
+[  306.010020] Balee
+[  306.310237] gator_ioctl called
+[  306.310237] Balee
+[  306.610460] gator_ioctl called
+[  306.610464] Balee
+[  306.910629] gator_ioctl called
+[  306.910630] Balee
+[  307.210827] gator_ioctl called
+[  307.210833] Balee
+[  307.486865] binder: undelivered transaction 116308, process died.
+[  307.511044] gator_ioctl called
+[  307.511044] Balee
+[  307.811265] gator_ioctl called
+[  307.811272] Balee
+[  308.111537] gator_ioctl called
+[  308.111538] Balee
+[  308.411736] gator_ioctl called
+[  308.411742] Balee
+[  308.494290] wlcore: WARNING no fw rx ba on tid 1
+[  308.502657] binder: undelivered transaction 117004, process died.
+[  308.711957] gator_ioctl called
+[  308.711976] Balee
+[  309.012269] gator_ioctl called
+[  309.012273] Balee
+[  309.312514] gator_ioctl called
+[  309.312518] Balee
+[  309.520256] binder: undelivered transaction 117730, process died.
+[  309.612682] gator_ioctl called
+[  309.612685] Balee
+[  309.912906] gator_ioctl called
+[  309.912913] Balee
+[  309.980707] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+[  310.213134] gator_ioctl called
+[  310.213134] Balee
+[  310.513291] gator_ioctl called
+[  310.513292] Balee
+[  310.538075] binder: undelivered transaction 118434, process died.
+[  310.813446] gator_ioctl called
+[  310.813446] Balee
+[  311.113620] gator_ioctl called
+[  311.113624] Balee
+[  311.413789] gator_ioctl called
+[  311.413790] Balee
+[  311.713963] gator_ioctl called
+[  311.713965] Balee
+[  312.014124] gator_ioctl called
+[  312.014130] Balee
+[  312.314273] gator_ioctl called
+[  312.314276] Balee
+[  312.580174] binder_alloc: 6551: binder_alloc_buf, no vma
+[  312.580242] binder: release 6551:6554 transaction 120020 out, still active
+[  312.585686] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  312.585689] binder: send failed reply for transaction 120020, target dead
+[  312.614438] gator_ioctl called
+[  312.614443] Balee
+[  312.914708] gator_ioctl called
+[  312.914714] Balee
+[  313.214918] gator_ioctl called
+[  313.214918] Balee
+[  313.515121] gator_ioctl called
+[  313.515126] Balee
+[  313.815299] gator_ioctl called
+[  313.815300] Balee
+[  314.115500] gator_ioctl called
+[  314.115504] Balee
+[  314.415679] gator_ioctl called
+[  314.415679] Balee
+[  314.632889] binder: undelivered transaction 121641, process died.
+[  314.716703] gator_ioctl called
+[  314.716703] Balee
+[  315.016903] gator_ioctl called
+[  315.016905] Balee
+[  315.317083] gator_ioctl called
+[  315.317084] Balee
+[  315.618718] gator_ioctl called
+[  315.618728] Balee
+[  315.658625] binder: undelivered transaction 121975, process died.
+[  315.919087] gator_ioctl called
+[  315.919098] Balee
+[  316.219427] gator_ioctl called
+[  316.219433] Balee
+[  316.492878] EXT4-fs (sdd12): error count since last fsck: 84
+[  316.492892] EXT4-fs (sdd12): initial error at time 1594236080: mb_free_blocks:1470: inode 3166: block 328443
+[  316.492902] EXT4-fs (sdd12): last error at time 1598995798: ext4_mb_generate_buddy:758
+[  316.519688] gator_ioctl called
+[  316.519688] Balee
+[  316.685972] binder: undelivered transaction 122206, process died.
+[  316.819981] gator_ioctl called
+[  316.819991] Balee
+[  317.120276] gator_ioctl called
+[  317.120284] Balee
+[  317.420550] gator_ioctl called
+[  317.420556] Balee
+[  317.702802] binder: undelivered transaction 122399, process died.
+[  317.720796] gator_ioctl called
+[  317.720805] Balee
+[  318.021060] gator_ioctl called
+[  318.021066] Balee
+[  318.321298] gator_ioctl called
+[  318.321304] Balee
+[  318.621618] gator_ioctl called
+[  318.621625] Balee
+[  318.721110] binder: release 6619:6620 transaction 122634 out, still active
+[  318.721919] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  318.721923] binder: send failed reply for transaction 122634, target dead
+[  318.921876] gator_ioctl called
+[  318.921880] Balee
+[  319.222115] gator_ioctl called
+[  319.222119] Balee
+[  319.522340] gator_ioctl called
+[  319.522346] Balee
+[  319.822605] gator_ioctl called
+[  319.822610] Balee
+[  320.122870] gator_ioctl called
+[  320.122876] Balee
+[  320.423174] gator_ioctl called
+[  320.423183] Balee
+[  320.723497] gator_ioctl called
+[  320.723507] Balee
+[  320.760900] binder: release 6623:6624 transaction 123024 out, still active
+[  320.761719] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  320.761724] binder: send failed reply for transaction 123024, target dead
+[  321.023862] gator_ioctl called
+[  321.023870] Balee
+[  321.324188] gator_ioctl called
+[  321.324194] Balee
+[  321.624477] gator_ioctl called
+[  321.624483] Balee
+[  321.791622] binder: undelivered transaction 123240, process died.
+[  321.924726] gator_ioctl called
+[  321.924732] Balee
+[  322.225094] gator_ioctl called
+[  322.225099] Balee
+[  322.525321] gator_ioctl called
+[  322.525330] Balee
+[  322.803707] binder: release 6628:6629 transaction 123424 out, still active
+[  322.804792] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  322.804798] binder: send failed reply for transaction 123424, target dead
+[  322.825602] gator_ioctl called
+[  322.825608] Balee
+[  323.125857] gator_ioctl called
+[  323.125863] Balee
+[  323.426098] gator_ioctl called
+[  323.426104] Balee
+[  323.726345] gator_ioctl called
+[  323.726352] Balee
+[  323.825582] binder: undelivered transaction 123728, process died.
+[  324.026593] gator_ioctl called
+[  324.026593] Balee
+[  324.326857] gator_ioctl called
+[  324.326865] Balee
+[  324.627150] gator_ioctl called
+[  324.627156] Balee
+[  324.846843] binder: undelivered transaction 123830, process died.
+[  324.927429] gator_ioctl called
+[  324.927442] Balee
+[  325.227766] gator_ioctl called
+[  325.227776] Balee
+[  325.528066] gator_ioctl called
+[  325.528072] Balee
+[  325.828373] gator_ioctl called
+[  325.828384] Balee
+[  325.865383] binder_alloc: 6667: binder_alloc_buf, no vma
+[  325.865415] binder: release 6667:6668 transaction 123847 out, still active
+[  325.871103] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  325.871108] binder: send failed reply for transaction 123847, target dead
+[  326.128695] gator_ioctl called
+[  326.128706] Balee
+[  326.401827] type=1400 audit(1598995863.105:559): avc: denied { open } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  326.401883] type=1400 audit(1598995891.473:561): avc: denied { create } for pid=6671 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  326.429071] gator_ioctl called
+[  326.429083] Balee
+[  326.729413] gator_ioctl called
+[  326.729423] Balee
+[  326.880454] binder_alloc: 6695: binder_alloc_buf, no vma
+[  326.880457] binder: release 6695:6696 transaction 123980 out, still active
+[  326.885925] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  326.885928] binder: send failed reply for transaction 123980, target dead
+[  327.029699] gator_ioctl called
+[  327.029711] Balee
+[  327.053531] type=1400 audit(1598995891.473:561): avc: denied { create } for pid=6671 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  327.053582] type=1400 audit(1598995892.125:562): avc: denied { read } for pid=5669 comm="Thread-3" name="stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  327.053849] type=1400 audit(1598995892.125:562): avc: denied { read } for pid=5669 comm="Thread-3" name="stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  327.053867] type=1400 audit(1598995892.125:563): avc: denied { open } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  327.053952] type=1400 audit(1598995892.125:563): avc: denied { open } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  327.053968] type=1400 audit(1598995892.125:564): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  327.330047] gator_ioctl called
+[  327.330053] Balee
+[  327.630349] gator_ioctl called
+[  327.630359] Balee
+[  327.897798] binder: release 6698:6699 transaction 123993 out, still active
+[  327.900165] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  327.900174] binder: send failed reply for transaction 123993, target dead
+[  327.930719] gator_ioctl called
+[  327.930730] Balee
+[  328.231053] gator_ioctl called
+[  328.231064] Balee
+[  328.531395] gator_ioctl called
+[  328.531407] Balee
+[  328.831688] gator_ioctl called
+[  328.831699] Balee
+[  328.915958] binder: release 6716:6717 transaction 124077 out, still active
+[  328.915967] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  328.915971] binder: send failed reply for transaction 124077, target dead
+[  329.132006] gator_ioctl called
+[  329.132018] Balee
+[  329.432389] gator_ioctl called
+[  329.432398] Balee
+[  329.732727] gator_ioctl called
+[  329.732737] Balee
+[  329.928991] binder: release 6718:6719 transaction 124100 out, still active
+[  329.929023] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  329.929025] binder: send failed reply for transaction 124100, target dead
+[  330.033183] gator_ioctl called
+[  330.033190] Balee
+[  330.333448] gator_ioctl called
+[  330.333455] Balee
+[  330.633752] gator_ioctl called
+[  330.633759] Balee
+[  330.934020] gator_ioctl called
+[  330.934030] Balee
+[  330.947040] binder: undelivered transaction 124166, process died.
+[  331.234308] gator_ioctl called
+[  331.234317] Balee
+[  331.534597] gator_ioctl called
+[  331.534604] Balee
+[  331.834842] gator_ioctl called
+[  331.834853] Balee
+[  331.964285] binder: release 6724:6725 transaction 124226 out, still active
+[  331.965757] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  331.965765] binder: send failed reply for transaction 124226, target dead
+[  332.135130] gator_ioctl called
+[  332.135137] Balee
+[  332.435414] gator_ioctl called
+[  332.435420] Balee
+[  332.735675] gator_ioctl called
+[  332.735694] Balee
+[  332.982735] binder: undelivered transaction 124273, process died.
+[  333.035997] gator_ioctl called
+[  333.036008] Balee
+[  333.336269] gator_ioctl called
+[  333.336292] Balee
+[  333.636582] gator_ioctl called
+[  333.636596] Balee
+[  333.936930] gator_ioctl called
+[  333.936940] Balee
+[  333.999498] binder: undelivered transaction 124345, process died.
+[  334.237229] gator_ioctl called
+[  334.237243] Balee
+[  334.537508] gator_ioctl called
+[  334.537515] Balee
+[  334.837807] gator_ioctl called
+[  334.837818] Balee
+[  335.017497] binder: undelivered transaction 124395, process died.
+[  335.141481] gator_ioctl called
+[  335.141487] Balee
+[  335.441695] gator_ioctl called
+[  335.441700] Balee
+[  335.742042] gator_ioctl called
+[  335.742043] Balee
+[  336.042298] gator_ioctl called
+[  336.042299] Balee
+[  336.048786] binder: release 6748:6749 transaction 124845 out, still active
+[  336.049683] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  336.049689] binder: send failed reply for transaction 124845, target dead
+[  336.342613] gator_ioctl called
+[  336.342621] Balee
+[  336.488462] perf: interrupt took too long (3154 > 3135), lowering kernel.perf_event_max_sample_rate to 63250
+[  336.642892] gator_ioctl called
+[  336.642899] Balee
+[  336.943117] gator_ioctl called
+[  336.943121] Balee
+[  337.243316] gator_ioctl called
+[  337.243321] Balee
+[  337.543560] gator_ioctl called
+[  337.543564] Balee
+[  337.843775] gator_ioctl called
+[  337.843776] Balee
+[  338.144051] gator_ioctl called
+[  338.144057] Balee
+[  338.444353] gator_ioctl called
+[  338.444357] Balee
+[  338.744618] gator_ioctl called
+[  338.744628] Balee
+[  339.044974] gator_ioctl called
+[  339.044982] Balee
+[  339.133877] binder_alloc: 6771: binder_alloc_buf, no vma
+[  339.133939] binder: release 6771:6772 transaction 126311 out, still active
+[  339.139240] binder: 3303:3876 transaction failed 29189/-3, size 4-0 line 3127
+[  339.139242] binder: send failed reply for transaction 126311, target dead
+[  339.345327] gator_ioctl called
+[  339.345327] Balee
+[  339.645596] gator_ioctl called
+[  339.645604] Balee
+[  339.945894] gator_ioctl called
+[  339.945896] Balee
+[  340.154770] binder: release 6774:6775 transaction 126691 out, still active
+[  340.155270] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  340.155274] binder: send failed reply for transaction 126691, target dead
+[  340.246138] gator_ioctl called
+[  340.246138] Balee
+[  340.546334] gator_ioctl called
+[  340.546355] Balee
+[  340.846681] gator_ioctl called
+[  340.846687] Balee
+[  341.146921] gator_ioctl called
+[  341.146929] Balee
+[  341.170657] binder_alloc: 6776: binder_alloc_buf, no vma
+[  341.171047] binder: release 6776:6777 transaction 127016 out, still active
+[  341.176106] binder: 3303:3434 transaction failed 29189/-3, size 4-0 line 3127
+[  341.176111] binder: send failed reply for transaction 127016, target dead
+[  341.447182] gator_ioctl called
+[  341.447188] Balee
+[  341.747383] gator_ioctl called
+[  341.747394] Balee
+[  342.047664] gator_ioctl called
+[  342.047670] Balee
+[  342.184255] binder_alloc: 6778: binder_alloc_buf, no vma
+[  342.184316] binder: release 6778:6779 transaction 127280 out, still active
+[  342.190037] binder: 3303:3434 transaction failed 29189/-3, size 4-0 line 3127
+[  342.190040] binder: send failed reply for transaction 127280, target dead
+[  342.347910] gator_ioctl called
+[  342.347917] Balee
+[  342.648263] gator_ioctl called
+[  342.648267] Balee
+[  342.948457] gator_ioctl called
+[  342.948461] Balee
+[  343.202639] binder: release 6780:6781 transaction 127676 out, still active
+[  343.203374] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  343.203378] binder: send failed reply for transaction 127676, target dead
+[  343.248702] gator_ioctl called
+[  343.248712] Balee
+[  343.549550] gator_ioctl called
+[  343.549557] Balee
+[  343.849804] gator_ioctl called
+[  343.849804] Balee
+[  344.150044] gator_ioctl called
+[  344.150045] Balee
+[  344.214340] binder: undelivered transaction 128183, process died.
+[  344.450367] gator_ioctl called
+[  344.450376] Balee
+[  344.750635] gator_ioctl called
+[  344.750640] Balee
+[  345.050839] gator_ioctl called
+[  345.050840] Balee
+[  345.245416] binder: undelivered transaction 128401, process died.
+[  345.351083] gator_ioctl called
+[  345.351092] Balee
+[  345.651364] gator_ioctl called
+[  345.651365] Balee
+[  345.951652] gator_ioctl called
+[  345.951660] Balee
+[  346.252028] gator_ioctl called
+[  346.252029] Balee
+[  346.266757] binder: release 6805:6806 transaction 128584 out, still active
+[  346.268396] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  346.268407] binder: send failed reply for transaction 128584, target dead
+[  346.552301] gator_ioctl called
+[  346.552301] Balee
+[  346.852642] gator_ioctl called
+[  346.852657] Balee
+[  347.153104] gator_ioctl called
+[  347.153110] Balee
+[  347.453392] gator_ioctl called
+[  347.453393] Balee
+[  347.753654] gator_ioctl called
+[  347.753661] Balee
+[  348.053988] gator_ioctl called
+[  348.053999] Balee
+[  348.314300] binder: undelivered transaction 128953, process died.
+[  348.354437] gator_ioctl called
+[  348.354444] Balee
+[  348.654760] gator_ioctl called
+[  348.654760] Balee
+[  348.955039] gator_ioctl called
+[  348.955043] Balee
+[  349.255266] gator_ioctl called
+[  349.255268] Balee
+[  349.338619] binder: undelivered transaction 129204, process died.
+[  349.555511] gator_ioctl called
+[  349.555519] Balee
+[  349.855909] gator_ioctl called
+[  349.855917] Balee
+[  350.156262] gator_ioctl called
+[  350.156282] Balee
+[  350.366480] binder: undelivered transaction 129663, process died.
+[  350.464582] gator_ioctl called
+[  350.464587] Balee
+[  350.764815] gator_ioctl called
+[  350.764824] Balee
+[  351.065158] gator_ioctl called
+[  351.065164] Balee
+[  351.365409] gator_ioctl called
+[  351.365415] Balee
+[  351.383275] binder: release 6837:6838 transaction 129877 out, still active
+[  351.383954] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  351.383958] binder: send failed reply for transaction 129877, target dead
+[  351.665755] gator_ioctl called
+[  351.665764] Balee
+[  351.966039] gator_ioctl called
+[  351.966044] Balee
+[  352.266371] gator_ioctl called
+[  352.266391] Balee
+[  352.400415] binder: release 6839:6840 transaction 130085 out, still active
+[  352.408622] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  352.408632] binder: send failed reply for transaction 130085, target dead
+[  352.566819] gator_ioctl called
+[  352.566827] Balee
+[  352.867118] gator_ioctl called
+[  352.867126] Balee
+[  353.167410] gator_ioctl called
+[  353.167417] Balee
+[  353.416399] binder: undelivered transaction 130509, process died.
+[  353.467737] gator_ioctl called
+[  353.467746] Balee
+[  353.768053] gator_ioctl called
+[  353.768060] Balee
+[  354.068329] gator_ioctl called
+[  354.070783] Balee
+[  354.070784] type=1400 audit(1598995892.125:564): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/proc/stat" dev="proc" ino=4026532029 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+[  354.070823] type=1400 audit(1598995919.141:565): avc: denied { read } for pid=5669 comm="Thread-3" name="temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  354.071041] type=1400 audit(1598995919.141:565): avc: denied { read } for pid=5669 comm="Thread-3" name="temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  354.071055] type=1400 audit(1598995919.141:566): avc: denied { open } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  354.071123] type=1400 audit(1598995919.141:566): avc: denied { open } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  354.071133] type=1400 audit(1598995919.141:567): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  354.369177] gator_ioctl called
+[  354.369180] Balee
+[  354.438725] binder: undelivered transaction 130909, process died.
+[  354.669338] gator_ioctl called
+[  354.669342] Balee
+[  354.969515] gator_ioctl called
+[  354.969515] Balee
+[  355.269740] gator_ioctl called
+[  355.269746] Balee
+[  355.569957] gator_ioctl called
+[  355.569958] Balee
+[  355.870130] gator_ioctl called
+[  355.870136] Balee
+[  356.170716] gator_ioctl called
+[  356.170725] Balee
+[  356.471007] gator_ioctl called
+[  356.471007] Balee
+[  356.483041] binder: undelivered transaction 131680, process died.
+[  356.771273] gator_ioctl called
+[  356.771278] Balee
+[  357.071558] gator_ioctl called
+[  357.071566] Balee
+[  357.371844] gator_ioctl called
+[  357.371853] Balee
+[  357.672128] gator_ioctl called
+[  357.672151] Balee
+[  357.972540] gator_ioctl called
+[  357.972550] Balee
+[  358.272841] gator_ioctl called
+[  358.272853] Balee
+[  358.573451] gator_ioctl called
+[  358.573458] Balee
+[  358.873728] gator_ioctl called
+[  358.873734] Balee
+[  359.173960] gator_ioctl called
+[  359.173966] Balee
+[  359.474239] gator_ioctl called
+[  359.474249] Balee
+[  359.774541] gator_ioctl called
+[  359.774541] Balee
+[  360.074766] gator_ioctl called
+[  360.074775] Balee
+[  360.375094] gator_ioctl called
+[  360.375098] Balee
+[  360.675485] gator_ioctl called
+[  360.675487] Balee
+[  360.975763] gator_ioctl called
+[  360.975769] Balee
+[  361.275992] gator_ioctl called
+[  361.275999] Balee
+[  361.576605] gator_ioctl called
+[  361.576613] Balee
+[  361.876916] gator_ioctl called
+[  361.876923] Balee
+[  362.177200] gator_ioctl called
+[  362.177206] Balee
+[  362.477426] gator_ioctl called
+[  362.477433] Balee
+[  362.626296] binder: undelivered transaction 134265, process died.
+[  362.777677] gator_ioctl called
+[  362.777677] Balee
+[  363.077927] gator_ioctl called
+[  363.077932] Balee
+[  363.378173] gator_ioctl called
+[  363.378181] Balee
+[  363.642509] binder: release 6900:6901 transaction 134648 out, still active
+[  363.644062] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  363.644068] binder: send failed reply for transaction 134648, target dead
+[  363.678435] gator_ioctl called
+[  363.678442] Balee
+[  363.978854] gator_ioctl called
+[  363.978866] Balee
+[  364.279189] gator_ioctl called
+[  364.279189] Balee
+[  364.579411] gator_ioctl called
+[  364.579416] Balee
+[  364.664386] binder: undelivered transaction 134965, process died.
+[  364.879606] gator_ioctl called
+[  364.879615] Balee
+[  365.179885] gator_ioctl called
+[  365.179915] Balee
+[  365.480173] gator_ioctl called
+[  365.480173] Balee
+[  365.691562] binder_alloc: 6920: binder_alloc_buf, no vma
+[  365.691569] binder: release 6920:6921 transaction 135373 out, still active
+[  365.691576] binder: 3303:3876 transaction failed 29189/-3, size 4-0 line 3127
+[  365.691582] binder: send failed reply for transaction 135373, target dead
+[  365.781345] gator_ioctl called
+[  365.781352] Balee
+[  366.081793] gator_ioctl called
+[  366.081798] Balee
+[  366.382027] gator_ioctl called
+[  366.382033] Balee
+[  366.682677] gator_ioctl called
+[  366.682681] Balee
+[  366.707413] binder: undelivered transaction 135831, process died.
+[  366.982866] gator_ioctl called
+[  366.982866] Balee
+[  367.283051] gator_ioctl called
+[  367.283052] Balee
+[  367.583263] gator_ioctl called
+[  367.583268] Balee
+[  367.725076] binder: undelivered transaction 136266, process died.
+[  367.883492] gator_ioctl called
+[  367.883500] Balee
+[  368.183787] gator_ioctl called
+[  368.183787] Balee
+[  368.483983] gator_ioctl called
+[  368.483989] Balee
+[  368.743740] binder: undelivered transaction 136745, process died.
+[  368.785028] gator_ioctl called
+[  368.785028] Balee
+[  369.085468] gator_ioctl called
+[  369.085470] Balee
+[  369.385674] gator_ioctl called
+[  369.385674] Balee
+[  369.685860] gator_ioctl called
+[  369.685863] Balee
+[  369.986054] gator_ioctl called
+[  369.986058] Balee
+[  370.286257] gator_ioctl called
+[  370.286263] Balee
+[  370.588615] gator_ioctl called
+[  370.588632] Balee
+[  370.811157] binder: undelivered transaction 137587, process died.
+[  370.913613] gator_ioctl called
+[  370.913622] Balee
+[  371.213927] gator_ioctl called
+[  371.213935] Balee
+[  371.514282] gator_ioctl called
+[  371.514292] Balee
+[  371.814576] gator_ioctl called
+[  371.814585] Balee
+[  372.114906] gator_ioctl called
+[  372.114914] Balee
+[  372.415208] gator_ioctl called
+[  372.415217] Balee
+[  372.715637] gator_ioctl called
+[  372.715645] Balee
+[  372.901681] binder: undelivered transaction 138057, process died.
+[  373.022915] gator_ioctl called
+[  373.022926] Balee
+[  373.323406] gator_ioctl called
+[  373.323414] Balee
+[  373.623720] gator_ioctl called
+[  373.623729] Balee
+[  373.924055] gator_ioctl called
+[  373.924067] Balee
+[  373.932906] binder: undelivered transaction 138182, process died.
+[  374.224394] gator_ioctl called
+[  374.224406] Balee
+[  374.524805] gator_ioctl called
+[  374.524814] Balee
+[  374.825158] gator_ioctl called
+[  374.825167] Balee
+[  374.985275] binder: release 6958:6959 transaction 138321 out, still active
+[  374.992531] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  374.992546] binder: send failed reply for transaction 138321, target dead
+[  375.125654] gator_ioctl called
+[  375.125664] Balee
+[  375.426295] gator_ioctl called
+[  375.426303] Balee
+[  375.726737] gator_ioctl called
+[  375.726746] Balee
+[  376.027057] gator_ioctl called
+[  376.027065] Balee
+[  376.033145] binder: undelivered transaction 138554, process died.
+[  376.327383] gator_ioctl called
+[  376.327392] Balee
+[  376.627680] gator_ioctl called
+[  376.627690] Balee
+[  376.927983] gator_ioctl called
+[  376.927993] Balee
+[  377.070701] binder: release 6977:6978 transaction 138767 out, still active
+[  377.070723] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  377.070733] binder: send failed reply for transaction 138767, target dead
+[  377.229326] gator_ioctl called
+[  377.229335] Balee
+[  377.529654] gator_ioctl called
+[  377.529663] Balee
+[  377.829966] gator_ioctl called
+[  377.829975] Balee
+[  378.125257] binder: release 6979:6980 transaction 139046 out, still active
+[  378.126660] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  378.126672] binder: send failed reply for transaction 139046, target dead
+[  378.130342] gator_ioctl called
+[  378.130350] Balee
+[  378.430617] gator_ioctl called
+[  378.430617] Balee
+[  378.731023] gator_ioctl called
+[  378.731033] Balee
+[  379.031337] gator_ioctl called
+[  379.031347] Balee
+[  379.164837] binder: undelivered transaction 139375, process died.
+[  379.331645] gator_ioctl called
+[  379.331658] Balee
+[  379.631957] gator_ioctl called
+[  379.631957] Balee
+[  379.932314] gator_ioctl called
+[  379.932324] Balee
+[  380.232617] gator_ioctl called
+[  380.232625] Balee
+[  380.532906] gator_ioctl called
+[  380.532915] Balee
+[  380.836712] gator_ioctl called
+[  380.836723] Balee
+[  381.137117] gator_ioctl called
+[  381.137130] Balee
+[  381.437398] gator_ioctl called
+[  381.437406] Balee
+[  381.737708] gator_ioctl called
+[  381.737720] Balee
+[  382.038006] gator_ioctl called
+[  382.038016] Balee
+[  382.275798] binder: undelivered transaction 140267, process died.
+[  382.338352] gator_ioctl called
+[  382.338365] Balee
+[  382.638669] gator_ioctl called
+[  382.638679] Balee
+[  382.938985] gator_ioctl called
+[  382.938993] Balee
+[  383.239284] gator_ioctl called
+[  383.239295] Balee
+[  383.539598] gator_ioctl called
+[  383.539610] Balee
+[  383.839908] gator_ioctl called
+[  383.839919] Balee
+[  384.140404] gator_ioctl called
+[  384.140417] Balee
+[  384.355596] perf: interrupt took too long (3945 > 3942), lowering kernel.perf_event_max_sample_rate to 50500
+[  384.367505] binder: release 7010:7011 transaction 140829 out, still active
+[  384.370319] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  384.370331] binder: send failed reply for transaction 140829, target dead
+[  384.440818] gator_ioctl called
+[  384.440830] Balee
+[  384.741168] gator_ioctl called
+[  384.741181] Balee
+[  385.041574] gator_ioctl called
+[  385.041585] Balee
+[  385.346767] gator_ioctl called
+[  385.346777] Balee
+[  385.406176] binder: release 7012:7013 transaction 141146 out, still active
+[  385.407521] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  385.407533] binder: send failed reply for transaction 141146, target dead
+[  385.647118] gator_ioctl called
+[  385.647136] Balee
+[  385.947456] gator_ioctl called
+[  385.947468] Balee
+[  386.247784] gator_ioctl called
+[  386.247793] Balee
+[  386.453110] binder: undelivered transaction 141347, process died.
+[  386.548107] gator_ioctl called
+[  386.548117] Balee
+[  386.848565] gator_ioctl called
+[  386.848576] Balee
+[  387.150161] gator_ioctl called
+[  387.150169] Balee
+[  387.450591] gator_ioctl called
+[  387.450600] Balee
+[  387.498837] binder: undelivered transaction 141668, process died.
+[  387.750898] gator_ioctl called
+[  387.750906] Balee
+[  388.066128] gator_ioctl called
+[  388.066137] Balee
+[  388.370593] gator_ioctl called
+[  388.370603] Balee
+[  388.555352] binder: release 7034:7035 transaction 141930 out, still active
+[  388.564745] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  388.564761] binder: send failed reply for transaction 141930, target dead
+[  388.671069] gator_ioctl called
+[  388.671078] Balee
+[  388.971821] gator_ioctl called
+[  388.971834] Balee
+[  389.272499] gator_ioctl called
+[  389.272508] Balee
+[  389.573486] gator_ioctl called
+[  389.573496] Balee
+[  389.593239] binder: undelivered transaction 142258, process died.
+[  389.874051] gator_ioctl called
+[  389.874051] Balee
+[  390.174426] gator_ioctl called
+[  390.174432] Balee
+[  390.475769] gator_ioctl called
+[  390.475776] Balee
+[  390.632260] binder: undelivered transaction 142363, process died.
+[  390.776054] gator_ioctl called
+[  390.776060] Balee
+[  391.076261] gator_ioctl called
+[  391.076266] Balee
+[  391.376829] gator_ioctl called
+[  391.376835] Balee
+[  391.677076] gator_ioctl called
+[  391.677081] Balee
+[  391.977355] gator_ioctl called
+[  391.977363] Balee
+[  392.277687] gator_ioctl called
+[  392.277692] Balee
+[  392.578231] gator_ioctl called
+[  392.578235] Balee
+[  392.674313] binder: release 7061:7062 transaction 143205 out, still active
+[  392.674797] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  392.674800] binder: send failed reply for transaction 143205, target dead
+[  392.878417] gator_ioctl called
+[  392.878418] Balee
+[  393.178608] gator_ioctl called
+[  393.178610] Balee
+[  393.478824] gator_ioctl called
+[  393.478825] Balee
+[  393.689854] binder: undelivered transaction 143979, process died.
+[  393.779091] gator_ioctl called
+[  393.779091] Balee
+[  394.079382] gator_ioctl called
+[  394.079386] Balee
+[  394.380021] gator_ioctl called
+[  394.380023] Balee
+[  394.680261] gator_ioctl called
+[  394.680266] Balee
+[  394.706571] binder: undelivered transaction 144467, process died.
+[  394.980439] gator_ioctl called
+[  394.980440] Balee
+[  395.280621] gator_ioctl called
+[  395.280623] Balee
+[  395.581858] gator_ioctl called
+[  395.581864] Balee
+[  395.724126] binder: undelivered transaction 145005, process died.
+[  395.887010] gator_ioctl called
+[  395.887016] Balee
+[  396.187220] gator_ioctl called
+[  396.187220] Balee
+[  396.487461] gator_ioctl called
+[  396.487473] Balee
+[  396.743490] binder: undelivered transaction 145374, process died.
+[  396.790494] gator_ioctl called
+[  396.790499] Balee
+[  397.090704] gator_ioctl called
+[  397.090714] Balee
+[  397.391079] gator_ioctl called
+[  397.391087] Balee
+[  397.691350] gator_ioctl called
+[  397.691359] Balee
+[  397.761414] binder: release 7089:7090 transaction 145688 out, still active
+[  397.762072] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  397.762077] binder: send failed reply for transaction 145688, target dead
+[  397.998389] gator_ioctl called
+[  397.998395] Balee
+[  398.298669] gator_ioctl called
+[  398.298670] Balee
+[  398.598905] gator_ioctl called
+[  398.598913] Balee
+[  398.776470] binder: release 7091:7092 transaction 145855 out, still active
+[  398.777606] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  398.777612] binder: send failed reply for transaction 145855, target dead
+[  398.899156] gator_ioctl called
+[  398.899161] Balee
+[  399.200327] gator_ioctl called
+[  399.200335] Balee
+[  399.500613] gator_ioctl called
+[  399.500613] Balee
+[  399.789810] binder: undelivered transaction 146096, process died.
+[  399.800892] gator_ioctl called
+[  399.800899] Balee
+[  400.101117] gator_ioctl called
+[  400.101124] Balee
+[  400.401394] gator_ioctl called
+[  400.401400] Balee
+[  400.701715] gator_ioctl called
+[  400.701767] Balee
+[  400.811955] binder: undelivered transaction 146284, process died.
+[  401.002104] gator_ioctl called
+[  401.002108] Balee
+[  401.302308] gator_ioctl called
+[  401.302323] Balee
+[  401.605364] gator_ioctl called
+[  401.605368] Balee
+[  401.905638] gator_ioctl called
+[  401.905646] Balee
+[  402.205974] gator_ioctl called
+[  402.205979] Balee
+[  402.506220] gator_ioctl called
+[  402.506226] Balee
+[  402.806515] gator_ioctl called
+[  402.806522] Balee
+[  403.106789] gator_ioctl called
+[  403.106794] Balee
+[  403.407182] gator_ioctl called
+[  403.407197] Balee
+[  403.707447] gator_ioctl called
+[  403.707452] Balee
+[  403.879687] binder: undelivered transaction 147409, process died.
+[  404.007690] gator_ioctl called
+[  404.007698] Balee
+[  404.308044] gator_ioctl called
+[  404.308051] Balee
+[  404.608416] gator_ioctl called
+[  404.608419] Balee
+[  404.908730] gator_ioctl called
+[  404.908736] Balee
+[  405.209741] gator_ioctl called
+[  405.209745] Balee
+[  405.510131] gator_ioctl called
+[  405.510139] Balee
+[  405.810399] gator_ioctl called
+[  405.810411] Balee
+[  406.110716] gator_ioctl called
+[  406.110723] Balee
+[  406.411008] gator_ioctl called
+[  406.411017] Balee
+[  406.711504] gator_ioctl called
+[  406.711510] Balee
+[  406.960667] binder_alloc: 7126: binder_alloc_buf, no vma
+[  406.960674] binder: release 7126:7127 transaction 148377 out, still active
+[  406.966170] binder: 3303:3434 transaction failed 29189/-3, size 4-0 line 3127
+[  406.966177] binder: send failed reply for transaction 148377, target dead
+[  407.011792] gator_ioctl called
+[  407.011801] Balee
+[  407.312096] gator_ioctl called
+[  407.312103] Balee
+[  407.612354] gator_ioctl called
+[  407.612355] Balee
+[  407.912652] gator_ioctl called
+[  407.912662] Balee
+[  408.213162] gator_ioctl called
+[  408.213170] Balee
+[  408.513547] gator_ioctl called
+[  408.513557] Balee
+[  408.813862] gator_ioctl called
+[  408.813864] Balee
+[  408.993672] binder: release 7147:7148 transaction 148972 out, still active
+[  408.994207] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  408.994212] binder: send failed reply for transaction 148972, target dead
+[  409.114058] gator_ioctl called
+[  409.114063] Balee
+[  409.414279] gator_ioctl called
+[  409.414279] Balee
+[  409.714582] gator_ioctl called
+[  409.714588] Balee
+[  410.014830] gator_ioctl called
+[  410.014831] Balee
+[  410.015948] binder: release 7149:7150 transaction 149817 out, still active
+[  410.017053] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  410.017056] binder: send failed reply for transaction 149817, target dead
+[  410.322653] gator_ioctl called
+[  410.322663] Balee
+[  410.622972] gator_ioctl called
+[  410.622973] Balee
+[  410.923221] gator_ioctl called
+[  410.923228] Balee
+[  411.041893] binder: undelivered transaction 150349, process died.
+[  411.223488] gator_ioctl called
+[  411.223489] Balee
+[  411.523749] gator_ioctl called
+[  411.523754] Balee
+[  411.823982] gator_ioctl called
+[  411.823989] Balee
+[  412.073643] binder: release 7156:7157 transaction 150836 out, still active
+[  412.074716] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  412.074876] binder: send failed reply for transaction 150836, target dead
+[  412.124247] gator_ioctl called
+[  412.124253] Balee
+[  412.424493] gator_ioctl called
+[  412.424493] Balee
+[  412.728746] gator_ioctl called
+[  412.728755] Balee
+[  413.029177] gator_ioctl called
+[  413.029188] Balee
+[  413.108791] binder: undelivered transaction 151348, process died.
+[  413.329599] gator_ioctl called
+[  413.329599] Balee
+[  413.629957] gator_ioctl called
+[  413.629964] Balee
+[  413.930250] gator_ioctl called
+[  413.930257] Balee
+[  414.230520] gator_ioctl called
+[  414.230522] Balee
+[  414.530758] gator_ioctl called
+[  414.530768] Balee
+[  414.831101] gator_ioctl called
+[  414.831110] Balee
+[  415.131592] gator_ioctl called
+[  415.131597] Balee
+[  415.170187] binder: undelivered transaction 152875, process died.
+[  415.431847] gator_ioctl called
+[  415.431854] Balee
+[  415.732080] gator_ioctl called
+[  415.732080] Balee
+[  416.032310] gator_ioctl called
+[  416.032316] Balee
+[  416.332580] gator_ioctl called
+[  416.332589] Balee
+[  416.632901] gator_ioctl called
+[  416.632903] Balee
+[  416.933263] gator_ioctl called
+[  416.933270] Balee
+[  417.214029] binder: undelivered transaction 154009, process died.
+[  417.233615] gator_ioctl called
+[  417.233625] Balee
+[  417.533890] gator_ioctl called
+[  417.533899] Balee
+[  417.834145] gator_ioctl called
+[  417.834150] Balee
+[  418.134355] gator_ioctl called
+[  418.134364] Balee
+[  418.232028] binder: undelivered transaction 154543, process died.
+[  418.434643] gator_ioctl called
+[  418.434649] Balee
+[  418.734884] gator_ioctl called
+[  418.734895] Balee
+[  419.035172] gator_ioctl called
+[  419.035172] Balee
+[  419.246651] binder: release 7202:7203 transaction 155358 out, still active
+[  419.248505] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  419.248512] binder: send failed reply for transaction 155358, target dead
+[  419.335424] gator_ioctl called
+[  419.335433] Balee
+[  419.635677] gator_ioctl called
+[  419.635678] Balee
+[  419.935898] gator_ioctl called
+[  419.935902] Balee
+[  420.236174] gator_ioctl called
+[  420.236175] Balee
+[  420.283701] binder: release 7204:7205 transaction 155673 out, still active
+[  420.288198] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  420.288208] binder: send failed reply for transaction 155673, target dead
+[  420.536403] gator_ioctl called
+[  420.536403] Balee
+[  420.836633] gator_ioctl called
+[  420.836642] Balee
+[  421.136929] gator_ioctl called
+[  421.136931] Balee
+[  421.296611] binder: undelivered transaction 156482, process died.
+[  421.437208] gator_ioctl called
+[  421.437214] Balee
+[  421.737477] gator_ioctl called
+[  421.737477] Balee
+[  422.037864] gator_ioctl called
+[  422.037875] Balee
+[  422.322084] binder: undelivered transaction 157177, process died.
+[  422.338225] gator_ioctl called
+[  422.338233] Balee
+[  422.638523] gator_ioctl called
+[  422.638528] Balee
+[  422.938868] gator_ioctl called
+[  422.938885] Balee
+[  423.239280] gator_ioctl called
+[  423.239283] Balee
+[  423.355319] binder: undelivered transaction 157385, process died.
+[  423.539511] gator_ioctl called
+[  423.539523] Balee
+[  423.839919] gator_ioctl called
+[  423.839929] Balee
+[  424.140165] gator_ioctl called
+[  424.140170] Balee
+[  424.440367] gator_ioctl called
+[  424.440376] Balee
+[  424.740660] gator_ioctl called
+[  424.740667] Balee
+[  425.040892] gator_ioctl called
+[  425.040900] Balee
+[  425.341158] gator_ioctl called
+[  425.341171] Balee
+[  425.641451] gator_ioctl called
+[  425.641452] Balee
+[  425.941715] gator_ioctl called
+[  425.941722] Balee
+[  426.241999] gator_ioctl called
+[  426.242001] Balee
+[  426.429625] binder: release 7233:7234 transaction 158845 out, still active
+[  426.430080] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  426.430086] binder: send failed reply for transaction 158845, target dead
+[  426.542294] gator_ioctl called
+[  426.542301] Balee
+[  426.842626] gator_ioctl called
+[  426.842626] Balee
+[  427.142890] gator_ioctl called
+[  427.142894] Balee
+[  427.442738] binder: release 7235:7236 transaction 159270 out, still active
+[  427.443162] gator_ioctl called
+[  427.443165] Balee
+[  427.444087] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  427.444092] binder: send failed reply for transaction 159270, target dead
+[  427.743419] gator_ioctl called
+[  427.743426] Balee
+[  428.043739] gator_ioctl called
+[  428.043757] Balee
+[  428.344167] gator_ioctl called
+[  428.344173] Balee
+[  428.644426] gator_ioctl called
+[  428.644440] Balee
+[  428.944736] gator_ioctl called
+[  428.944753] Balee
+[  429.245075] gator_ioctl called
+[  429.245084] Balee
+[  429.545349] gator_ioctl called
+[  429.545355] Balee
+[  429.850660] gator_ioctl called
+[  429.850670] Balee
+[  430.150963] gator_ioctl called
+[  430.150968] Balee
+[  430.451201] gator_ioctl called
+[  430.451211] Balee
+[  430.517646] binder: release 7259:7260 transaction 159938 out, still active
+[  430.518500] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  430.518504] binder: send failed reply for transaction 159938, target dead
+[  430.751503] gator_ioctl called
+[  430.751517] Balee
+[  431.051875] gator_ioctl called
+[  431.051887] Balee
+[  431.352161] gator_ioctl called
+[  431.352172] Balee
+[  431.533530] binder: release 7261:7262 transaction 160171 out, still active
+[  431.534829] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  431.534842] binder: send failed reply for transaction 160171, target dead
+[  431.652458] gator_ioctl called
+[  431.652462] Balee
+[  431.952689] gator_ioctl called
+[  431.952712] Balee
+[  432.253018] gator_ioctl called
+[  432.253023] Balee
+[  432.553267] gator_ioctl called
+[  432.553267] Balee
+[  432.853541] gator_ioctl called
+[  432.853551] Balee
+[  433.153823] gator_ioctl called
+[  433.153828] Balee
+[  433.454104] gator_ioctl called
+[  433.454112] Balee
+[  433.572342] binder: undelivered transaction 161449, process died.
+[  433.754413] gator_ioctl called
+[  433.754420] Balee
+[  434.054698] gator_ioctl called
+[  434.054699] Balee
+[  434.355005] gator_ioctl called
+[  434.355006] Balee
+[  434.598747] binder: release 7284:7285 transaction 161927 out, still active
+[  434.599228] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  434.599231] binder: send failed reply for transaction 161927, target dead
+[  434.661627] gator_ioctl called
+[  434.661643] Balee
+[  434.962049] gator_ioctl called
+[  434.962056] Balee
+[  435.262498] gator_ioctl called
+[  435.262506] Balee
+[  435.562769] gator_ioctl called
+[  435.562779] Balee
+[  435.614161] binder_alloc: 7286: binder_alloc_buf, no vma
+[  435.614181] binder: release 7286:7287 transaction 162204 out, still active
+[  435.619623] binder: 3303:3876 transaction failed 29189/-3, size 4-0 line 3127
+[  435.619627] binder: send failed reply for transaction 162204, target dead
+[  435.863055] gator_ioctl called
+[  435.863064] Balee
+[  436.163486] gator_ioctl called
+[  436.163486] Balee
+[  436.464230] gator_ioctl called
+[  436.464258] Balee
+[  436.642815] binder: undelivered transaction 162474, process died.
+[  436.764495] gator_ioctl called
+[  436.764495] Balee
+[  437.064717] gator_ioctl called
+[  437.064723] Balee
+[  437.365019] gator_ioctl called
+[  437.365029] Balee
+[  437.661668] binder: undelivered transaction 163243, process died.
+[  437.665276] gator_ioctl called
+[  437.665295] Balee
+[  437.965618] gator_ioctl called
+[  437.965626] Balee
+[  438.265925] gator_ioctl called
+[  438.265925] Balee
+[  438.566192] gator_ioctl called
+[  438.566193] Balee
+[  438.676412] binder: undelivered transaction 163917, process died.
+[  438.866463] gator_ioctl called
+[  438.866486] Balee
+[  439.166944] gator_ioctl called
+[  439.166953] Balee
+[  439.467209] gator_ioctl called
+[  439.467214] Balee
+[  439.705506] binder: undelivered transaction 164127, process died.
+[  439.767495] gator_ioctl called
+[  439.767503] Balee
+[  440.067745] gator_ioctl called
+[  440.067749] Balee
+[  440.367988] gator_ioctl called
+[  440.368000] Balee
+[  440.668648] gator_ioctl called
+[  440.668655] Balee
+[  440.968919] gator_ioctl called
+[  440.968937] Balee
+[  441.269241] gator_ioctl called
+[  441.269248] Balee
+[  441.569566] gator_ioctl called
+[  441.569574] Balee
+[  441.757497] binder: undelivered transaction 164561, process died.
+[  441.869872] gator_ioctl called
+[  441.869873] Balee
+[  442.170078] gator_ioctl called
+[  442.170082] Balee
+[  442.470298] gator_ioctl called
+[  442.470306] Balee
+[  442.770591] gator_ioctl called
+[  442.770600] Balee
+[  442.779222] binder: release 7316:7317 transaction 165198 out, still active
+[  442.780015] binder: 3303:3434 transaction failed 29189/0, size 4-0 line 2944
+[  442.780021] binder: send failed reply for transaction 165198, target dead
+[  443.070940] gator_ioctl called
+[  443.070950] Balee
+[  443.371217] gator_ioctl called
+[  443.371221] Balee
+[  443.671434] gator_ioctl called
+[  443.671443] Balee
+[  443.816199] binder: undelivered transaction 165594, process died.
+[  443.971706] gator_ioctl called
+[  443.971713] Balee
+[  444.271996] gator_ioctl called
+[  444.271997] Balee
+[  444.572270] gator_ioctl called
+[  444.572281] Balee
+[  444.843733] binder_alloc: 7322: binder_alloc_buf, no vma
+[  444.844337] binder: release 7322:7324 transaction 166354 out, still active
+[  444.849142] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  444.849148] binder: send failed reply for transaction 166354, target dead
+[  444.872641] gator_ioctl called
+[  444.872641] Balee
+[  445.172835] gator_ioctl called
+[  445.172839] Balee
+[  445.473087] gator_ioctl called
+[  445.473092] Balee
+[  445.773330] gator_ioctl called
+[  445.773336] Balee
+[  445.857138] binder: undelivered transaction 166546, process died.
+[  446.073695] gator_ioctl called
+[  446.073702] Balee
+[  446.373988] gator_ioctl called
+[  446.373998] Balee
+[  446.674419] gator_ioctl called
+[  446.674433] Balee
+[  446.873604] binder: undelivered transaction 166681, process died.
+[  446.974810] gator_ioctl called
+[  446.974828] Balee
+[  447.275251] gator_ioctl called
+[  447.275260] Balee
+[  447.575545] gator_ioctl called
+[  447.575552] Balee
+[  447.876499] gator_ioctl called
+[  447.876505] Balee
+[  447.901616] binder_alloc: 7343: binder_alloc_buf, no vma
+[  447.901622] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  447.901625] binder: send failed reply for transaction 166863 to 7343:7344
+[  447.901768] binder: undelivered TRANSACTION_ERROR: 29189
+[  448.176738] gator_ioctl called
+[  448.176747] Balee
+[  448.477172] gator_ioctl called
+[  448.477181] Balee
+[  448.777510] gator_ioctl called
+[  448.777518] Balee
+[  448.921475] binder: undelivered transaction 167019, process died.
+[  449.077803] gator_ioctl called
+[  449.077813] Balee
+[  449.378157] gator_ioctl called
+[  449.378164] Balee
+[  449.678419] gator_ioctl called
+[  449.678419] Balee
+[  449.946634] binder: undelivered transaction 167177, process died.
+[  449.978674] gator_ioctl called
+[  449.978682] Balee
+[  450.279007] gator_ioctl called
+[  450.279016] Balee
+[  450.579302] gator_ioctl called
+[  450.579303] Balee
+[  450.879612] gator_ioctl called
+[  450.879620] Balee
+[  450.964689] binder: undelivered transaction 167355, process died.
+[  451.179967] gator_ioctl called
+[  451.179977] Balee
+[  451.480259] gator_ioctl called
+[  451.480268] Balee
+[  451.780542] gator_ioctl called
+[  451.780542] Balee
+[  452.080798] gator_ioctl called
+[  452.080802] Balee
+[  452.381080] gator_ioctl called
+[  452.381085] Balee
+[  452.681288] gator_ioctl called
+[  452.681293] Balee
+[  452.981504] gator_ioctl called
+[  452.981507] Balee
+[  452.997129] binder_alloc: 7371: binder_alloc_buf, no vma
+[  452.997144] binder: release 7371:7372 transaction 167692 out, still active
+[  453.002586] binder: 3303:3876 transaction failed 29189/-3, size 4-0 line 3127
+[  453.002591] binder: send failed reply for transaction 167692, target dead
+[  453.281743] gator_ioctl called
+[  453.281749] Balee
+[  453.582022] gator_ioctl called
+[  453.582022] Balee
+[  453.882348] gator_ioctl called
+[  453.882357] Balee
+[  454.032763] binder: undelivered transaction 167957, process died.
+[  454.182625] gator_ioctl called
+[  454.182630] Balee
+[  454.482841] gator_ioctl called
+[  454.482841] Balee
+[  454.783120] gator_ioctl called
+[  454.783130] Balee
+[  455.050681] binder: release 7376:7377 transaction 168526 out, still active
+[  455.051485] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  455.051491] binder: send failed reply for transaction 168526, target dead
+[  455.083450] gator_ioctl called
+[  455.083458] Balee
+[  455.383736] gator_ioctl called
+[  455.383741] Balee
+[  455.684081] gator_ioctl called
+[  455.684104] Balee
+[  455.984418] gator_ioctl called
+[  455.984419] Balee
+[  456.069735] binder: undelivered transaction 168929, process died.
+[  456.295598] gator_ioctl called
+[  456.295606] Balee
+[  456.595911] gator_ioctl called
+[  456.595912] Balee
+[  456.896217] gator_ioctl called
+[  456.896228] Balee
+[  457.097324] binder: release 7395:7396 transaction 169697 out, still active
+[  457.097927] binder: 3303:3876 transaction failed 29189/0, size 4-0 line 2944
+[  457.097932] binder: send failed reply for transaction 169697, target dead
+[  457.197332] gator_ioctl called
+[  457.197332] Balee
+[  457.497629] gator_ioctl called
+[  457.497638] Balee
+[  457.797926] gator_ioctl called
+[  457.797935] Balee
+[  458.098208] gator_ioctl called
+[  458.098217] Balee
+[  458.146105] binder: undelivered transaction 170301, process died.
+[  458.398491] gator_ioctl called
+[  458.398504] Balee
+[  458.698801] gator_ioctl called
+[  458.698807] Balee
+[  458.999120] gator_ioctl called
+[  458.999120] Balee
+[  459.173101] binder: undelivered transaction 170685, process died.
+[  459.299359] gator_ioctl called
+[  459.299364] Balee
+[  459.599620] gator_ioctl called
+[  459.599620] Balee
+[  459.899878] gator_ioctl called
+[  459.899885] Balee
+[  460.200115] gator_ioctl called
+[  460.200121] Balee
+[  460.500369] gator_ioctl called
+[  460.500372] Balee
+[  460.800738] gator_ioctl called
+[  460.800747] Balee
+[  461.110125] gator_ioctl called
+[  461.110135] Balee
+[  461.410454] gator_ioctl called
+[  461.410460] Balee
+[  461.710741] gator_ioctl called
+[  461.710745] Balee
+[  462.011102] gator_ioctl called
+[  462.011108] Balee
+[  462.257046] binder: undelivered transaction 171388, process died.
+[  462.311411] gator_ioctl called
+[  462.311417] Balee
+[  462.611753] gator_ioctl called
+[  462.611754] Balee
+[  462.911978] gator_ioctl called
+[  462.911985] Balee
+[  463.212819] gator_ioctl called
+[  463.212828] Balee
+[  463.280120] binder: undelivered transaction 171695, process died.
+[  463.515779] gator_ioctl called
+[  463.515788] Balee
+[  463.816058] gator_ioctl called
+[  463.816065] Balee
+[  464.116272] gator_ioctl called
+[  464.116273] Balee
+[  464.416767] gator_ioctl called
+[  464.416773] Balee
+[  464.717056] gator_ioctl called
+[  464.717061] Balee
+[  465.017643] gator_ioctl called
+[  465.017649] Balee
+[  465.317980] gator_ioctl called
+[  465.317985] Balee
+[  465.618596] gator_ioctl called
+[  465.618601] Balee
+[  465.918856] gator_ioctl called
+[  465.918866] Balee
+[  466.219258] gator_ioctl called
+[  466.219264] Balee
+[  466.519774] gator_ioctl called
+[  466.519777] Balee
+[  466.820011] gator_ioctl called
+[  466.820019] Balee
+[  467.120274] gator_ioctl called
+[  467.120280] Balee
+[  467.406597] binder: undelivered transaction 172931, process died.
+[  467.420538] gator_ioctl called
+[  467.420554] Balee
+[  467.721220] gator_ioctl called
+[  467.721225] Balee
+[  468.021557] gator_ioctl called
+[  468.021564] Balee
+[  468.277285] wlcore: Beacon loss detected. roles:0x1
+[  468.321803] gator_ioctl called
+[  468.321812] Balee
+[  468.622144] gator_ioctl called
+[  468.622151] Balee
+[  468.922453] gator_ioctl called
+[  468.922459] Balee
+[  469.222675] gator_ioctl called
+[  469.222683] Balee
+[  469.456061] binder: undelivered transaction 173326, process died.
+[  469.522920] gator_ioctl called
+[  469.522927] Balee
+[  469.823163] gator_ioctl called
+[  469.823170] Balee
+[  470.123374] gator_ioctl called
+[  470.123381] Balee
+[  470.423770] gator_ioctl called
+[  470.423777] Balee
+[  470.724031] gator_ioctl called
+[  470.724039] Balee
+[  471.024327] gator_ioctl called
+[  471.024332] Balee
+[  471.324593] gator_ioctl called
+[  471.324610] Balee
+[  471.625096] gator_ioctl called
+[  471.625102] Balee
+[  471.925290] gator_ioctl called
+[  471.925290] Balee
+[  472.225495] gator_ioctl called
+[  472.225502] Balee
+[  472.525743] gator_ioctl called
+[  472.525748] Balee
+[  472.825993] gator_ioctl called
+[  472.826000] Balee
+[  473.129228] gator_ioctl called
+[  473.129230] Balee
+[  473.164936] wlcore: Connection loss work (role_id: 0).
+[  473.164963] wlan0: Connection to AP 60:03:47:0e:ef:68 lost
+[  473.322514] type=1400 audit(1598995919.141:567): avc: denied { getattr } for pid=5669 comm="Thread-3" path="/sys/devices/virtual/thermal/thermal_zone0/temp" dev="sysfs" ino=11673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[  473.322562] type=1400 audit(1598996038.393:568): avc: denied { write } for pid=3649 comm="wpa_supplicant" name="drop_unicast_in_l2_multicast" dev="proc" ino=106519 scontext=u:r:hal_wifi_supplicant_default:s0 tcontext=u:object_r:proc_net:s0 tclass=file permissive=1
+[  473.366955] init: processing action (sys.sysctl.tcp_def_init_rwnd=*) from (/init.rc:695)
+[  473.373097] type=1400 audit(1598996038.393:568): avc: denied { write } for pid=3649 comm="wpa_supplicant" name="drop_unicast_in_l2_multicast" dev="proc" ino=106519 scontext=u:r:hal_wifi_supplicant_default:s0 tcontext=u:object_r:proc_net:s0 tclass=file permissive=1
+[  473.373137] type=1400 audit(1598996038.441:569): avc: denied { write } for pid=2605 comm="Binder:2605_2" name="xt_quota" dev="proc" ino=4026532244 scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=dir permissive=1
+[  473.373313] type=1400 audit(1598996038.441:569): avc: denied { write } for pid=2605 comm="Binder:2605_2" name="xt_quota" dev="proc" ino=4026532244 scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=dir permissive=1
+[  473.373325] type=1400 audit(1598996038.441:570): avc: denied { add_name } for pid=2605 comm="Binder:2605_2" name="globalAlert" scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=dir permissive=1
+[  473.373387] type=1400 audit(1598996038.441:570): avc: denied { add_name } for pid=2605 comm="Binder:2605_2" name="globalAlert" scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=dir permissive=1
+[  473.373395] type=1400 audit(1598996038.441:571): avc: denied { create } for pid=2605 comm="Binder:2605_2" name="globalAlert" scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=file permissive=1
+[  473.373449] type=1400 audit(1598996038.441:571): avc: denied { create } for pid=2605 comm="Binder:2605_2" name="globalAlert" scontext=u:r:netd:s0 tcontext=u:object_r:proc_net:s0 tclass=file permissive=1
+[  473.373462] type=1400 audit(1598996038.441:572): avc: denied { associate } for pid=2605 comm="Binder:2605_2" name="globalAlert" scontext=u:object_r:proc_net:s0 tcontext=u:object_r:proc:s0 tclass=filesystem permissive=1
+[  473.429595] gator_ioctl called
+[  473.429601] Balee
+[  473.592304] binder: undelivered transaction 174820, process died.
+[  473.729832] gator_ioctl called
+[  473.729840] Balee
+[  474.030060] gator_ioctl called
+[  474.030066] Balee
+[  474.330295] gator_ioctl called
+[  474.330301] Balee
+[  474.618877] binder: undelivered transaction 175094, process died.
+[  474.630858] gator_ioctl called
+[  474.630865] Balee
+[  474.931107] gator_ioctl called
+[  474.931113] Balee
+[  475.231379] gator_ioctl called
+[  475.231387] Balee
+[  475.531634] gator_ioctl called
+[  475.531634] Balee
+[  475.831833] gator_ioctl called
+[  475.831838] Balee
+[  476.132042] gator_ioctl called
+[  476.132047] Balee
+[  476.432238] gator_ioctl called
+[  476.432241] Balee
+[  476.733013] gator_ioctl called
+[  476.733018] Balee
+[  477.033235] gator_ioctl called
+[  477.033235] Balee
+[  477.333448] gator_ioctl called
+[  477.333453] Balee
+[  477.477522] wlan0: authenticate with 60:03:47:0e:ef:68
+[  477.487574] wlan0: send auth to 60:03:47:0e:ef:68 (try 1/3)
+[  477.506547] wlan0: authenticated
+[  477.508895] wlan0: associate with 60:03:47:0e:ef:68 (try 1/3)
+[  477.513850] wlan0: RX AssocResp from 60:03:47:0e:ef:68 (capab=0x411 status=0 aid=2)
+[  477.532634] wlan0: associated
+[  477.632570] wlcore: Association completed.
+[  477.636676] gator_ioctl called
+[  477.636681] Balee
+[  477.938087] gator_ioctl called
+[  477.938097] Balee
+[  478.238420] gator_ioctl called
+[  478.238420] Balee
+[  478.538745] gator_ioctl called
+[  478.538756] Balee
+[  478.839301] gator_ioctl called
+[  478.839307] Balee
+[  479.139532] gator_ioctl called
+[  479.139538] Balee
+[  479.440340] gator_ioctl called
+[  479.440347] Balee
+[  479.740580] gator_ioctl called
+[  479.740584] Balee
+[  480.041289] gator_ioctl called
+[  480.041296] Balee
+[  480.344861] gator_ioctl called
+[  480.344866] Balee
+[  480.362128] type=1400 audit(1598996038.565:575): avc: denied { getattr } for pid=3929 comm="BuglyThread-1" path="/proc/uptime" dev="proc" ino=4026532030 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_uptime:s0 tclass=file permissive=1
+[  480.362187] type=1400 audit(1598996045.429:576): avc: denied { call } for pid=3303 comm="ActivityManager" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  480.645088] gator_ioctl called
+[  480.645094] Balee
+[  480.945308] gator_ioctl called
+[  480.945313] Balee
+[  481.057481] init: processing action (sys.sysctl.tcp_def_init_rwnd=*) from (/init.rc:695)
+[  481.245524] gator_ioctl called
+[  481.245531] Balee
+[  481.545763] gator_ioctl called
+[  481.545768] Balee
+[  481.811343] binder: undelivered transaction 177402, process died.
+[  481.845991] gator_ioctl called
+[  481.845991] Balee
+[  482.149377] gator_ioctl called
+[  482.149386] Balee
+[  482.449661] gator_ioctl called
+[  482.449665] Balee
+[  482.749852] gator_ioctl called
+[  482.749858] Balee
+[  483.050212] gator_ioctl called
+[  483.050213] Balee
+[  483.350426] gator_ioctl called
+[  483.350431] Balee
+[  483.653802] gator_ioctl called
+[  483.653809] Balee
+[  483.954135] gator_ioctl called
+[  483.954141] Balee
+[  484.254372] gator_ioctl called
+[  484.254372] Balee
+[  484.554592] gator_ioctl called
+[  484.554594] Balee
+[  484.855276] gator_ioctl called
+[  484.855276] Balee
+[  484.905267] binder: release 7740:7741 transaction 177825 out, still active
+[  484.906512] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  484.906526] binder: send failed reply for transaction 177825, target dead
+[  485.155580] gator_ioctl called
+[  485.155587] Balee
+[  485.455807] gator_ioctl called
+[  485.455814] Balee
+[  485.756132] gator_ioctl called
+[  485.756136] Balee
+[  485.924181] binder: release 7742:7743 transaction 177913 out, still active
+[  485.924294] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  485.924298] binder: send failed reply for transaction 177913, target dead
+[  486.056345] gator_ioctl called
+[  486.056354] Balee
+[  486.356609] gator_ioctl called
+[  486.356616] Balee
+[  486.656840] gator_ioctl called
+[  486.656846] Balee
+[  486.943540] binder: undelivered transaction 178014, process died.
+[  486.957106] gator_ioctl called
+[  486.957113] Balee
+[  487.257338] gator_ioctl called
+[  487.257344] Balee
+[  487.557629] gator_ioctl called
+[  487.557635] Balee
+[  487.858169] gator_ioctl called
+[  487.858173] Balee
+[  487.965986] binder: undelivered transaction 178157, process died.
+[  488.158353] gator_ioctl called
+[  488.158357] Balee
+[  488.458815] gator_ioctl called
+[  488.458824] Balee
+[  488.759200] gator_ioctl called
+[  488.759211] Balee
+[  489.013760] binder: undelivered transaction 178273, process died.
+[  489.060164] gator_ioctl called
+[  489.060173] Balee
+[  489.360739] gator_ioctl called
+[  489.360745] Balee
+[  489.661090] gator_ioctl called
+[  489.661098] Balee
+[  489.961336] gator_ioctl called
+[  489.961343] Balee
+[  490.044193] binder_alloc: 7769: binder_alloc_buf, no vma
+[  490.044200] binder: 3303:3742 transaction failed 29189/-3, size 4-0 line 3127
+[  490.044203] binder: send failed reply for transaction 178393 to 7769:7772
+[  490.044280] binder: undelivered TRANSACTION_ERROR: 29189
+[  490.261594] gator_ioctl called
+[  490.261601] Balee
+[  490.561821] gator_ioctl called
+[  490.561828] Balee
+[  490.862086] gator_ioctl called
+[  490.862092] Balee
+[  491.069551] binder_alloc: 7776: binder_alloc_buf, no vma
+[  491.069774] binder: release 7776:7777 transaction 178495 out, still active
+[  491.075003] binder: 3303:3705 transaction failed 29189/-3, size 4-0 line 3127
+[  491.075009] binder: send failed reply for transaction 178495, target dead
+[  491.162400] gator_ioctl called
+[  491.162406] Balee
+[  491.464995] gator_ioctl called
+[  491.465002] Balee
+[  491.480247] type=1400 audit(1598996045.429:576): avc: denied { call } for pid=3303 comm="ActivityManager" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  491.480287] type=1400 audit(1598996056.549:577): avc: denied { read } for pid=3929 comm="pool-9-thread-1" name="devices" dev="sysfs" ino=4 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[  491.480430] type=1400 audit(1598996056.549:577): avc: denied { read } for pid=3929 comm="pool-9-thread-1" name="devices" dev="sysfs" ino=4 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[  491.480445] type=1400 audit(1598996056.549:578): avc: denied { open } for pid=3929 comm="pool-9-thread-1" path="/sys/devices" dev="sysfs" ino=4 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[  491.488966] type=1400 audit(1598996056.549:578): avc: denied { open } for pid=3929 comm="pool-9-thread-1" path="/sys/devices" dev="sysfs" ino=4 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[  491.489009] type=1400 audit(1598996056.557:579): avc: denied { read } for pid=3929 comm="pool-9-thread-1" name="net" dev="sysfs" ino=10777 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=1
+[  491.489135] type=1400 audit(1598996056.557:579): avc: denied { read } for pid=3929 comm="pool-9-thread-1" name="net" dev="sysfs" ino=10777 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=1
+[  491.489146] type=1400 audit(1598996056.557:580): avc: denied { open } for pid=3929 comm="pool-9-thread-1" path="/sys/devices/virtual/net" dev="sysfs" ino=10777 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=1
+[  491.489598] type=1400 audit(1598996056.557:580): avc: denied { open } for pid=3929 comm="pool-9-thread-1" path="/sys/devices/virtual/net" dev="sysfs" ino=10777 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=1
+[  491.489610] type=1400 audit(1598996056.561:581): avc: denied { read } for pid=3929 comm="pool-9-thread-1" name="android_usb" dev="sysfs" ino=30985 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs_android_usb:s0 tclass=dir permissive=1
+[  491.765240] gator_ioctl called
+[  491.765247] Balee
+[  492.065475] gator_ioctl called
+[  492.065481] Balee
+[  492.109354] binder: release 7781:7782 transaction 179064 out, still active
+[  492.114429] binder: 3303:3705 transaction failed 29189/0, size 4-0 line 2944
+[  492.114577] binder: send failed reply for transaction 179064, target dead
+[  492.365703] gator_ioctl called
+[  492.365710] Balee
+[  492.708079] gator_ioctl called
+[  492.708088] Balee
+[  493.008447] gator_ioctl called
+[  493.008456] Balee
+[  493.308851] gator_ioctl called
+[  493.308885] Balee
+[  493.609159] gator_ioctl called
+[  493.609165] Balee
+[  493.909389] gator_ioctl called
+[  493.909399] Balee
+[  493.978082] perf: interrupt took too long (4959 > 4931), lowering kernel.perf_event_max_sample_rate to 40250
+[  494.154887] binder: undelivered transaction 181009, process died.
+[  494.214505] gator_ioctl called
+[  494.214511] Balee
+[  494.514727] gator_ioctl called
+[  494.514734] Balee
+[  494.815034] gator_ioctl called
+[  494.815034] Balee
+[  495.116402] gator_ioctl called
+[  495.116403] Balee
+[  495.178301] binder: release 7803:7804 transaction 181878 out, still active
+[  495.180377] binder: 3303:3705 transaction failed 29189/0, size 4-0 line 2944
+[  495.180384] binder: send failed reply for transaction 181878, target dead
+[  495.416665] gator_ioctl called
+[  495.416670] Balee
+[  495.716853] gator_ioctl called
+[  495.716885] Balee
+[  496.017162] gator_ioctl called
+[  496.017168] Balee
+[  496.209771] binder: release 7805:7806 transaction 182830 out, still active
+[  496.218085] binder: 3303:3705 transaction failed 29189/0, size 4-0 line 2944
+[  496.218098] binder: send failed reply for transaction 182830, target dead
+[  496.317450] gator_ioctl called
+[  496.317456] Balee
+[  497.232736] binder: release 7808:7809 transaction 183780 out, still active
+[  497.234084] binder: 3303:3705 transaction failed 29189/0, size 4-0 line 2944
+[  497.234094] binder: send failed reply for transaction 183780, target dead
+[  498.256013] binder: release 7825:7826 transaction 184666 out, still active
+[  498.257459] binder: 3303:6545 transaction failed 29189/0, size 4-0 line 2944
+[  498.257470] binder: send failed reply for transaction 184666, target dead
+[  502.361691] binder: release 7834:7835 transaction 188165 out, still active
+[  502.363416] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  502.363423] binder: send failed reply for transaction 188165, target dead
+[  503.375691] binder_alloc: 7851: binder_alloc_buf, no vma
+[  503.375747] binder: release 7851:7852 transaction 188934 out, still active
+[  503.381114] binder: 3303:6545 transaction failed 29189/-3, size 4-0 line 3127
+[  503.381118] binder: send failed reply for transaction 188934, target dead
+[  504.401522] binder: undelivered transaction 189837, process died.
+[  506.478705] binder: undelivered transaction 191627, process died.
+[  507.503456] binder: undelivered transaction 192525, process died.
+[  508.537688] binder: release 7880:7884 transaction 193423 out, still active
+[  508.542099] binder: 3303:3742 transaction failed 29189/0, size 4-0 line 2944
+[  508.542104] binder: send failed reply for transaction 193423, target dead

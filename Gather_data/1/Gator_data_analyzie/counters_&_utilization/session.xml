@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session call_stack_unwinding="yes" parse_debug_info="yes" version="1" high_resolution="no" buffer_mode="streaming" sample_rate="normal" duration="0" target_address="adb:50CE8D18028C6B26" live_rate="100" stop_gator="no">
+	<energy_capture version="1" command_path="/usr/local/DS-5_v5.29.2/sw/streamline/bin/linux-64/caiman" type="none">
+		<channel id="0" resistance="20" power="yes"/>
+	</energy_capture>
+</session>

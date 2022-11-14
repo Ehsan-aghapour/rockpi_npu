@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>
+	<variable target=".Cluster1" replacement="Cortex-A72"/>
+	<variable target=".Cluster0" replacement="Cortex-A53"/>
+	<variable target="$Cluster1" replacement="Cortex-A72"/>
+	<variable target="$Cluster0" replacement="Cortex-A53"/>
+</variables>

@@ -1,0 +1,399 @@
+[420.7186687] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_block_rq_wr
+
+[420.7190343] ERROR: run(jni/Child.cpp:284): 1:Linux_block_rq_wr,1,-1,0,-1,115
+
+[420.7190755] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_block_rq_rd
+
+[420.7197452] ERROR: run(jni/Child.cpp:284): 2:Linux_block_rq_rd,1,-1,0,-1,117
+
+[420.7197848] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_meminfo_memused
+
+[420.7201338] ERROR: run(jni/Child.cpp:284): 3:Linux_meminfo_memused,1,-1,0,-1,689
+
+[420.7201739] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_meminfo_memfree
+
+[420.7203150] ERROR: run(jni/Child.cpp:284): 4:Linux_meminfo_memfree,1,-1,0,-1,687
+
+[420.7203551] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_freq
+
+[420.7209885] ERROR: run(jni/Child.cpp:284): 5:ARMv8_Cortex_A73_freq,1,-1,0,-1,101
+
+[420.7211343] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_freq
+
+[420.7212567] ERROR: run(jni/Child.cpp:284): 6:ARMv8_Cortex_A53_freq,1,-1,0,-1,99
+
+[420.7212880] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_system
+
+[420.7214057] ERROR: run(jni/Child.cpp:284): 7:ARMv8_Cortex_A73_system,1,-1,0,1,109
+
+[420.7214364] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_system
+
+[420.7220926] ERROR: run(jni/Child.cpp:284): 8:ARMv8_Cortex_A53_system,1,-1,0,1,107
+
+[420.7221249] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_user
+
+[420.7222458] ERROR: run(jni/Child.cpp:284): 9:ARMv8_Cortex_A73_user,1,-1,0,1,113
+
+[420.7222765] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_user
+
+[420.7228244] ERROR: run(jni/Child.cpp:284): 10:ARMv8_Cortex_A53_user,1,-1,0,1,111
+
+[420.7228567] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_cpu_wait_io
+
+[420.7230676] ERROR: run(jni/Child.cpp:284): 11:Linux_cpu_wait_io,1,-1,0,1,105
+
+[420.7230994] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_cpu_wait_contention
+
+[420.7232197] ERROR: run(jni/Child.cpp:284): 12:Linux_cpu_wait_contention,1,-1,0,1,103
+
+[420.7232505] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_meminfo_bufferram
+
+[420.7238202] ERROR: run(jni/Child.cpp:284): 13:Linux_meminfo_bufferram,1,-1,0,-1,691
+
+[420.7238531] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_meminfo_cached
+
+[420.7246494] ERROR: run(jni/Child.cpp:284): 14:Linux_meminfo_cached,1,-1,0,-1,693
+
+[420.7246838] INFO: setupCounter(jni/KMod.cpp:70): setting Linux_meminfo_slab
+
+[420.7248932] ERROR: run(jni/Child.cpp:284): 15:Linux_meminfo_slab,1,-1,0,-1,695
+
+[420.7249255] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_switch
+
+[420.7254682] ERROR: run(jni/Child.cpp:284): 16:ARMv8_Cortex_A73_switch,1,-1,0,-1,717
+
+[420.7255010] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_switch
+
+[420.7256650] ERROR: run(jni/Child.cpp:284): 17:ARMv8_Cortex_A53_switch,1,-1,0,-1,715
+
+[420.7256968] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_ccnt
+
+[420.7258473] ERROR: run(jni/Child.cpp:284): 18:ARMv8_Cortex_A53_ccnt,1,17,0,-1,3
+
+[420.7258781] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt0
+
+[420.7260265] ERROR: run(jni/Child.cpp:284): 19:ARMv8_Cortex_A53_cnt0,1,8,0,-1,5
+
+[420.7260567] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt1
+
+[420.7262015] ERROR: run(jni/Child.cpp:284): 20:ARMv8_Cortex_A53_cnt1,1,22,0,-1,7
+
+[420.7262317] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt2
+
+[420.7263786] ERROR: run(jni/Child.cpp:284): 21:ARMv8_Cortex_A53_cnt2,1,4,0,-1,9
+
+[420.7264088] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt3
+
+[420.7265541] ERROR: run(jni/Child.cpp:284): 22:ARMv8_Cortex_A53_cnt3,1,3,0,-1,11
+
+[420.7276046] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt4
+
+[420.7278051] ERROR: run(jni/Child.cpp:284): 23:ARMv8_Cortex_A53_cnt4,1,1,0,-1,13
+
+[420.7278380] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A53_cnt5
+
+[420.7281051] ERROR: run(jni/Child.cpp:284): 24:ARMv8_Cortex_A53_cnt5,1,23,0,-1,15
+
+[420.7281380] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_ccnt
+
+[420.7287499] ERROR: run(jni/Child.cpp:284): 25:ARMv8_Cortex_A73_ccnt,1,17,0,-1,17
+
+[420.7288676] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt0
+
+[420.7290166] ERROR: run(jni/Child.cpp:284): 26:ARMv8_Cortex_A73_cnt0,1,8,0,-1,19
+
+[420.7290869] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt1
+
+[420.7292343] ERROR: run(jni/Child.cpp:284): 27:ARMv8_Cortex_A73_cnt1,1,22,0,-1,21
+
+[420.7292494] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt2
+
+[420.7293921] ERROR: run(jni/Child.cpp:284): 28:ARMv8_Cortex_A73_cnt2,1,4,0,-1,23
+
+[420.7294072] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt3
+
+[420.7295723] ERROR: run(jni/Child.cpp:284): 29:ARMv8_Cortex_A73_cnt3,1,3,0,-1,25
+
+[420.7296031] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt4
+
+[420.7297781] ERROR: run(jni/Child.cpp:284): 30:ARMv8_Cortex_A73_cnt4,1,1,0,-1,27
+
+[420.7298098] INFO: setupCounter(jni/KMod.cpp:70): setting ARMv8_Cortex_A73_cnt5
+
+[420.7299937] ERROR: run(jni/Child.cpp:284): 31:ARMv8_Cortex_A73_cnt5,1,23,0,-1,29
+
+salam
+
+[420.7300260] ERROR: run(jni/Child.cpp:284): 32:ARM_Mali-clock,1,-1,0,-1,362
+
+[420.7300406] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_JS0_ACTIVE
+
+[420.7301515] ERROR: run(jni/Child.cpp:284): 33:ARM_Mali-THEx_JS0_ACTIVE,1,-1,0,-1,153
+
+[420.7301671] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_JS0_TASKS
+
+[420.7302781] ERROR: run(jni/Child.cpp:284): 34:ARM_Mali-THEx_JS0_TASKS,1,-1,0,-1,151
+
+[420.7303239] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_GPU_ACTIVE
+
+[420.7305505] ERROR: run(jni/Child.cpp:284): 35:ARM_Mali-THEx_GPU_ACTIVE,1,-1,0,-1,145
+
+[420.7305822] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_IRQ_ACTIVE
+
+[420.7307270] ERROR: run(jni/Child.cpp:284): 36:ARM_Mali-THEx_IRQ_ACTIVE,1,-1,0,-1,147
+
+[420.7307505] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_JS1_ACTIVE
+
+[420.7308749] ERROR: run(jni/Child.cpp:284): 37:ARM_Mali-THEx_JS1_ACTIVE,1,-1,0,-1,169
+
+[420.7308900] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-Bifrost_vertex
+
+[420.7310051] ERROR: run(jni/Child.cpp:284): 38:ARM_Mali-Bifrost_vertex,1,-1,0,1,129
+
+[420.7310202] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-Bifrost_opencl
+
+[420.7313005] ERROR: run(jni/Child.cpp:284): 39:ARM_Mali-Bifrost_opencl,1,-1,0,1,131
+
+[420.7313327] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_PRIM_CULLED
+
+[420.7314838] ERROR: run(jni/Child.cpp:284): 40:ARM_Mali-THEx_PRIM_CULLED,1,-1,0,-1,285
+
+[420.7314989] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_PRIM_CLIPPED
+
+[420.7316171] ERROR: run(jni/Child.cpp:284): 41:ARM_Mali-THEx_PRIM_CLIPPED,1,-1,0,-1,287
+
+[420.7316322] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_PRIM_SAT_CULLED
+
+[420.7317494] ERROR: run(jni/Child.cpp:284): 42:ARM_Mali-THEx_PRIM_SAT_CULLED,1,-1,0,-1,289
+
+[420.7318005] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_PRIM_VISIBLE
+
+[420.7321369] ERROR: run(jni/Child.cpp:284): 43:ARM_Mali-THEx_PRIM_VISIBLE,1,-1,0,-1,283
+
+[420.7321614] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TILER_ACTIVE
+
+[420.7322807] ERROR: run(jni/Child.cpp:284): 44:ARM_Mali-THEx_TILER_ACTIVE,1,-1,0,-1,269
+
+[420.7322958] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BACK_FACING
+
+[420.7324124] ERROR: run(jni/Child.cpp:284): 45:ARM_Mali-THEx_BACK_FACING,1,-1,0,-1,281
+
+[420.7324286] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRONT_FACING
+
+[420.7325682] ERROR: run(jni/Child.cpp:284): 46:ARM_Mali-THEx_FRONT_FACING,1,-1,0,-1,279
+
+[420.7325999] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TRIANGLES
+
+[420.7327468] ERROR: run(jni/Child.cpp:284): 47:ARM_Mali-THEx_TRIANGLES,1,-1,0,-1,273
+
+[420.7327781] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_IDVS_POS_SHAD_REQ
+
+[420.7329281] ERROR: run(jni/Child.cpp:284): 48:ARM_Mali-THEx_IDVS_POS_SHAD_REQ,1,-1,0,-1,303
+
+[420.7329515] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_IDVS_VAR_SHAD_REQ
+
+[420.7330786] ERROR: run(jni/Child.cpp:284): 49:ARM_Mali-THEx_IDVS_VAR_SHAD_REQ,1,-1,0,-1,335
+
+[420.7330942] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_READ_BEATS
+
+[420.7332067] ERROR: run(jni/Child.cpp:284): 50:ARM_Mali-THEx_L2_EXT_READ_BEATS,1,-1,0,-1,581
+
+[420.7332223] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_WRITE_BEATS
+
+[420.7333723] ERROR: run(jni/Child.cpp:284): 51:ARM_Mali-THEx_L2_EXT_WRITE_BEATS,1,-1,0,-1,611
+
+[420.7335354] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_RRESP_0_127
+
+[420.7336604] ERROR: run(jni/Child.cpp:284): 52:ARM_Mali-THEx_L2_EXT_RRESP_0_127,1,-1,0,-1,591
+
+[420.7336921] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_RRESP_128_191
+
+[420.7338499] ERROR: run(jni/Child.cpp:284): 53:ARM_Mali-THEx_L2_EXT_RRESP_128_191,1,-1,0,-1,593
+
+[420.7338734] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_RRESP_192_255
+
+[420.7339895] ERROR: run(jni/Child.cpp:284): 54:ARM_Mali-THEx_L2_EXT_RRESP_192_255,1,-1,0,-1,595
+
+[420.7340051] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_RRESP_256_319
+
+[420.7341291] ERROR: run(jni/Child.cpp:284): 55:ARM_Mali-THEx_L2_EXT_RRESP_256_319,1,-1,0,-1,597
+
+[420.7341442] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_RRESP_320_383
+
+[420.7342807] ERROR: run(jni/Child.cpp:284): 56:ARM_Mali-THEx_L2_EXT_RRESP_320_383,1,-1,0,-1,599
+
+[420.7343119] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AR_CNT_Q1
+
+[420.7344598] ERROR: run(jni/Child.cpp:284): 57:ARM_Mali-THEx_L2_EXT_AR_CNT_Q1,1,-1,0,-1,585
+
+[420.7344911] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AR_CNT_Q2
+
+[420.7346390] ERROR: run(jni/Child.cpp:284): 58:ARM_Mali-THEx_L2_EXT_AR_CNT_Q2,1,-1,0,-1,587
+
+[420.7346624] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AR_CNT_Q3
+
+[420.7347807] ERROR: run(jni/Child.cpp:284): 59:ARM_Mali-THEx_L2_EXT_AR_CNT_Q3,1,-1,0,-1,589
+
+[420.7347963] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AR_STALL
+
+[420.7349057] ERROR: run(jni/Child.cpp:284): 60:ARM_Mali-THEx_L2_EXT_AR_STALL,1,-1,0,-1,583
+
+[420.7349208] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_W_STALL
+
+[420.7350718] ERROR: run(jni/Child.cpp:284): 61:ARM_Mali-THEx_L2_EXT_W_STALL,1,-1,0,-1,613
+
+[420.7351025] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_READ
+
+[420.7352567] ERROR: run(jni/Child.cpp:284): 62:ARM_Mali-THEx_L2_EXT_READ,1,-1,0,-1,575
+
+[420.7353166] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_WRITE
+
+[420.7354286] ERROR: run(jni/Child.cpp:284): 63:ARM_Mali-THEx_L2_EXT_WRITE,1,-1,0,-1,601
+
+[420.7354520] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AW_CNT_Q1
+
+[420.7355692] ERROR: run(jni/Child.cpp:284): 64:ARM_Mali-THEx_L2_EXT_AW_CNT_Q1,1,-1,0,-1,615
+
+[420.7355848] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AW_CNT_Q2
+
+[420.7357010] ERROR: run(jni/Child.cpp:284): 65:ARM_Mali-THEx_L2_EXT_AW_CNT_Q2,1,-1,0,-1,617
+
+[420.7357473] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_L2_EXT_AW_CNT_Q3
+
+[420.7358588] ERROR: run(jni/Child.cpp:284): 66:ARM_Mali-THEx_L2_EXT_AW_CNT_Q3,1,-1,0,-1,619
+
+[420.7359182] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_COMPUTE_ACTIVE
+
+[420.7360520] ERROR: run(jni/Child.cpp:284): 67:ARM_Mali-THEx_COMPUTE_ACTIVE,1,-1,0,-1,433
+
+[420.7361484] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_EXEC_CORE_ACTIVE
+
+[420.7362624] ERROR: run(jni/Child.cpp:284): 68:ARM_Mali-THEx_EXEC_CORE_ACTIVE,1,-1,0,-1,441
+
+[420.7362854] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_ACTIVE
+
+[420.7364046] ERROR: run(jni/Child.cpp:284): 69:ARM_Mali-THEx_FRAG_ACTIVE,1,-1,0,-1,397
+
+[420.7364202] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_FPK_ACTIVE
+
+[420.7365333] ERROR: run(jni/Child.cpp:284): 70:ARM_Mali-THEx_FRAG_FPK_ACTIVE,1,-1,0,-1,403
+
+[420.7365489] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_QUADS_EZS_KILL
+
+[420.7367015] ERROR: run(jni/Child.cpp:284): 71:ARM_Mali-THEx_FRAG_QUADS_EZS_KILL,1,-1,0,-1,417
+
+[420.7367327] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_QUADS_EZS_TEST
+
+[420.7368807] ERROR: run(jni/Child.cpp:284): 72:ARM_Mali-THEx_FRAG_QUADS_EZS_TEST,1,-1,0,-1,413
+
+[420.7369406] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_QUADS_EZS_UPDATE
+
+[420.7370577] ERROR: run(jni/Child.cpp:284): 73:ARM_Mali-THEx_FRAG_QUADS_EZS_UPDATE,1,-1,0,-1,415
+
+[420.7370812] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_QUADS_RAST
+
+[420.7371932] ERROR: run(jni/Child.cpp:284): 74:ARM_Mali-THEx_FRAG_QUADS_RAST,1,-1,0,-1,411
+
+[420.7372083] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_PRIM_RAST
+
+[420.7373187] ERROR: run(jni/Child.cpp:284): 75:ARM_Mali-THEx_FRAG_PRIM_RAST,1,-1,0,-1,401
+
+[420.7373333] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_QUAD_FPK_KILLER
+
+[420.7374692] ERROR: run(jni/Child.cpp:284): 76:ARM_Mali-THEx_QUAD_FPK_KILLER,1,-1,0,-1,429
+
+[420.7375005] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_ATTR_INSTR
+
+[420.7376479] ERROR: run(jni/Child.cpp:284): 77:ARM_Mali-THEx_ATTR_INSTR,1,-1,0,-1,493
+
+[420.7376796] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_EXEC_INSTR_COUNT
+
+[420.7378380] ERROR: run(jni/Child.cpp:284): 78:ARM_Mali-THEx_EXEC_INSTR_COUNT,1,-1,0,-1,445
+
+[420.7378614] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TEX_INSTR
+
+[420.7379911] ERROR: run(jni/Child.cpp:284): 79:ARM_Mali-THEx_TEX_INSTR,1,-1,0,-1,459
+
+[420.7380062] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_VARY_INSTR
+
+[420.7381202] ERROR: run(jni/Child.cpp:284): 80:ARM_Mali-THEx_VARY_INSTR,1,-1,0,-1,487
+
+[420.7381348] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_LS_MEM_READ_FULL
+
+[420.7384093] ERROR: run(jni/Child.cpp:284): 81:ARM_Mali-THEx_LS_MEM_READ_FULL,1,-1,0,-1,477
+
+[420.7384416] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_LS_MEM_WRITE_FULL
+
+[420.7385656] ERROR: run(jni/Child.cpp:284): 82:ARM_Mali-THEx_LS_MEM_WRITE_FULL,1,-1,0,-1,481
+
+[420.7386249] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_LS_MEM_READ_SHORT
+
+[420.7387374] ERROR: run(jni/Child.cpp:284): 83:ARM_Mali-THEx_LS_MEM_READ_SHORT,1,-1,0,-1,479
+
+[420.7387604] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_LS_MEM_WRITE_SHORT
+
+[420.7388765] ERROR: run(jni/Child.cpp:284): 84:ARM_Mali-THEx_LS_MEM_WRITE_SHORT,1,-1,0,-1,483
+
+[420.7388926] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_COMPUTE_WARPS
+
+[420.7390208] ERROR: run(jni/Child.cpp:284): 85:ARM_Mali-THEx_COMPUTE_WARPS,1,-1,0,-1,437
+
+[420.7390364] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_PARTIAL_WARPS
+
+[420.7393223] ERROR: run(jni/Child.cpp:284): 86:ARM_Mali-THEx_FRAG_PARTIAL_WARPS,1,-1,0,-1,409
+
+[420.7393541] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_WARPS
+
+[420.7395025] ERROR: run(jni/Child.cpp:284): 87:ARM_Mali-THEx_FRAG_WARPS,1,-1,0,-1,407
+
+[420.7395255] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_RD_LSC_EXT
+
+[420.7396426] ERROR: run(jni/Child.cpp:284): 88:ARM_Mali-THEx_BEATS_RD_LSC_EXT,1,-1,0,-1,503
+
+[420.7396583] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_RD_TEX_EXT
+
+[420.7397729] ERROR: run(jni/Child.cpp:284): 89:ARM_Mali-THEx_BEATS_RD_TEX_EXT,1,-1,0,-1,507
+
+[420.7397880] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_RD_LSC
+
+[420.7399572] ERROR: run(jni/Child.cpp:284): 90:ARM_Mali-THEx_BEATS_RD_LSC,1,-1,0,-1,501
+
+[420.7399880] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_RD_TEX
+
+[420.7402822] ERROR: run(jni/Child.cpp:284): 91:ARM_Mali-THEx_BEATS_RD_TEX,1,-1,0,-1,505
+
+[420.7403145] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_WR_LSC
+
+[420.7404416] ERROR: run(jni/Child.cpp:284): 92:ARM_Mali-THEx_BEATS_WR_LSC,1,-1,0,-1,511
+
+[420.7404744] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_BEATS_WR_TIB
+
+[420.7406551] ERROR: run(jni/Child.cpp:284): 93:ARM_Mali-THEx_BEATS_WR_TIB,1,-1,0,-1,513
+
+[420.7406895] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TEX_COORD_ISSUE
+
+[420.7407979] ERROR: run(jni/Child.cpp:284): 94:ARM_Mali-THEx_TEX_COORD_ISSUE,1,-1,0,-1,469
+
+[420.7408505] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TEX_INSTR_COMPRESSED
+
+[420.7409702] ERROR: run(jni/Child.cpp:284): 95:ARM_Mali-THEx_TEX_INSTR_COMPRESSED,1,-1,0,-1,463
+
+[420.7409932] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_TEX_INSTR_TRILINEAR
+
+[420.7411083] ERROR: run(jni/Child.cpp:284): 96:ARM_Mali-THEx_TEX_INSTR_TRILINEAR,1,-1,0,-1,467
+
+[420.7411244] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_PTILES
+
+[420.7412343] ERROR: run(jni/Child.cpp:284): 97:ARM_Mali-THEx_FRAG_PTILES,1,-1,0,-1,425
+
+[420.7412499] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_FRAG_TRANS_ELIM
+
+[420.7414187] ERROR: run(jni/Child.cpp:284): 98:ARM_Mali-THEx_FRAG_TRANS_ELIM,1,-1,0,-1,427
+
+[420.7414421] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_VARY_SLOT_16
+
+[420.7415630] ERROR: run(jni/Child.cpp:284): 99:ARM_Mali-THEx_VARY_SLOT_16,1,-1,0,-1,491
+
+[420.7416244] INFO: setupCounter(jni/KMod.cpp:70): setting ARM_Mali-THEx_VARY_SLOT_32
+
+[420.7417338] ERROR: run(jni/Child.cpp:284): 100:ARM_Mali-THEx_VARY_SLOT_32,1,-1,0,-1,489

@@ -1,0 +1,929 @@
+[  123.681506] type=1400 audit(1597311402.011:202): avc: denied { call } for pid=3894 comm="com.android.se" scontext=u:r:zygote:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+[  123.681567] type=1400 audit(1597311470.679:203): avc: denied { module_load } for pid=4909 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  123.684845] gator: loading out-of-tree module taints kernel.
+[  123.692746] gator: Detected CPUID for 2 as 0x41d03
+[  123.692748] gator: Detected CPUID for 1 as 0x41d03
+[  123.692844] gator: Detected CPUID for 0 as 0x41d03
+[  123.693421] gator: Detected CPUID for 4 as 0x41d09
+[  123.693427] gator: Detected CPUID for 5 as 0x41d09
+[  123.693443] gator: Detected CPUID for 6 as 0x41d09
+[  123.693461] gator: Detected CPUID for 7 as 0x41d09
+[  123.693466] gator: Detected CPUID for 3 as 0x41d03
+[  143.351984] gator: perf pmu: armv8_pmuv3
+[  143.352056] gator: Adding cpu counters (based on cpuid) for Cortex-A53
+[  143.352060] gator: Adding cpu counters (based on cpuid) for Cortex-A73
+[  143.352064] gator: Using Cortex-A53 (0x41d03) for cpu 0
+[  143.352065] gator: Using Cortex-A53 (0x41d03) for cpu 1
+[  143.352066] gator: Using Cortex-A53 (0x41d03) for cpu 2
+[  143.352067] gator: Using Cortex-A53 (0x41d03) for cpu 3
+[  143.352067] gator: Using Cortex-A73 (0x41d09) for cpu 4
+[  143.352068] gator: Using Cortex-A73 (0x41d09) for cpu 5
+[  143.352069] gator: Using Cortex-A73 (0x41d09) for cpu 6
+[  143.352070] gator: Using Cortex-A73 (0x41d09) for cpu 7
+[  143.352192] power,key:99
+[  143.352194] power,key:101
+[  143.352240] gator: Detected GPU ID: 25121.
+[  143.352241] gator: Mali-Bifrost architecture detected.
+[  150.795392] gator_ioctl called
+[  150.795403] Balee
+[  151.095785] gator_ioctl called
+[  151.095825] Balee
+[  151.396035] gator_ioctl called
+[  151.396038] Balee
+[  151.696265] gator_ioctl called
+[  151.696287] Balee
+[  151.996556] gator_ioctl called
+[  151.996566] Balee
+[  152.296893] gator_ioctl called
+[  152.296900] Balee
+[  152.597195] gator_ioctl called
+[  152.597199] Balee
+[  152.897446] gator_ioctl called
+[  152.897453] Balee
+[  153.197731] gator_ioctl called
+[  153.197731] Balee
+[  153.497982] gator_ioctl called
+[  153.497987] Balee
+[  153.798213] gator_ioctl called
+[  153.798218] Balee
+[  154.098465] gator_ioctl called
+[  154.098469] Balee
+[  154.398699] gator_ioctl called
+[  154.398700] Balee
+[  154.699207] gator_ioctl called
+[  154.699213] Balee
+[  154.999528] gator_ioctl called
+[  154.999534] Balee
+[  155.299769] gator_ioctl called
+[  155.299775] Balee
+[  155.600084] gator_ioctl called
+[  155.600094] Balee
+[  155.900526] gator_ioctl called
+[  155.900533] Balee
+[  156.200765] gator_ioctl called
+[  156.200768] Balee
+[  156.500951] gator_ioctl called
+[  156.500951] Balee
+[  156.801159] gator_ioctl called
+[  156.801161] Balee
+[  157.101321] gator_ioctl called
+[  157.101325] Balee
+[  157.401499] gator_ioctl called
+[  157.401503] Balee
+[  157.701667] gator_ioctl called
+[  157.701668] Balee
+[  158.002097] gator_ioctl called
+[  158.002101] Balee
+[  158.302297] gator_ioctl called
+[  158.302298] Balee
+[  158.602533] gator_ioctl called
+[  158.602538] Balee
+[  158.902753] gator_ioctl called
+[  158.902756] Balee
+[  159.202933] gator_ioctl called
+[  159.202937] Balee
+[  159.503172] gator_ioctl called
+[  159.503175] Balee
+[  159.803446] gator_ioctl called
+[  159.803450] Balee
+[  160.103637] gator_ioctl called
+[  160.103639] Balee
+[  160.403766] gator_ioctl called
+[  160.403768] Balee
+[  160.703887] gator_ioctl called
+[  160.703889] Balee
+[  161.004107] gator_ioctl called
+[  161.004110] Balee
+[  161.304315] gator_ioctl called
+[  161.304318] Balee
+[  161.604522] gator_ioctl called
+[  161.604526] Balee
+[  161.904728] gator_ioctl called
+[  161.904730] Balee
+[  162.204937] gator_ioctl called
+[  162.204939] Balee
+[  162.505149] gator_ioctl called
+[  162.505152] Balee
+[  162.805341] gator_ioctl called
+[  162.805343] Balee
+[  163.105596] gator_ioctl called
+[  163.105599] Balee
+[  163.405816] gator_ioctl called
+[  163.405819] Balee
+[  163.706020] gator_ioctl called
+[  163.706024] Balee
+[  164.006210] gator_ioctl called
+[  164.006214] Balee
+[  164.306419] gator_ioctl called
+[  164.306421] Balee
+[  164.606611] gator_ioctl called
+[  164.606614] Balee
+[  164.906784] gator_ioctl called
+[  164.906786] Balee
+[  165.206926] gator_ioctl called
+[  165.206930] Balee
+[  165.507107] gator_ioctl called
+[  165.507110] Balee
+[  165.807300] gator_ioctl called
+[  165.807300] Balee
+[  166.107471] gator_ioctl called
+[  166.107474] Balee
+[  166.153500] type=1400 audit(1597311470.679:203): avc: denied { module_load } for pid=4909 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  166.153530] type=1400 audit(1597311513.151:204): avc: denied { create } for pid=4930 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  166.281233] type=1400 audit(1597311513.151:204): avc: denied { create } for pid=4930 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  166.281267] type=1400 audit(1597311513.279:205): avc: denied { call } for pid=3365 comm="Binder:3365_9" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  166.281414] type=1400 audit(1597311513.279:205): avc: denied { call } for pid=3365 comm="Binder:3365_9" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  166.281426] type=1400 audit(1597311513.279:206): avc: denied { transfer } for pid=3365 comm="Binder:3365_9" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  166.407672] gator_ioctl called
+[  166.407678] Balee
+[  166.649775] type=1400 audit(1597311513.279:206): avc: denied { transfer } for pid=3365 comm="Binder:3365_9" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  166.649822] type=1400 audit(1597311513.647:207): avc: denied { open } for pid=5019 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=8493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  166.649920] audit: audit_lost=136 audit_rate_limit=5 audit_backlog_limit=64
+[  166.649924] audit: rate limit exceeded
+[  166.650301] type=1400 audit(1597311513.647:207): avc: denied { open } for pid=5019 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=8493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  166.650318] type=1400 audit(1597311513.647:208): avc: denied { getattr } for pid=5019 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=8493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  166.708994] gator_ioctl called
+[  166.709003] Balee
+[  167.009843] gator_ioctl called
+[  167.009843] Balee
+[  167.310152] gator_ioctl called
+[  167.310157] Balee
+[  167.610387] gator_ioctl called
+[  167.610390] Balee
+[  167.910569] gator_ioctl called
+[  167.910570] Balee
+[  168.174133] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65384 > 65000
+[  168.210782] gator_ioctl called
+[  168.210788] Balee
+[  168.357794] audit: audit_lost=173 audit_rate_limit=5 audit_backlog_limit=64
+[  168.357796] audit: rate limit exceeded
+[  168.438652] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 60632 < 65000
+[  168.511164] gator_ioctl called
+[  168.511169] Balee
+[  168.811380] gator_ioctl called
+[  168.811380] Balee
+[  169.111621] gator_ioctl called
+[  169.111625] Balee
+[  169.411964] gator_ioctl called
+[  169.411968] Balee
+[  169.712140] gator_ioctl called
+[  169.712145] Balee
+[  170.012422] gator_ioctl called
+[  170.012425] Balee
+[  170.312588] gator_ioctl called
+[  170.312591] Balee
+[  170.612771] gator_ioctl called
+[  170.612772] Balee
+[  170.912983] gator_ioctl called
+[  170.912983] Balee
+[  171.213156] gator_ioctl called
+[  171.213158] Balee
+[  171.513352] gator_ioctl called
+[  171.513358] Balee
+[  171.813544] gator_ioctl called
+[  171.813549] Balee
+[  172.113750] gator_ioctl called
+[  172.113751] Balee
+[  172.413952] gator_ioctl called
+[  172.413954] Balee
+[  172.714148] gator_ioctl called
+[  172.714148] Balee
+[  173.014357] gator_ioctl called
+[  173.014362] Balee
+[  173.314557] gator_ioctl called
+[  173.314558] Balee
+[  173.614737] gator_ioctl called
+[  173.614741] Balee
+[  173.914905] gator_ioctl called
+[  173.914909] Balee
+[  174.215064] gator_ioctl called
+[  174.215064] Balee
+[  174.515250] gator_ioctl called
+[  174.515254] Balee
+[  174.815460] gator_ioctl called
+[  174.815462] Balee
+[  175.115835] gator_ioctl called
+[  175.115843] Balee
+[  175.416051] gator_ioctl called
+[  175.416058] Balee
+[  175.716237] gator_ioctl called
+[  175.716237] Balee
+[  176.016466] gator_ioctl called
+[  176.016468] Balee
+[  176.316710] gator_ioctl called
+[  176.316715] Balee
+[  176.616960] gator_ioctl called
+[  176.616966] Balee
+[  176.917216] gator_ioctl called
+[  176.917216] Balee
+[  177.217466] gator_ioctl called
+[  177.217467] Balee
+[  177.517671] gator_ioctl called
+[  177.517676] Balee
+[  177.817906] gator_ioctl called
+[  177.817912] Balee
+[  178.118132] gator_ioctl called
+[  178.118138] Balee
+[  178.418372] gator_ioctl called
+[  178.418377] Balee
+[  178.718587] gator_ioctl called
+[  178.718587] Balee
+[  179.018752] gator_ioctl called
+[  179.018753] Balee
+[  179.319728] gator_ioctl called
+[  179.319734] Balee
+[  179.619954] gator_ioctl called
+[  179.619959] Balee
+[  179.920190] gator_ioctl called
+[  179.920190] Balee
+[  180.220482] gator_ioctl called
+[  180.220492] Balee
+[  180.520916] gator_ioctl called
+[  180.520922] Balee
+[  180.821222] gator_ioctl called
+[  180.821225] Balee
+[  181.121605] gator_ioctl called
+[  181.121605] Balee
+[  181.421851] gator_ioctl called
+[  181.421868] Balee
+[  181.722155] gator_ioctl called
+[  181.722161] Balee
+[  182.022408] gator_ioctl called
+[  182.022415] Balee
+[  182.323060] gator_ioctl called
+[  182.323066] Balee
+[  182.623306] gator_ioctl called
+[  182.623307] Balee
+[  182.923578] gator_ioctl called
+[  182.923578] Balee
+[  183.223812] gator_ioctl called
+[  183.223819] Balee
+[  183.526518] gator_ioctl called
+[  183.526525] Balee
+[  183.826771] gator_ioctl called
+[  183.826772] Balee
+[  184.127081] gator_ioctl called
+[  184.127081] Balee
+[  184.427466] gator_ioctl called
+[  184.427476] Balee
+[  184.731083] gator_ioctl called
+[  184.731093] Balee
+[  185.031395] gator_ioctl called
+[  185.031397] Balee
+[  185.331650] gator_ioctl called
+[  185.331651] Balee
+[  185.632015] gator_ioctl called
+[  185.632021] Balee
+[  185.934630] gator_ioctl called
+[  185.934641] Balee
+[  186.235002] gator_ioctl called
+[  186.235003] Balee
+[  186.535266] gator_ioctl called
+[  186.535266] Balee
+[  186.835644] gator_ioctl called
+[  186.835652] Balee
+[  187.136407] gator_ioctl called
+[  187.136415] Balee
+[  187.436672] gator_ioctl called
+[  187.436674] Balee
+[  187.736913] gator_ioctl called
+[  187.736914] Balee
+[  188.037200] gator_ioctl called
+[  188.037205] Balee
+[  188.337445] gator_ioctl called
+[  188.337452] Balee
+[  188.637685] gator_ioctl called
+[  188.637687] Balee
+[  188.937949] gator_ioctl called
+[  188.937956] Balee
+[  189.238205] gator_ioctl called
+[  189.238212] Balee
+[  189.538453] gator_ioctl called
+[  189.538458] Balee
+[  189.838690] gator_ioctl called
+[  189.838691] Balee
+[  190.138967] gator_ioctl called
+[  190.138968] Balee
+[  190.439190] gator_ioctl called
+[  190.439196] Balee
+[  190.739422] gator_ioctl called
+[  190.739426] Balee
+[  191.039655] gator_ioctl called
+[  191.039655] Balee
+[  191.339923] gator_ioctl called
+[  191.339933] Balee
+[  191.640208] gator_ioctl called
+[  191.640215] Balee
+[  191.940519] gator_ioctl called
+[  191.940520] Balee
+[  192.240731] gator_ioctl called
+[  192.240731] Balee
+[  192.540989] gator_ioctl called
+[  192.540993] Balee
+[  192.841215] gator_ioctl called
+[  192.841219] Balee
+[  193.141634] gator_ioctl called
+[  193.141637] Balee
+[  193.441875] gator_ioctl called
+[  193.441876] Balee
+[  193.742164] gator_ioctl called
+[  193.742165] Balee
+[  194.042503] gator_ioctl called
+[  194.042512] Balee
+[  194.342755] gator_ioctl called
+[  194.342762] Balee
+[  194.645288] gator_ioctl called
+[  194.645296] Balee
+[  194.945558] gator_ioctl called
+[  194.945565] Balee
+[  195.245797] gator_ioctl called
+[  195.245803] Balee
+[  195.546077] gator_ioctl called
+[  195.546077] Balee
+[  195.846310] gator_ioctl called
+[  195.846312] Balee
+[  196.146521] gator_ioctl called
+[  196.146528] Balee
+[  196.453535] gator_ioctl called
+[  196.453543] Balee
+[  196.754456] gator_ioctl called
+[  196.754456] Balee
+[  197.054609] gator_ioctl called
+[  197.054610] Balee
+[  197.354783] gator_ioctl called
+[  197.354787] Balee
+[  197.655011] gator_ioctl called
+[  197.655017] Balee
+[  197.955273] gator_ioctl called
+[  197.955274] Balee
+[  198.255564] gator_ioctl called
+[  198.255565] Balee
+[  198.555822] gator_ioctl called
+[  198.555829] Balee
+[  198.857186] gator_ioctl called
+[  198.857192] Balee
+[  199.157421] gator_ioctl called
+[  199.157421] Balee
+[  199.457707] gator_ioctl called
+[  199.457709] Balee
+[  199.757953] gator_ioctl called
+[  199.757959] Balee
+[  200.059388] gator_ioctl called
+[  200.059396] Balee
+[  200.359706] gator_ioctl called
+[  200.359706] Balee
+[  200.659951] gator_ioctl called
+[  200.659953] Balee
+[  200.960218] gator_ioctl called
+[  200.960225] Balee
+[  201.260588] gator_ioctl called
+[  201.260594] Balee
+[  201.560813] gator_ioctl called
+[  201.560813] Balee
+[  201.861121] gator_ioctl called
+[  201.861130] Balee
+[  202.161405] gator_ioctl called
+[  202.161413] Balee
+[  202.461663] gator_ioctl called
+[  202.461672] Balee
+[  202.761897] gator_ioctl called
+[  202.761904] Balee
+[  203.062183] gator_ioctl called
+[  203.062183] Balee
+[  203.362491] gator_ioctl called
+[  203.362497] Balee
+[  203.662738] gator_ioctl called
+[  203.662739] Balee
+[  203.963021] gator_ioctl called
+[  203.963021] Balee
+[  204.263397] gator_ioctl called
+[  204.263408] Balee
+[  204.563701] gator_ioctl called
+[  204.563708] Balee
+[  204.864008] gator_ioctl called
+[  204.864009] Balee
+[  205.164620] gator_ioctl called
+[  205.164625] Balee
+[  205.464790] gator_ioctl called
+[  205.464794] Balee
+[  205.764974] gator_ioctl called
+[  205.764980] Balee
+[  206.065164] gator_ioctl called
+[  206.065164] Balee
+[  206.365352] gator_ioctl called
+[  206.365357] Balee
+[  206.665545] gator_ioctl called
+[  206.665546] Balee
+[  206.965763] gator_ioctl called
+[  206.965768] Balee
+[  207.265958] gator_ioctl called
+[  207.265958] Balee
+[  207.566162] gator_ioctl called
+[  207.566167] Balee
+[  207.866349] gator_ioctl called
+[  207.866350] Balee
+[  208.166509] gator_ioctl called
+[  208.166509] Balee
+[  208.466685] gator_ioctl called
+[  208.466691] Balee
+[  208.766930] gator_ioctl called
+[  208.766934] Balee
+[  209.067102] gator_ioctl called
+[  209.067108] Balee
+[  209.367306] gator_ioctl called
+[  209.367307] Balee
+[  209.667487] gator_ioctl called
+[  209.667487] Balee
+[  209.967662] gator_ioctl called
+[  209.967663] Balee
+[  210.267830] gator_ioctl called
+[  210.267830] Balee
+[  210.568024] gator_ioctl called
+[  210.568027] Balee
+[  210.868186] gator_ioctl called
+[  210.868189] Balee
+[  211.168372] gator_ioctl called
+[  211.168372] Balee
+[  211.468534] gator_ioctl called
+[  211.468538] Balee
+[  211.768721] gator_ioctl called
+[  211.768726] Balee
+[  212.068896] gator_ioctl called
+[  212.068901] Balee
+[  212.369100] gator_ioctl called
+[  212.369105] Balee
+[  212.669288] gator_ioctl called
+[  212.669292] Balee
+[  212.969450] gator_ioctl called
+[  212.969454] Balee
+[  213.269612] gator_ioctl called
+[  213.269616] Balee
+[  213.569774] gator_ioctl called
+[  213.569779] Balee
+[  213.870001] gator_ioctl called
+[  213.870002] Balee
+[  214.170264] gator_ioctl called
+[  214.170264] Balee
+[  214.470431] gator_ioctl called
+[  214.470431] Balee
+[  214.770600] gator_ioctl called
+[  214.770604] Balee
+[  215.070767] gator_ioctl called
+[  215.070768] Balee
+[  215.370935] gator_ioctl called
+[  215.370941] Balee
+[  215.671131] gator_ioctl called
+[  215.671136] Balee
+[  215.971322] gator_ioctl called
+[  215.971327] Balee
+[  216.271551] gator_ioctl called
+[  216.271551] Balee
+[  216.571712] gator_ioctl called
+[  216.571716] Balee
+[  216.871881] gator_ioctl called
+[  216.871885] Balee
+[  217.172056] gator_ioctl called
+[  217.172058] Balee
+[  217.472276] gator_ioctl called
+[  217.472276] Balee
+[  217.772442] gator_ioctl called
+[  217.772446] Balee
+[  218.072620] gator_ioctl called
+[  218.072624] Balee
+[  218.372820] gator_ioctl called
+[  218.372825] Balee
+[  218.673000] gator_ioctl called
+[  218.673004] Balee
+[  218.973161] gator_ioctl called
+[  218.973162] Balee
+[  219.273318] gator_ioctl called
+[  219.273318] Balee
+[  219.573493] gator_ioctl called
+[  219.573497] Balee
+[  219.873657] gator_ioctl called
+[  219.873661] Balee
+[  220.173862] gator_ioctl called
+[  220.173863] Balee
+[  220.474026] gator_ioctl called
+[  220.474031] Balee
+[  220.774204] gator_ioctl called
+[  220.774208] Balee
+[  221.074369] gator_ioctl called
+[  221.074370] Balee
+[  221.374527] gator_ioctl called
+[  221.374527] Balee
+[  221.674712] gator_ioctl called
+[  221.674718] Balee
+[  221.975002] gator_ioctl called
+[  221.975008] Balee
+[  222.275180] gator_ioctl called
+[  222.275180] Balee
+[  222.575364] gator_ioctl called
+[  222.575365] Balee
+[  222.875586] gator_ioctl called
+[  222.875592] Balee
+[  223.175873] gator_ioctl called
+[  223.175879] Balee
+[  223.476122] gator_ioctl called
+[  223.476122] Balee
+[  223.776300] gator_ioctl called
+[  223.776301] Balee
+[  224.076495] gator_ioctl called
+[  224.076502] Balee
+[  224.376690] gator_ioctl called
+[  224.376694] Balee
+[  224.676850] gator_ioctl called
+[  224.676850] Balee
+[  224.976966] gator_ioctl called
+[  224.976969] Balee
+[  225.277128] gator_ioctl called
+[  225.277146] Balee
+[  225.577328] gator_ioctl called
+[  225.577329] Balee
+[  225.877561] gator_ioctl called
+[  225.877561] Balee
+[  226.177725] gator_ioctl called
+[  226.177729] Balee
+[  226.477884] gator_ioctl called
+[  226.477888] Balee
+[  226.778052] gator_ioctl called
+[  226.778053] Balee
+[  227.078186] gator_ioctl called
+[  227.078186] Balee
+[  227.378363] gator_ioctl called
+[  227.378366] Balee
+[  227.678631] gator_ioctl called
+[  227.678637] Balee
+[  227.978875] gator_ioctl called
+[  227.978880] Balee
+[  228.279114] gator_ioctl called
+[  228.279128] Balee
+[  228.579357] gator_ioctl called
+[  228.579358] Balee
+[  228.879684] gator_ioctl called
+[  228.879693] Balee
+[  229.180077] gator_ioctl called
+[  229.180082] Balee
+[  229.480740] gator_ioctl called
+[  229.480743] Balee
+[  229.780905] gator_ioctl called
+[  229.780905] Balee
+[  230.081114] gator_ioctl called
+[  230.081118] Balee
+[  230.381289] gator_ioctl called
+[  230.381293] Balee
+[  230.681458] gator_ioctl called
+[  230.681459] Balee
+[  230.981645] gator_ioctl called
+[  230.981645] Balee
+[  231.281803] gator_ioctl called
+[  231.281806] Balee
+[  231.582011] gator_ioctl called
+[  231.582015] Balee
+[  231.882191] gator_ioctl called
+[  231.882193] Balee
+[  232.182399] gator_ioctl called
+[  232.182399] Balee
+[  232.482558] gator_ioctl called
+[  232.482562] Balee
+[  232.782753] gator_ioctl called
+[  232.782754] Balee
+[  233.082938] gator_ioctl called
+[  233.082942] Balee
+[  233.383165] gator_ioctl called
+[  233.383169] Balee
+[  233.683352] gator_ioctl called
+[  233.683356] Balee
+[  233.983516] gator_ioctl called
+[  233.983520] Balee
+[  234.283679] gator_ioctl called
+[  234.283679] Balee
+[  234.583840] gator_ioctl called
+[  234.583843] Balee
+[  234.884007] gator_ioctl called
+[  234.884008] Balee
+[  235.184193] gator_ioctl called
+[  235.184197] Balee
+[  235.484394] gator_ioctl called
+[  235.484398] Balee
+[  235.784586] gator_ioctl called
+[  235.784587] Balee
+[  236.084763] gator_ioctl called
+[  236.084768] Balee
+[  236.384926] gator_ioctl called
+[  236.384928] Balee
+[  236.685103] gator_ioctl called
+[  236.685103] Balee
+[  236.985269] gator_ioctl called
+[  236.985270] Balee
+[  237.285458] gator_ioctl called
+[  237.285458] Balee
+[  237.585626] gator_ioctl called
+[  237.585629] Balee
+[  237.885803] gator_ioctl called
+[  237.885804] Balee
+[  238.186027] gator_ioctl called
+[  238.186033] Balee
+[  238.486266] gator_ioctl called
+[  238.486270] Balee
+[  238.786430] gator_ioctl called
+[  238.786434] Balee
+[  239.086643] gator_ioctl called
+[  239.086643] Balee
+[  239.386804] gator_ioctl called
+[  239.386805] Balee
+[  239.686958] gator_ioctl called
+[  239.686962] Balee
+[  239.987639] gator_ioctl called
+[  239.987642] Balee
+[  240.288276] gator_ioctl called
+[  240.288281] Balee
+[  240.588471] gator_ioctl called
+[  240.588472] Balee
+[  240.888683] gator_ioctl called
+[  240.888688] Balee
+[  241.190309] gator_ioctl called
+[  241.190315] Balee
+[  241.490537] gator_ioctl called
+[  241.490538] Balee
+[  241.790729] gator_ioctl called
+[  241.790729] Balee
+[  242.090954] gator_ioctl called
+[  242.090955] Balee
+[  242.391263] gator_ioctl called
+[  242.391281] Balee
+[  242.691621] gator_ioctl called
+[  242.691621] Balee
+[  242.991922] gator_ioctl called
+[  242.991924] Balee
+[  243.292195] gator_ioctl called
+[  243.292201] Balee
+[  243.566095] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65384 > 65000
+[  243.592423] gator_ioctl called
+[  243.592429] Balee
+[  243.892641] gator_ioctl called
+[  243.892641] Balee
+[  244.192815] gator_ioctl called
+[  244.192818] Balee
+[  244.493003] gator_ioctl called
+[  244.493008] Balee
+[  244.793205] gator_ioctl called
+[  244.793206] Balee
+[  245.093375] gator_ioctl called
+[  245.093379] Balee
+[  245.393534] gator_ioctl called
+[  245.393534] Balee
+[  245.693701] gator_ioctl called
+[  245.693705] Balee
+[  245.993906] gator_ioctl called
+[  245.993913] Balee
+[  246.294158] gator_ioctl called
+[  246.294163] Balee
+[  246.416227] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  246.594353] gator_ioctl called
+[  246.594357] Balee
+[  246.894532] gator_ioctl called
+[  246.894536] Balee
+[  247.194714] gator_ioctl called
+[  247.194714] Balee
+[  247.494891] gator_ioctl called
+[  247.494897] Balee
+[  247.795086] gator_ioctl called
+[  247.795087] Balee
+[  248.095250] gator_ioctl called
+[  248.095250] Balee
+[  248.395457] gator_ioctl called
+[  248.395461] Balee
+[  248.695649] gator_ioctl called
+[  248.695654] Balee
+[  248.995819] gator_ioctl called
+[  248.995822] Balee
+[  249.295984] gator_ioctl called
+[  249.295985] Balee
+[  249.596151] gator_ioctl called
+[  249.596155] Balee
+[  249.896325] gator_ioctl called
+[  249.896331] Balee
+[  250.196564] gator_ioctl called
+[  250.196568] Balee
+[  250.496731] gator_ioctl called
+[  250.496731] Balee
+[  250.796910] gator_ioctl called
+[  250.796911] Balee
+[  251.097079] gator_ioctl called
+[  251.097083] Balee
+[  251.397245] gator_ioctl called
+[  251.397249] Balee
+[  251.697377] gator_ioctl called
+[  251.697377] Balee
+[  251.997540] gator_ioctl called
+[  251.997541] Balee
+[  252.142106] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65600 > 65000
+[  252.297747] gator_ioctl called
+[  252.297751] Balee
+[  252.582002] perf: interrupt took too long (2508 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[  252.597942] gator_ioctl called
+[  252.597947] Balee
+[  252.898111] gator_ioctl called
+[  252.898115] Balee
+[  253.198276] gator_ioctl called
+[  253.198281] Balee
+[  253.498453] gator_ioctl called
+[  253.498453] Balee
+[  253.798692] gator_ioctl called
+[  253.798698] Balee
+[  254.098899] gator_ioctl called
+[  254.098902] Balee
+[  254.399061] gator_ioctl called
+[  254.399062] Balee
+[  254.699243] gator_ioctl called
+[  254.699243] Balee
+[  254.999426] gator_ioctl called
+[  254.999426] Balee
+[  255.299624] gator_ioctl called
+[  255.299624] Balee
+[  255.599842] gator_ioctl called
+[  255.599843] Balee
+[  255.900097] gator_ioctl called
+[  255.900102] Balee
+[  256.200279] gator_ioctl called
+[  256.200279] Balee
+[  256.500452] gator_ioctl called
+[  256.500456] Balee
+[  256.800619] gator_ioctl called
+[  256.800622] Balee
+[  257.100760] gator_ioctl called
+[  257.100764] Balee
+[  257.400930] gator_ioctl called
+[  257.400934] Balee
+[  257.701107] gator_ioctl called
+[  257.701112] Balee
+[  258.001319] gator_ioctl called
+[  258.001322] Balee
+[  258.301517] gator_ioctl called
+[  258.301521] Balee
+[  258.601699] gator_ioctl called
+[  258.601703] Balee
+[  258.901862] gator_ioctl called
+[  258.901863] Balee
+[  259.202015] gator_ioctl called
+[  259.202015] Balee
+[  259.502168] gator_ioctl called
+[  259.502169] Balee
+[  259.802387] gator_ioctl called
+[  259.802398] Balee
+[  260.102572] gator_ioctl called
+[  260.102572] Balee
+[  260.402728] gator_ioctl called
+[  260.402729] Balee
+[  260.702900] gator_ioctl called
+[  260.702900] Balee
+[  261.003157] gator_ioctl called
+[  261.003159] Balee
+[  261.303396] gator_ioctl called
+[  261.303401] Balee
+[  261.603591] gator_ioctl called
+[  261.603595] Balee
+[  261.903744] gator_ioctl called
+[  261.903749] Balee
+[  262.203924] gator_ioctl called
+[  262.203925] Balee
+[  262.504138] gator_ioctl called
+[  262.504139] Balee
+[  262.804329] gator_ioctl called
+[  262.804333] Balee
+[  262.825843] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000
+[  263.104513] gator_ioctl called
+[  263.104514] Balee
+[  263.404742] gator_ioctl called
+[  263.404747] Balee
+[  263.704933] gator_ioctl called
+[  263.704937] Balee
+[  264.005099] gator_ioctl called
+[  264.005100] Balee
+[  264.305359] gator_ioctl called
+[  264.305366] Balee
+[  264.605672] gator_ioctl called
+[  264.605676] Balee
+[  264.905837] gator_ioctl called
+[  264.905837] Balee
+[  265.205997] gator_ioctl called
+[  265.206001] Balee
+[  265.506192] gator_ioctl called
+[  265.506195] Balee
+[  265.806387] gator_ioctl called
+[  265.806389] Balee
+[  265.829568] hisi_thermal fff30000.tsensor: THERMAL ALARM: 65816 > 65000
+[  266.106640] gator_ioctl called
+[  266.106644] Balee
+[  266.406853] gator_ioctl called
+[  266.406853] Balee
+[  266.707096] gator_ioctl called
+[  266.707097] Balee
+[  267.007320] gator_ioctl called
+[  267.007326] Balee
+[  267.307601] gator_ioctl called
+[  267.307601] Balee
+[  267.607813] gator_ioctl called
+[  267.607816] Balee
+[  267.907982] gator_ioctl called
+[  267.907986] Balee
+[  268.208162] gator_ioctl called
+[  268.208164] Balee
+[  268.508302] gator_ioctl called
+[  268.508302] Balee
+[  268.808481] gator_ioctl called
+[  268.808487] Balee
+[  269.108769] gator_ioctl called
+[  269.108772] Balee
+[  269.409461] gator_ioctl called
+[  269.409467] Balee
+[  269.709692] gator_ioctl called
+[  269.709699] Balee
+[  270.009923] gator_ioctl called
+[  270.009923] Balee
+[  270.310191] gator_ioctl called
+[  270.310199] Balee
+[  270.610486] gator_ioctl called
+[  270.610494] Balee
+[  270.910831] gator_ioctl called
+[  270.910832] Balee
+[  271.211096] gator_ioctl called
+[  271.211096] Balee
+[  271.511321] gator_ioctl called
+[  271.511327] Balee
+[  271.811532] gator_ioctl called
+[  271.811534] Balee
+[  272.111775] gator_ioctl called
+[  272.111775] Balee
+[  272.412022] gator_ioctl called
+[  272.412028] Balee
+[  272.712258] gator_ioctl called
+[  272.712263] Balee
+[  273.012564] gator_ioctl called
+[  273.012565] Balee
+[  273.312840] gator_ioctl called
+[  273.312846] Balee
+[  273.613061] gator_ioctl called
+[  273.613067] Balee
+[  273.913352] gator_ioctl called
+[  273.913353] Balee
+[  274.213641] gator_ioctl called
+[  274.213646] Balee
+[  274.516862] gator_ioctl called
+[  274.516866] Balee
+[  274.817150] gator_ioctl called
+[  274.817151] Balee
+[  275.117397] gator_ioctl called
+[  275.117398] Balee
+[  275.417626] gator_ioctl called
+[  275.417632] Balee
+[  275.717862] gator_ioctl called
+[  275.717864] Balee
+[  276.018104] gator_ioctl called
+[  276.018111] Balee
+[  276.320994] gator_ioctl called
+[  276.321000] Balee
+[  276.621273] gator_ioctl called
+[  276.621274] Balee
+[  276.921562] gator_ioctl called
+[  276.921564] Balee
+[  277.221848] gator_ioctl called
+[  277.221857] Balee
+[  277.522192] gator_ioctl called
+[  277.522198] Balee
+[  277.822432] gator_ioctl called
+[  277.822432] Balee
+[  278.122670] gator_ioctl called
+[  278.122672] Balee
+[  278.423005] gator_ioctl called
+[  278.423014] Balee
+[  278.723329] gator_ioctl called
+[  278.723334] Balee
+[  279.023603] gator_ioctl called
+[  279.023609] Balee
+[  279.323838] gator_ioctl called
+[  279.323842] Balee
+[  279.624114] gator_ioctl called
+[  279.624119] Balee
+[  279.924429] gator_ioctl called
+[  279.924429] Balee
+[  280.224704] gator_ioctl called
+[  280.224706] Balee
+[  280.525095] gator_ioctl called
+[  280.525102] Balee
+[  280.825372] gator_ioctl called
+[  280.825379] Balee
+[  281.125675] gator_ioctl called
+[  281.125675] Balee
+[  281.425996] gator_ioctl called
+[  281.425999] Balee
+[  281.726283] gator_ioctl called
+[  281.726289] Balee
+[  282.026539] gator_ioctl called
+[  282.026545] Balee
+[  282.326823] gator_ioctl called
+[  282.326823] Balee
+[  282.627066] gator_ioctl called
+[  282.627072] Balee
+[  285.012514] hisi_thermal fff30000.tsensor: THERMAL ALARM stopped: 61064 < 65000

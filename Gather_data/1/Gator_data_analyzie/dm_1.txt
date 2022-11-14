@@ -1,0 +1,3764 @@
+[  231.138191] type=1400 audit(1594238461.307:210): avc: denied { call } for pid=3882 comm="com.android.se" scontext=u:r:zygote:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+[  231.138244] type=1400 audit(1594238499.755:211): avc: denied { module_load } for pid=4955 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  231.145300] gator: loading out-of-tree module taints kernel.
+[  231.150402] gator: Detected CPUID for 4 as 0x41d09
+[  231.150404] gator: Detected CPUID for 5 as 0x41d09
+[  231.150407] gator: Detected CPUID for 0 as 0x41d03
+[  231.150409] gator: Detected CPUID for 3 as 0x41d03
+[  231.150597] gator: Detected CPUID for 7 as 0x41d09
+[  231.150604] gator: Detected CPUID for 1 as 0x41d03
+[  231.150622] gator: Detected CPUID for 2 as 0x41d03
+[  231.150628] gator: Detected CPUID for 6 as 0x41d09
+[  234.575727] EXT4-fs error (device sdd12): ext4_mb_generate_buddy:758: group 10, block bitmap and bg descriptor inconsistent: 31313 vs 31574 free clusters
+[  249.085353] 3::4
+[  249.085357] 5::4
+[  249.085359] 7::4
+[  249.085360] 9::4
+[  249.085361] 11::4
+[  249.085362] 13::4
+[  249.085363] 15::4
+[  249.085363] 17::4
+[  249.085364] 19::4
+[  249.085364] 21::4
+[  249.085365] 23::4
+[  249.085365] 25::4
+[  249.085366] 27::4
+[  249.085366] 29::4
+[  249.085366] 31::4
+[  249.085367] 33::4
+[  249.085367] 35::4
+[  249.085368] 37::4
+[  249.085368] 39::4
+[  249.085369] 41::4
+[  249.085369] 43::4
+[  249.085370] 45::4
+[  249.085370] 47::4
+[  249.085371] 49::4
+[  249.085371] 51::4
+[  249.085371] 53::4
+[  249.085372] 55::4
+[  249.085372] 57::4
+[  249.085373] 59::4
+[  249.085374] 61::4
+[  249.085374] 63::4
+[  249.085375] 65::4
+[  249.085375] 67::4
+[  249.085376] 69::4
+[  249.085376] 71::4
+[  249.085376] 73::4
+[  249.085377] 75::4
+[  249.085378] 77::4
+[  249.085378] 79::4
+[  249.085379] 81::4
+[  249.085379] 83::4
+[  249.085379] 85::4
+[  249.085380] 87::4
+[  249.085380] 89::4
+[  249.085381] 91::4
+[  249.085381] 93::4
+[  249.085382] 95::4
+[  249.085382] 97::4
+[  249.085588] gator: perf pmu: armv8_pmuv3
+[  249.085655] gator: Adding cpu counters (based on cpuid) for Cortex-A53
+[  249.085659] gator: Adding cpu counters (based on cpuid) for Cortex-A73
+[  249.085663] gator: Using Cortex-A53 (0x41d03) for cpu 0
+[  249.085664] gator: Using Cortex-A53 (0x41d03) for cpu 1
+[  249.085664] gator: Using Cortex-A53 (0x41d03) for cpu 2
+[  249.085665] gator: Using Cortex-A53 (0x41d03) for cpu 3
+[  249.085666] gator: Using Cortex-A73 (0x41d09) for cpu 4
+[  249.085666] gator: Using Cortex-A73 (0x41d09) for cpu 5
+[  249.085667] gator: Using Cortex-A73 (0x41d09) for cpu 6
+[  249.085667] gator: Using Cortex-A73 (0x41d09) for cpu 7
+[  249.085792] 99::3
+[  249.085793] 101::3
+[  249.085804] 103::1
+[  249.085805] 105::1
+[  249.085805] 107::2
+[  249.085806] 109::2
+[  249.085806] 111::2
+[  249.085807] 113::2
+[  249.085833] 115::5
+[  249.085833] 117::6
+[  249.085835] 119::7
+[  249.085836] 121::8
+[  249.085836] 123::7
+[  249.085837] 125::8
+[  249.085849] gator: Detected GPU ID: 25121.
+[  249.085850] gator: Mali-Bifrost architecture detected.
+[  249.085855] 127::15
+[  249.085855] 129::15
+[  249.085856] 131::15
+[  249.085856] 133::15
+[  249.085857] 135::15
+[  249.085857] 137::15
+[  249.085858] 139::15
+[  249.085859] 141::15
+[  249.085859] 143::15
+[  249.085860] 145::15
+[  249.085861] 147::15
+[  249.085861] 149::15
+[  249.085862] 151::15
+[  249.085862] 153::15
+[  249.085863] 155::15
+[  249.085863] 157::15
+[  249.085864] 159::15
+[  249.085864] 161::15
+[  249.085865] 163::15
+[  249.085865] 165::15
+[  249.085866] 167::15
+[  249.085866] 169::15
+[  249.085867] 171::15
+[  249.085867] 173::15
+[  249.085867] 175::15
+[  249.085868] 177::15
+[  249.085868] 179::15
+[  249.085869] 181::15
+[  249.085869] 183::15
+[  249.085870] 185::15
+[  249.085870] 187::15
+[  249.085871] 189::15
+[  249.085871] 191::15
+[  249.085872] 193::15
+[  249.085872] 195::15
+[  249.085873] 197::15
+[  249.085873] 199::15
+[  249.085874] 201::15
+[  249.085874] 203::15
+[  249.085875] 205::15
+[  249.085875] 207::15
+[  249.085876] 209::15
+[  249.085876] 211::15
+[  249.085877] 213::15
+[  249.085877] 215::15
+[  249.085878] 217::15
+[  249.085878] 219::15
+[  249.085879] 221::15
+[  249.085879] 223::15
+[  249.085880] 225::15
+[  249.085880] 227::15
+[  249.085880] 229::15
+[  249.085881] 231::15
+[  249.085881] 233::15
+[  249.085882] 235::15
+[  249.085882] 237::15
+[  249.085883] 239::15
+[  249.085883] 241::15
+[  249.085884] 243::15
+[  249.085884] 245::15
+[  249.085885] 247::15
+[  249.085886] 249::15
+[  249.085886] 251::15
+[  249.085886] 253::15
+[  249.085887] 255::15
+[  249.085887] 257::15
+[  249.085888] 259::15
+[  249.085888] 261::15
+[  249.085889] 263::15
+[  249.085889] 265::15
+[  249.085890] 267::15
+[  249.085890] 269::15
+[  249.085891] 271::15
+[  249.085891] 273::15
+[  249.085892] 275::15
+[  249.085892] 277::15
+[  249.085892] 279::15
+[  249.085893] 281::15
+[  249.085893] 283::15
+[  249.085894] 285::15
+[  249.085894] 287::15
+[  249.085895] 289::15
+[  249.085895] 291::15
+[  249.085896] 293::15
+[  249.085896] 295::15
+[  249.085897] 297::15
+[  249.085897] 299::15
+[  249.085898] 301::15
+[  249.085898] 303::15
+[  249.085899] 305::15
+[  249.085899] 307::15
+[  249.085900] 309::15
+[  249.085900] 311::15
+[  249.085901] 313::15
+[  249.085901] 315::15
+[  249.085902] 317::15
+[  249.085902] 319::15
+[  249.085903] 321::15
+[  249.085903] 323::15
+[  249.085904] 325::15
+[  249.085904] 327::15
+[  249.085905] 329::15
+[  249.085905] 331::15
+[  249.085905] 333::15
+[  249.085906] 335::15
+[  249.085906] 337::15
+[  249.085907] 339::15
+[  249.085907] 341::15
+[  249.085908] 343::15
+[  249.085908] 345::15
+[  249.085909] 347::15
+[  249.085909] 349::15
+[  249.085910] 351::15
+[  249.085911] 353::15
+[  249.085911] 355::15
+[  249.085911] 357::15
+[  249.085912] 359::15
+[  249.085912] 361::15
+[  249.085913] 363::15
+[  249.085913] 365::15
+[  249.085914] 367::15
+[  249.085914] 369::15
+[  249.085915] 371::15
+[  249.085915] 373::15
+[  249.085916] 375::15
+[  249.085916] 377::15
+[  249.085917] 379::15
+[  249.085917] 381::15
+[  249.085917] 383::15
+[  249.085918] 385::15
+[  249.085918] 387::15
+[  249.085919] 389::15
+[  249.085919] 391::15
+[  249.085920] 393::15
+[  249.085920] 395::15
+[  249.085921] 397::15
+[  249.085921] 399::15
+[  249.085922] 401::15
+[  249.085922] 403::15
+[  249.085923] 405::15
+[  249.085924] 407::15
+[  249.085924] 409::15
+[  249.085924] 411::15
+[  249.085925] 413::15
+[  249.085925] 415::15
+[  249.085926] 417::15
+[  249.085926] 419::15
+[  249.085927] 421::15
+[  249.085927] 423::15
+[  249.085928] 425::15
+[  249.085928] 427::15
+[  249.085929] 429::15
+[  249.085929] 431::15
+[  249.085930] 433::15
+[  249.085930] 435::15
+[  249.085930] 437::15
+[  249.085931] 439::15
+[  249.085931] 441::15
+[  249.085932] 443::15
+[  249.085932] 445::15
+[  249.085933] 447::15
+[  249.085933] 449::15
+[  249.085934] 451::15
+[  249.085934] 453::15
+[  249.085935] 455::15
+[  249.085936] 457::15
+[  249.085936] 459::15
+[  249.085937] 461::15
+[  249.085937] 463::15
+[  249.085937] 465::15
+[  249.085938] 467::15
+[  249.085938] 469::15
+[  249.085939] 471::15
+[  249.085939] 473::15
+[  249.085940] 475::15
+[  249.085940] 477::15
+[  249.085941] 479::15
+[  249.085941] 481::15
+[  249.085942] 483::15
+[  249.085942] 485::15
+[  249.085942] 487::15
+[  249.085943] 489::15
+[  249.085943] 491::15
+[  249.085944] 493::15
+[  249.085944] 495::15
+[  249.085945] 497::15
+[  249.085945] 499::15
+[  249.085946] 501::15
+[  249.085946] 503::15
+[  249.085947] 505::15
+[  249.085947] 507::15
+[  249.085948] 509::15
+[  249.085948] 511::15
+[  249.085949] 513::15
+[  249.085949] 515::15
+[  249.085950] 517::15
+[  249.085950] 519::15
+[  249.085951] 521::15
+[  249.085951] 523::15
+[  249.085952] 525::15
+[  249.085952] 527::15
+[  249.085953] 529::15
+[  249.085953] 531::15
+[  249.085954] 533::15
+[  249.085954] 535::15
+[  249.085954] 537::15
+[  249.085955] 539::15
+[  249.085955] 541::15
+[  249.085956] 543::15
+[  249.085956] 545::15
+[  249.085957] 547::15
+[  249.085957] 549::15
+[  249.085958] 551::15
+[  249.085958] 553::15
+[  249.085959] 555::15
+[  249.085959] 557::15
+[  249.085959] 559::15
+[  249.085960] 561::15
+[  249.085961] 563::15
+[  249.085961] 565::15
+[  249.085962] 567::15
+[  249.085962] 569::15
+[  249.085963] 571::15
+[  249.085963] 573::15
+[  249.085964] 575::15
+[  249.085964] 577::15
+[  249.085965] 579::15
+[  249.085965] 581::15
+[  249.085966] 583::15
+[  249.085966] 585::15
+[  249.085966] 587::15
+[  249.085967] 589::15
+[  249.085967] 591::15
+[  249.085968] 593::15
+[  249.085968] 595::15
+[  249.085969] 597::15
+[  249.085969] 599::15
+[  249.085970] 601::15
+[  249.085970] 603::15
+[  249.085971] 605::15
+[  249.085971] 607::15
+[  249.085971] 609::15
+[  249.085972] 611::15
+[  249.085972] 613::15
+[  249.085973] 615::15
+[  249.085974] 617::15
+[  249.085974] 619::15
+[  249.085975] 621::15
+[  249.085975] 623::15
+[  249.085976] 625::15
+[  249.085976] 627::15
+[  249.085977] 629::15
+[  249.085977] 631::15
+[  249.085977] 633::15
+[  249.085978] 635::15
+[  249.085978] 637::15
+[  249.085979] 639::15
+[  249.085979] 641::15
+[  249.085980] 643::15
+[  249.085981] 645::15
+[  249.085981] 647::15
+[  249.085981] 649::15
+[  249.085982] 651::15
+[  249.085982] 653::15
+[  249.085983] 655::15
+[  249.085983] 657::15
+[  249.085984] 659::15
+[  249.085984] 661::15
+[  249.085985] 663::15
+[  249.085986] 665::15
+[  249.085986] 667::15
+[  249.085987] 669::15
+[  249.085987] 671::15
+[  249.085988] 673::15
+[  249.085988] 675::15
+[  249.085989] 677::15
+[  249.085989] 679::15
+[  249.085990] 681::15
+[  249.085990] 683::15
+[  249.085990] 685::15
+[  249.085991] 687::9
+[  249.085992] 689::9
+[  249.085992] 691::9
+[  249.085993] 693::9
+[  249.085993] 695::9
+[  249.085994] 697::10
+[  249.085994] 699::10
+[  249.085995] 701::10
+[  249.085995] 703::10
+[  249.085996] 705::11
+[  249.085996] 707::11
+[  249.085997] 709::11
+[  249.085998] 711::12
+[  249.085999] 713::13
+[  249.086000] 715::14
+[  249.086000] 717::14
+[  272.833161] summmary:timestamp:1594238541453154126,started:272724146833,uptime:272724144228
+[  274.363919] gator_ioctl called
+[  274.363931] Balee
+[  274.363941] freqs, index:58, value:1330916, dd:15971000,ct:12
+[  274.363945] freqs, index:60, value:1338375, dd:10707000,ct:8
+[  274.363949] freqs, index:62, value:1338375, dd:10707000,ct:8
+[  274.464325] gator_ioctl called
+[  274.464336] Balee
+[  274.564667] gator_ioctl called
+[  274.564676] Balee
+[  274.665003] gator_ioctl called
+[  274.665030] Balee
+[  274.665043] freqs, index:60, value:1090000, dd:2180000,ct:2
+[  274.665048] freqs, index:62, value:1090000, dd:2180000,ct:2
+[  274.765353] gator_ioctl called
+[  274.765364] Balee
+[  274.865753] gator_ioctl called
+[  274.865765] Balee
+[  274.966100] gator_ioctl called
+[  274.966111] Balee
+[  275.066493] gator_ioctl called
+[  275.066503] Balee
+[  275.166836] gator_ioctl called
+[  275.166845] Balee
+[  275.267238] gator_ioctl called
+[  275.267247] Balee
+[  275.367593] gator_ioctl called
+[  275.367599] Balee
+[  275.367606] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  275.367609] freqs, index:60, value:1984333, dd:5953000,ct:3
+[  275.367611] freqs, index:62, value:1984333, dd:5953000,ct:3
+[  275.467825] gator_ioctl called
+[  275.467829] Balee
+[  275.467840] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  275.467842] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  275.467844] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  275.568088] gator_ioctl called
+[  275.568097] Balee
+[  275.568107] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  275.568111] freqs, index:60, value:1226000, dd:3678000,ct:3
+[  275.568113] freqs, index:62, value:1226000, dd:3678000,ct:3
+[  275.668457] gator_ioctl called
+[  275.668462] Balee
+[  275.668467] freqs, index:58, value:1394400, dd:6972000,ct:5
+[  275.668468] freqs, index:60, value:1514000, dd:4542000,ct:3
+[  275.668471] freqs, index:62, value:1514000, dd:4542000,ct:3
+[  275.770145] gator_ioctl called
+[  275.770151] Balee
+[  275.770158] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  275.873316] gator_ioctl called
+[  275.873321] Balee
+[  275.873326] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  275.873328] freqs, index:60, value:2007000, dd:8028000,ct:4
+[  275.873330] freqs, index:62, value:2007000, dd:8028000,ct:4
+[  275.973548] gator_ioctl called
+[  275.973552] Balee
+[  275.973561] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  275.973563] freqs, index:60, value:2007000, dd:8028000,ct:4
+[  275.973563] freqs, index:62, value:2007000, dd:8028000,ct:4
+[  276.075144] gator_ioctl called
+[  276.075149] Balee
+[  276.075156] freqs, index:58, value:1546000, dd:3092000,ct:2
+[  276.075157] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  276.075158] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  276.181292] gator_ioctl called
+[  276.181298] Balee
+[  276.181309] freqs, index:58, value:1661500, dd:6646000,ct:4
+[  276.181312] freqs, index:60, value:1958750, dd:7835000,ct:4
+[  276.181313] freqs, index:62, value:1958750, dd:7835000,ct:4
+[  276.282827] gator_ioctl called
+[  276.282832] Balee
+[  276.282839] freqs, index:58, value:1589500, dd:6358000,ct:4
+[  276.282841] freqs, index:60, value:2112500, dd:8450000,ct:4
+[  276.282844] freqs, index:62, value:2112500, dd:8450000,ct:4
+[  276.383068] gator_ioctl called
+[  276.383073] Balee
+[  276.383078] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  276.383080] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  276.383081] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  276.483239] gator_ioctl called
+[  276.483240] Balee
+[  276.483248] freqs, index:58, value:1700000, dd:6800000,ct:4
+[  276.483249] freqs, index:60, value:2170000, dd:8680000,ct:4
+[  276.483250] freqs, index:62, value:2170000, dd:8680000,ct:4
+[  276.583427] gator_ioctl called
+[  276.583436] Balee
+[  276.583437] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  276.583438] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  276.583438] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  276.683653] gator_ioctl called
+[  276.683655] Balee
+[  276.683666] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  276.683668] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  276.683670] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  276.783992] gator_ioctl called
+[  276.784008] Balee
+[  276.784010] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  276.784013] freqs, index:60, value:1874750, dd:7499000,ct:4
+[  276.784013] freqs, index:62, value:1874750, dd:7499000,ct:4
+[  276.884313] gator_ioctl called
+[  276.884317] Balee
+[  276.884324] freqs, index:58, value:1724800, dd:8624000,ct:5
+[  276.884326] freqs, index:60, value:1958750, dd:7835000,ct:4
+[  276.884327] freqs, index:62, value:1958750, dd:7835000,ct:4
+[  276.984496] gator_ioctl called
+[  276.984503] Balee
+[  276.984511] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  277.084738] gator_ioctl called
+[  277.084742] Balee
+[  277.084750] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  277.084751] freqs, index:60, value:1968500, dd:7874000,ct:4
+[  277.084752] freqs, index:62, value:1968500, dd:7874000,ct:4
+[  277.184918] gator_ioctl called
+[  277.184923] Balee
+[  277.184931] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  277.184932] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  277.184933] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  277.285120] gator_ioctl called
+[  277.285122] Balee
+[  277.285129] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  277.285130] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  277.285131] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  277.385334] gator_ioctl called
+[  277.385342] Balee
+[  277.385343] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  277.385344] freqs, index:60, value:2170000, dd:8680000,ct:4
+[  277.385344] freqs, index:62, value:2170000, dd:8680000,ct:4
+[  277.485508] gator_ioctl called
+[  277.485509] Balee
+[  277.485514] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  277.485515] freqs, index:60, value:1930000, dd:3860000,ct:2
+[  277.485515] freqs, index:62, value:1930000, dd:3860000,ct:2
+[  277.585713] gator_ioctl called
+[  277.585717] Balee
+[  277.585726] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  277.585728] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  277.585729] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  277.685927] gator_ioctl called
+[  277.685931] Balee
+[  277.685937] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  277.685938] freqs, index:60, value:2035666, dd:6107000,ct:3
+[  277.685939] freqs, index:62, value:2035666, dd:6107000,ct:3
+[  277.786115] gator_ioctl called
+[  277.786119] Balee
+[  277.786124] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  277.786126] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  277.786126] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  277.886288] gator_ioctl called
+[  277.886291] Balee
+[  277.886295] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  277.886296] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  277.886298] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  277.986513] gator_ioctl called
+[  277.986518] Balee
+[  277.986527] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  277.986528] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  277.986529] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  278.086696] gator_ioctl called
+[  278.086700] Balee
+[  278.086708] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  278.086709] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  278.086710] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  278.186908] gator_ioctl called
+[  278.186913] Balee
+[  278.186921] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  278.186923] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  278.186924] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  278.287118] gator_ioctl called
+[  278.287123] Balee
+[  278.287129] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  278.287130] freqs, index:60, value:1522000, dd:6088000,ct:4
+[  278.287131] freqs, index:62, value:1522000, dd:6088000,ct:4
+[  278.387292] gator_ioctl called
+[  278.387298] Balee
+[  278.387306] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  278.487440] gator_ioctl called
+[  278.487442] Balee
+[  278.487444] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  278.587586] gator_ioctl called
+[  278.587589] Balee
+[  278.587592] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  278.587594] freqs, index:60, value:1090000, dd:2180000,ct:2
+[  278.587595] freqs, index:62, value:1090000, dd:2180000,ct:2
+[  278.643682] type=1400 audit(1594238499.755:211): avc: denied { module_load } for pid=4955 comm="insmod" path="/system/gator.ko" dev="sdd12" ino=3165 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=system permissive=1
+[  278.643731] type=1400 audit(1594238547.259:212): avc: denied { create } for pid=4989 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  278.687780] gator_ioctl called
+[  278.687787] Balee
+[  278.687801] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  278.687802] freqs, index:60, value:2362000, dd:2362000,ct:1
+[  278.687803] freqs, index:62, value:2362000, dd:2362000,ct:1
+[  278.777420] type=1400 audit(1594238547.259:212): avc: denied { create } for pid=4989 comm="main" name="cgroup.procs" scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+[  278.777453] type=1400 audit(1594238547.391:213): avc: denied { call } for pid=3362 comm="android.display" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  278.784895] type=1400 audit(1594238547.391:213): avc: denied { call } for pid=3362 comm="android.display" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  278.784927] type=1400 audit(1594238547.399:214): avc: denied { transfer } for pid=3362 comm="Binder:3362_8" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  278.787376] type=1400 audit(1594238547.399:214): avc: denied { transfer } for pid=3362 comm="Binder:3362_8" scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+[  278.787423] type=1400 audit(1594238547.403:215): avc: denied { call } for pid=3882 comm="com.android.se" scontext=u:r:zygote:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+[  278.788031] gator_ioctl called
+[  278.788044] Balee
+[  278.788066] freqs, index:60, value:1901250, dd:7605000,ct:4
+[  278.788068] freqs, index:62, value:1901250, dd:7605000,ct:4
+[  278.888288] gator_ioctl called
+[  278.888293] Balee
+[  278.888300] freqs, index:60, value:2362000, dd:2362000,ct:1
+[  278.888302] freqs, index:62, value:2362000, dd:2362000,ct:1
+[  278.988515] gator_ioctl called
+[  278.988520] Balee
+[  279.088747] gator_ioctl called
+[  279.088753] Balee
+[  279.088763] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  279.111334] audit: audit_lost=130 audit_rate_limit=5 audit_backlog_limit=64
+[  279.111342] audit: rate limit exceeded
+[  279.111351] type=1400 audit(1594238547.403:215): avc: denied { call } for pid=3882 comm="com.android.se" scontext=u:r:zygote:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+[  279.111388] type=1400 audit(1594238547.727:216): avc: denied { open } for pid=5063 comm="getprop" path="/dev/__properties__/u:object_r:sensors_prop:s0" dev="tmpfs" ino=10520 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sensors_prop:s0 tclass=file permissive=1
+[  279.189099] gator_ioctl called
+[  279.189108] Balee
+[  279.189127] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  279.289402] gator_ioctl called
+[  279.289406] Balee
+[  279.289411] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  279.289412] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  279.289414] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  279.389620] gator_ioctl called
+[  279.389626] Balee
+[  279.389639] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  279.389640] freqs, index:60, value:1907666, dd:5723000,ct:3
+[  279.389641] freqs, index:62, value:1907666, dd:5723000,ct:3
+[  279.489910] gator_ioctl called
+[  279.489911] Balee
+[  279.489922] freqs, index:58, value:1700000, dd:6800000,ct:4
+[  279.489924] freqs, index:60, value:1863000, dd:3726000,ct:2
+[  279.489924] freqs, index:62, value:1863000, dd:3726000,ct:2
+[  279.590156] gator_ioctl called
+[  279.590163] Balee
+[  279.590174] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  279.590175] freqs, index:60, value:1863000, dd:5589000,ct:3
+[  279.590176] freqs, index:62, value:1863000, dd:5589000,ct:3
+[  279.690482] gator_ioctl called
+[  279.690488] Balee
+[  279.690499] freqs, index:58, value:1556000, dd:1556000,ct:1
+[  279.690501] freqs, index:60, value:1381000, dd:6905000,ct:5
+[  279.690503] freqs, index:62, value:1381000, dd:6905000,ct:5
+[  279.790739] gator_ioctl called
+[  279.790746] Balee
+[  279.790759] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  279.790762] freqs, index:60, value:2362000, dd:2362000,ct:1
+[  279.790763] freqs, index:62, value:2362000, dd:2362000,ct:1
+[  279.891129] gator_ioctl called
+[  279.891163] Balee
+[  279.891186] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  279.997128] gator_ioctl called
+[  279.997136] Balee
+[  279.997148] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  279.997150] freqs, index:60, value:1872500, dd:3745000,ct:2
+[  279.997152] freqs, index:62, value:1872500, dd:3745000,ct:2
+[  280.102332] gator_ioctl called
+[  280.102346] Balee
+[  280.102352] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  280.102354] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  280.102357] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  280.202789] gator_ioctl called
+[  280.202798] Balee
+[  280.202807] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  280.202809] freqs, index:60, value:1575000, dd:3150000,ct:2
+[  280.202811] freqs, index:62, value:1575000, dd:3150000,ct:2
+[  280.303016] gator_ioctl called
+[  280.303021] Balee
+[  280.303030] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  280.303031] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  280.303033] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  280.403265] gator_ioctl called
+[  280.403277] Balee
+[  280.403295] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  280.403299] freqs, index:60, value:1272500, dd:2545000,ct:2
+[  280.403301] freqs, index:62, value:1272500, dd:2545000,ct:2
+[  280.506766] gator_ioctl called
+[  280.506774] Balee
+[  280.506781] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  280.506783] freqs, index:60, value:1901250, dd:7605000,ct:4
+[  280.506785] freqs, index:62, value:1901250, dd:7605000,ct:4
+[  280.607200] gator_ioctl called
+[  280.607206] Balee
+[  280.607217] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  280.607219] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  280.607220] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  280.707587] gator_ioctl called
+[  280.707595] Balee
+[  280.707608] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  280.707609] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  280.707611] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  280.807846] gator_ioctl called
+[  280.807853] Balee
+[  280.807863] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  280.908607] gator_ioctl called
+[  280.908615] Balee
+[  280.908621] freqs, index:58, value:1575000, dd:6300000,ct:4
+[  281.008834] gator_ioctl called
+[  281.008841] Balee
+[  281.008852] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  281.008854] freqs, index:60, value:2093000, dd:2093000,ct:1
+[  281.008855] freqs, index:62, value:2093000, dd:2093000,ct:1
+[  281.018338] audit: audit_lost=168 audit_rate_limit=5 audit_backlog_limit=64
+[  281.018344] audit: rate limit exceeded
+[  281.109059] gator_ioctl called
+[  281.109064] Balee
+[  281.109075] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  281.109076] freqs, index:60, value:2272333, dd:6817000,ct:3
+[  281.109077] freqs, index:62, value:2272333, dd:6817000,ct:3
+[  281.209287] gator_ioctl called
+[  281.209294] Balee
+[  281.209302] freqs, index:58, value:1628800, dd:8144000,ct:5
+[  281.209303] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  281.209304] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  281.309548] gator_ioctl called
+[  281.309554] Balee
+[  281.309562] freqs, index:58, value:1584500, dd:6338000,ct:4
+[  281.309565] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  281.309567] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  281.409876] gator_ioctl called
+[  281.409878] Balee
+[  281.409889] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  281.409890] freqs, index:60, value:1888333, dd:5665000,ct:3
+[  281.409892] freqs, index:62, value:1888333, dd:5665000,ct:3
+[  281.510228] gator_ioctl called
+[  281.510234] Balee
+[  281.510241] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  281.510243] freqs, index:60, value:2170000, dd:8680000,ct:4
+[  281.510245] freqs, index:62, value:2170000, dd:8680000,ct:4
+[  281.610468] gator_ioctl called
+[  281.610469] Balee
+[  281.610474] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  281.610475] freqs, index:60, value:2117250, dd:8469000,ct:4
+[  281.610477] freqs, index:62, value:2117250, dd:8469000,ct:4
+[  281.710747] gator_ioctl called
+[  281.710753] Balee
+[  281.710766] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  281.710768] freqs, index:60, value:1522000, dd:6088000,ct:4
+[  281.710770] freqs, index:62, value:1522000, dd:6088000,ct:4
+[  281.811066] gator_ioctl called
+[  281.811092] Balee
+[  281.811103] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  281.811105] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  281.811107] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  281.911413] gator_ioctl called
+[  281.911422] Balee
+[  281.911431] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  281.911434] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  281.911436] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  282.011720] gator_ioctl called
+[  282.011723] Balee
+[  282.011737] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  282.011739] freqs, index:60, value:1935000, dd:7740000,ct:4
+[  282.011740] freqs, index:62, value:1935000, dd:7740000,ct:4
+[  282.112028] gator_ioctl called
+[  282.112043] Balee
+[  282.112045] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  282.112048] freqs, index:60, value:1987750, dd:7951000,ct:4
+[  282.112048] freqs, index:62, value:1987750, dd:7951000,ct:4
+[  282.212324] gator_ioctl called
+[  282.212326] Balee
+[  282.212335] freqs, index:58, value:1671000, dd:10026000,ct:6
+[  282.212338] freqs, index:60, value:2066400, dd:10332000,ct:5
+[  282.212339] freqs, index:62, value:2066400, dd:10332000,ct:5
+[  282.312595] gator_ioctl called
+[  282.312606] Balee
+[  282.312608] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  282.312610] freqs, index:60, value:1677333, dd:5032000,ct:3
+[  282.312611] freqs, index:62, value:1677333, dd:5032000,ct:3
+[  282.412950] gator_ioctl called
+[  282.412960] Balee
+[  282.412974] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  282.412976] freqs, index:60, value:1757333, dd:10544000,ct:6
+[  282.412978] freqs, index:62, value:1757333, dd:10544000,ct:6
+[  282.513506] gator_ioctl called
+[  282.513516] Balee
+[  282.513528] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  282.513531] freqs, index:60, value:1958750, dd:7835000,ct:4
+[  282.513532] freqs, index:62, value:1958750, dd:7835000,ct:4
+[  282.613836] gator_ioctl called
+[  282.613839] Balee
+[  282.613855] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  282.613868] freqs, index:60, value:1690000, dd:3380000,ct:2
+[  282.613869] freqs, index:62, value:1690000, dd:3380000,ct:2
+[  282.714144] gator_ioctl called
+[  282.714151] Balee
+[  282.714158] freqs, index:58, value:1652000, dd:4956000,ct:3
+[  282.714161] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  282.714163] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  282.814398] gator_ioctl called
+[  282.814406] Balee
+[  282.814411] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  282.814413] freqs, index:60, value:1682400, dd:8412000,ct:5
+[  282.814416] freqs, index:62, value:1682400, dd:8412000,ct:5
+[  282.914703] gator_ioctl called
+[  282.914709] Balee
+[  282.914720] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  282.914723] freqs, index:60, value:2035666, dd:6107000,ct:3
+[  282.914724] freqs, index:62, value:2035666, dd:6107000,ct:3
+[  283.015016] gator_ioctl called
+[  283.015017] Balee
+[  283.015032] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  283.015034] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  283.015037] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  283.115391] gator_ioctl called
+[  283.115398] Balee
+[  283.115409] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  283.115412] freqs, index:60, value:1978000, dd:9890000,ct:5
+[  283.115414] freqs, index:62, value:1978000, dd:9890000,ct:5
+[  283.215653] gator_ioctl called
+[  283.215654] Balee
+[  283.215665] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  283.215666] freqs, index:60, value:1826400, dd:9132000,ct:5
+[  283.215668] freqs, index:62, value:1826400, dd:9132000,ct:5
+[  283.315901] gator_ioctl called
+[  283.315907] Balee
+[  283.315917] freqs, index:58, value:1700000, dd:6800000,ct:4
+[  283.315962] freqs, index:60, value:1848500, dd:7394000,ct:4
+[  283.315964] freqs, index:62, value:1848500, dd:7394000,ct:4
+[  283.416249] gator_ioctl called
+[  283.416251] Balee
+[  283.416268] freqs, index:58, value:1652000, dd:4956000,ct:3
+[  283.416269] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  283.416271] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  283.516577] gator_ioctl called
+[  283.516583] Balee
+[  283.516591] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  283.516593] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  283.516595] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  283.616982] gator_ioctl called
+[  283.616990] Balee
+[  283.617001] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  283.617049] freqs, index:60, value:1565333, dd:4696000,ct:3
+[  283.617051] freqs, index:62, value:1565333, dd:4696000,ct:3
+[  283.717269] gator_ioctl called
+[  283.717276] Balee
+[  283.717282] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  283.717284] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  283.717287] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  283.817517] gator_ioctl called
+[  283.817525] Balee
+[  283.817530] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  283.817532] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  283.817533] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  283.917777] gator_ioctl called
+[  283.917783] Balee
+[  283.917791] freqs, index:58, value:1694000, dd:8470000,ct:5
+[  283.917793] freqs, index:60, value:1926833, dd:11561000,ct:6
+[  283.917795] freqs, index:62, value:1926833, dd:11561000,ct:6
+[  284.018021] gator_ioctl called
+[  284.018030] Balee
+[  284.018036] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  284.018038] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  284.018040] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  284.118436] gator_ioctl called
+[  284.118445] Balee
+[  284.118459] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  284.118462] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  284.118464] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  284.218738] gator_ioctl called
+[  284.218739] Balee
+[  284.218751] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  284.218753] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  284.218755] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  284.318988] gator_ioctl called
+[  284.318999] Balee
+[  284.319001] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  284.319003] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  284.319003] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  284.419232] gator_ioctl called
+[  284.419234] Balee
+[  284.419245] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  284.419246] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  284.419248] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  284.519495] gator_ioctl called
+[  284.519517] Balee
+[  284.519531] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  284.519533] freqs, index:60, value:1930000, dd:3860000,ct:2
+[  284.519535] freqs, index:62, value:1930000, dd:3860000,ct:2
+[  284.619845] gator_ioctl called
+[  284.619849] Balee
+[  284.619855] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  284.619857] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  284.619859] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  284.720148] gator_ioctl called
+[  284.720158] Balee
+[  284.720166] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  284.720168] freqs, index:60, value:1510000, dd:6040000,ct:4
+[  284.720170] freqs, index:62, value:1510000, dd:6040000,ct:4
+[  284.820434] gator_ioctl called
+[  284.820445] Balee
+[  284.820452] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  284.920716] gator_ioctl called
+[  284.920723] Balee
+[  284.920730] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  284.920732] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  284.920734] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  285.020957] gator_ioctl called
+[  285.020966] Balee
+[  285.020974] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  285.020976] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  285.020977] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  285.121267] gator_ioctl called
+[  285.121276] Balee
+[  285.121295] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  285.121299] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  285.121300] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  285.221588] gator_ioctl called
+[  285.221594] Balee
+[  285.221600] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  285.221602] freqs, index:60, value:1859000, dd:9295000,ct:5
+[  285.221604] freqs, index:62, value:1859000, dd:9295000,ct:5
+[  285.321878] gator_ioctl called
+[  285.321883] Balee
+[  285.321889] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  285.321892] freqs, index:60, value:1481250, dd:5925000,ct:4
+[  285.321893] freqs, index:62, value:1481250, dd:5925000,ct:4
+[  285.422156] gator_ioctl called
+[  285.422164] Balee
+[  285.422179] freqs, index:58, value:1565333, dd:9392000,ct:6
+[  285.422181] freqs, index:60, value:1509600, dd:7548000,ct:5
+[  285.422184] freqs, index:62, value:1509600, dd:7548000,ct:5
+[  285.522488] gator_ioctl called
+[  285.522504] Balee
+[  285.522506] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  285.522508] freqs, index:60, value:1750000, dd:7000000,ct:4
+[  285.522508] freqs, index:62, value:1750000, dd:7000000,ct:4
+[  285.622822] gator_ioctl called
+[  285.622824] Balee
+[  285.622836] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  285.622838] freqs, index:60, value:2106000, dd:6318000,ct:3
+[  285.622840] freqs, index:62, value:2106000, dd:6318000,ct:3
+[  285.723083] gator_ioctl called
+[  285.723094] Balee
+[  285.723097] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  285.723099] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  285.723099] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  285.823395] gator_ioctl called
+[  285.823396] Balee
+[  285.823401] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  285.823403] freqs, index:60, value:1843750, dd:7375000,ct:4
+[  285.823404] freqs, index:62, value:1843750, dd:7375000,ct:4
+[  285.923659] gator_ioctl called
+[  285.923670] Balee
+[  285.923673] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  285.923675] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  285.923675] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  286.023937] gator_ioctl called
+[  286.023946] Balee
+[  286.023951] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  286.023953] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  286.023956] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  286.124250] gator_ioctl called
+[  286.124269] Balee
+[  286.124278] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  286.124280] freqs, index:60, value:1743000, dd:6972000,ct:4
+[  286.124282] freqs, index:62, value:1743000, dd:6972000,ct:4
+[  286.224542] gator_ioctl called
+[  286.224550] Balee
+[  286.224562] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  286.224564] freqs, index:60, value:1907666, dd:5723000,ct:3
+[  286.224566] freqs, index:62, value:1907666, dd:5723000,ct:3
+[  286.324846] gator_ioctl called
+[  286.324853] Balee
+[  286.324859] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  286.324862] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  286.324865] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  286.425177] gator_ioctl called
+[  286.425182] Balee
+[  286.425187] freqs, index:58, value:1698000, dd:8490000,ct:5
+[  286.425188] freqs, index:60, value:1694000, dd:8470000,ct:5
+[  286.425190] freqs, index:62, value:1694000, dd:8470000,ct:5
+[  286.525464] gator_ioctl called
+[  286.525471] Balee
+[  286.525483] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  286.525486] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  286.525488] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  286.625746] gator_ioctl called
+[  286.625762] Balee
+[  286.625769] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  286.625771] freqs, index:60, value:1535000, dd:9210000,ct:6
+[  286.625774] freqs, index:62, value:1535000, dd:9210000,ct:6
+[  286.726072] gator_ioctl called
+[  286.726081] Balee
+[  286.726082] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  286.726085] freqs, index:60, value:1459666, dd:4379000,ct:3
+[  286.726086] freqs, index:62, value:1459666, dd:4379000,ct:3
+[  286.826370] gator_ioctl called
+[  286.826372] Balee
+[  286.826376] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  286.826378] freqs, index:60, value:1394400, dd:6972000,ct:5
+[  286.826379] freqs, index:62, value:1394400, dd:6972000,ct:5
+[  286.926729] gator_ioctl called
+[  286.926734] Balee
+[  286.926736] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  286.926738] freqs, index:60, value:2272333, dd:6817000,ct:3
+[  286.926738] freqs, index:62, value:2272333, dd:6817000,ct:3
+[  287.027001] gator_ioctl called
+[  287.027003] Balee
+[  287.027013] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  287.027015] freqs, index:60, value:1514000, dd:4542000,ct:3
+[  287.027016] freqs, index:62, value:1514000, dd:4542000,ct:3
+[  287.127318] gator_ioctl called
+[  287.127327] Balee
+[  287.127342] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  287.127345] freqs, index:60, value:1848500, dd:7394000,ct:4
+[  287.127348] freqs, index:62, value:1848500, dd:7394000,ct:4
+[  287.227621] gator_ioctl called
+[  287.227626] Balee
+[  287.227630] freqs, index:58, value:1661500, dd:6646000,ct:4
+[  287.227632] freqs, index:60, value:1657400, dd:8287000,ct:5
+[  287.227634] freqs, index:62, value:1657400, dd:8287000,ct:5
+[  287.327858] gator_ioctl called
+[  287.327866] Balee
+[  287.327868] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  287.327869] freqs, index:60, value:2074000, dd:6222000,ct:3
+[  287.327870] freqs, index:62, value:2074000, dd:6222000,ct:3
+[  287.428107] gator_ioctl called
+[  287.428108] Balee
+[  287.428114] freqs, index:58, value:1655600, dd:8278000,ct:5
+[  287.428116] freqs, index:60, value:1684400, dd:8422000,ct:5
+[  287.428117] freqs, index:62, value:1684400, dd:8422000,ct:5
+[  287.528400] gator_ioctl called
+[  287.528407] Balee
+[  287.528409] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  287.528411] freqs, index:60, value:2125333, dd:6376000,ct:3
+[  287.528411] freqs, index:62, value:2125333, dd:6376000,ct:3
+[  287.628656] gator_ioctl called
+[  287.628657] Balee
+[  287.628666] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  287.628668] freqs, index:60, value:1548500, dd:6194000,ct:4
+[  287.628669] freqs, index:62, value:1548500, dd:6194000,ct:4
+[  287.728980] gator_ioctl called
+[  287.728991] Balee
+[  287.728993] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  287.728995] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  287.728995] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  287.829289] gator_ioctl called
+[  287.829290] Balee
+[  287.829295] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  287.829297] freqs, index:60, value:1690000, dd:5070000,ct:3
+[  287.829298] freqs, index:62, value:1690000, dd:5070000,ct:3
+[  287.929519] gator_ioctl called
+[  287.929525] Balee
+[  287.929530] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  287.929532] freqs, index:60, value:1947400, dd:9737000,ct:5
+[  287.929534] freqs, index:62, value:1947400, dd:9737000,ct:5
+[  288.029794] gator_ioctl called
+[  288.029800] Balee
+[  288.029805] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  288.029807] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  288.029808] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  288.130097] gator_ioctl called
+[  288.130102] Balee
+[  288.130107] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  288.130109] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  288.130111] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  288.230365] gator_ioctl called
+[  288.230373] Balee
+[  288.230378] freqs, index:58, value:1440666, dd:4322000,ct:3
+[  288.230380] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  288.230383] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  288.330717] gator_ioctl called
+[  288.330729] Balee
+[  288.330740] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  288.330743] freqs, index:60, value:1459666, dd:4379000,ct:3
+[  288.330745] freqs, index:62, value:1459666, dd:4379000,ct:3
+[  288.431042] gator_ioctl called
+[  288.431049] Balee
+[  288.431055] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  288.431057] freqs, index:60, value:1652000, dd:1652000,ct:1
+[  288.431059] freqs, index:62, value:1652000, dd:1652000,ct:1
+[  288.531337] gator_ioctl called
+[  288.531343] Balee
+[  288.531345] freqs, index:58, value:1656500, dd:6626000,ct:4
+[  288.531346] freqs, index:60, value:1685250, dd:6741000,ct:4
+[  288.531347] freqs, index:62, value:1685250, dd:6741000,ct:4
+[  288.631729] gator_ioctl called
+[  288.631731] Balee
+[  288.631737] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  288.631739] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  288.631741] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  288.732039] gator_ioctl called
+[  288.732045] Balee
+[  288.732047] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  288.732049] freqs, index:60, value:1680500, dd:3361000,ct:2
+[  288.732049] freqs, index:62, value:1680500, dd:3361000,ct:2
+[  288.832349] gator_ioctl called
+[  288.832350] Balee
+[  288.832357] freqs, index:58, value:1338000, dd:4014000,ct:3
+[  288.832359] freqs, index:60, value:1167000, dd:4668000,ct:4
+[  288.832362] freqs, index:62, value:1167000, dd:4668000,ct:4
+[  288.932816] gator_ioctl called
+[  288.932827] Balee
+[  288.932848] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  288.932851] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  288.932853] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  289.033306] gator_ioctl called
+[  289.033308] Balee
+[  289.033317] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  289.033319] freqs, index:60, value:2035666, dd:6107000,ct:3
+[  289.033321] freqs, index:62, value:2035666, dd:6107000,ct:3
+[  289.134513] gator_ioctl called
+[  289.134520] Balee
+[  289.134527] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  289.134530] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  289.134531] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  289.234815] gator_ioctl called
+[  289.234823] Balee
+[  289.234832] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  289.234834] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  289.234837] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  289.335079] gator_ioctl called
+[  289.335086] Balee
+[  289.335092] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  289.335095] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  289.335097] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  289.435361] gator_ioctl called
+[  289.435373] Balee
+[  289.435384] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  289.435387] freqs, index:60, value:1277333, dd:3832000,ct:3
+[  289.435391] freqs, index:62, value:1277333, dd:3832000,ct:3
+[  289.535793] gator_ioctl called
+[  289.535803] Balee
+[  289.535812] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  289.535815] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  289.535817] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  289.636141] gator_ioctl called
+[  289.636150] Balee
+[  289.636161] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  289.636163] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  289.636165] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  289.736511] gator_ioctl called
+[  289.736527] Balee
+[  289.736538] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  289.736541] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  289.736543] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  289.836905] gator_ioctl called
+[  289.836908] Balee
+[  289.836916] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  289.836918] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  289.836919] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  289.937278] gator_ioctl called
+[  289.937287] Balee
+[  289.937288] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  289.937290] freqs, index:60, value:1600666, dd:4802000,ct:3
+[  289.937291] freqs, index:62, value:1600666, dd:4802000,ct:3
+[  290.037598] gator_ioctl called
+[  290.037599] Balee
+[  290.037606] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  290.037607] freqs, index:60, value:1680500, dd:3361000,ct:2
+[  290.037609] freqs, index:62, value:1680500, dd:3361000,ct:2
+[  290.137918] gator_ioctl called
+[  290.137921] Balee
+[  290.137923] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  290.137924] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  290.137924] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  290.238094] gator_ioctl called
+[  290.238100] Balee
+[  290.238107] freqs, index:58, value:1698000, dd:8490000,ct:5
+[  290.238109] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  290.238110] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  290.338369] gator_ioctl called
+[  290.338374] Balee
+[  290.338382] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  290.338384] freqs, index:60, value:1167000, dd:2334000,ct:2
+[  290.338386] freqs, index:62, value:1167000, dd:2334000,ct:2
+[  290.438593] gator_ioctl called
+[  290.438594] Balee
+[  290.438599] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  290.438600] freqs, index:60, value:1627750, dd:6511000,ct:4
+[  290.438601] freqs, index:62, value:1627750, dd:6511000,ct:4
+[  290.538820] gator_ioctl called
+[  290.538825] Balee
+[  290.538826] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  290.538828] freqs, index:60, value:1317600, dd:6588000,ct:5
+[  290.538828] freqs, index:62, value:1317600, dd:6588000,ct:5
+[  290.639037] gator_ioctl called
+[  290.639038] Balee
+[  290.639043] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  290.639044] freqs, index:60, value:1258000, dd:2516000,ct:2
+[  290.639046] freqs, index:62, value:1258000, dd:2516000,ct:2
+[  290.739292] gator_ioctl called
+[  290.739299] Balee
+[  290.739302] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  290.739305] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  290.739305] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  290.839595] gator_ioctl called
+[  290.839595] Balee
+[  290.839599] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  290.839601] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  290.839602] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  290.939761] gator_ioctl called
+[  290.939765] Balee
+[  290.939770] freqs, index:60, value:1843750, dd:7375000,ct:4
+[  290.939771] freqs, index:62, value:1843750, dd:7375000,ct:4
+[  291.039929] gator_ioctl called
+[  291.039934] Balee
+[  291.039940] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  291.039941] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  291.140156] gator_ioctl called
+[  291.140165] Balee
+[  291.140173] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  291.140174] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  291.140175] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  291.240427] gator_ioctl called
+[  291.240433] Balee
+[  291.240438] freqs, index:58, value:1628800, dd:8144000,ct:5
+[  291.240439] freqs, index:60, value:1498000, dd:1498000,ct:1
+[  291.240441] freqs, index:62, value:1498000, dd:1498000,ct:1
+[  291.340666] gator_ioctl called
+[  291.340674] Balee
+[  291.340682] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  291.340684] freqs, index:60, value:1459666, dd:4379000,ct:3
+[  291.340686] freqs, index:62, value:1459666, dd:4379000,ct:3
+[  291.440955] gator_ioctl called
+[  291.440959] Balee
+[  291.440963] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  291.440964] freqs, index:60, value:1750000, dd:7000000,ct:4
+[  291.440965] freqs, index:62, value:1750000, dd:7000000,ct:4
+[  291.541169] gator_ioctl called
+[  291.541175] Balee
+[  291.541182] freqs, index:58, value:1609600, dd:8048000,ct:5
+[  291.541184] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  291.541185] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  291.641440] gator_ioctl called
+[  291.641443] Balee
+[  291.641451] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  291.641454] freqs, index:60, value:954000, dd:2862000,ct:3
+[  291.641456] freqs, index:62, value:954000, dd:2862000,ct:3
+[  291.741732] gator_ioctl called
+[  291.741739] Balee
+[  291.741741] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  291.741742] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  291.741742] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  291.841968] gator_ioctl called
+[  291.841969] Balee
+[  291.841976] freqs, index:58, value:1698000, dd:8490000,ct:5
+[  291.841977] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  291.841978] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  291.942275] gator_ioctl called
+[  291.942284] Balee
+[  291.942288] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  291.942291] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  291.942291] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  292.042623] gator_ioctl called
+[  292.042630] Balee
+[  292.042640] freqs, index:58, value:1504666, dd:4514000,ct:3
+[  292.042642] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  292.042643] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  292.143394] gator_ioctl called
+[  292.143402] Balee
+[  292.143409] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  292.143412] freqs, index:60, value:1639750, dd:6559000,ct:4
+[  292.143414] freqs, index:62, value:1639750, dd:6559000,ct:4
+[  292.243682] gator_ioctl called
+[  292.243689] Balee
+[  292.243696] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  292.243698] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  292.243701] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  292.343926] gator_ioctl called
+[  292.343930] Balee
+[  292.343937] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  292.343939] freqs, index:60, value:1522000, dd:6088000,ct:4
+[  292.343940] freqs, index:62, value:1522000, dd:6088000,ct:4
+[  292.444112] gator_ioctl called
+[  292.444115] Balee
+[  292.444121] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  292.444121] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  292.444123] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  292.544329] gator_ioctl called
+[  292.544334] Balee
+[  292.544339] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  292.544340] freqs, index:60, value:1778400, dd:8892000,ct:5
+[  292.544341] freqs, index:62, value:1778400, dd:8892000,ct:5
+[  292.644517] gator_ioctl called
+[  292.644521] Balee
+[  292.644525] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  292.644526] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  292.644527] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  292.744700] gator_ioctl called
+[  292.744704] Balee
+[  292.744709] freqs, index:58, value:1556000, dd:1556000,ct:1
+[  292.744711] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  292.744712] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  292.844870] gator_ioctl called
+[  292.844871] Balee
+[  292.844879] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  292.844879] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  292.844880] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  292.945042] gator_ioctl called
+[  292.945050] Balee
+[  292.945051] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  292.945052] freqs, index:60, value:2112500, dd:8450000,ct:4
+[  292.945052] freqs, index:62, value:2112500, dd:8450000,ct:4
+[  293.045244] gator_ioctl called
+[  293.045246] Balee
+[  293.045253] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  293.045254] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  293.045255] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  293.145417] gator_ioctl called
+[  293.145424] Balee
+[  293.145426] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  293.145426] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  293.145426] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  293.245601] gator_ioctl called
+[  293.245602] Balee
+[  293.245606] freqs, index:58, value:1609600, dd:8048000,ct:5
+[  293.245607] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  293.245608] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  293.345803] gator_ioctl called
+[  293.345808] Balee
+[  293.345816] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  293.345818] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  293.345819] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  293.445983] gator_ioctl called
+[  293.445987] Balee
+[  293.445991] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  293.445992] freqs, index:60, value:1764500, dd:7058000,ct:4
+[  293.445993] freqs, index:62, value:1764500, dd:7058000,ct:4
+[  293.546143] gator_ioctl called
+[  293.546146] Balee
+[  293.546151] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  293.546152] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  293.546153] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  293.646341] gator_ioctl called
+[  293.646345] Balee
+[  293.646349] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  293.646350] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  293.646351] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  293.746530] gator_ioctl called
+[  293.746537] Balee
+[  293.746545] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  293.746546] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  293.746548] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  293.846778] gator_ioctl called
+[  293.846781] Balee
+[  293.846789] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  293.846790] freqs, index:60, value:1584400, dd:7922000,ct:5
+[  293.846791] freqs, index:62, value:1584400, dd:7922000,ct:5
+[  293.946942] gator_ioctl called
+[  293.946946] Balee
+[  293.946955] freqs, index:60, value:1939600, dd:9698000,ct:5
+[  293.946956] freqs, index:62, value:1939600, dd:9698000,ct:5
+[  294.047111] gator_ioctl called
+[  294.047116] Balee
+[  294.047117] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  294.047118] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  294.047118] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  294.147274] gator_ioctl called
+[  294.147275] Balee
+[  294.147280] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  294.147281] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  294.147282] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  294.247468] gator_ioctl called
+[  294.247471] Balee
+[  294.247473] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  294.247474] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  294.247474] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  294.347633] gator_ioctl called
+[  294.347635] Balee
+[  294.347643] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  294.347643] freqs, index:60, value:1889800, dd:9449000,ct:5
+[  294.347645] freqs, index:62, value:1889800, dd:9449000,ct:5
+[  294.447815] gator_ioctl called
+[  294.447824] Balee
+[  294.447826] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  294.447827] freqs, index:60, value:1837333, dd:5512000,ct:3
+[  294.447827] freqs, index:62, value:1837333, dd:5512000,ct:3
+[  294.548037] gator_ioctl called
+[  294.548042] Balee
+[  294.548050] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  294.548051] freqs, index:60, value:2125333, dd:6376000,ct:3
+[  294.548052] freqs, index:62, value:2125333, dd:6376000,ct:3
+[  294.648223] gator_ioctl called
+[  294.648227] Balee
+[  294.648232] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  294.648233] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  294.648234] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  294.748412] gator_ioctl called
+[  294.748415] Balee
+[  294.748419] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  294.748420] freqs, index:60, value:1764500, dd:7058000,ct:4
+[  294.748421] freqs, index:62, value:1764500, dd:7058000,ct:4
+[  294.848551] gator_ioctl called
+[  294.848556] Balee
+[  294.848560] freqs, index:58, value:1700000, dd:6800000,ct:4
+[  294.848562] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  294.848563] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  294.948721] gator_ioctl called
+[  294.948725] Balee
+[  294.948728] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  294.948729] freqs, index:60, value:2007000, dd:8028000,ct:4
+[  294.948730] freqs, index:62, value:2007000, dd:8028000,ct:4
+[  295.049781] gator_ioctl called
+[  295.049787] Balee
+[  295.049797] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  295.049799] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  295.049801] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  295.150102] gator_ioctl called
+[  295.150105] Balee
+[  295.150117] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  295.150118] freqs, index:60, value:1186000, dd:4744000,ct:4
+[  295.150120] freqs, index:62, value:1186000, dd:4744000,ct:4
+[  295.250364] gator_ioctl called
+[  295.250374] Balee
+[  295.250377] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  295.250379] freqs, index:60, value:2125333, dd:6376000,ct:3
+[  295.250379] freqs, index:62, value:2125333, dd:6376000,ct:3
+[  295.350751] gator_ioctl called
+[  295.350753] Balee
+[  295.350765] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  295.350767] freqs, index:60, value:2170000, dd:8680000,ct:4
+[  295.350768] freqs, index:62, value:2170000, dd:8680000,ct:4
+[  295.451002] gator_ioctl called
+[  295.451007] Balee
+[  295.451009] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  295.451011] freqs, index:60, value:1851400, dd:9257000,ct:5
+[  295.451011] freqs, index:62, value:1851400, dd:9257000,ct:5
+[  295.551242] gator_ioctl called
+[  295.551243] Balee
+[  295.551251] freqs, index:58, value:1609600, dd:8048000,ct:5
+[  295.551253] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  295.551255] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  295.651511] gator_ioctl called
+[  295.651523] Balee
+[  295.651524] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  295.651526] freqs, index:60, value:2059750, dd:8239000,ct:4
+[  295.651526] freqs, index:62, value:2059750, dd:8239000,ct:4
+[  295.751761] gator_ioctl called
+[  295.751766] Balee
+[  295.751771] freqs, index:58, value:1628800, dd:8144000,ct:5
+[  295.751773] freqs, index:60, value:1690000, dd:3380000,ct:2
+[  295.751775] freqs, index:62, value:1690000, dd:3380000,ct:2
+[  295.852075] gator_ioctl called
+[  295.852085] Balee
+[  295.852098] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  295.852100] freqs, index:60, value:1565333, dd:4696000,ct:3
+[  295.852102] freqs, index:62, value:1565333, dd:4696000,ct:3
+[  295.952365] gator_ioctl called
+[  295.952371] Balee
+[  295.952380] freqs, index:58, value:1698000, dd:8490000,ct:5
+[  295.952382] freqs, index:60, value:1615200, dd:8076000,ct:5
+[  295.952384] freqs, index:62, value:1615200, dd:8076000,ct:5
+[  296.052623] gator_ioctl called
+[  296.052628] Balee
+[  296.052637] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  296.052639] freqs, index:60, value:1626000, dd:4878000,ct:3
+[  296.052641] freqs, index:62, value:1626000, dd:4878000,ct:3
+[  296.153364] gator_ioctl called
+[  296.153371] Balee
+[  296.153376] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  296.153378] freqs, index:60, value:2112500, dd:8450000,ct:4
+[  296.153380] freqs, index:62, value:2112500, dd:8450000,ct:4
+[  296.255031] gator_ioctl called
+[  296.255038] Balee
+[  296.255046] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  296.255049] freqs, index:60, value:1930000, dd:3860000,ct:2
+[  296.255051] freqs, index:62, value:1930000, dd:3860000,ct:2
+[  296.355304] gator_ioctl called
+[  296.355309] Balee
+[  296.355316] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  296.455564] gator_ioctl called
+[  296.455575] Balee
+[  296.455577] freqs, index:58, value:1581333, dd:4744000,ct:3
+[  296.455579] freqs, index:60, value:1481250, dd:5925000,ct:4
+[  296.455579] freqs, index:62, value:1481250, dd:5925000,ct:4
+[  296.555816] gator_ioctl called
+[  296.555818] Balee
+[  296.555829] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  296.555830] freqs, index:60, value:1896500, dd:7586000,ct:4
+[  296.555832] freqs, index:62, value:1896500, dd:7586000,ct:4
+[  296.656067] gator_ioctl called
+[  296.656079] Balee
+[  296.656081] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  296.656083] freqs, index:60, value:2066400, dd:10332000,ct:5
+[  296.656083] freqs, index:62, value:2066400, dd:10332000,ct:5
+[  296.756332] gator_ioctl called
+[  296.756334] Balee
+[  296.756341] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  296.756342] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  296.756344] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  296.856618] gator_ioctl called
+[  296.856623] Balee
+[  296.856625] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  296.856627] freqs, index:60, value:1565333, dd:4696000,ct:3
+[  296.856627] freqs, index:62, value:1565333, dd:4696000,ct:3
+[  296.957003] gator_ioctl called
+[  296.957060] Balee
+[  296.957075] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  296.957076] freqs, index:60, value:1764500, dd:7058000,ct:4
+[  296.957079] freqs, index:62, value:1764500, dd:7058000,ct:4
+[  297.057381] gator_ioctl called
+[  297.057390] Balee
+[  297.057398] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  297.157648] gator_ioctl called
+[  297.157655] Balee
+[  297.157659] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  297.257920] gator_ioctl called
+[  297.257927] Balee
+[  297.257939] freqs, index:58, value:1540400, dd:7702000,ct:5
+[  297.257942] freqs, index:60, value:1626000, dd:4878000,ct:3
+[  297.257944] freqs, index:62, value:1626000, dd:4878000,ct:3
+[  297.358180] gator_ioctl called
+[  297.358188] Balee
+[  297.358193] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  297.358195] freqs, index:60, value:1695800, dd:8479000,ct:5
+[  297.358199] freqs, index:62, value:1695800, dd:8479000,ct:5
+[  297.458474] gator_ioctl called
+[  297.458479] Balee
+[  297.458485] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  297.458487] freqs, index:60, value:1786000, dd:3572000,ct:2
+[  297.458488] freqs, index:62, value:1786000, dd:3572000,ct:2
+[  297.558707] gator_ioctl called
+[  297.558711] Balee
+[  297.558716] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  297.558717] freqs, index:60, value:1786000, dd:3572000,ct:2
+[  297.558719] freqs, index:62, value:1786000, dd:3572000,ct:2
+[  297.658895] gator_ioctl called
+[  297.658902] Balee
+[  297.658903] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  297.658905] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  297.658905] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  297.759068] gator_ioctl called
+[  297.759068] Balee
+[  297.759071] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  297.759073] freqs, index:60, value:682000, dd:682000,ct:1
+[  297.759074] freqs, index:62, value:682000, dd:682000,ct:1
+[  297.859235] gator_ioctl called
+[  297.859243] Balee
+[  297.859244] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  297.859245] freqs, index:60, value:1817250, dd:7269000,ct:4
+[  297.859245] freqs, index:62, value:1817250, dd:7269000,ct:4
+[  297.959429] gator_ioctl called
+[  297.959431] Balee
+[  297.959436] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  297.959437] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  297.959438] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  298.059636] gator_ioctl called
+[  298.059640] Balee
+[  298.059641] freqs, index:58, value:1647000, dd:6588000,ct:4
+[  298.059642] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  298.059642] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  298.159869] gator_ioctl called
+[  298.159873] Balee
+[  298.159882] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  298.159883] freqs, index:60, value:1533166, dd:9199000,ct:6
+[  298.159884] freqs, index:62, value:1533166, dd:9199000,ct:6
+[  298.260056] gator_ioctl called
+[  298.260061] Balee
+[  298.260065] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  298.260067] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  298.260068] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  298.360238] gator_ioctl called
+[  298.360243] Balee
+[  298.360249] freqs, index:58, value:1581333, dd:4744000,ct:3
+[  298.360250] freqs, index:60, value:1677333, dd:5032000,ct:3
+[  298.360251] freqs, index:62, value:1677333, dd:5032000,ct:3
+[  298.460422] gator_ioctl called
+[  298.460428] Balee
+[  298.460432] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  298.460433] freqs, index:60, value:1517200, dd:7586000,ct:5
+[  298.460434] freqs, index:62, value:1517200, dd:7586000,ct:5
+[  298.560605] gator_ioctl called
+[  298.560610] Balee
+[  298.560614] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  298.560615] freqs, index:60, value:1354000, dd:4062000,ct:3
+[  298.560616] freqs, index:62, value:1354000, dd:4062000,ct:3
+[  298.660841] gator_ioctl called
+[  298.660847] Balee
+[  298.660852] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  298.660854] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  298.660856] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  298.761086] gator_ioctl called
+[  298.761093] Balee
+[  298.761101] freqs, index:58, value:1464500, dd:5858000,ct:4
+[  298.761103] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  298.761107] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  298.861435] gator_ioctl called
+[  298.861444] Balee
+[  298.861448] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  298.861451] freqs, index:60, value:1075666, dd:3227000,ct:3
+[  298.861451] freqs, index:62, value:1075666, dd:3227000,ct:3
+[  298.961791] gator_ioctl called
+[  298.961794] Balee
+[  298.961801] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  298.961805] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  299.062159] gator_ioctl called
+[  299.062166] Balee
+[  299.062168] freqs, index:58, value:1210000, dd:1210000,ct:1
+[  299.062171] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  299.062171] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  299.162487] gator_ioctl called
+[  299.162488] Balee
+[  299.162494] freqs, index:58, value:1636400, dd:8182000,ct:5
+[  299.162496] freqs, index:60, value:1618000, dd:9708000,ct:6
+[  299.162499] freqs, index:62, value:1618000, dd:9708000,ct:6
+[  299.262820] gator_ioctl called
+[  299.262825] Balee
+[  299.262827] freqs, index:58, value:1581333, dd:4744000,ct:3
+[  299.262829] freqs, index:60, value:1968500, dd:7874000,ct:4
+[  299.262829] freqs, index:62, value:1968500, dd:7874000,ct:4
+[  299.363057] gator_ioctl called
+[  299.363058] Balee
+[  299.363063] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  299.363065] freqs, index:60, value:1726000, dd:6904000,ct:4
+[  299.363067] freqs, index:62, value:1726000, dd:6904000,ct:4
+[  299.464135] gator_ioctl called
+[  299.464142] Balee
+[  299.464148] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  299.564416] gator_ioctl called
+[  299.564423] Balee
+[  299.564427] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  299.564429] freqs, index:60, value:1930000, dd:3860000,ct:2
+[  299.564431] freqs, index:62, value:1930000, dd:3860000,ct:2
+[  299.664656] gator_ioctl called
+[  299.664663] Balee
+[  299.664671] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  299.664674] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  299.664676] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  299.764946] gator_ioctl called
+[  299.764953] Balee
+[  299.764958] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  299.764961] freqs, index:60, value:1639750, dd:6559000,ct:4
+[  299.764963] freqs, index:62, value:1639750, dd:6559000,ct:4
+[  299.865227] gator_ioctl called
+[  299.865233] Balee
+[  299.865239] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  299.865242] freqs, index:60, value:1657400, dd:8287000,ct:5
+[  299.865244] freqs, index:62, value:1657400, dd:8287000,ct:5
+[  299.968194] gator_ioctl called
+[  299.968200] Balee
+[  299.968204] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  299.968206] freqs, index:60, value:1548500, dd:6194000,ct:4
+[  299.968208] freqs, index:62, value:1548500, dd:6194000,ct:4
+[  300.071872] gator_ioctl called
+[  300.071879] Balee
+[  300.071886] freqs, index:58, value:1581333, dd:4744000,ct:3
+[  300.071889] freqs, index:60, value:1776428, dd:12435000,ct:7
+[  300.071890] freqs, index:62, value:1776428, dd:12435000,ct:7
+[  300.173750] gator_ioctl called
+[  300.173756] Balee
+[  300.173762] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  300.173764] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  300.173767] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  300.274021] gator_ioctl called
+[  300.274028] Balee
+[  300.274037] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  300.274040] freqs, index:60, value:1939750, dd:7759000,ct:4
+[  300.274042] freqs, index:62, value:1939750, dd:7759000,ct:4
+[  300.374393] gator_ioctl called
+[  300.374395] Balee
+[  300.374402] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  300.374404] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  300.374406] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  300.474684] gator_ioctl called
+[  300.474694] Balee
+[  300.474697] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  300.474699] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  300.474700] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  300.574971] gator_ioctl called
+[  300.574974] Balee
+[  300.574984] freqs, index:58, value:1546000, dd:3092000,ct:2
+[  300.574987] freqs, index:60, value:1581333, dd:4744000,ct:3
+[  300.574990] freqs, index:62, value:1581333, dd:4744000,ct:3
+[  300.675338] gator_ioctl called
+[  300.675350] Balee
+[  300.675352] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  300.675354] freqs, index:60, value:1901250, dd:7605000,ct:4
+[  300.675355] freqs, index:62, value:1901250, dd:7605000,ct:4
+[  300.775638] gator_ioctl called
+[  300.775640] Balee
+[  300.775647] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  300.775649] freqs, index:60, value:1771750, dd:7087000,ct:4
+[  300.775651] freqs, index:62, value:1771750, dd:7087000,ct:4
+[  300.875990] gator_ioctl called
+[  300.875996] Balee
+[  300.875998] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  300.876000] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  300.876000] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  300.976298] gator_ioctl called
+[  300.976307] Balee
+[  300.976313] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  300.976315] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  300.976317] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  301.076582] gator_ioctl called
+[  301.076588] Balee
+[  301.076595] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  301.076598] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  301.076600] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  301.176932] gator_ioctl called
+[  301.176939] Balee
+[  301.176949] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  301.176951] freqs, index:60, value:1603666, dd:9622000,ct:6
+[  301.176953] freqs, index:62, value:1603666, dd:9622000,ct:6
+[  301.277221] gator_ioctl called
+[  301.277228] Balee
+[  301.277234] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  301.277237] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  301.277238] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  301.377439] gator_ioctl called
+[  301.377442] Balee
+[  301.377446] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  301.377448] freqs, index:60, value:2007000, dd:4014000,ct:2
+[  301.377450] freqs, index:62, value:2007000, dd:4014000,ct:2
+[  301.477673] gator_ioctl called
+[  301.477679] Balee
+[  301.477688] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  301.477690] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  301.477691] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  301.577896] gator_ioctl called
+[  301.577898] Balee
+[  301.577903] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  301.577905] freqs, index:60, value:1984333, dd:5953000,ct:3
+[  301.577906] freqs, index:62, value:1984333, dd:5953000,ct:3
+[  301.678091] gator_ioctl called
+[  301.678097] Balee
+[  301.678108] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  301.678110] freqs, index:60, value:1818000, dd:5454000,ct:3
+[  301.678111] freqs, index:62, value:1818000, dd:5454000,ct:3
+[  301.778302] gator_ioctl called
+[  301.778306] Balee
+[  301.778310] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  301.778312] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  301.778313] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  301.878526] gator_ioctl called
+[  301.878531] Balee
+[  301.878533] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  301.878534] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  301.878534] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  301.978798] gator_ioctl called
+[  301.978799] Balee
+[  301.978805] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  301.978806] freqs, index:60, value:1600666, dd:4802000,ct:3
+[  301.978807] freqs, index:62, value:1600666, dd:4802000,ct:3
+[  302.079046] gator_ioctl called
+[  302.079053] Balee
+[  302.079065] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  302.079067] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  302.079068] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  302.179360] gator_ioctl called
+[  302.179367] Balee
+[  302.179378] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  302.179379] freqs, index:60, value:1639750, dd:6559000,ct:4
+[  302.179381] freqs, index:62, value:1639750, dd:6559000,ct:4
+[  302.279601] gator_ioctl called
+[  302.279617] Balee
+[  302.279628] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  302.279629] freqs, index:60, value:1730400, dd:8652000,ct:5
+[  302.279630] freqs, index:62, value:1730400, dd:8652000,ct:5
+[  302.379865] gator_ioctl called
+[  302.379869] Balee
+[  302.379874] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  302.379876] freqs, index:60, value:1795500, dd:3591000,ct:2
+[  302.379878] freqs, index:62, value:1795500, dd:3591000,ct:2
+[  302.480073] gator_ioctl called
+[  302.480078] Balee
+[  302.480083] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  302.480084] freqs, index:60, value:1835666, dd:11014000,ct:6
+[  302.480085] freqs, index:62, value:1835666, dd:11014000,ct:6
+[  302.580284] gator_ioctl called
+[  302.580289] Balee
+[  302.580293] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  302.580294] freqs, index:60, value:1736500, dd:10419000,ct:6
+[  302.580296] freqs, index:62, value:1736500, dd:10419000,ct:6
+[  302.680473] gator_ioctl called
+[  302.680477] Balee
+[  302.680483] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  302.680484] freqs, index:60, value:1959000, dd:5877000,ct:3
+[  302.680486] freqs, index:62, value:1959000, dd:5877000,ct:3
+[  302.780654] gator_ioctl called
+[  302.780656] Balee
+[  302.780662] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  302.780665] freqs, index:60, value:1522000, dd:6088000,ct:4
+[  302.780666] freqs, index:62, value:1522000, dd:6088000,ct:4
+[  302.880864] gator_ioctl called
+[  302.880868] Balee
+[  302.880869] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  302.880871] freqs, index:60, value:1726000, dd:6904000,ct:4
+[  302.880871] freqs, index:62, value:1726000, dd:6904000,ct:4
+[  302.981071] gator_ioctl called
+[  302.981073] Balee
+[  302.981080] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  302.981083] freqs, index:60, value:1354000, dd:4062000,ct:3
+[  302.981086] freqs, index:62, value:1354000, dd:4062000,ct:3
+[  303.081361] gator_ioctl called
+[  303.081368] Balee
+[  303.081369] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  303.081370] freqs, index:60, value:1826400, dd:9132000,ct:5
+[  303.081370] freqs, index:62, value:1826400, dd:9132000,ct:5
+[  303.181539] gator_ioctl called
+[  303.181540] Balee
+[  303.181543] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  303.181544] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  303.181545] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  303.281755] gator_ioctl called
+[  303.281762] Balee
+[  303.281774] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  303.281776] freqs, index:60, value:1550833, dd:9305000,ct:6
+[  303.281777] freqs, index:62, value:1550833, dd:9305000,ct:6
+[  303.383922] gator_ioctl called
+[  303.383929] Balee
+[  303.383934] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  303.383936] freqs, index:60, value:1522000, dd:3044000,ct:2
+[  303.383939] freqs, index:62, value:1522000, dd:3044000,ct:2
+[  303.484163] gator_ioctl called
+[  303.484168] Balee
+[  303.484170] freqs, index:58, value:1575000, dd:6300000,ct:4
+[  303.484172] freqs, index:60, value:1557600, dd:7788000,ct:5
+[  303.484172] freqs, index:62, value:1557600, dd:7788000,ct:5
+[  303.584400] gator_ioctl called
+[  303.584402] Balee
+[  303.584408] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  303.584411] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  303.584413] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  303.684801] gator_ioctl called
+[  303.684806] Balee
+[  303.684808] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  303.684811] freqs, index:60, value:1709333, dd:10256000,ct:6
+[  303.684811] freqs, index:62, value:1709333, dd:10256000,ct:6
+[  303.785070] gator_ioctl called
+[  303.785073] Balee
+[  303.785078] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  303.785081] freqs, index:60, value:1471500, dd:5886000,ct:4
+[  303.785083] freqs, index:62, value:1471500, dd:5886000,ct:4
+[  303.885338] gator_ioctl called
+[  303.885343] Balee
+[  303.885345] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  303.885348] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  303.885348] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  303.985616] gator_ioctl called
+[  303.985618] Balee
+[  303.985623] freqs, index:58, value:1464500, dd:5858000,ct:4
+[  303.985625] freqs, index:60, value:1471500, dd:5886000,ct:4
+[  303.985627] freqs, index:62, value:1471500, dd:5886000,ct:4
+[  304.089079] gator_ioctl called
+[  304.089084] Balee
+[  304.089086] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  304.089088] freqs, index:60, value:1406750, dd:5627000,ct:4
+[  304.089088] freqs, index:62, value:1406750, dd:5627000,ct:4
+[  304.191444] gator_ioctl called
+[  304.191446] Balee
+[  304.191451] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  304.191452] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  304.191454] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  304.296021] gator_ioctl called
+[  304.296027] Balee
+[  304.296028] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  304.296030] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  304.296030] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  304.396300] gator_ioctl called
+[  304.396303] Balee
+[  304.396308] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  304.396311] freqs, index:60, value:1617000, dd:8085000,ct:5
+[  304.396313] freqs, index:62, value:1617000, dd:8085000,ct:5
+[  304.496564] gator_ioctl called
+[  304.496570] Balee
+[  304.496572] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  304.496574] freqs, index:60, value:1557600, dd:7788000,ct:5
+[  304.496574] freqs, index:62, value:1557600, dd:7788000,ct:5
+[  304.596874] gator_ioctl called
+[  304.596876] Balee
+[  304.596881] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  304.596883] freqs, index:60, value:1837333, dd:5512000,ct:3
+[  304.596886] freqs, index:62, value:1837333, dd:5512000,ct:3
+[  304.697166] gator_ioctl called
+[  304.697177] Balee
+[  304.697186] freqs, index:58, value:1551000, dd:6204000,ct:4
+[  304.697189] freqs, index:60, value:1680500, dd:3361000,ct:2
+[  304.697191] freqs, index:62, value:1680500, dd:3361000,ct:2
+[  304.797616] gator_ioctl called
+[  304.797622] Balee
+[  304.797627] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  304.797629] freqs, index:60, value:1592714, dd:11149000,ct:7
+[  304.797631] freqs, index:62, value:1592714, dd:11149000,ct:7
+[  304.897861] gator_ioctl called
+[  304.897866] Balee
+[  304.897868] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  304.897870] freqs, index:60, value:1440500, dd:5762000,ct:4
+[  304.897870] freqs, index:62, value:1440500, dd:5762000,ct:4
+[  304.998138] gator_ioctl called
+[  304.998142] Balee
+[  304.998146] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  304.998148] freqs, index:60, value:1555500, dd:3111000,ct:2
+[  304.998149] freqs, index:62, value:1555500, dd:3111000,ct:2
+[  305.098343] gator_ioctl called
+[  305.098346] Balee
+[  305.098348] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  305.098350] freqs, index:60, value:1675500, dd:6702000,ct:4
+[  305.098350] freqs, index:62, value:1675500, dd:6702000,ct:4
+[  305.198566] gator_ioctl called
+[  305.198567] Balee
+[  305.198570] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  305.198571] freqs, index:60, value:1565250, dd:6261000,ct:4
+[  305.198573] freqs, index:62, value:1565250, dd:6261000,ct:4
+[  305.298720] gator_ioctl called
+[  305.298726] Balee
+[  305.298731] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  305.298733] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  305.298734] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  305.398956] gator_ioctl called
+[  305.398958] Balee
+[  305.398962] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  305.398963] freqs, index:60, value:1507750, dd:6031000,ct:4
+[  305.398965] freqs, index:62, value:1507750, dd:6031000,ct:4
+[  305.499175] gator_ioctl called
+[  305.499178] Balee
+[  305.499180] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  305.499181] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  305.499181] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  305.599359] gator_ioctl called
+[  305.599363] Balee
+[  305.599367] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  305.599368] freqs, index:60, value:1587666, dd:4763000,ct:3
+[  305.599370] freqs, index:62, value:1587666, dd:4763000,ct:3
+[  305.699537] gator_ioctl called
+[  305.699541] Balee
+[  305.699546] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  305.699548] freqs, index:60, value:1682750, dd:6731000,ct:4
+[  305.699549] freqs, index:62, value:1682750, dd:6731000,ct:4
+[  305.799730] gator_ioctl called
+[  305.799734] Balee
+[  305.799739] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  305.799741] freqs, index:60, value:1322750, dd:5291000,ct:4
+[  305.799743] freqs, index:62, value:1322750, dd:5291000,ct:4
+[  305.899975] gator_ioctl called
+[  305.899984] Balee
+[  305.899991] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  305.899993] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  305.899995] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  306.000214] gator_ioctl called
+[  306.000218] Balee
+[  306.000222] freqs, index:58, value:1338000, dd:4014000,ct:3
+[  306.000223] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  306.000225] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  306.100412] gator_ioctl called
+[  306.100416] Balee
+[  306.100422] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  306.100424] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  306.100425] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  306.200623] gator_ioctl called
+[  306.200629] Balee
+[  306.200633] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  306.200635] freqs, index:60, value:1373333, dd:8240000,ct:6
+[  306.200636] freqs, index:62, value:1373333, dd:8240000,ct:6
+[  306.300841] gator_ioctl called
+[  306.300846] Balee
+[  306.300851] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  306.300852] freqs, index:60, value:1622666, dd:4868000,ct:3
+[  306.300853] freqs, index:62, value:1622666, dd:4868000,ct:3
+[  306.401064] gator_ioctl called
+[  306.401071] Balee
+[  306.401083] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  306.401084] freqs, index:60, value:1181250, dd:4725000,ct:4
+[  306.401087] freqs, index:62, value:1181250, dd:4725000,ct:4
+[  306.501367] gator_ioctl called
+[  306.501374] Balee
+[  306.501382] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  306.501385] freqs, index:60, value:1834000, dd:7336000,ct:4
+[  306.501387] freqs, index:62, value:1834000, dd:7336000,ct:4
+[  306.604559] gator_ioctl called
+[  306.604567] Balee
+[  306.604572] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  306.604574] freqs, index:60, value:1722333, dd:5167000,ct:3
+[  306.604577] freqs, index:62, value:1722333, dd:5167000,ct:3
+[  306.706108] gator_ioctl called
+[  306.706115] Balee
+[  306.706129] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  306.706131] freqs, index:60, value:1795500, dd:3591000,ct:2
+[  306.706133] freqs, index:62, value:1795500, dd:3591000,ct:2
+[  306.806479] gator_ioctl called
+[  306.806489] Balee
+[  306.806498] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  306.806500] freqs, index:60, value:1578800, dd:7894000,ct:5
+[  306.806503] freqs, index:62, value:1578800, dd:7894000,ct:5
+[  306.906745] gator_ioctl called
+[  306.906750] Balee
+[  306.906757] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  306.906759] freqs, index:60, value:1824333, dd:5473000,ct:3
+[  306.906762] freqs, index:62, value:1824333, dd:5473000,ct:3
+[  307.011292] gator_ioctl called
+[  307.011302] Balee
+[  307.011307] freqs, index:58, value:1556000, dd:1556000,ct:1
+[  307.011310] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  307.011313] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  307.111663] gator_ioctl called
+[  307.111669] Balee
+[  307.111677] freqs, index:58, value:1210000, dd:1210000,ct:1
+[  307.111681] freqs, index:60, value:1714000, dd:6856000,ct:4
+[  307.111683] freqs, index:62, value:1714000, dd:6856000,ct:4
+[  307.211953] gator_ioctl called
+[  307.211973] Balee
+[  307.211979] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  307.211981] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  307.211983] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  307.312369] gator_ioctl called
+[  307.312392] Balee
+[  307.312408] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  307.312411] freqs, index:60, value:1535000, dd:9210000,ct:6
+[  307.312412] freqs, index:62, value:1535000, dd:9210000,ct:6
+[  307.412720] gator_ioctl called
+[  307.412724] Balee
+[  307.412728] freqs, index:60, value:2050000, dd:8200000,ct:4
+[  307.412729] freqs, index:62, value:2050000, dd:8200000,ct:4
+[  307.512901] gator_ioctl called
+[  307.512907] Balee
+[  307.512913] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  307.512914] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  307.613175] gator_ioctl called
+[  307.613179] Balee
+[  307.613186] freqs, index:60, value:1757500, dd:7030000,ct:4
+[  307.613187] freqs, index:62, value:1757500, dd:7030000,ct:4
+[  307.713382] gator_ioctl called
+[  307.713384] Balee
+[  307.713388] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  307.713390] freqs, index:60, value:1658750, dd:6635000,ct:4
+[  307.713391] freqs, index:62, value:1658750, dd:6635000,ct:4
+[  307.813573] gator_ioctl called
+[  307.813576] Balee
+[  307.813577] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  307.813579] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  307.813579] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  307.913758] gator_ioctl called
+[  307.913759] Balee
+[  307.913765] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  307.913766] freqs, index:60, value:1599000, dd:6396000,ct:4
+[  307.913767] freqs, index:62, value:1599000, dd:6396000,ct:4
+[  308.013963] gator_ioctl called
+[  308.013967] Balee
+[  308.013968] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  308.013969] freqs, index:60, value:1885800, dd:9429000,ct:5
+[  308.013969] freqs, index:62, value:1885800, dd:9429000,ct:5
+[  308.114146] gator_ioctl called
+[  308.114147] Balee
+[  308.114151] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  308.114152] freqs, index:60, value:1548500, dd:6194000,ct:4
+[  308.114153] freqs, index:62, value:1548500, dd:6194000,ct:4
+[  308.218194] gator_ioctl called
+[  308.218209] Balee
+[  308.218216] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  308.218219] freqs, index:60, value:1753400, dd:8767000,ct:5
+[  308.218220] freqs, index:62, value:1753400, dd:8767000,ct:5
+[  308.320791] gator_ioctl called
+[  308.320798] Balee
+[  308.320803] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  308.320805] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  308.320807] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  308.421081] gator_ioctl called
+[  308.421092] Balee
+[  308.421094] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  308.421096] freqs, index:60, value:1601250, dd:6405000,ct:4
+[  308.421096] freqs, index:62, value:1601250, dd:6405000,ct:4
+[  308.521345] gator_ioctl called
+[  308.521351] Balee
+[  308.521356] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  308.521358] freqs, index:60, value:1874750, dd:7499000,ct:4
+[  308.521361] freqs, index:62, value:1874750, dd:7499000,ct:4
+[  308.621591] gator_ioctl called
+[  308.621598] Balee
+[  308.621605] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  308.721908] gator_ioctl called
+[  308.721917] Balee
+[  308.721923] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  308.721925] freqs, index:60, value:2227500, dd:4455000,ct:2
+[  308.721928] freqs, index:62, value:2227500, dd:4455000,ct:2
+[  308.822198] gator_ioctl called
+[  308.822205] Balee
+[  308.822212] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  308.822215] freqs, index:60, value:1595428, dd:11168000,ct:7
+[  308.822217] freqs, index:62, value:1595428, dd:11168000,ct:7
+[  308.922481] gator_ioctl called
+[  308.922488] Balee
+[  308.922496] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  308.922499] freqs, index:60, value:1514000, dd:4542000,ct:3
+[  308.922502] freqs, index:62, value:1514000, dd:4542000,ct:3
+[  309.022767] gator_ioctl called
+[  309.022773] Balee
+[  309.022780] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  309.022782] freqs, index:60, value:1730000, dd:10380000,ct:6
+[  309.022784] freqs, index:62, value:1730000, dd:10380000,ct:6
+[  309.123023] gator_ioctl called
+[  309.123030] Balee
+[  309.123035] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  309.123037] freqs, index:60, value:1514000, dd:4542000,ct:3
+[  309.123040] freqs, index:62, value:1514000, dd:4542000,ct:3
+[  309.223301] gator_ioctl called
+[  309.223309] Balee
+[  309.223312] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  309.223315] freqs, index:60, value:1599800, dd:7999000,ct:5
+[  309.223315] freqs, index:62, value:1599800, dd:7999000,ct:5
+[  309.323752] gator_ioctl called
+[  309.323755] Balee
+[  309.323763] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  309.323766] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  309.323769] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  309.424115] gator_ioctl called
+[  309.424127] Balee
+[  309.424134] freqs, index:58, value:1464500, dd:5858000,ct:4
+[  309.424138] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  309.424140] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  309.524446] gator_ioctl called
+[  309.524452] Balee
+[  309.524457] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  309.524459] freqs, index:60, value:1481250, dd:5925000,ct:4
+[  309.524462] freqs, index:62, value:1481250, dd:5925000,ct:4
+[  309.624690] gator_ioctl called
+[  309.624695] Balee
+[  309.624697] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  309.624699] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  309.624699] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  309.724961] gator_ioctl called
+[  309.724962] Balee
+[  309.724967] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  309.724969] freqs, index:60, value:1573333, dd:9440000,ct:6
+[  309.724971] freqs, index:62, value:1573333, dd:9440000,ct:6
+[  309.825302] gator_ioctl called
+[  309.825309] Balee
+[  309.825312] freqs, index:58, value:1498000, dd:4494000,ct:3
+[  309.825315] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  309.825315] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  309.925633] gator_ioctl called
+[  309.925634] Balee
+[  309.925640] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  309.925642] freqs, index:60, value:1475666, dd:4427000,ct:3
+[  309.925644] freqs, index:62, value:1475666, dd:4427000,ct:3
+[  310.025939] gator_ioctl called
+[  310.025945] Balee
+[  310.025947] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  310.025949] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  310.025949] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  310.126217] gator_ioctl called
+[  310.126220] Balee
+[  310.126228] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  310.126246] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  310.126250] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  310.226580] gator_ioctl called
+[  310.226584] Balee
+[  310.226587] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  310.226589] freqs, index:60, value:1722000, dd:5166000,ct:3
+[  310.226589] freqs, index:62, value:1722000, dd:5166000,ct:3
+[  310.326878] gator_ioctl called
+[  310.326884] Balee
+[  310.326891] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  310.326894] freqs, index:60, value:1872500, dd:3745000,ct:2
+[  310.326896] freqs, index:62, value:1872500, dd:3745000,ct:2
+[  310.427207] gator_ioctl called
+[  310.427216] Balee
+[  310.427223] freqs, index:58, value:1383000, dd:5532000,ct:4
+[  310.427226] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  310.427228] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  310.527514] gator_ioctl called
+[  310.527520] Balee
+[  310.527529] freqs, index:58, value:1210000, dd:2420000,ct:2
+[  310.527532] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  310.527536] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  310.627827] gator_ioctl called
+[  310.627833] Balee
+[  310.627840] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  310.627843] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  310.627845] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  310.728084] gator_ioctl called
+[  310.728092] Balee
+[  310.728098] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  310.728100] freqs, index:60, value:1714000, dd:6856000,ct:4
+[  310.728102] freqs, index:62, value:1714000, dd:6856000,ct:4
+[  310.828346] gator_ioctl called
+[  310.828352] Balee
+[  310.828355] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  310.828357] freqs, index:60, value:1461600, dd:7308000,ct:5
+[  310.828357] freqs, index:62, value:1461600, dd:7308000,ct:5
+[  310.928681] gator_ioctl called
+[  310.928683] Balee
+[  310.928689] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  310.928692] freqs, index:60, value:1414000, dd:5656000,ct:4
+[  310.928695] freqs, index:62, value:1414000, dd:5656000,ct:4
+[  311.033756] gator_ioctl called
+[  311.033766] Balee
+[  311.033776] freqs, index:58, value:1344500, dd:5378000,ct:4
+[  311.033779] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  311.033782] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  311.134086] gator_ioctl called
+[  311.134087] Balee
+[  311.134091] freqs, index:58, value:1405333, dd:8432000,ct:6
+[  311.134092] freqs, index:60, value:1939666, dd:5819000,ct:3
+[  311.134094] freqs, index:62, value:1939666, dd:5819000,ct:3
+[  311.234334] gator_ioctl called
+[  311.234342] Balee
+[  311.234344] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  311.234347] freqs, index:60, value:1795500, dd:3591000,ct:2
+[  311.234347] freqs, index:62, value:1795500, dd:3591000,ct:2
+[  311.334642] gator_ioctl called
+[  311.334644] Balee
+[  311.334651] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  311.334653] freqs, index:60, value:1818000, dd:5454000,ct:3
+[  311.334655] freqs, index:62, value:1818000, dd:5454000,ct:3
+[  311.434914] gator_ioctl called
+[  311.434920] Balee
+[  311.434928] freqs, index:58, value:1700000, dd:6800000,ct:4
+[  311.434930] freqs, index:60, value:1872500, dd:3745000,ct:2
+[  311.434932] freqs, index:62, value:1872500, dd:3745000,ct:2
+[  311.535839] gator_ioctl called
+[  311.535846] Balee
+[  311.535851] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  311.538950] freqs, index:60, value:1525333, dd:9152000,ct:6
+[  311.538954] freqs, index:62, value:1525333, dd:9152000,ct:6
+[  311.639219] gator_ioctl called
+[  311.639225] Balee
+[  311.639234] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  311.639237] freqs, index:60, value:1766750, dd:7067000,ct:4
+[  311.639238] freqs, index:62, value:1766750, dd:7067000,ct:4
+[  311.744374] gator_ioctl called
+[  311.744386] Balee
+[  311.744394] freqs, index:58, value:1450000, dd:2900000,ct:2
+[  311.744397] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  311.744401] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  311.846659] gator_ioctl called
+[  311.846669] Balee
+[  311.846680] freqs, index:58, value:1512500, dd:6050000,ct:4
+[  311.846683] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  311.846685] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  311.946968] gator_ioctl called
+[  311.946971] Balee
+[  311.946979] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  311.946981] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  311.946983] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  312.052273] gator_ioctl called
+[  312.052279] Balee
+[  312.052287] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  312.052289] freqs, index:60, value:2016333, dd:6049000,ct:3
+[  312.052291] freqs, index:62, value:2016333, dd:6049000,ct:3
+[  312.152570] gator_ioctl called
+[  312.152574] Balee
+[  312.152579] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  312.152581] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  312.152583] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  312.257725] gator_ioctl called
+[  312.257731] Balee
+[  312.257739] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  312.257742] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  312.257744] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  312.360523] gator_ioctl called
+[  312.360529] Balee
+[  312.360534] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  312.360536] freqs, index:60, value:1624800, dd:8124000,ct:5
+[  312.360539] freqs, index:62, value:1624800, dd:8124000,ct:5
+[  312.465376] gator_ioctl called
+[  312.465386] Balee
+[  312.465394] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  312.465397] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  312.465399] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  312.565700] gator_ioctl called
+[  312.565707] Balee
+[  312.565714] freqs, index:58, value:1416500, dd:5666000,ct:4
+[  312.565715] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  312.565718] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  312.666023] gator_ioctl called
+[  312.666028] Balee
+[  312.666036] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  312.666038] freqs, index:60, value:1992500, dd:7970000,ct:4
+[  312.666040] freqs, index:62, value:1992500, dd:7970000,ct:4
+[  312.766272] gator_ioctl called
+[  312.766280] Balee
+[  312.766287] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  312.766289] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  312.766291] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  312.866595] gator_ioctl called
+[  312.866615] Balee
+[  312.866623] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  312.866626] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  312.866627] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  312.966958] gator_ioctl called
+[  312.966964] Balee
+[  312.966969] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  312.966971] freqs, index:60, value:2029333, dd:6088000,ct:3
+[  312.966974] freqs, index:62, value:2029333, dd:6088000,ct:3
+[  313.067244] gator_ioctl called
+[  313.067254] Balee
+[  313.067264] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  313.067267] freqs, index:60, value:1507750, dd:6031000,ct:4
+[  313.067269] freqs, index:62, value:1507750, dd:6031000,ct:4
+[  313.169742] gator_ioctl called
+[  313.169750] Balee
+[  313.169758] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  313.169760] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  313.169762] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  313.271803] gator_ioctl called
+[  313.271809] Balee
+[  313.271817] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  313.271820] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  313.271822] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  313.372081] gator_ioctl called
+[  313.372083] Balee
+[  313.372088] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  313.372090] freqs, index:60, value:1536333, dd:4609000,ct:3
+[  313.372092] freqs, index:62, value:1536333, dd:4609000,ct:3
+[  313.472383] gator_ioctl called
+[  313.472388] Balee
+[  313.472391] freqs, index:58, value:1431000, dd:5724000,ct:4
+[  313.472393] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  313.472393] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  313.572629] gator_ioctl called
+[  313.572634] Balee
+[  313.572640] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  313.572642] freqs, index:60, value:1901250, dd:7605000,ct:4
+[  313.572644] freqs, index:62, value:1901250, dd:7605000,ct:4
+[  313.672871] gator_ioctl called
+[  313.672880] Balee
+[  313.672890] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  313.672893] freqs, index:60, value:1863000, dd:1863000,ct:1
+[  313.672895] freqs, index:62, value:1863000, dd:1863000,ct:1
+[  313.773284] gator_ioctl called
+[  313.773290] Balee
+[  313.773295] freqs, index:58, value:1598000, dd:7990000,ct:5
+[  313.773297] freqs, index:60, value:1992500, dd:7970000,ct:4
+[  313.773300] freqs, index:62, value:1992500, dd:7970000,ct:4
+[  313.873511] gator_ioctl called
+[  313.873518] Balee
+[  313.873520] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  313.873522] freqs, index:60, value:1575000, dd:3150000,ct:2
+[  313.873522] freqs, index:62, value:1575000, dd:3150000,ct:2
+[  313.975506] gator_ioctl called
+[  313.975513] Balee
+[  313.975518] freqs, index:58, value:1656500, dd:6626000,ct:4
+[  313.975520] freqs, index:60, value:1751600, dd:8758000,ct:5
+[  313.975523] freqs, index:62, value:1751600, dd:8758000,ct:5
+[  314.079614] gator_ioctl called
+[  314.079620] Balee
+[  314.079629] freqs, index:58, value:1546000, dd:3092000,ct:2
+[  314.079632] freqs, index:60, value:1461600, dd:7308000,ct:5
+[  314.079635] freqs, index:62, value:1461600, dd:7308000,ct:5
+[  314.184789] gator_ioctl called
+[  314.184799] Balee
+[  314.184811] freqs, index:58, value:1162000, dd:4648000,ct:4
+[  314.184814] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  314.184818] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  314.287057] gator_ioctl called
+[  314.287068] Balee
+[  314.287079] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  314.287081] freqs, index:60, value:1618000, dd:6472000,ct:4
+[  314.287083] freqs, index:62, value:1618000, dd:6472000,ct:4
+[  314.387428] gator_ioctl called
+[  314.387430] Balee
+[  314.387436] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  314.387438] freqs, index:60, value:1624800, dd:8124000,ct:5
+[  314.387440] freqs, index:62, value:1624800, dd:8124000,ct:5
+[  314.487716] gator_ioctl called
+[  314.487725] Balee
+[  314.487734] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  314.487738] freqs, index:60, value:1587666, dd:4763000,ct:3
+[  314.487740] freqs, index:62, value:1587666, dd:4763000,ct:3
+[  314.588012] gator_ioctl called
+[  314.588018] Balee
+[  314.588024] freqs, index:58, value:1279200, dd:6396000,ct:5
+[  314.588026] freqs, index:60, value:1685250, dd:6741000,ct:4
+[  314.588029] freqs, index:62, value:1685250, dd:6741000,ct:4
+[  314.688276] gator_ioctl called
+[  314.688283] Balee
+[  314.688292] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  314.688296] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  314.688299] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  314.788560] gator_ioctl called
+[  314.788573] Balee
+[  314.788582] freqs, index:58, value:1434000, dd:4302000,ct:3
+[  314.788584] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  314.788587] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  314.889005] gator_ioctl called
+[  314.889030] Balee
+[  314.889039] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  314.889042] freqs, index:60, value:1815000, dd:7260000,ct:4
+[  314.889044] freqs, index:62, value:1815000, dd:7260000,ct:4
+[  314.989954] gator_ioctl called
+[  314.989959] Balee
+[  314.989964] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  314.989965] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  314.989968] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  315.095158] gator_ioctl called
+[  315.095170] Balee
+[  315.095184] freqs, index:58, value:1546000, dd:3092000,ct:2
+[  315.095188] freqs, index:60, value:1187666, dd:3563000,ct:3
+[  315.095191] freqs, index:62, value:1187666, dd:3563000,ct:3
+[  315.197058] gator_ioctl called
+[  315.197066] Balee
+[  315.197072] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  315.197075] freqs, index:60, value:1461600, dd:7308000,ct:5
+[  315.197078] freqs, index:62, value:1461600, dd:7308000,ct:5
+[  315.302253] gator_ioctl called
+[  315.302263] Balee
+[  315.302274] freqs, index:58, value:1082000, dd:3246000,ct:3
+[  315.302279] freqs, index:60, value:1219750, dd:4879000,ct:4
+[  315.302282] freqs, index:62, value:1219750, dd:4879000,ct:4
+[  315.402620] gator_ioctl called
+[  315.402628] Balee
+[  315.402633] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  315.402635] freqs, index:60, value:1625250, dd:6501000,ct:4
+[  315.402638] freqs, index:62, value:1625250, dd:6501000,ct:4
+[  315.505492] gator_ioctl called
+[  315.505498] Balee
+[  315.505505] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  315.505507] freqs, index:60, value:1872500, dd:3745000,ct:2
+[  315.505509] freqs, index:62, value:1872500, dd:3745000,ct:2
+[  315.608548] gator_ioctl called
+[  315.608554] Balee
+[  315.608559] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  315.608561] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  315.608564] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  315.708819] gator_ioctl called
+[  315.708825] Balee
+[  315.708827] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  315.708829] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  315.708829] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  315.809171] gator_ioctl called
+[  315.809177] Balee
+[  315.809184] freqs, index:58, value:1540400, dd:7702000,ct:5
+[  315.809187] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  315.809190] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  315.909459] gator_ioctl called
+[  315.909469] Balee
+[  315.909476] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  315.909479] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  315.909481] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  316.009779] gator_ioctl called
+[  316.009790] Balee
+[  316.009803] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  316.009806] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  316.009811] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  316.110196] gator_ioctl called
+[  316.110201] Balee
+[  316.110207] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  316.110209] freqs, index:60, value:1622666, dd:4868000,ct:3
+[  316.110210] freqs, index:62, value:1622666, dd:4868000,ct:3
+[  316.210393] gator_ioctl called
+[  316.210395] Balee
+[  316.210400] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  316.210401] freqs, index:60, value:1588400, dd:7942000,ct:5
+[  316.210402] freqs, index:62, value:1588400, dd:7942000,ct:5
+[  316.310604] gator_ioctl called
+[  316.310608] Balee
+[  316.310610] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  316.310612] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  316.310612] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  316.410812] gator_ioctl called
+[  316.410813] Balee
+[  316.410816] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  316.410817] freqs, index:60, value:1603500, dd:6414000,ct:4
+[  316.410818] freqs, index:62, value:1603500, dd:6414000,ct:4
+[  316.493024] EXT4-fs (sdd12): error count since last fsck: 11
+[  316.493036] EXT4-fs (sdd12): initial error at time 1594236080: mb_free_blocks:1470: inode 3166: block 328443
+[  316.493042] EXT4-fs (sdd12): last error at time 1594238503: ext4_mb_generate_buddy:758
+[  316.510979] gator_ioctl called
+[  316.510982] Balee
+[  316.510983] freqs, index:58, value:1623000, dd:9738000,ct:6
+[  316.510984] freqs, index:60, value:2106000, dd:6318000,ct:3
+[  316.510984] freqs, index:62, value:2106000, dd:6318000,ct:3
+[  316.611182] gator_ioctl called
+[  316.611187] Balee
+[  316.611191] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  316.611192] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  316.611193] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  316.711363] gator_ioctl called
+[  316.711368] Balee
+[  316.711373] freqs, index:58, value:1431000, dd:2862000,ct:2
+[  316.711375] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  316.711376] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  316.811564] gator_ioctl called
+[  316.811571] Balee
+[  316.811577] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  316.811578] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  316.811579] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  316.911794] gator_ioctl called
+[  316.911801] Balee
+[  316.911808] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  316.911810] freqs, index:60, value:1818000, dd:5454000,ct:3
+[  316.911811] freqs, index:62, value:1818000, dd:5454000,ct:3
+[  317.012005] gator_ioctl called
+[  317.012006] Balee
+[  317.012010] freqs, index:58, value:1421333, dd:4264000,ct:3
+[  317.012011] freqs, index:60, value:1666000, dd:6664000,ct:4
+[  317.012012] freqs, index:62, value:1666000, dd:6664000,ct:4
+[  317.112202] gator_ioctl called
+[  317.112208] Balee
+[  317.112211] freqs, index:58, value:1591000, dd:9546000,ct:6
+[  317.112212] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  317.112213] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  317.212489] gator_ioctl called
+[  317.212490] Balee
+[  317.212494] freqs, index:58, value:1581333, dd:4744000,ct:3
+[  317.212495] freqs, index:60, value:1515000, dd:6060000,ct:4
+[  317.212496] freqs, index:62, value:1515000, dd:6060000,ct:4
+[  317.312708] gator_ioctl called
+[  317.312712] Balee
+[  317.312714] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  317.312715] freqs, index:60, value:1651666, dd:4955000,ct:3
+[  317.312715] freqs, index:62, value:1651666, dd:4955000,ct:3
+[  317.412910] gator_ioctl called
+[  317.412916] Balee
+[  317.412921] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  317.412922] freqs, index:60, value:1709333, dd:10256000,ct:6
+[  317.412924] freqs, index:62, value:1709333, dd:10256000,ct:6
+[  317.518726] gator_ioctl called
+[  317.518734] Balee
+[  317.518743] freqs, index:58, value:1402000, dd:1402000,ct:1
+[  317.518746] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  317.518749] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  317.619653] gator_ioctl called
+[  317.619659] Balee
+[  317.619664] freqs, index:58, value:1431000, dd:2862000,ct:2
+[  317.619666] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  317.619668] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  317.719958] gator_ioctl called
+[  317.719963] Balee
+[  317.719965] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  317.719967] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  317.719968] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  317.823740] gator_ioctl called
+[  317.823742] Balee
+[  317.823749] freqs, index:58, value:1162000, dd:4648000,ct:4
+[  317.823752] freqs, index:60, value:1907666, dd:5723000,ct:3
+[  317.823754] freqs, index:62, value:1907666, dd:5723000,ct:3
+[  317.926377] gator_ioctl called
+[  317.926383] Balee
+[  317.926386] freqs, index:58, value:1274000, dd:3822000,ct:3
+[  317.926389] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  317.926390] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  318.026739] gator_ioctl called
+[  318.026741] Balee
+[  318.026746] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  318.026749] freqs, index:60, value:1462000, dd:5848000,ct:4
+[  318.026751] freqs, index:62, value:1462000, dd:5848000,ct:4
+[  318.127015] gator_ioctl called
+[  318.127025] Balee
+[  318.127033] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  318.127036] freqs, index:60, value:1704500, dd:6818000,ct:4
+[  318.127038] freqs, index:62, value:1704500, dd:6818000,ct:4
+[  318.227313] gator_ioctl called
+[  318.227324] Balee
+[  318.227331] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  318.227334] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  318.227339] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  318.327710] gator_ioctl called
+[  318.327717] Balee
+[  318.327727] freqs, index:58, value:1210000, dd:2420000,ct:2
+[  318.327731] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  318.327734] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  318.428023] gator_ioctl called
+[  318.428024] Balee
+[  318.428029] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  318.428030] freqs, index:60, value:1624800, dd:8124000,ct:5
+[  318.428031] freqs, index:62, value:1624800, dd:8124000,ct:5
+[  318.528270] gator_ioctl called
+[  318.528275] Balee
+[  318.528280] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  318.528282] freqs, index:60, value:1524142, dd:10669000,ct:7
+[  318.528283] freqs, index:62, value:1524142, dd:10669000,ct:7
+[  318.628477] gator_ioctl called
+[  318.628483] Balee
+[  318.628487] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  318.628489] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  318.628490] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  318.728704] gator_ioctl called
+[  318.728710] Balee
+[  318.728720] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  318.728723] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  318.728724] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  318.831438] gator_ioctl called
+[  318.831443] Balee
+[  318.831451] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  318.831452] freqs, index:60, value:1734666, dd:5204000,ct:3
+[  318.831454] freqs, index:62, value:1734666, dd:5204000,ct:3
+[  318.931633] gator_ioctl called
+[  318.931640] Balee
+[  318.931648] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  318.931650] freqs, index:60, value:1642200, dd:8211000,ct:5
+[  318.931651] freqs, index:62, value:1642200, dd:8211000,ct:5
+[  319.031845] gator_ioctl called
+[  319.031852] Balee
+[  319.031857] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  319.031858] freqs, index:60, value:1863000, dd:1863000,ct:1
+[  319.031860] freqs, index:62, value:1863000, dd:1863000,ct:1
+[  319.132086] gator_ioctl called
+[  319.132089] Balee
+[  319.132095] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  319.132097] freqs, index:60, value:1992500, dd:7970000,ct:4
+[  319.132098] freqs, index:62, value:1992500, dd:7970000,ct:4
+[  319.232267] gator_ioctl called
+[  319.232269] Balee
+[  319.232275] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  319.232305] freqs, index:60, value:1503800, dd:7519000,ct:5
+[  319.232307] freqs, index:62, value:1503800, dd:7519000,ct:5
+[  319.332576] gator_ioctl called
+[  319.332580] Balee
+[  319.332586] freqs, index:58, value:1733500, dd:6934000,ct:4
+[  319.332587] freqs, index:60, value:1992500, dd:7970000,ct:4
+[  319.332588] freqs, index:62, value:1992500, dd:7970000,ct:4
+[  319.432802] gator_ioctl called
+[  319.432804] Balee
+[  319.432815] freqs, index:58, value:1421333, dd:4264000,ct:3
+[  319.432817] freqs, index:60, value:1966600, dd:9833000,ct:5
+[  319.432817] freqs, index:62, value:1966600, dd:9833000,ct:5
+[  319.533031] gator_ioctl called
+[  319.533041] Balee
+[  319.533042] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  319.533044] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  319.533044] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  319.633228] gator_ioctl called
+[  319.633229] Balee
+[  319.633232] freqs, index:58, value:1741333, dd:5224000,ct:3
+[  319.633233] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  319.633234] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  319.733398] gator_ioctl called
+[  319.733403] Balee
+[  319.733407] freqs, index:58, value:1647000, dd:6588000,ct:4
+[  319.733409] freqs, index:60, value:1829250, dd:7317000,ct:4
+[  319.733411] freqs, index:62, value:1829250, dd:7317000,ct:4
+[  319.833611] gator_ioctl called
+[  319.833615] Balee
+[  319.833620] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  319.833621] freqs, index:60, value:1555500, dd:3111000,ct:2
+[  319.833624] freqs, index:62, value:1555500, dd:3111000,ct:2
+[  319.933882] gator_ioctl called
+[  319.933889] Balee
+[  319.933890] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  319.933891] freqs, index:60, value:1824600, dd:9123000,ct:5
+[  319.933891] freqs, index:62, value:1824600, dd:9123000,ct:5
+[  320.037486] gator_ioctl called
+[  320.037491] Balee
+[  320.037498] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  320.037499] freqs, index:60, value:1954000, dd:7816000,ct:4
+[  320.037500] freqs, index:62, value:1954000, dd:7816000,ct:4
+[  320.137698] gator_ioctl called
+[  320.137708] Balee
+[  320.137718] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  320.137721] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  320.137724] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  320.238032] gator_ioctl called
+[  320.238041] Balee
+[  320.238052] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  320.238055] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  320.238059] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  320.338364] gator_ioctl called
+[  320.338373] Balee
+[  320.338383] freqs, index:58, value:1440500, dd:5762000,ct:4
+[  320.338386] freqs, index:60, value:1475666, dd:4427000,ct:3
+[  320.338388] freqs, index:62, value:1475666, dd:4427000,ct:3
+[  320.438667] gator_ioctl called
+[  320.438680] Balee
+[  320.438694] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  320.438696] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  320.438699] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  320.543304] gator_ioctl called
+[  320.543311] Balee
+[  320.543319] freqs, index:58, value:1556000, dd:1556000,ct:1
+[  320.543322] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  320.543324] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  320.643582] gator_ioctl called
+[  320.643584] Balee
+[  320.643591] freqs, index:58, value:1450000, dd:2900000,ct:2
+[  320.643594] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  320.643596] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  320.748187] gator_ioctl called
+[  320.748408] Balee
+[  320.748417] freqs, index:58, value:1370000, dd:4110000,ct:3
+[  320.748420] freqs, index:60, value:1528800, dd:7644000,ct:5
+[  320.748423] freqs, index:62, value:1528800, dd:7644000,ct:5
+[  320.849820] gator_ioctl called
+[  320.849825] Balee
+[  320.849832] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  320.849834] freqs, index:60, value:1863000, dd:3726000,ct:2
+[  320.849837] freqs, index:62, value:1863000, dd:3726000,ct:2
+[  320.950102] gator_ioctl called
+[  320.950110] Balee
+[  320.950117] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  320.950120] freqs, index:60, value:1692500, dd:6770000,ct:4
+[  320.950122] freqs, index:62, value:1692500, dd:6770000,ct:4
+[  321.050464] gator_ioctl called
+[  321.050466] Balee
+[  321.050474] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  321.050476] freqs, index:60, value:1575000, dd:3150000,ct:2
+[  321.050479] freqs, index:62, value:1575000, dd:3150000,ct:2
+[  321.150784] gator_ioctl called
+[  321.150790] Balee
+[  321.150793] freqs, index:58, value:1464500, dd:5858000,ct:4
+[  321.150795] freqs, index:60, value:1723750, dd:6895000,ct:4
+[  321.150795] freqs, index:62, value:1723750, dd:6895000,ct:4
+[  321.251084] gator_ioctl called
+[  321.251087] Balee
+[  321.251093] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  321.251095] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  321.251098] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  321.351408] gator_ioctl called
+[  321.351415] Balee
+[  321.351419] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  321.351421] freqs, index:60, value:1328666, dd:3986000,ct:3
+[  321.351421] freqs, index:62, value:1328666, dd:3986000,ct:3
+[  321.451777] gator_ioctl called
+[  321.451779] Balee
+[  321.451787] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  321.451791] freqs, index:60, value:1630600, dd:8153000,ct:5
+[  321.451794] freqs, index:62, value:1630600, dd:8153000,ct:5
+[  321.552148] gator_ioctl called
+[  321.552156] Balee
+[  321.552159] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  321.552162] freqs, index:60, value:1534000, dd:6136000,ct:4
+[  321.552162] freqs, index:62, value:1534000, dd:6136000,ct:4
+[  321.652547] gator_ioctl called
+[  321.652556] Balee
+[  321.652563] freqs, index:58, value:1287000, dd:2574000,ct:2
+[  321.652567] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  321.652571] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  321.756388] gator_ioctl called
+[  321.756425] Balee
+[  321.756432] freqs, index:58, value:1792666, dd:5378000,ct:3
+[  321.756436] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  321.756437] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  321.856941] gator_ioctl called
+[  321.856956] Balee
+[  321.856964] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  321.856966] freqs, index:60, value:1776500, dd:7106000,ct:4
+[  321.856970] freqs, index:62, value:1776500, dd:7106000,ct:4
+[  321.957348] gator_ioctl called
+[  321.957357] Balee
+[  321.957365] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  321.957369] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  321.957371] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  322.057703] gator_ioctl called
+[  322.057716] Balee
+[  322.057725] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  322.057728] freqs, index:60, value:1818000, dd:5454000,ct:3
+[  322.057731] freqs, index:62, value:1818000, dd:5454000,ct:3
+[  322.160188] gator_ioctl called
+[  322.160198] Balee
+[  322.160209] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  322.160213] freqs, index:60, value:1469333, dd:4408000,ct:3
+[  322.160217] freqs, index:62, value:1469333, dd:4408000,ct:3
+[  322.260629] gator_ioctl called
+[  322.260631] Balee
+[  322.260638] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  322.260639] freqs, index:60, value:1978000, dd:3956000,ct:2
+[  322.260642] freqs, index:62, value:1978000, dd:3956000,ct:2
+[  322.360940] gator_ioctl called
+[  322.360952] Balee
+[  322.360962] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  322.360965] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  322.360967] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  322.467295] gator_ioctl called
+[  322.467302] Balee
+[  322.467309] freqs, index:58, value:1274000, dd:3822000,ct:3
+[  322.467312] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  322.467315] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  322.572012] gator_ioctl called
+[  322.572023] Balee
+[  322.572033] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  322.572037] freqs, index:60, value:1511600, dd:7558000,ct:5
+[  322.572040] freqs, index:62, value:1511600, dd:7558000,ct:5
+[  322.674634] gator_ioctl called
+[  322.674641] Balee
+[  322.674645] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  322.674648] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  322.674650] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  322.776160] gator_ioctl called
+[  322.776166] Balee
+[  322.776173] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  322.776176] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  322.776178] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  322.877842] gator_ioctl called
+[  322.877844] Balee
+[  322.877849] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  322.877851] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  322.877853] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  322.980995] gator_ioctl called
+[  322.981000] Balee
+[  322.981002] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  322.981015] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  322.981015] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  323.082143] gator_ioctl called
+[  323.082151] Balee
+[  323.082158] freqs, index:58, value:1434000, dd:4302000,ct:3
+[  323.082160] freqs, index:60, value:1511600, dd:7558000,ct:5
+[  323.082163] freqs, index:62, value:1511600, dd:7558000,ct:5
+[  323.182468] gator_ioctl called
+[  323.182478] Balee
+[  323.182485] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  323.182488] freqs, index:60, value:1599000, dd:6396000,ct:4
+[  323.182490] freqs, index:62, value:1599000, dd:6396000,ct:4
+[  323.282776] gator_ioctl called
+[  323.282793] Balee
+[  323.282798] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  323.282800] freqs, index:60, value:1459666, dd:4379000,ct:3
+[  323.282803] freqs, index:62, value:1459666, dd:4379000,ct:3
+[  323.383200] gator_ioctl called
+[  323.383212] Balee
+[  323.383221] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  323.383224] freqs, index:60, value:1515000, dd:6060000,ct:4
+[  323.383226] freqs, index:62, value:1515000, dd:6060000,ct:4
+[  323.485281] gator_ioctl called
+[  323.485283] Balee
+[  323.485289] freqs, index:58, value:1575000, dd:6300000,ct:4
+[  323.485291] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  323.485293] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  323.585577] gator_ioctl called
+[  323.585582] Balee
+[  323.585584] freqs, index:58, value:1661500, dd:6646000,ct:4
+[  323.585586] freqs, index:60, value:1747666, dd:5243000,ct:3
+[  323.585586] freqs, index:62, value:1747666, dd:5243000,ct:3
+[  323.685838] gator_ioctl called
+[  323.685839] Balee
+[  323.685845] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  323.685848] freqs, index:60, value:1793800, dd:8969000,ct:5
+[  323.685850] freqs, index:62, value:1793800, dd:8969000,ct:5
+[  323.791126] gator_ioctl called
+[  323.791137] Balee
+[  323.791143] freqs, index:58, value:1767000, dd:7068000,ct:4
+[  323.791145] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  323.791148] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  323.892786] gator_ioctl called
+[  323.892792] Balee
+[  323.892797] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  323.892799] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  323.892801] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  323.993043] gator_ioctl called
+[  323.993051] Balee
+[  323.993059] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  323.993062] freqs, index:60, value:2035666, dd:6107000,ct:3
+[  323.993064] freqs, index:62, value:2035666, dd:6107000,ct:3
+[  324.093362] gator_ioctl called
+[  324.093368] Balee
+[  324.093373] freqs, index:58, value:1695000, dd:6780000,ct:4
+[  324.093375] freqs, index:60, value:1839800, dd:9199000,ct:5
+[  324.093378] freqs, index:62, value:1839800, dd:9199000,ct:5
+[  324.193668] gator_ioctl called
+[  324.193675] Balee
+[  324.193683] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  324.193686] freqs, index:60, value:1587666, dd:4763000,ct:3
+[  324.193688] freqs, index:62, value:1587666, dd:4763000,ct:3
+[  324.293934] gator_ioctl called
+[  324.293950] Balee
+[  324.293956] freqs, index:58, value:1440500, dd:5762000,ct:4
+[  324.293957] freqs, index:60, value:1867750, dd:7471000,ct:4
+[  324.293961] freqs, index:62, value:1867750, dd:7471000,ct:4
+[  324.394223] gator_ioctl called
+[  324.394227] Balee
+[  324.394232] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  324.394233] freqs, index:60, value:2112500, dd:4225000,ct:2
+[  324.394234] freqs, index:62, value:2112500, dd:4225000,ct:2
+[  324.494431] gator_ioctl called
+[  324.494433] Balee
+[  324.494437] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  324.494439] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  324.494440] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  324.594656] gator_ioctl called
+[  324.594661] Balee
+[  324.594662] freqs, index:58, value:1527000, dd:3054000,ct:2
+[  324.594663] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  324.594663] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  324.694866] gator_ioctl called
+[  324.694867] Balee
+[  324.694871] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  324.694873] freqs, index:60, value:1720800, dd:8604000,ct:5
+[  324.694874] freqs, index:62, value:1720800, dd:8604000,ct:5
+[  324.795051] gator_ioctl called
+[  324.795061] Balee
+[  324.795062] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  324.795063] freqs, index:60, value:1625250, dd:6501000,ct:4
+[  324.795063] freqs, index:62, value:1625250, dd:6501000,ct:4
+[  324.895274] gator_ioctl called
+[  324.895276] Balee
+[  324.895280] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  324.895281] freqs, index:60, value:1635666, dd:4907000,ct:3
+[  324.895281] freqs, index:62, value:1635666, dd:4907000,ct:3
+[  324.995547] gator_ioctl called
+[  324.995551] Balee
+[  324.995553] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  324.995554] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  324.995554] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  325.095784] gator_ioctl called
+[  325.095786] Balee
+[  325.095791] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  325.095793] freqs, index:60, value:1575000, dd:3150000,ct:2
+[  325.095794] freqs, index:62, value:1575000, dd:3150000,ct:2
+[  325.196023] gator_ioctl called
+[  325.196027] Balee
+[  325.196028] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  325.196029] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  325.196029] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  325.296239] gator_ioctl called
+[  325.296245] Balee
+[  325.296251] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  325.296252] freqs, index:60, value:1705600, dd:8528000,ct:5
+[  325.296253] freqs, index:62, value:1705600, dd:8528000,ct:5
+[  325.396463] gator_ioctl called
+[  325.396467] Balee
+[  325.396468] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  325.396469] freqs, index:60, value:1459666, dd:4379000,ct:3
+[  325.396469] freqs, index:62, value:1459666, dd:4379000,ct:3
+[  325.496690] gator_ioctl called
+[  325.496691] Balee
+[  325.496695] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  325.496696] freqs, index:60, value:1680500, dd:3361000,ct:2
+[  325.496698] freqs, index:62, value:1680500, dd:3361000,ct:2
+[  325.596969] gator_ioctl called
+[  325.596974] Balee
+[  325.596976] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  325.596978] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  325.596978] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  325.697227] gator_ioctl called
+[  325.697228] Balee
+[  325.697233] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  325.697234] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  325.697235] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  325.797457] gator_ioctl called
+[  325.797463] Balee
+[  325.797464] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  325.797465] freqs, index:60, value:1535000, dd:9210000,ct:6
+[  325.797465] freqs, index:62, value:1535000, dd:9210000,ct:6
+[  325.897682] gator_ioctl called
+[  325.897688] Balee
+[  325.897694] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  325.897695] freqs, index:60, value:1272500, dd:2545000,ct:2
+[  325.897696] freqs, index:62, value:1272500, dd:2545000,ct:2
+[  325.997917] gator_ioctl called
+[  325.997924] Balee
+[  325.997929] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  325.997931] freqs, index:60, value:1722333, dd:5167000,ct:3
+[  325.997932] freqs, index:62, value:1722333, dd:5167000,ct:3
+[  326.098178] gator_ioctl called
+[  326.098183] Balee
+[  326.098188] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  326.098189] freqs, index:60, value:1658000, dd:4974000,ct:3
+[  326.098191] freqs, index:62, value:1658000, dd:4974000,ct:3
+[  326.198417] gator_ioctl called
+[  326.198429] Balee
+[  326.198440] freqs, index:58, value:1383000, dd:2766000,ct:2
+[  326.198442] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  326.198445] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  326.301248] gator_ioctl called
+[  326.301257] Balee
+[  326.301266] freqs, index:58, value:1274000, dd:3822000,ct:3
+[  326.301268] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  326.301272] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  326.404209] gator_ioctl called
+[  326.404219] Balee
+[  326.404230] freqs, index:58, value:1488500, dd:5954000,ct:4
+[  326.404232] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  326.404234] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  326.507616] gator_ioctl called
+[  326.507626] Balee
+[  326.507634] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  326.507637] freqs, index:60, value:1599000, dd:6396000,ct:4
+[  326.507641] freqs, index:62, value:1599000, dd:6396000,ct:4
+[  326.610159] gator_ioctl called
+[  326.610170] Balee
+[  326.610179] freqs, index:58, value:1431000, dd:2862000,ct:2
+[  326.610182] freqs, index:60, value:1511600, dd:7558000,ct:5
+[  326.610183] freqs, index:62, value:1511600, dd:7558000,ct:5
+[  326.713959] gator_ioctl called
+[  326.713968] Balee
+[  326.713975] freqs, index:58, value:1546000, dd:3092000,ct:2
+[  326.713977] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  326.713980] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  326.817070] gator_ioctl called
+[  326.817080] Balee
+[  326.817089] freqs, index:58, value:1536500, dd:6146000,ct:4
+[  326.817092] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  326.817095] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  326.920291] gator_ioctl called
+[  326.920304] Balee
+[  326.920311] freqs, index:58, value:1370000, dd:4110000,ct:3
+[  326.920314] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  326.920317] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  327.020820] gator_ioctl called
+[  327.020830] Balee
+[  327.020842] freqs, index:58, value:1162000, dd:4648000,ct:4
+[  327.020845] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  327.020848] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  327.124766] gator_ioctl called
+[  327.124773] Balee
+[  327.124779] freqs, index:58, value:1344500, dd:5378000,ct:4
+[  327.124781] freqs, index:60, value:1572500, dd:6290000,ct:4
+[  327.124783] freqs, index:62, value:1572500, dd:6290000,ct:4
+[  327.229442] gator_ioctl called
+[  327.229453] Balee
+[  327.229461] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  327.229463] freqs, index:60, value:1824600, dd:9123000,ct:5
+[  327.229465] freqs, index:62, value:1824600, dd:9123000,ct:5
+[  327.332270] gator_ioctl called
+[  327.332279] Balee
+[  327.332286] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  327.332287] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  327.332290] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  327.435575] gator_ioctl called
+[  327.435584] Balee
+[  327.435592] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  327.435595] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  327.435597] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  327.539027] gator_ioctl called
+[  327.539037] Balee
+[  327.539046] freqs, index:58, value:1450000, dd:2900000,ct:2
+[  327.539049] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  327.539052] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  327.639958] gator_ioctl called
+[  327.639969] Balee
+[  327.639978] freqs, index:58, value:1368500, dd:5474000,ct:4
+[  327.639980] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  327.639982] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  327.744724] gator_ioctl called
+[  327.744733] Balee
+[  327.744740] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  327.744741] freqs, index:60, value:1680500, dd:3361000,ct:2
+[  327.744744] freqs, index:62, value:1680500, dd:3361000,ct:2
+[  327.845178] gator_ioctl called
+[  327.845187] Balee
+[  327.845196] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  327.845199] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  327.845201] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  327.950306] gator_ioctl called
+[  327.950314] Balee
+[  327.950323] freqs, index:58, value:1464500, dd:5858000,ct:4
+[  327.950326] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  327.950329] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  328.054891] gator_ioctl called
+[  328.054902] Balee
+[  328.054913] freqs, index:58, value:1450000, dd:2900000,ct:2
+[  328.054917] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  328.054919] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  328.158015] gator_ioctl called
+[  328.158027] Balee
+[  328.158034] freqs, index:58, value:1171600, dd:5858000,ct:5
+[  328.158037] freqs, index:60, value:1578800, dd:7894000,ct:5
+[  328.158041] freqs, index:62, value:1578800, dd:7894000,ct:5
+[  328.261735] gator_ioctl called
+[  328.261748] Balee
+[  328.261761] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  328.261765] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  328.261768] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  328.364145] gator_ioctl called
+[  328.364155] Balee
+[  328.364162] freqs, index:58, value:1210000, dd:1210000,ct:1
+[  328.364165] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  328.364168] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  328.467539] gator_ioctl called
+[  328.467550] Balee
+[  328.467560] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  328.467564] freqs, index:60, value:1515000, dd:6060000,ct:4
+[  328.467566] freqs, index:62, value:1515000, dd:6060000,ct:4
+[  328.567891] gator_ioctl called
+[  328.567893] Balee
+[  328.567897] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  328.567899] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  328.567900] freqs, index:62, value:1656500, dd:6626000,ct:4
+[  328.668152] gator_ioctl called
+[  328.668158] Balee
+[  328.668161] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  328.668164] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  328.668164] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  328.771470] gator_ioctl called
+[  328.771481] Balee
+[  328.771489] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  328.771492] freqs, index:60, value:1719000, dd:6876000,ct:4
+[  328.771495] freqs, index:62, value:1719000, dd:6876000,ct:4
+[  328.874873] gator_ioctl called
+[  328.874885] Balee
+[  328.874893] freqs, index:58, value:1330000, dd:5320000,ct:4
+[  328.874897] freqs, index:60, value:1265250, dd:5061000,ct:4
+[  328.874899] freqs, index:62, value:1265250, dd:5061000,ct:4
+[  328.975294] gator_ioctl called
+[  328.975304] Balee
+[  328.975312] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  328.975314] freqs, index:60, value:1469333, dd:4408000,ct:3
+[  328.975317] freqs, index:62, value:1469333, dd:4408000,ct:3
+[  329.075614] gator_ioctl called
+[  329.075624] Balee
+[  329.075631] freqs, index:58, value:1421333, dd:4264000,ct:3
+[  329.075635] freqs, index:60, value:1511600, dd:7558000,ct:5
+[  329.075638] freqs, index:62, value:1511600, dd:7558000,ct:5
+[  329.176798] gator_ioctl called
+[  329.176813] Balee
+[  329.176822] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  329.176825] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  329.176828] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  329.278335] gator_ioctl called
+[  329.278349] Balee
+[  329.278358] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  329.278361] freqs, index:60, value:1557600, dd:7788000,ct:5
+[  329.278363] freqs, index:62, value:1557600, dd:7788000,ct:5
+[  329.378684] gator_ioctl called
+[  329.378692] Balee
+[  329.378698] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  329.378699] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  329.378702] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  329.478937] gator_ioctl called
+[  329.478944] Balee
+[  329.478950] freqs, index:58, value:1556000, dd:1556000,ct:1
+[  329.478952] freqs, index:60, value:1648000, dd:8240000,ct:5
+[  329.478953] freqs, index:62, value:1648000, dd:8240000,ct:5
+[  329.579186] gator_ioctl called
+[  329.579190] Balee
+[  329.579195] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  329.579196] freqs, index:60, value:2016333, dd:6049000,ct:3
+[  329.579198] freqs, index:62, value:2016333, dd:6049000,ct:3
+[  329.679367] gator_ioctl called
+[  329.679372] Balee
+[  329.679373] freqs, index:58, value:1503000, dd:6012000,ct:4
+[  329.679375] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  329.679375] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  329.779559] gator_ioctl called
+[  329.779562] Balee
+[  329.779566] freqs, index:58, value:1389333, dd:4168000,ct:3
+[  329.779567] freqs, index:60, value:1356500, dd:5426000,ct:4
+[  329.779568] freqs, index:62, value:1356500, dd:5426000,ct:4
+[  329.879755] gator_ioctl called
+[  329.879762] Balee
+[  329.879763] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  329.879765] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  329.879765] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  329.979951] gator_ioctl called
+[  329.979953] Balee
+[  329.979958] freqs, index:58, value:1600666, dd:4802000,ct:3
+[  329.979959] freqs, index:60, value:1709250, dd:6837000,ct:4
+[  329.979961] freqs, index:62, value:1709250, dd:6837000,ct:4
+[  330.080178] gator_ioctl called
+[  330.080190] Balee
+[  330.080200] freqs, index:58, value:1210000, dd:2420000,ct:2
+[  330.080204] freqs, index:60, value:1317600, dd:6588000,ct:5
+[  330.080207] freqs, index:62, value:1317600, dd:6588000,ct:5
+[  330.180515] gator_ioctl called
+[  330.180521] Balee
+[  330.180528] freqs, index:58, value:1844000, dd:1844000,ct:1
+[  330.180529] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  330.180531] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  330.280716] gator_ioctl called
+[  330.280723] Balee
+[  330.280730] freqs, index:58, value:1690000, dd:1690000,ct:1
+[  330.280732] freqs, index:60, value:1546000, dd:4638000,ct:3
+[  330.280733] freqs, index:62, value:1546000, dd:4638000,ct:3
+[  330.380954] gator_ioctl called
+[  330.380961] Balee
+[  330.380965] freqs, index:58, value:1370000, dd:4110000,ct:3
+[  330.380966] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  330.380968] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  330.481214] gator_ioctl called
+[  330.481230] Balee
+[  330.481238] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  330.481240] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  330.481241] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  330.581488] gator_ioctl called
+[  330.581503] Balee
+[  330.581508] freqs, index:58, value:1274000, dd:3822000,ct:3
+[  330.581509] freqs, index:60, value:1515000, dd:6060000,ct:4
+[  330.581511] freqs, index:62, value:1515000, dd:6060000,ct:4
+[  330.681794] gator_ioctl called
+[  330.681802] Balee
+[  330.681808] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  330.681809] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  330.681811] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  330.782024] gator_ioctl called
+[  330.782029] Balee
+[  330.782034] freqs, index:58, value:1296500, dd:5186000,ct:4
+[  330.782035] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  330.782037] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  330.882230] gator_ioctl called
+[  330.882234] Balee
+[  330.882235] freqs, index:58, value:1661500, dd:6646000,ct:4
+[  330.882237] freqs, index:60, value:1461142, dd:10228000,ct:7
+[  330.882237] freqs, index:62, value:1461142, dd:10228000,ct:7
+[  330.982425] gator_ioctl called
+[  330.982426] Balee
+[  330.982430] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  330.982432] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  330.982433] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  331.082653] gator_ioctl called
+[  331.082658] Balee
+[  331.082659] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  331.082661] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  331.082661] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  331.182908] gator_ioctl called
+[  331.182910] Balee
+[  331.182918] freqs, index:58, value:1504666, dd:4514000,ct:3
+[  331.182920] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  331.182924] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  331.283242] gator_ioctl called
+[  331.283246] Balee
+[  331.283248] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  331.283250] freqs, index:60, value:1666250, dd:6665000,ct:4
+[  331.283250] freqs, index:62, value:1666250, dd:6665000,ct:4
+[  331.383445] gator_ioctl called
+[  331.383447] Balee
+[  331.383452] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  331.383453] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  331.383454] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  331.483654] gator_ioctl called
+[  331.483662] Balee
+[  331.483668] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  331.483670] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  331.483671] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  331.583882] gator_ioctl called
+[  331.583892] Balee
+[  331.583897] freqs, index:58, value:1018000, dd:1018000,ct:1
+[  331.583898] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  331.583900] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  331.684129] gator_ioctl called
+[  331.684139] Balee
+[  331.684146] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  331.684148] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  331.784440] gator_ioctl called
+[  331.784450] Balee
+[  331.784457] freqs, index:58, value:1146000, dd:3438000,ct:3
+[  331.784459] freqs, index:60, value:1511000, dd:4533000,ct:3
+[  331.784460] freqs, index:62, value:1511000, dd:4533000,ct:3
+[  331.884666] gator_ioctl called
+[  331.884671] Balee
+[  331.884676] freqs, index:58, value:1421333, dd:4264000,ct:3
+[  331.884677] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  331.884679] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  331.984873] gator_ioctl called
+[  331.984882] Balee
+[  331.984888] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  331.984889] freqs, index:60, value:1317600, dd:6588000,ct:5
+[  331.984890] freqs, index:62, value:1317600, dd:6588000,ct:5
+[  332.085089] gator_ioctl called
+[  332.085090] Balee
+[  332.085094] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  332.085094] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  332.085096] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  332.185312] gator_ioctl called
+[  332.185317] Balee
+[  332.185319] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  332.185320] freqs, index:60, value:1272500, dd:2545000,ct:2
+[  332.185320] freqs, index:62, value:1272500, dd:2545000,ct:2
+[  332.285521] gator_ioctl called
+[  332.285524] Balee
+[  332.285528] freqs, index:58, value:1485333, dd:4456000,ct:3
+[  332.285529] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  332.285530] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  332.385773] gator_ioctl called
+[  332.385777] Balee
+[  332.385778] freqs, index:58, value:1261333, dd:3784000,ct:3
+[  332.385779] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  332.385780] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  332.485967] gator_ioctl called
+[  332.485969] Balee
+[  332.485974] freqs, index:58, value:1536666, dd:4610000,ct:3
+[  332.485975] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  332.485976] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  332.586143] gator_ioctl called
+[  332.586149] Balee
+[  332.586150] freqs, index:58, value:1623000, dd:6492000,ct:4
+[  332.586151] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  332.586151] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  332.686375] gator_ioctl called
+[  332.686380] Balee
+[  332.686384] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  332.686386] freqs, index:60, value:1462250, dd:5849000,ct:4
+[  332.686388] freqs, index:62, value:1462250, dd:5849000,ct:4
+[  332.786598] gator_ioctl called
+[  332.786607] Balee
+[  332.786612] freqs, index:58, value:1210000, dd:1210000,ct:1
+[  332.786614] freqs, index:60, value:1347666, dd:4043000,ct:3
+[  332.786615] freqs, index:62, value:1347666, dd:4043000,ct:3
+[  332.886909] gator_ioctl called
+[  332.886915] Balee
+[  332.886920] freqs, index:58, value:1082000, dd:3246000,ct:3
+[  332.886921] freqs, index:60, value:1469333, dd:4408000,ct:3
+[  332.886923] freqs, index:62, value:1469333, dd:4408000,ct:3
+[  332.987152] gator_ioctl called
+[  332.987162] Balee
+[  332.987168] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  332.987169] freqs, index:60, value:1265250, dd:5061000,ct:4
+[  332.987170] freqs, index:62, value:1265250, dd:5061000,ct:4
+[  333.087361] gator_ioctl called
+[  333.087365] Balee
+[  333.087369] freqs, index:58, value:1210000, dd:3630000,ct:3
+[  333.087370] freqs, index:60, value:1656500, dd:6626000,ct:4
+[  333.087371] freqs, index:62, value:1655600, dd:8278000,ct:5
+[  333.187539] gator_ioctl called
+[  333.187548] Balee
+[  333.187553] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  333.187555] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  333.187555] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  333.287751] gator_ioctl called
+[  333.287753] Balee
+[  333.287758] freqs, index:58, value:1274000, dd:3822000,ct:3
+[  333.287759] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  333.287759] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  333.387911] gator_ioctl called
+[  333.387917] Balee
+[  333.387918] freqs, index:58, value:1146000, dd:3438000,ct:3
+[  333.387919] freqs, index:60, value:1515000, dd:6060000,ct:4
+[  333.387919] freqs, index:62, value:1515000, dd:6060000,ct:4
+[  333.488178] gator_ioctl called
+[  333.488179] Balee
+[  333.488183] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  333.488184] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  333.488186] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  333.588393] gator_ioctl called
+[  333.588398] Balee
+[  333.588399] freqs, index:58, value:1748000, dd:5244000,ct:3
+[  333.588400] freqs, index:60, value:1511600, dd:7558000,ct:5
+[  333.588400] freqs, index:62, value:1511600, dd:7558000,ct:5
+[  333.688629] gator_ioctl called
+[  333.688633] Balee
+[  333.688639] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  333.688642] freqs, index:60, value:1399000, dd:4197000,ct:3
+[  333.688645] freqs, index:62, value:1399000, dd:4197000,ct:3
+[  333.788974] gator_ioctl called
+[  333.788984] Balee
+[  333.788993] freqs, index:58, value:1549333, dd:4648000,ct:3
+[  333.788996] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  333.788999] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  333.889359] gator_ioctl called
+[  333.889381] Balee
+[  333.889389] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  333.889391] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  333.889394] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  333.989752] gator_ioctl called
+[  333.989772] Balee
+[  333.989779] freqs, index:58, value:1613500, dd:6454000,ct:4
+[  333.989781] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  333.989783] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  334.090101] gator_ioctl called
+[  334.090113] Balee
+[  334.090120] freqs, index:58, value:1645333, dd:4936000,ct:3
+[  334.090122] freqs, index:60, value:1476500, dd:5906000,ct:4
+[  334.090125] freqs, index:62, value:1476500, dd:5906000,ct:4
+[  334.190448] gator_ioctl called
+[  334.190455] Balee
+[  334.190457] freqs, index:58, value:1325333, dd:3976000,ct:3
+[  334.190461] freqs, index:60, value:1869333, dd:5608000,ct:3
+[  334.190461] freqs, index:62, value:1869333, dd:5608000,ct:3
+[  334.290819] gator_ioctl called
+[  334.290820] Balee
+[  334.290827] freqs, index:58, value:1354000, dd:2708000,ct:2
+[  334.290829] freqs, index:60, value:1417400, dd:7087000,ct:5
+[  334.290831] freqs, index:62, value:1417400, dd:7087000,ct:5
+[  334.391487] gator_ioctl called
+[  334.391495] Balee
+[  334.391499] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  334.391501] freqs, index:60, value:1907666, dd:5723000,ct:3
+[  334.391501] freqs, index:62, value:1907666, dd:5723000,ct:3
+[  334.492317] gator_ioctl called
+[  334.492369] Balee
+[  334.492379] freqs, index:58, value:1082000, dd:3246000,ct:3
+[  334.492382] freqs, index:60, value:1757500, dd:3515000,ct:2
+[  334.492387] freqs, index:62, value:1757500, dd:3515000,ct:2
+[  334.592793] gator_ioctl called
+[  334.592803] Balee
+[  334.592811] freqs, index:58, value:1700000, dd:3400000,ct:2
+[  334.592814] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  334.592816] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  334.693467] gator_ioctl called
+[  334.693477] Balee
+[  334.693486] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  334.693489] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  334.693493] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  334.794579] gator_ioctl called
+[  334.794591] Balee
+[  334.794604] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  334.794607] freqs, index:60, value:1741333, dd:5224000,ct:3
+[  334.794610] freqs, index:62, value:1741333, dd:5224000,ct:3
+[  334.894947] gator_ioctl called
+[  334.894957] Balee
+[  334.894965] freqs, index:58, value:1479000, dd:2958000,ct:2
+[  334.894967] freqs, index:60, value:1722333, dd:5167000,ct:3
+[  334.894971] freqs, index:62, value:1722333, dd:5167000,ct:3
+[  334.995293] gator_ioctl called
+[  334.995303] Balee
+[  334.995313] freqs, index:58, value:1623000, dd:3246000,ct:2
+[  334.995316] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  334.995317] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  335.095671] gator_ioctl called
+[  335.095678] Balee
+[  335.095685] freqs, index:58, value:1584500, dd:6338000,ct:4
+[  335.095687] freqs, index:60, value:1671000, dd:5013000,ct:3
+[  335.095690] freqs, index:62, value:1671000, dd:5013000,ct:3
+[  335.196079] gator_ioctl called
+[  335.196086] Balee
+[  335.196089] freqs, index:58, value:1453333, dd:4360000,ct:3
+[  335.196091] freqs, index:60, value:1625250, dd:6501000,ct:4
+[  335.196091] freqs, index:62, value:1625250, dd:6501000,ct:4
+[  335.296632] gator_ioctl called
+[  335.296634] Balee
+[  335.296640] freqs, index:58, value:1647000, dd:6588000,ct:4
+[  335.296642] freqs, index:60, value:1750000, dd:7000000,ct:4
+[  335.296644] freqs, index:62, value:1750000, dd:7000000,ct:4
+[  335.396987] gator_ioctl called
+[  335.396991] Balee
+[  335.396993] freqs, index:58, value:1696666, dd:5090000,ct:3
+[  335.396994] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  335.396994] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  335.497202] gator_ioctl called
+[  335.497204] Balee
+[  335.497207] freqs, index:58, value:1472666, dd:4418000,ct:3
+[  335.497208] freqs, index:60, value:1467666, dd:8806000,ct:6
+[  335.497209] freqs, index:62, value:1467666, dd:8806000,ct:6
+[  335.597392] gator_ioctl called
+[  335.597400] Balee
+[  335.597406] freqs, index:58, value:1767000, dd:3534000,ct:2
+[  335.597408] freqs, index:60, value:1423750, dd:5695000,ct:4
+[  335.597409] freqs, index:62, value:1423750, dd:5695000,ct:4
+[  335.697669] gator_ioctl called
+[  335.697675] Balee
+[  335.697680] freqs, index:58, value:1306000, dd:2612000,ct:2
+[  335.697681] freqs, index:60, value:1792666, dd:5378000,ct:3
+[  335.697682] freqs, index:62, value:1792666, dd:5378000,ct:3
+[  335.797886] gator_ioctl called
+[  335.797891] Balee
+[  335.797892] freqs, index:58, value:1114000, dd:2228000,ct:2
+[  335.797893] freqs, index:60, value:1272500, dd:5090000,ct:4
+[  335.797894] freqs, index:62, value:1272500, dd:5090000,ct:4
+[  335.898139] gator_ioctl called
+[  335.898142] Balee
+[  335.998612] gator_ioctl called
+[  335.998612] Balee
+[  336.101143] gator_ioctl called
+[  336.101153] Balee
+[  336.201627] gator_ioctl called
+[  336.201631] Balee
+[  336.302239] gator_ioctl called
+[  336.302252] Balee
+[  336.402746] gator_ioctl called
+[  336.402746] Balee
+[  336.503309] gator_ioctl called
+[  336.503312] Balee
+[  336.603697] gator_ioctl called
+[  336.603698] Balee
+[  336.704350] gator_ioctl called
+[  336.704352] Balee
+[  336.806398] gator_ioctl called
+[  336.806412] Balee
+[  336.906879] gator_ioctl called
+[  336.906880] Balee
+[  337.007324] gator_ioctl called
+[  337.007327] Balee
+[  337.112551] gator_ioctl called
+[  337.112563] Balee
+[  337.218790] gator_ioctl called
+[  337.218803] Balee
+[  337.321961] gator_ioctl called
+[  337.321975] Balee
+[  337.427691] gator_ioctl called
+[  337.427707] Balee
+[  337.528170] gator_ioctl called
+[  337.528181] Balee
+[  337.628538] gator_ioctl called
+[  337.628552] Balee
+[  337.729121] gator_ioctl called
+[  337.729135] Balee
+[  337.833484] gator_ioctl called
+[  337.833494] Balee
+[  337.939963] gator_ioctl called
+[  337.939976] Balee
+[  338.040426] gator_ioctl called
+[  338.040437] Balee
+[  338.143975] gator_ioctl called
+[  338.143985] Balee
+[  338.244329] gator_ioctl called
+[  338.244330] Balee
+[  338.344661] gator_ioctl called
+[  338.344678] Balee
+[  338.445433] gator_ioctl called
+[  338.445445] Balee
+[  338.550125] gator_ioctl called
+[  338.550135] Balee
+[  338.650451] gator_ioctl called
+[  338.650461] Balee
+[  338.750832] gator_ioctl called
+[  338.750836] Balee
+[  338.851303] gator_ioctl called
+[  338.851304] Balee
+[  338.954653] gator_ioctl called
+[  338.954667] Balee
+[  339.057896] gator_ioctl called
+[  339.057908] Balee
+[  339.159641] gator_ioctl called
+[  339.159650] Balee
+[  339.260834] gator_ioctl called
+[  339.260844] Balee
+[  339.363054] gator_ioctl called
+[  339.363063] Balee
+[  339.466462] gator_ioctl called
+[  339.466470] Balee
+[  339.573582] gator_ioctl called
+[  339.573595] Balee
+[  339.674073] gator_ioctl called
+[  339.674085] Balee
+[  339.779792] gator_ioctl called
+[  339.779806] Balee
+[  339.881926] gator_ioctl called
+[  339.882023] Balee
+[  339.983079] gator_ioctl called
+[  339.983088] Balee
+[  340.089828] gator_ioctl called
+[  340.089840] Balee
+[  340.190293] gator_ioctl called
+[  340.190302] Balee
+[  340.295065] gator_ioctl called
+[  340.295076] Balee
+[  340.398478] gator_ioctl called
+[  340.398490] Balee
+[  340.499216] gator_ioctl called
+[  340.499226] Balee
+[  340.604652] gator_ioctl called
+[  340.604664] Balee
+[  340.705159] gator_ioctl called
+[  340.705171] Balee
+[  340.805645] gator_ioctl called
+[  340.805657] Balee
+[  340.906144] gator_ioctl called
+[  340.906148] Balee
+[  341.006641] gator_ioctl called
+[  341.006642] Balee
+[  341.107002] gator_ioctl called
+[  341.107004] Balee
+[  341.207427] gator_ioctl called
+[  341.207427] Balee
+[  341.307776] gator_ioctl called
+[  341.307788] Balee
+[  341.412168] gator_ioctl called
+[  341.412181] Balee
+[  341.512631] gator_ioctl called
+[  341.512638] Balee
+[  341.612875] gator_ioctl called
+[  341.612880] Balee
+[  341.713126] gator_ioctl called
+[  341.713136] Balee
+[  341.813535] gator_ioctl called
+[  341.813546] Balee
+[  341.913931] gator_ioctl called
+[  341.913945] Balee
+[  342.014433] gator_ioctl called
+[  342.014437] Balee
+[  342.114891] gator_ioctl called
+[  342.114903] Balee
+[  342.215316] gator_ioctl called
+[  342.215328] Balee
+[  342.315778] gator_ioctl called
+[  342.315789] Balee
+[  342.416168] gator_ioctl called
+[  342.416178] Balee
+[  342.516723] gator_ioctl called
+[  342.516723] Balee
+[  342.617138] gator_ioctl called
+[  342.617141] Balee
+[  342.717604] gator_ioctl called
+[  342.717605] Balee
+[  342.818071] gator_ioctl called
+[  342.818075] Balee
+[  342.924796] gator_ioctl called
+[  342.924808] Balee
+[  343.028070] gator_ioctl called
+[  343.028085] Balee
+[  343.128533] gator_ioctl called
+[  343.128546] Balee
+[  343.232479] gator_ioctl called
+[  343.232488] Balee
+[  343.334622] gator_ioctl called
+[  343.334636] Balee
+[  343.440589] gator_ioctl called
+[  343.440601] Balee
+[  343.544029] gator_ioctl called
+[  343.544043] Balee
+[  343.646679] gator_ioctl called
+[  343.646691] Balee
+[  343.749849] gator_ioctl called
+[  343.749863] Balee
+[  343.853386] gator_ioctl called
+[  343.853399] Balee
+[  343.956391] gator_ioctl called
+[  343.956404] Balee
+[  344.056849] gator_ioctl called
+[  344.056860] Balee
+[  344.159482] gator_ioctl called
+[  344.159492] Balee
+[  344.264675] gator_ioctl called
+[  344.264689] Balee
+[  344.365756] gator_ioctl called
+[  344.365756] Balee
+[  344.471517] gator_ioctl called
+[  344.471529] Balee
+[  344.572080] gator_ioctl called
+[  344.572082] Balee
+[  344.672881] gator_ioctl called
+[  344.672894] Balee
+[  344.773304] gator_ioctl called
+[  344.773304] Balee
+[  344.873645] gator_ioctl called
+[  344.873657] Balee
+[  344.974298] gator_ioctl called
+[  344.974300] Balee
+[  345.074538] gator_ioctl called
+[  345.074538] Balee
+[  345.174814] gator_ioctl called
+[  345.174817] Balee
+[  345.275375] gator_ioctl called
+[  345.275376] Balee
+[  345.375726] gator_ioctl called
+[  345.375729] Balee
+[  345.476031] gator_ioctl called
+[  345.476042] Balee
+[  345.576371] gator_ioctl called
+[  345.576372] Balee
+[  345.676826] gator_ioctl called
+[  345.676837] Balee
+[  345.777226] gator_ioctl called
+[  345.777243] Balee
+[  345.852461] type=1400 audit(1594238549.635:261): avc: denied { read } for pid=5190 comm="webview_zygote" name="libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.852520] type=1400 audit(1594238614.467:266): avc: denied { write } for pid=7160 comm="webview_zygote" name="tombstoned_crash" dev="tmpfs" ino=10897 scontext=u:r:zygote:s0 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1
+[  345.877619] gator_ioctl called
+[  345.877626] Balee
+[  345.964303] type=1400 audit(1594238614.467:266): avc: denied { write } for pid=7160 comm="webview_zygote" name="tombstoned_crash" dev="tmpfs" ino=10897 scontext=u:r:zygote:s0 tcontext=u:object_r:tombstoned_crash_socket:s0 tclass=sock_file permissive=1
+[  345.964366] type=1400 audit(1594238614.579:267): avc: denied { read } for pid=7160 comm="webview_zygote" name="libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.964615] type=1400 audit(1594238614.579:267): avc: denied { read } for pid=7160 comm="webview_zygote" name="libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.964655] type=1400 audit(1594238614.579:268): avc: denied { open } for pid=7160 comm="webview_zygote" path="/data/misc/shared_relro/libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.964862] type=1400 audit(1594238614.579:268): avc: denied { open } for pid=7160 comm="webview_zygote" path="/data/misc/shared_relro/libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.964900] type=1400 audit(1594238614.579:269): avc: denied { getattr } for pid=7160 comm="webview_zygote" path="/data/misc/shared_relro/libwebviewchromium32.relro" dev="sdd15" ino=1442063 scontext=u:r:zygote:s0 tcontext=u:object_r:shared_relro_file:s0 tclass=file permissive=1
+[  345.977865] gator_ioctl called
+[  345.977868] Balee
+[  346.078057] gator_ioctl called
+[  346.078064] Balee
+[  346.183053] gator_ioctl called
+[  346.183067] Balee
+[  346.283711] gator_ioctl called
+[  346.283719] Balee
+[  346.384218] gator_ioctl called
+[  346.384218] Balee
+[  346.484746] gator_ioctl called
+[  346.484749] Balee
+[  346.585322] gator_ioctl called
+[  346.585323] Balee
+[  346.685965] gator_ioctl called
+[  346.685968] Balee
+[  346.786513] gator_ioctl called
+[  346.786521] Balee
+[  346.886830] gator_ioctl called
+[  346.886843] Balee
+[  346.987411] gator_ioctl called
+[  346.987412] Balee
+[  347.087961] gator_ioctl called
+[  347.087962] Balee
+[  347.188533] gator_ioctl called
+[  347.188533] Balee
+[  347.289286] gator_ioctl called
+[  347.289288] Balee
+[  347.389873] gator_ioctl called
+[  347.389886] Balee
+[  347.490532] gator_ioctl called
+[  347.490532] Balee
+[  347.591028] gator_ioctl called
+[  347.591037] Balee
+[  347.691683] gator_ioctl called
+[  347.691693] Balee
+[  347.792213] gator_ioctl called
+[  347.792215] Balee
+[  347.892774] gator_ioctl called
+[  347.892774] Balee
+[  347.993462] gator_ioctl called
+[  347.993466] Balee
+[  348.093974] gator_ioctl called
+[  348.093987] Balee
+[  348.194471] gator_ioctl called
+[  348.194486] Balee
+[  348.294975] gator_ioctl called
+[  348.294985] Balee
+[  348.395713] gator_ioctl called
+[  348.395713] Balee
+[  348.496028] gator_ioctl called
+[  348.496040] Balee
+[  348.596581] gator_ioctl called
+[  348.596583] Balee
+[  348.697299] gator_ioctl called
+[  348.697300] Balee
+[  348.797956] gator_ioctl called
+[  348.797958] Balee
+[  348.898518] gator_ioctl called
+[  348.898533] Balee
+[  348.999192] gator_ioctl called
+[  348.999193] Balee
+[  349.099585] gator_ioctl called
+[  349.099588] Balee
+[  349.200052] gator_ioctl called
+[  349.200052] Balee
+[  349.300577] gator_ioctl called
+[  349.300579] Balee
+[  349.401026] gator_ioctl called
+[  349.401026] Balee
+[  349.501605] gator_ioctl called
+[  349.501618] Balee
+[  349.602113] gator_ioctl called
+[  349.602123] Balee
+[  349.702787] gator_ioctl called
+[  349.702788] Balee
+[  349.803384] gator_ioctl called
+[  349.803398] Balee
+[  349.904151] gator_ioctl called
+[  349.904164] Balee
+[  350.004993] gator_ioctl called
+[  350.005048] Balee
+[  350.105792] gator_ioctl called
+[  350.105804] Balee
+[  350.206254] gator_ioctl called
+[  350.206266] Balee
+[  350.306912] gator_ioctl called
+[  350.306923] Balee
+[  350.407650] gator_ioctl called
+[  350.407663] Balee
+[  350.508390] gator_ioctl called
+[  350.508403] Balee
+[  350.609140] gator_ioctl called
+[  350.609141] Balee
+[  350.709954] gator_ioctl called
+[  350.709957] Balee
+[  350.810674] gator_ioctl called
+[  350.810674] Balee
+[  350.911241] gator_ioctl called
+[  350.911253] Balee
+[  351.011708] gator_ioctl called
+[  351.011718] Balee
+[  351.112288] gator_ioctl called
+[  351.112290] Balee
+[  351.212869] gator_ioctl called
+[  351.212869] Balee
+[  351.313599] gator_ioctl called
+[  351.313601] Balee
+[  351.414003] gator_ioctl called
+[  351.414003] Balee
+[  351.514375] gator_ioctl called
+[  351.514383] Balee
+[  351.614691] gator_ioctl called
+[  351.614694] Balee
+[  351.715091] gator_ioctl called
+[  351.715092] Balee
+[  351.815582] gator_ioctl called
+[  351.815586] Balee
+[  351.916263] gator_ioctl called
+[  351.916273] Balee
+[  352.016904] gator_ioctl called
+[  352.016917] Balee
+[  352.118090] gator_ioctl called
+[  352.118090] Balee
+[  352.218673] gator_ioctl called
+[  352.218675] Balee
+[  352.319036] gator_ioctl called
+[  352.319048] Balee
+[  352.419612] gator_ioctl called
+[  352.419612] Balee
+[  352.520235] gator_ioctl called
+[  352.520238] Balee
+[  352.620956] gator_ioctl called
+[  352.620957] Balee
+[  352.721555] gator_ioctl called
+[  352.721558] Balee
+[  352.821936] gator_ioctl called
+[  352.821936] Balee
+[  352.922458] gator_ioctl called
+[  352.922470] Balee
+[  353.028928] gator_ioctl called
+[  353.028939] Balee
+[  353.129376] gator_ioctl called
+[  353.129385] Balee
+[  353.230017] gator_ioctl called
+[  353.230029] Balee
+[  353.330728] gator_ioctl called
+[  353.330732] Balee
+[  353.431506] gator_ioctl called
+[  353.431507] Balee
+[  353.531870] gator_ioctl called
+[  353.531874] Balee
+[  353.632241] gator_ioctl called
+[  353.632242] Balee
+[  353.732846] gator_ioctl called
+[  353.732856] Balee
+[  353.833269] gator_ioctl called
+[  353.833278] Balee
+[  353.933631] gator_ioctl called
+[  353.933643] Balee
+[  354.034020] gator_ioctl called
+[  354.034025] Balee
+[  354.134578] gator_ioctl called
+[  354.134590] Balee
+[  354.234960] gator_ioctl called
+[  354.234960] Balee
+[  354.335326] gator_ioctl called
+[  354.335328] Balee
+[  354.435717] gator_ioctl called
+[  354.435730] Balee

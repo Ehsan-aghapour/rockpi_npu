@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session call_stack_unwinding="yes" parse_debug_info="yes" exclude_kernel_events="no" version="1" high_resolution="no" buffer_mode="streaming" sample_rate="high" duration="0" target_address="" live_rate="100" stop_gator="no">
+	<energy_capture version="1" command_path="/opt/arm/developmentstudio-2021.2/sw/streamline/bin/linux-64/caiman" type="none">
+		<channel id="0" resistance="20" power="yes"/>
+	</energy_capture>
+</session>

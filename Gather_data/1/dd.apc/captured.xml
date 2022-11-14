@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<captured version="1" backtrace_processing="gator" type="Gator" protocol="671" created="1641815555">
+  <target name="ROCKPI N10" sample_rate="10007" cores="6" cpuid="0x41d08" supports_live="yes" local_capture="yes" />
+  <counters>
+    <counter key="0x123" type="ARM_Mali-T86x_TI_PRIM_CLIPPED" />
+    <counter key="0x18d" type="ARM_Mali-T86x_FRAG_ACTIVE" />
+    <counter key="0x13" type="ARMv8_Cortex_A72_cnt0" event="0x8" />
+    <counter key="0x1b" type="ARMv8_Cortex_A72_cnt4" event="0x4" />
+    <counter key="0x3" type="ARMv8_Cortex_A53_ccnt" event="0x11" />
+    <counter key="0x81" type="ARM_Mali-Midgard_vertex" cores="1" />
+    <counter key="0x10d" type="ARM_Mali-T86x_TI_TRIANGLES" />
+    <counter key="0x195" type="ARM_Mali-T86x_FRAG_CYCLES_FPKQ_ACTIVE" />
+    <counter key="0x15" type="ARMv8_Cortex_A72_cnt1" event="0x72" />
+    <counter key="0xa9" type="ARM_Mali-T86x_JS1_ACTIVE" />
+    <counter key="0x279" type="ARM_Mali-T86x_L2_EXT_W_STALL" />
+    <counter key="0x1b1" type="ARM_Mali-T86x_COMPUTE_ACTIVE" />
+    <counter key="0x6b" type="ARMv8_Cortex_A53_system" cores="1" />
+    <counter key="0x97" type="ARM_Mali-T86x_JS0_TASKS" />
+    <counter key="0x77" type="ARMv8_Cortex_A53_irq" />
+    <counter key="0x75" type="Linux_block_rq_rd" />
+    <counter key="0xb" type="ARMv8_Cortex_A53_cnt3" event="0x3" />
+    <counter key="0x1c3" type="ARM_Mali-T86x_LS_WORDS" />
+    <counter key="0x271" type="ARM_Mali-T86x_L2_EXT_AR_STALL" />
+    <counter key="0xf" type="ARMv8_Cortex_A53_cnt5" event="0x13" />
+    <counter key="0x241" type="ARM_Mali-T86x_L2_EXT_WRITE_BEATS" />
+    <counter key="0x243" type="ARM_Mali-T86x_L2_EXT_READ_BEATS" />
+    <counter key="0xb9" type="ARM_Mali-T86x_JS2_ACTIVE" />
+    <counter key="0x1d1" type="ARM_Mali-T86x_TEX_WORDS" />
+    <counter key="0x1c5" type="ARM_Mali-T86x_LS_ISSUES" />
+    <counter key="0x9" type="ARMv8_Cortex_A53_cnt2" event="0x6" />
+    <counter key="0x7" type="ARMv8_Cortex_A53_cnt1" event="0x8" />
+    <counter key="0x1a9" type="ARM_Mali-T86x_FRAG_THREADS_LZS_KILLED" />
+    <counter key="0x1d9" type="ARM_Mali-T86x_TEX_ISSUES" />
+    <counter key="0x1b5" type="ARM_Mali-T86x_COMPUTE_THREADS" />
+    <counter key="0x71" type="ARMv8_Cortex_A72_user" cores="1" />
+    <counter key="0x6f" type="ARMv8_Cortex_A53_user" cores="1" />
+    <counter key="0x1a7" type="ARM_Mali-T86x_FRAG_THREADS_LZS_TEST" />
+    <counter key="0x6d" type="ARMv8_Cortex_A72_system" cores="1" />
+    <counter key="0x2af" type="Linux_meminfo_memfree" />
+    <counter key="0x184" type="ftrace_power_cpu_idle" />
+    <counter key="0x1ad" type="ARM_Mali-T86x_FRAG_NUM_TILES" />
+    <counter key="0x99" type="ARM_Mali-T86x_JS0_ACTIVE" />
+    <counter key="0x7f" type="ARM_Mali-Midgard_fragment" cores="1" />
+    <counter key="0x19" type="ARMv8_Cortex_A72_cnt3" event="0x13" />
+    <counter key="0x67" type="Linux_cpu_wait_contention" cores="1" />
+    <counter key="0x121" type="ARM_Mali-T86x_TI_PRIM_CULLED" />
+    <counter key="0x19d" type="ARM_Mali-T86x_FRAG_THREADS" />
+    <counter key="0x115" type="ARM_Mali-T86x_TI_LINES" />
+    <counter key="0x91" type="ARM_Mali-T86x_GPU_ACTIVE" />
+    <counter key="0x2ab" type="ARM_Mali-Midgard_TOTAL_ALLOC_PAGES" />
+    <counter key="0xd" type="ARMv8_Cortex_A53_cnt4" event="0x17" />
+    <counter key="0x11" type="ARMv8_Cortex_A72_ccnt" event="0x11" />
+    <counter key="0x1bb" type="ARM_Mali-T86x_ARITH_WORDS" />
+    <counter key="0x113" type="ARM_Mali-T86x_TI_POINTS" />
+    <counter key="0x1b9" type="ARM_Mali-T86x_TRIPIPE_ACTIVE" />
+    <counter key="0x83" type="ARM_Mali-Midgard_opencl" cores="1" />
+    <counter key="0x17" type="ARMv8_Cortex_A72_cnt2" event="0x17" />
+    <counter key="0x5" type="ARMv8_Cortex_A53_cnt0" event="0xc2" />
+    <counter key="0x1d" type="ARMv8_Cortex_A72_cnt5" event="0x3" />
+    <counter key="0x93" type="ARM_Mali-T86x_IRQ_ACTIVE" />
+  </counters>
+</captured>

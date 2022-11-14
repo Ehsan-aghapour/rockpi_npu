@@ -1,0 +1,2 @@
+cd system; 
+insmod gator.ko; rm -r dd.apc; chmod +x gatord; ./gatord -s session.xml -c configuration.xml -o ./dd.apc

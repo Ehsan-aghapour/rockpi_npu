@@ -1,0 +1,291 @@
+1:Linux_block_rq_wr,1,-1,0,-1,115
+
+2:Linux_block_rq_rd,1,-1,0,-1,117
+
+3:Linux_meminfo_memused,1,-1,0,-1,689
+
+4:Linux_meminfo_memfree,1,-1,0,-1,687
+
+5:ARMv8_Cortex_A73_freq,1,-1,0,-1,101
+
+6:ARMv8_Cortex_A53_freq,1,-1,0,-1,99
+
+7:ARMv8_Cortex_A73_system,1,-1,0,1,109
+
+8:ARMv8_Cortex_A53_system,1,-1,0,1,107
+
+9:ARMv8_Cortex_A73_user,1,-1,0,1,113
+
+10:ARMv8_Cortex_A53_user,1,-1,0,1,111
+
+11:Linux_cpu_wait_io,1,-1,0,1,105
+
+12:Linux_cpu_wait_contention,1,-1,0,1,103
+
+13:Linux_meminfo_bufferram,1,-1,0,-1,691
+
+14:Linux_meminfo_cached,1,-1,0,-1,693
+
+15:Linux_meminfo_slab,1,-1,0,-1,695
+
+16:ARMv8_Cortex_A73_switch,1,-1,0,-1,717
+
+17:ARMv8_Cortex_A53_switch,1,-1,0,-1,715
+
+18:ARMv8_Cortex_A53_ccnt,1,17,0,-1,3
+
+19:ARMv8_Cortex_A53_cnt0,1,8,0,-1,5
+
+20:ARMv8_Cortex_A53_cnt1,1,22,0,-1,7
+
+21:ARMv8_Cortex_A53_cnt2,1,4,0,-1,9
+
+22:ARMv8_Cortex_A53_cnt3,1,3,0,-1,11
+
+23:ARMv8_Cortex_A53_cnt4,1,1,0,-1,13
+
+24:ARMv8_Cortex_A53_cnt5,1,23,0,-1,15
+
+25:ARMv8_Cortex_A73_ccnt,1,17,0,-1,17
+
+26:ARMv8_Cortex_A73_cnt0,1,8,0,-1,19
+
+27:ARMv8_Cortex_A73_cnt1,1,22,0,-1,21
+
+28:ARMv8_Cortex_A73_cnt2,1,4,0,-1,23
+
+29:ARMv8_Cortex_A73_cnt3,1,3,0,-1,25
+
+30:ARMv8_Cortex_A73_cnt4,1,1,0,-1,27
+
+31:ARMv8_Cortex_A73_cnt5,1,23,0,-1,29
+
+32:ARM_Mali-THEx_JS0_ACTIVE,1,-1,0,-1,153
+
+33:ARM_Mali-THEx_JS0_TASKS,1,-1,0,-1,151
+
+34:ARM_Mali-THEx_GPU_ACTIVE,1,-1,0,-1,145
+
+35:ARM_Mali-THEx_IRQ_ACTIVE,1,-1,0,-1,147
+
+36:ARM_Mali-THEx_JS1_ACTIVE,1,-1,0,-1,169
+
+37:ARM_Mali-Bifrost_fragment,1,-1,0,1,127
+
+38:ARM_Mali-Bifrost_vertex,1,-1,0,1,129
+
+39:ARM_Mali-Bifrost_opencl,1,-1,0,1,131
+
+40:ARM_Mali-THEx_PRIM_CULLED,1,-1,0,-1,285
+
+41:ARM_Mali-THEx_PRIM_CLIPPED,1,-1,0,-1,287
+
+42:ARM_Mali-THEx_PRIM_SAT_CULLED,1,-1,0,-1,289
+
+43:ARM_Mali-THEx_PRIM_VISIBLE,1,-1,0,-1,283
+
+44:ARM_Mali-THEx_TILER_ACTIVE,1,-1,0,-1,269
+
+45:ARM_Mali-THEx_BACK_FACING,1,-1,0,-1,281
+
+46:ARM_Mali-THEx_FRONT_FACING,1,-1,0,-1,279
+
+47:ARM_Mali-THEx_TRIANGLES,1,-1,0,-1,273
+
+48:ARM_Mali-THEx_IDVS_POS_SHAD_REQ,1,-1,0,-1,303
+
+49:ARM_Mali-THEx_IDVS_VAR_SHAD_REQ,1,-1,0,-1,335
+
+50:ARM_Mali-THEx_L2_EXT_READ_BEATS,1,-1,0,-1,581
+
+51:ARM_Mali-THEx_L2_EXT_WRITE_BEATS,1,-1,0,-1,611
+
+52:ARM_Mali-THEx_L2_EXT_RRESP_0_127,1,-1,0,-1,591
+
+53:ARM_Mali-THEx_L2_EXT_RRESP_128_191,1,-1,0,-1,593
+
+54:ARM_Mali-THEx_L2_EXT_RRESP_192_255,1,-1,0,-1,595
+
+55:ARM_Mali-THEx_L2_EXT_RRESP_256_319,1,-1,0,-1,597
+
+56:ARM_Mali-THEx_L2_EXT_RRESP_320_383,1,-1,0,-1,599
+
+57:ARM_Mali-THEx_L2_EXT_AR_CNT_Q1,1,-1,0,-1,585
+
+58:ARM_Mali-THEx_L2_EXT_AR_CNT_Q2,1,-1,0,-1,587
+
+59:ARM_Mali-THEx_L2_EXT_AR_CNT_Q3,1,-1,0,-1,589
+
+60:ARM_Mali-THEx_L2_EXT_AR_STALL,1,-1,0,-1,583
+
+61:ARM_Mali-THEx_L2_EXT_W_STALL,1,-1,0,-1,613
+
+62:ARM_Mali-THEx_L2_EXT_READ,1,-1,0,-1,575
+
+63:ARM_Mali-THEx_L2_EXT_WRITE,1,-1,0,-1,601
+
+64:ARM_Mali-THEx_L2_EXT_AW_CNT_Q1,1,-1,0,-1,615
+
+65:ARM_Mali-THEx_L2_EXT_AW_CNT_Q2,1,-1,0,-1,617
+
+66:ARM_Mali-THEx_L2_EXT_AW_CNT_Q3,1,-1,0,-1,619
+
+67:ARM_Mali-THEx_COMPUTE_ACTIVE,1,-1,0,-1,433
+
+68:ARM_Mali-THEx_EXEC_CORE_ACTIVE,1,-1,0,-1,441
+
+69:ARM_Mali-THEx_FRAG_ACTIVE,1,-1,0,-1,397
+
+70:ARM_Mali-THEx_FRAG_FPK_ACTIVE,1,-1,0,-1,403
+
+71:ARM_Mali-THEx_FRAG_QUADS_EZS_KILL,1,-1,0,-1,417
+
+72:ARM_Mali-THEx_FRAG_QUADS_EZS_TEST,1,-1,0,-1,413
+
+73:ARM_Mali-THEx_FRAG_QUADS_EZS_UPDATE,1,-1,0,-1,415
+
+74:ARM_Mali-THEx_FRAG_QUADS_RAST,1,-1,0,-1,411
+
+75:ARM_Mali-THEx_FRAG_PRIM_RAST,1,-1,0,-1,401
+
+76:ARM_Mali-THEx_QUAD_FPK_KILLER,1,-1,0,-1,429
+
+77:ARM_Mali-THEx_ATTR_INSTR,1,-1,0,-1,493
+
+78:ARM_Mali-THEx_EXEC_INSTR_COUNT,1,-1,0,-1,445
+
+79:ARM_Mali-THEx_TEX_INSTR,1,-1,0,-1,459
+
+80:ARM_Mali-THEx_VARY_INSTR,1,-1,0,-1,487
+
+81:ARM_Mali-THEx_LS_MEM_READ_FULL,1,-1,0,-1,477
+
+82:ARM_Mali-THEx_LS_MEM_WRITE_FULL,1,-1,0,-1,481
+
+83:ARM_Mali-THEx_LS_MEM_READ_SHORT,1,-1,0,-1,479
+
+84:ARM_Mali-THEx_LS_MEM_WRITE_SHORT,1,-1,0,-1,483
+
+85:ARM_Mali-THEx_COMPUTE_WARPS,1,-1,0,-1,437
+
+86:ARM_Mali-THEx_FRAG_PARTIAL_WARPS,1,-1,0,-1,409
+
+87:ARM_Mali-THEx_FRAG_WARPS,1,-1,0,-1,407
+
+88:ARM_Mali-THEx_BEATS_RD_LSC_EXT,1,-1,0,-1,503
+
+89:ARM_Mali-THEx_BEATS_RD_TEX_EXT,1,-1,0,-1,507
+
+90:ARM_Mali-THEx_BEATS_RD_LSC,1,-1,0,-1,501
+
+91:ARM_Mali-THEx_BEATS_RD_TEX,1,-1,0,-1,505
+
+92:ARM_Mali-THEx_BEATS_WR_LSC,1,-1,0,-1,511
+
+93:ARM_Mali-THEx_BEATS_WR_TIB,1,-1,0,-1,513
+
+94:ARM_Mali-THEx_TEX_COORD_ISSUE,1,-1,0,-1,469
+
+95:ARM_Mali-THEx_TEX_INSTR_COMPRESSED,1,-1,0,-1,463
+
+96:ARM_Mali-THEx_TEX_INSTR_TRILINEAR,1,-1,0,-1,467
+
+97:ARM_Mali-THEx_FRAG_PTILES,1,-1,0,-1,425
+
+98:ARM_Mali-THEx_FRAG_TRANS_ELIM,1,-1,0,-1,427
+
+99:ARM_Mali-THEx_VARY_SLOT_16,1,-1,0,-1,491
+
+100:ARM_Mali-THEx_VARY_SLOT_32,1,-1,0,-1,489
+
+
+[  137.831591] key:1,count:29310,sum-value:54605223
+[  137.831593] key:3,count:61477,sum-value:9030084808
+[  137.831595] key:5,count:61463,sum-value:3821422672
+[  137.831596] key:7,count:61477,sum-value:185416289
+[  137.831598] key:9,count:61474,sum-value:1203480915
+[  137.831600] key:11,count:61479,sum-value:27166867
+[  137.831601] key:13,count:61481,sum-value:43974446
+[  137.831603] key:15,count:59537,sum-value:1623195
+[  137.831604] key:17,count:21477,sum-value:337902443
+[  137.831606] key:19,count:21202,sum-value:329200888
+[  137.831607] key:21,count:21145,sum-value:4575987
+[  137.831609] key:23,count:21113,sum-value:157438155
+[  137.831610] key:25,count:21090,sum-value:897738
+[  137.831612] key:27,count:21151,sum-value:1872187
+[  137.831614] key:29,count:21464,sum-value:332777
+[  137.831618] key:115,count:12,sum-value:774144
+[  137.831619] key:145,count:2726,sum-value:0
+[  137.831621] key:147,count:2726,sum-value:6223312
+[  137.831622] key:151,count:2726,sum-value:0
+[  137.831624] key:153,count:2726,sum-value:0
+[  137.831626] key:169,count:2726,sum-value:0
+[  137.831627] key:269,count:2726,sum-value:0
+[  137.831629] key:273,count:2726,sum-value:0
+[  137.831630] key:279,count:2726,sum-value:0
+[  137.831632] key:281,count:2726,sum-value:0
+[  137.831633] key:283,count:2726,sum-value:0
+[  137.831635] key:285,count:2726,sum-value:0
+[  137.831636] key:287,count:2726,sum-value:0
+[  137.831638] key:289,count:2726,sum-value:0
+[  137.831639] key:303,count:2726,sum-value:0
+[  137.831641] key:335,count:2726,sum-value:0
+[  137.831643] key:397,count:2726,sum-value:0
+[  137.831646] key:401,count:2726,sum-value:0
+[  137.831647] key:403,count:2726,sum-value:0
+[  137.831649] key:407,count:2726,sum-value:0
+[  137.831651] key:409,count:2726,sum-value:0
+[  137.831652] key:411,count:2726,sum-value:0
+[  137.831654] key:413,count:2726,sum-value:0
+[  137.831655] key:415,count:2726,sum-value:0
+[  137.831656] key:417,count:2726,sum-value:0
+[  137.831658] key:425,count:2726,sum-value:0
+[  137.831659] key:427,count:2726,sum-value:0
+[  137.831661] key:429,count:2726,sum-value:0
+[  137.831663] key:433,count:2726,sum-value:0
+[  137.831665] key:437,count:2726,sum-value:0
+[  137.831666] key:441,count:2726,sum-value:0
+[  137.831668] key:445,count:2726,sum-value:0
+[  137.831669] key:459,count:2726,sum-value:0
+[  137.831671] key:463,count:2726,sum-value:0
+[  137.831675] key:467,count:2726,sum-value:0
+[  137.831677] key:469,count:2726,sum-value:0
+[  137.831679] key:477,count:2726,sum-value:0
+[  137.831681] key:479,count:2726,sum-value:0
+[  137.831682] key:481,count:2726,sum-value:0
+[  137.831683] key:483,count:2726,sum-value:0
+[  137.831685] key:487,count:2726,sum-value:0
+[  137.831687] key:489,count:2726,sum-value:0
+[  137.831689] key:491,count:2726,sum-value:0
+[  137.831690] key:493,count:2726,sum-value:0
+[  137.831692] key:501,count:2726,sum-value:0
+[  137.831693] key:503,count:2726,sum-value:0
+[  137.831695] key:505,count:2726,sum-value:0
+[  137.831696] key:507,count:2726,sum-value:0
+[  137.831698] key:511,count:2726,sum-value:0
+[  137.831700] key:513,count:2726,sum-value:0
+[  137.831704] key:575,count:2726,sum-value:0
+[  137.831705] key:581,count:2726,sum-value:0
+[  137.831707] key:583,count:2726,sum-value:0
+[  137.831708] key:585,count:2726,sum-value:0
+[  137.831710] key:587,count:2726,sum-value:0
+[  137.831712] key:589,count:2726,sum-value:0
+[  137.831713] key:591,count:2726,sum-value:0
+[  137.831715] key:593,count:2726,sum-value:0
+[  137.831717] key:595,count:2726,sum-value:0
+[  137.831718] key:597,count:2726,sum-value:0
+[  137.831719] key:599,count:2726,sum-value:0
+[  137.831721] key:601,count:2726,sum-value:171612
+[  137.831723] key:611,count:2726,sum-value:678276
+[  137.831725] key:613,count:2726,sum-value:13430
+[  137.831727] key:615,count:2726,sum-value:57394
+[  137.831731] key:617,count:2726,sum-value:84539
+[  137.831732] key:619,count:2726,sum-value:29679
+[  137.831734] key:687,count:206,sum-value:972159078400
+[  137.831736] key:689,count:14655,sum-value:352021647360
+[  137.831738] key:691,count:206,sum-value:1079189504
+[  137.831740] key:693,count:206,sum-value:-1079189504
+[  137.831742] key:695,count:206,sum-value:27387662336
+[  137.831744] key:715,count:61503,sum-value:39471
+[  137.831745] key:717,count:20258,sum-value:373
+

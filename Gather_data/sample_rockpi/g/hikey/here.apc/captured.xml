@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<captured version="1" backtrace_processing="gator" type="Gator" protocol="671" created="1575374766">
+  <target name="HiKey970" sample_rate="1009" cores="8" cpuid="0x41d09" supports_live="yes" local_capture="yes" />
+  <counters>
+    <counter key="0x73" type="Linux_block_rq_wr" />
+    <counter key="0x75" type="Linux_block_rq_rd" />
+    <counter key="0x2b1" type="Linux_meminfo_memused" />
+    <counter key="0x2af" type="Linux_meminfo_memfree" />
+    <counter key="0x65" type="ARMv8_Cortex_A73_freq" />
+    <counter key="0x63" type="ARMv8_Cortex_A53_freq" />
+    <counter key="0x6d" type="ARMv8_Cortex_A73_system" cores="1" />
+    <counter key="0x6b" type="ARMv8_Cortex_A53_system" cores="1" />
+    <counter key="0x71" type="ARMv8_Cortex_A73_user" cores="1" />
+    <counter key="0x6f" type="ARMv8_Cortex_A53_user" cores="1" />
+    <counter key="0x69" type="Linux_cpu_wait_io" cores="1" />
+    <counter key="0x67" type="Linux_cpu_wait_contention" cores="1" />
+    <counter key="0x2b3" type="Linux_meminfo_bufferram" />
+    <counter key="0x2b5" type="Linux_meminfo_cached" />
+    <counter key="0x2b7" type="Linux_meminfo_slab" />
+    <counter key="0x2cd" type="ARMv8_Cortex_A73_switch" />
+    <counter key="0x2cb" type="ARMv8_Cortex_A53_switch" />
+    <counter key="0x3" type="ARMv8_Cortex_A53_ccnt" event="0x11" />
+    <counter key="0x5" type="ARMv8_Cortex_A53_cnt0" event="0x8" />
+    <counter key="0x7" type="ARMv8_Cortex_A53_cnt1" event="0x16" />
+    <counter key="0x9" type="ARMv8_Cortex_A53_cnt2" event="0x4" />
+    <counter key="0xb" type="ARMv8_Cortex_A53_cnt3" event="0x3" />
+    <counter key="0xd" type="ARMv8_Cortex_A53_cnt4" event="0x1" />
+    <counter key="0xf" type="ARMv8_Cortex_A53_cnt5" event="0x17" />
+    <counter key="0x11" type="ARMv8_Cortex_A73_ccnt" event="0x11" />
+    <counter key="0x13" type="ARMv8_Cortex_A73_cnt0" event="0x8" />
+    <counter key="0x15" type="ARMv8_Cortex_A73_cnt1" event="0x16" />
+    <counter key="0x17" type="ARMv8_Cortex_A73_cnt2" event="0x4" />
+    <counter key="0x19" type="ARMv8_Cortex_A73_cnt3" event="0x3" />
+    <counter key="0x1b" type="ARMv8_Cortex_A73_cnt4" event="0x1" />
+    <counter key="0x1d" type="ARMv8_Cortex_A73_cnt5" event="0x17" />
+    <counter key="0x99" type="ARM_Mali-THEx_JS0_ACTIVE" />
+    <counter key="0x97" type="ARM_Mali-THEx_JS0_TASKS" />
+    <counter key="0x91" type="ARM_Mali-THEx_GPU_ACTIVE" />
+    <counter key="0x93" type="ARM_Mali-THEx_IRQ_ACTIVE" />
+    <counter key="0xa9" type="ARM_Mali-THEx_JS1_ACTIVE" />
+    <counter key="0x7f" type="ARM_Mali-Bifrost_fragment" cores="1" />
+    <counter key="0x81" type="ARM_Mali-Bifrost_vertex" cores="1" />
+    <counter key="0x83" type="ARM_Mali-Bifrost_opencl" cores="1" />
+    <counter key="0x11d" type="ARM_Mali-THEx_PRIM_CULLED" />
+    <counter key="0x11f" type="ARM_Mali-THEx_PRIM_CLIPPED" />
+    <counter key="0x121" type="ARM_Mali-THEx_PRIM_SAT_CULLED" />
+    <counter key="0x11b" type="ARM_Mali-THEx_PRIM_VISIBLE" />
+    <counter key="0x10d" type="ARM_Mali-THEx_TILER_ACTIVE" />
+    <counter key="0x119" type="ARM_Mali-THEx_BACK_FACING" />
+    <counter key="0x117" type="ARM_Mali-THEx_FRONT_FACING" />
+    <counter key="0x111" type="ARM_Mali-THEx_TRIANGLES" />
+    <counter key="0x12f" type="ARM_Mali-THEx_IDVS_POS_SHAD_REQ" />
+    <counter key="0x14f" type="ARM_Mali-THEx_IDVS_VAR_SHAD_REQ" />
+    <counter key="0x245" type="ARM_Mali-THEx_L2_EXT_READ_BEATS" />
+    <counter key="0x263" type="ARM_Mali-THEx_L2_EXT_WRITE_BEATS" />
+    <counter key="0x24f" type="ARM_Mali-THEx_L2_EXT_RRESP_0_127" />
+    <counter key="0x251" type="ARM_Mali-THEx_L2_EXT_RRESP_128_191" />
+    <counter key="0x253" type="ARM_Mali-THEx_L2_EXT_RRESP_192_255" />
+    <counter key="0x255" type="ARM_Mali-THEx_L2_EXT_RRESP_256_319" />
+    <counter key="0x257" type="ARM_Mali-THEx_L2_EXT_RRESP_320_383" />
+    <counter key="0x249" type="ARM_Mali-THEx_L2_EXT_AR_CNT_Q1" />
+    <counter key="0x24b" type="ARM_Mali-THEx_L2_EXT_AR_CNT_Q2" />
+    <counter key="0x24d" type="ARM_Mali-THEx_L2_EXT_AR_CNT_Q3" />
+    <counter key="0x247" type="ARM_Mali-THEx_L2_EXT_AR_STALL" />
+    <counter key="0x265" type="ARM_Mali-THEx_L2_EXT_W_STALL" />
+    <counter key="0x23f" type="ARM_Mali-THEx_L2_EXT_READ" />
+    <counter key="0x259" type="ARM_Mali-THEx_L2_EXT_WRITE" />
+    <counter key="0x267" type="ARM_Mali-THEx_L2_EXT_AW_CNT_Q1" />
+    <counter key="0x269" type="ARM_Mali-THEx_L2_EXT_AW_CNT_Q2" />
+    <counter key="0x26b" type="ARM_Mali-THEx_L2_EXT_AW_CNT_Q3" />
+    <counter key="0x1b1" type="ARM_Mali-THEx_COMPUTE_ACTIVE" />
+    <counter key="0x1b9" type="ARM_Mali-THEx_EXEC_CORE_ACTIVE" />
+    <counter key="0x18d" type="ARM_Mali-THEx_FRAG_ACTIVE" />
+    <counter key="0x193" type="ARM_Mali-THEx_FRAG_FPK_ACTIVE" />
+    <counter key="0x1a1" type="ARM_Mali-THEx_FRAG_QUADS_EZS_KILL" />
+    <counter key="0x19d" type="ARM_Mali-THEx_FRAG_QUADS_EZS_TEST" />
+    <counter key="0x19f" type="ARM_Mali-THEx_FRAG_QUADS_EZS_UPDATE" />
+    <counter key="0x19b" type="ARM_Mali-THEx_FRAG_QUADS_RAST" />
+    <counter key="0x191" type="ARM_Mali-THEx_FRAG_PRIM_RAST" />
+    <counter key="0x1ad" type="ARM_Mali-THEx_QUAD_FPK_KILLER" />
+    <counter key="0x1ed" type="ARM_Mali-THEx_ATTR_INSTR" />
+    <counter key="0x1bd" type="ARM_Mali-THEx_EXEC_INSTR_COUNT" />
+    <counter key="0x1cb" type="ARM_Mali-THEx_TEX_INSTR" />
+    <counter key="0x1e7" type="ARM_Mali-THEx_VARY_INSTR" />
+    <counter key="0x1dd" type="ARM_Mali-THEx_LS_MEM_READ_FULL" />
+    <counter key="0x1e1" type="ARM_Mali-THEx_LS_MEM_WRITE_FULL" />
+    <counter key="0x1df" type="ARM_Mali-THEx_LS_MEM_READ_SHORT" />
+    <counter key="0x1e3" type="ARM_Mali-THEx_LS_MEM_WRITE_SHORT" />
+    <counter key="0x1b5" type="ARM_Mali-THEx_COMPUTE_WARPS" />
+    <counter key="0x199" type="ARM_Mali-THEx_FRAG_PARTIAL_WARPS" />
+    <counter key="0x197" type="ARM_Mali-THEx_FRAG_WARPS" />
+    <counter key="0x1f7" type="ARM_Mali-THEx_BEATS_RD_LSC_EXT" />
+    <counter key="0x1fb" type="ARM_Mali-THEx_BEATS_RD_TEX_EXT" />
+    <counter key="0x1f5" type="ARM_Mali-THEx_BEATS_RD_LSC" />
+    <counter key="0x1f9" type="ARM_Mali-THEx_BEATS_RD_TEX" />
+    <counter key="0x1ff" type="ARM_Mali-THEx_BEATS_WR_LSC" />
+    <counter key="0x201" type="ARM_Mali-THEx_BEATS_WR_TIB" />
+    <counter key="0x1d5" type="ARM_Mali-THEx_TEX_COORD_ISSUE" />
+    <counter key="0x1cf" type="ARM_Mali-THEx_TEX_INSTR_COMPRESSED" />
+    <counter key="0x1d3" type="ARM_Mali-THEx_TEX_INSTR_TRILINEAR" />
+    <counter key="0x1a9" type="ARM_Mali-THEx_FRAG_PTILES" />
+    <counter key="0x1ab" type="ARM_Mali-THEx_FRAG_TRANS_ELIM" />
+    <counter key="0x1eb" type="ARM_Mali-THEx_VARY_SLOT_16" />
+    <counter key="0x1e9" type="ARM_Mali-THEx_VARY_SLOT_32" />
+  </counters>
+</captured>

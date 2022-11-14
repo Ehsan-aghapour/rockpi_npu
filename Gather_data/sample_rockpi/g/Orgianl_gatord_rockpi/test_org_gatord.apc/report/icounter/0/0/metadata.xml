@@ -1,0 +1,5 @@
+<instruction-counter>
+   <ratio description="A sample of the current call stack or PC value" title="Samples" unit="">
+      <data-point id="0" name="sample"/>
+   </ratio>
+</instruction-counter>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counters>
+	<counter key="0x180" type="ARMv8_Cortex_A53_cnt1" event="0x8" cores="6" title="Instructions (Executed)" name="All" description="The counter increments for every architecturally executed instruction." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x182" type="ARMv8_Cortex_A53_cnt2" event="0x6" cores="6" title="Instructions (Executed)" name="Load" description="The counter increments for every executed memory-reading instruction." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x4" type="ARM_Mali-CONST_BUS_WIDTH_BITS" cores="1" title="Mali Constants" name="Bus Width Bits" class="CONSTANT" devtype_basic="gpu" devtype_name="Mali-CONST" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-CONST" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x184" type="ARMv8_Cortex_A53_cnt3" event="0x3" cores="6" title="L1 Data Cache" name="Refill" description="The counter counts each access counted by 'L1 Data Cache: Access' that causes a demand refill of at least the Level 1 data or unified cache from outside the Level 1 cache. Each access to a cache line that causes a new linefill is counted, including those from instructions that generate multiple accesses, such as load or store multiples, and PUSH and POP instructions. In particular, the counter counts accesses to the Level 1 cache that cause a refill that is satisfied by another Level 1 data or unified cache, or a Level 2 cache, or memory. A refill includes any access that causes data to be fetched from outside the cache, even if the data is ultimately not allocated into the cache. For example, data might be fetched into a buffer but then discarded, rather than being allocated into a cache. These buffers are treated as part of the cache." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x186" type="ARMv8_Cortex_A53_cnt4" event="0x17" cores="6" title="L2 Data Cache" name="Refill" description="The counter counts each access counted by 'L2 Data Cache: Access' that causes a refill of any of the Level 1 or Level 2 caches from outside the Level 1 and Level 2 caches of the PE. A refill includes any access that causes data to be fetched from outside the cache, even if the data is ultimately not allocated into the cache. For example, data might be fetched into a buffer but then discarded, rather than being allocated into a cache. These buffers are treated as part of the cache." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x6" type="ARM_Mali-CONST_L2_SLICE_COUNT" cores="1" title="Mali Constants" name="L2 Slice Count" class="CONSTANT" devtype_basic="gpu" devtype_name="Mali-CONST" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-CONST" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x188" type="ARMv8_Cortex_A53_cnt5" event="0x13" cores="6" title="Memory" name="Access" description="The counter counts memory read operations and memory write operations that the PE made. The counter increments whether the access results in an access to a Level 1 data or unified cache, a Level 2 data or unified cache, or neither of these." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x8" type="ARM_Mali-CONST_SHADER_CORE_COUNT" cores="1" title="Mali Constants" name="Shader Core Count" class="CONSTANT" devtype_basic="gpu" devtype_name="Mali-CONST" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-CONST" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x18a" type="ARMv8_Cortex_A72_ccnt" event="0x11" cores="6" title="Cycles" name="CPU Cycles" description="The counter increments on every cycle." cluster="1" class="DELTA" devtype_basic="cpu" display="HERTZ" units="Hz" average_cores="yes" average_selection="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x18c" type="ARMv8_Cortex_A72_cnt0" event="0x8" cores="6" title="Instructions (Executed)" name="All" description="The counter increments for every architecturally executed instruction." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0xe" type="ARM_Mali-T86x_GPU_ACTIVE" cores="1" title="Mali Job Manager Cycles" name="GPU cycles" description="Number of cycles GPU active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x18e" type="ARMv8_Cortex_A72_cnt1" event="0x72" cores="6" title="Instructions (Speculated)" name="Load/Store" description="As 'Instructions (Speculated): All', but the counter counts only memory-reading and memory-writing instructions, as defined by the 'Instructions (Executed): Load' and 'Instructions (Executed): Store' events." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x190" type="ARMv8_Cortex_A72_cnt2" event="0x17" cores="6" title="L2 Data Cache" name="Refill" description="The counter counts each access counted by 'L2 Data Cache: Access' that causes a refill of any of the Level 1 or Level 2 caches from outside the Level 1 and Level 2 caches of the PE. A refill includes any access that causes data to be fetched from outside the cache, even if the data is ultimately not allocated into the cache. For example, data might be fetched into a buffer but then discarded, rather than being allocated into a cache. These buffers are treated as part of the cache." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x10" type="ARM_Mali-T86x_IRQ_ACTIVE" cores="1" title="Mali Job Manager Cycles" name="IRQ cycles" description="Number of cycles GPU interrupt pending" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x192" type="ARMv8_Cortex_A72_cnt3" event="0x13" cores="6" title="Memory" name="Access" description="The counter counts memory read operations and memory write operations that the PE made. The counter increments whether the access results in an access to a Level 1 data or unified cache, a Level 2 data or unified cache, or neither of these." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x14" type="ARM_Mali-T86x_JS0_TASKS" cores="1" title="Mali Job Manager" name="Pixels" description="Number of Pixels completed in JS0" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="pixels" multiplier="1024" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x194" type="ARMv8_Cortex_A72_cnt4" event="0x4" cores="6" title="L1 Data Cache" name="Access" description="The counter counts each memory read operation or memory write operation that causes a cache access to at least the Level 1 data or unified cache. If the cache is shared, only events attributable to this PE are counted. If the cache is not shared, all events are counted. Each access to a cache line is counted including the multiple accesses of instructions, such as LDM or STM . Each access to other Level 1 data or unified memory structures, for example refill buffers, write buffers, and write-back buffers, is also counted." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x16" type="ARM_Mali-T86x_JS0_ACTIVE" cores="1" title="Mali Job Manager Cycles" name="JS0 cycles" description="Number of cycles JS0 (fragment) active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x196" type="ARMv8_Cortex_A72_cnt5" event="0x3" cores="6" title="L1 Data Cache" name="Refill" description="The counter counts each access counted by 'L1 Data Cache: Access' that causes a demand refill of at least the Level 1 data or unified cache from outside the Level 1 cache. Each access to a cache line that causes a new linefill is counted, including those from instructions that generate multiple accesses, such as load or store multiples, and PUSH and POP instructions. In particular, the counter counts accesses to the Level 1 cache that cause a refill that is satisfied by another Level 1 data or unified cache, or a Level 2 cache, or memory. A refill includes any access that causes data to be fetched from outside the cache, even if the data is ultimately not allocated into the cache. For example, data might be fetched into a buffer but then discarded, rather than being allocated into a cache. These buffers are treated as part of the cache." cluster="1" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x19c" type="ARMv8_Cortex_A53_irq" cores="6" title="Interrupts" name="IRQ" description="Linux IRQ taken" cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x24" type="ARM_Mali-T86x_JS1_ACTIVE" cores="1" title="Mali Job Manager Cycles" name="JS1 cycles" description="Number of cycles JS1 (vertex/tiler/compute) active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1a8" type="Linux_cpu_wait_contention" title="CPU Contention" name="Wait" description="One or more threads are runnable but waiting due to CPU contention" color="0x003C96FB" class="ACTIVITY" devtype_basic="system-wide" display="AVERAGE" multiplier="1.0E-4" average_selection="yes" percentage="yes" derived="yes" rendering_type="bar" series_composition="stacked" mode="system-wide">
+	</counter>
+	<counter key="0x1aa" type="ARMv8_Cortex_A53_system" cores="6" title="CPU Activity" name="System" description="Linux System activity" color="0x00DF4742" cluster="0" class="ACTIVITY" devtype_basic="cpu" display="AVERAGE" multiplier="1.0E-4" average_cores="yes" average_selection="yes" percentage="yes" derived="yes" rendering_type="bar" series_composition="stacked" mode="per-core">
+	</counter>
+	<counter key="0xac" type="ARM_Mali-T86x_FRAG_ACTIVE" cores="1" title="Mali Core Cycles" name="Fragment cycles" description="Number of cycles fragment processing was active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1ac" type="ARMv8_Cortex_A53_user" cores="6" title="CPU Activity" name="User" description="Linux User activity" color="0x003ADF43" cluster="0" class="ACTIVITY" devtype_basic="cpu" display="AVERAGE" multiplier="1.0E-4" average_cores="yes" average_selection="yes" percentage="yes" derived="yes" rendering_type="bar" series_composition="stacked" mode="per-core">
+	</counter>
+	<counter key="0x1ae" type="ARMv8_Cortex_A72_system" cores="6" title="CPU Activity" name="System" description="Linux System activity" color="0x00DF4742" cluster="1" class="ACTIVITY" devtype_basic="cpu" display="AVERAGE" multiplier="1.0E-4" average_cores="yes" average_selection="yes" percentage="yes" derived="yes" rendering_type="bar" series_composition="stacked" mode="per-core">
+	</counter>
+	<counter key="0x1b0" type="ARMv8_Cortex_A72_user" cores="6" title="CPU Activity" name="User" description="Linux User activity" color="0x003ADF43" cluster="1" class="ACTIVITY" devtype_basic="cpu" display="AVERAGE" multiplier="1.0E-4" average_cores="yes" average_selection="yes" percentage="yes" derived="yes" rendering_type="bar" series_composition="stacked" mode="per-core">
+	</counter>
+	<counter key="0x32" type="ARM_Mali-T86x_JS2_ACTIVE" cores="1" title="Mali Job Manager Cycles" name="JS2 cycles" description="Number of cycles JS2 (vertex/compute) active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xba" type="ARM_Mali-T86x_FRAG_CYCLES_FPKQ_ACTIVE" cores="1" title="Mali Core Cycles" name="Fragment cycles pre-pipe buffer not empty" description="Number of cycles the pre-pipe queue contains quads" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x13a" type="ARM_Mali-T86x_L2_EXT_WRITE_BEATS" cores="1" title="Mali L2 Cache Ext Writes" name="External write bytes" description="Number of external bus write bytes" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="bytes" multiplier="16" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xbc" type="ARM_Mali-T86x_FRAG_THREADS" cores="1" title="Mali Fragment Threads" name="Fragment threads" description="Number of fragment threads started" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="threads" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x13c" type="ARM_Mali-T86x_L2_EXT_READ_BEATS" cores="1" title="Mali L2 Cache Ext Reads" name="External read bytes" description="Number of external bus read bytes" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="bytes" multiplier="16" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x3e" type="ARM_Mali-T86x_TI_TRIANGLES" cores="1" title="Mali Tiler Primitives" name="Triangles" description="Number of triangles processed" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="primitives" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1c2" type="ARM_Mali-Midgard_TOTAL_ALLOC_PAGES" cores="1" title="Mali Total Alloc Pages" name="Total number of allocated pages" description="Mali total number of allocated pages." class="ABSOLUTE" devtype_basic="gpu" devtype_name="Mali-T86x" display="MAXIMUM" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x44" type="ARM_Mali-T86x_TI_POINTS" cores="1" title="Mali Tiler Primitives" name="Points" description="Number of points processed" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="primitives" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1c4" type="ARM_Mali-Midgard_fragment" cores="1" title="GPU Fragment" name="Activity" description="GPU Job Slot 0 Activity" class="ACTIVITY" devtype_basic="gpu" devtype_name="Mali-T86x" display="AVERAGE" average_selection="yes" percentage="yes" rendering_type="bar" series_composition="stacked" mode="per-core" activity1="Activity" activity_color1="0x6fcc">
+	</counter>
+	<counter key="0x46" type="ARM_Mali-T86x_TI_LINES" cores="1" title="Mali Tiler Primitives" name="Lines" description="Number of lines processed" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="primitives" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1c6" type="ARM_Mali-Midgard_vertex" cores="1" title="GPU Vertex-Tiling-Compute" name="Activity" description="GPU Job Slot 1 Activity" class="ACTIVITY" devtype_basic="gpu" devtype_name="Mali-T86x" display="AVERAGE" average_selection="yes" percentage="yes" rendering_type="bar" series_composition="stacked" mode="per-core" activity1="Activity" activity_color1="0xeda000">
+	</counter>
+	<counter key="0xc6" type="ARM_Mali-T86x_FRAG_THREADS_LZS_TEST" cores="1" title="Mali Fragment Threads" name="Fragment threads doing late ZS" description="Number of threads doing late ZS test" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="threads" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1c8" type="ARM_Mali-Midgard_opencl" cores="1" title="GPU Vertex-Compute" name="Activity" description="GPU Job Slot 2 Activity" class="ACTIVITY" devtype_basic="gpu" devtype_name="Mali-T86x" display="AVERAGE" average_selection="yes" percentage="yes" rendering_type="bar" series_composition="stacked" mode="per-core" activity1="Activity" activity_color1="0xef022f">
+	</counter>
+	<counter key="0xc8" type="ARM_Mali-T86x_FRAG_THREADS_LZS_KILLED" cores="1" title="Mali Fragment Threads" name="Fragment threads killed late ZS" description="Number of threads killed by late ZS test" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="threads" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1ca" type="PERF_COUNT_SW_CPU_CLOCK" cores="6" title="Clock" name="CPU Clock" description="The time the core is active" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="s" multiplier="1.0E-9" average_cores="yes" proc="no" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x1cc" type="PERF_COUNT_SW_TASK_CLOCK" cores="6" title="Clock" name="Task Clock" description="The time the task is active" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" units="s" multiplier="1.0E-9" average_cores="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0xcc" type="ARM_Mali-T86x_FRAG_NUM_TILES" cores="1" title="Mali Fragment" name="Pixels" description="Number of pixels rendered" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="pixels" multiplier="1024" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1ce" type="PERF_COUNT_SW_CONTEXT_SWITCHES" cores="6" title="Process" name="Context Switches" description="The number of context switches" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" average_cores="yes" average_selection="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x1d0" type="PERF_COUNT_SW_CPU_MIGRATIONS" cores="6" title="Process" name="CPU Migrations" description="The number of process CPU migrations" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" average_cores="yes" average_selection="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0xd0" type="ARM_Mali-T86x_COMPUTE_ACTIVE" cores="1" title="Mali Core Cycles" name="Compute cycles" description="Number of cycles vertex\compute processing was active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x52" type="ARM_Mali-T86x_TI_PRIM_CULLED" cores="1" title="Mali Tiler Culling" name="Culled prims" description="Number of culled primitives" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="primitives" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1d2" type="PERF_COUNT_SW_PAGE_FAULTS" cores="6" title="Page Faults" name="Faults" description="The number of page faults" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" average_cores="yes" average_selection="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x54" type="ARM_Mali-T86x_TI_PRIM_CLIPPED" cores="1" title="Mali Tiler Culling" name="Clipped prims" description="Number of clipped primitives" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="primitives" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xd4" type="ARM_Mali-T86x_COMPUTE_THREADS" cores="1" title="Mali Compute Threads" name="Compute threads" description="Number of compute threads started" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="threads" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xd8" type="ARM_Mali-T86x_TRIPIPE_ACTIVE" cores="1" title="Mali Core Cycles" name="Tripipe cycles" description="Number of cycles tripipe was active" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xda" type="ARM_Mali-T86x_ARITH_WORDS" cores="1" title="Mali Arithmetic Pipe" name="A instructions" description="Number of instructions completed by the the A-pipe (normalized per pipeline)" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xe2" type="ARM_Mali-T86x_LS_WORDS" cores="1" title="Mali Load/Store Pipe" name="LS instructions" description="Number of instructions completed by the LS-pipe" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xe4" type="ARM_Mali-T86x_LS_ISSUES" cores="1" title="Mali Load/Store Pipe" name="LS instruction issues" description="Number of instructions issued to the LS-pipe, including restarts" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x168" type="ARM_Mali-T86x_L2_EXT_AR_STALL" cores="1" title="Mali L2 Cache Ext Reads" name="External bus stalls (AR)" description="Number of cycles a valid read address (AR) is stalled by the external interconnect" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1e8" type="ftrace_power_cpu_idle" title="Power" name="cpu_idle" description="Number of times cpu_idle is entered or exited" class="INCIDENT" devtype_basic="system-wide" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="system-wide" from_ftrace="yes" regex="^cpu_idle: " tracepoint="power/cpu_idle">
+		<channel-descriptor devtype_basic="system-wide" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1ea" type="Linux_block_rq_rd" title="Disk I/O" name="Read" description="Disk I/O Bytes Read" class="DELTA" devtype_basic="system-wide" display="ACCUMULATE" units="B" rendering_type="filled" series_composition="stacked" mode="system-wide">
+		<channel-descriptor devtype_basic="system-wide" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1ee" type="Linux_meminfo_memused2" title="Memory" name="Used" description="Total used memory size" class="ABSOLUTE" devtype_basic="system-wide" display="MAXIMUM" units="B" rendering_type="filled" series_composition="stacked" mode="system-wide">
+		<channel-descriptor devtype_basic="system-wide" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x170" type="ARM_Mali-T86x_L2_EXT_W_STALL" cores="1" title="Mali L2 Cache Ext Writes" name="External bus stalls (W)" description="Number of cycles a valid write data (W channel) is stalled by the external interconnect" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="cycles" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x1f0" type="Linux_meminfo_memfree" title="Memory" name="Free" description="Available memory size" class="ABSOLUTE" devtype_basic="system-wide" display="MINIMUM" units="B" rendering_type="filled" series_composition="stacked" mode="system-wide">
+		<channel-descriptor devtype_basic="system-wide" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xf0" type="ARM_Mali-T86x_TEX_WORDS" cores="1" title="Mali Texture Pipe" name="T instructions" description="Number of instructions completed by the T-pipe" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0xf8" type="ARM_Mali-T86x_TEX_ISSUES" cores="1" title="Mali Texture Pipe" name="T instruction issues" description="Number of threads through loop 2 address calculation" class="DELTA" devtype_basic="gpu" devtype_name="Mali-T86x" display="ACCUMULATE" units="instructions" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="gpu" devtype_name="Mali-T86x" vm="0" pe="0"/>
+	</counter>
+	<counter key="0x17c" type="ARMv8_Cortex_A53_ccnt" event="0x11" cores="6" title="Cycles" name="CPU Cycles" description="The counter increments on every cycle." cluster="0" class="DELTA" devtype_basic="cpu" display="HERTZ" units="Hz" average_cores="yes" average_selection="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+	<counter key="0x17e" type="ARMv8_Cortex_A53_cnt0" event="0xc2" cores="6" title="Data Cache" name="Refill (due to prefetch)" description="Linefill because of prefetch." cluster="0" class="DELTA" devtype_basic="cpu" display="ACCUMULATE" rendering_type="filled" series_composition="stacked" mode="per-core">
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="0"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="1"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="2"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="3"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="4"/>
+		<channel-descriptor devtype_basic="cpu" vm="0" pe="5"/>
+	</counter>
+</counters>

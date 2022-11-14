@@ -1,0 +1,4 @@
+
+use models_dir command to show directory of models(first one is used for khadas npu and second one is used for armcl)
+resnet50-v1-7.onnx is from khadas npu
+ResNet50.onnx is from armcl converted from keras to onnx

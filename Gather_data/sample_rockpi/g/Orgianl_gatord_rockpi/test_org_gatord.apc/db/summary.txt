@@ -1,0 +1,28 @@
+Capture
+duration: 9.163260671 s
+
+Target
+system date: Fri Jan 21 19:18:57 CET 2022
+uptime: 334.820802884 s
+monotonic delta: 334.820802884 s
+time of day since Unix epoch: 1642789137187363052 ns
+Capture Attributes:
+'perf.devices.software.type': '1'
+'uname': 'Linux localhost 4.4.167 #8 SMP PREEMPT Sun Jan 9 18:42:45 CET 2022 aarch64 GNU/Linux'
+'perf.can_access_tracepoints': '1'
+'perf.devices.armv8_cortex_a53.type': '6'
+'perf.devices.tracepoint.type': '2'
+'perf.has_attr_context_switch': '1'
+'perf.is_root': '1'
+'perf.devices.armv8_cortex_a72.type': '7'
+'perf.devices.breakpoint.type': '5'
+'perf.is_system_wide': '1'
+'nosync'
+'PAGESIZE': '4096'
+Core details: 
+core (cpu):0:3: Cortex-A53 (0x41d03) [null]
+core (cpu):0:2: Cortex-A53 (0x41d03) [null]
+core (cpu):0:5: Cortex-A72 (0x41d08) [null]
+core (cpu):0:4: Cortex-A72 (0x41d08) [null]
+core (cpu):0:1: Cortex-A53 (0x41d03) [null]
+core (cpu):0:0: Cortex-A53 (0x41d03) [null]

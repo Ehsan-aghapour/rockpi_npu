@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<captured version="1" live_energy_delta="-826076218" created="1644146397" streamline_version="780" type="PERF" protocol="780">
+	<target name="ROCKPI N10" sample_rate="10007" cores="6" gpu_cores="1" cpuid="0x41d08" supports_live="yes" gatord_src_md5sum="882e66d51cf7d828354abaab9b4bb6ae" gatord_build_id="83107edf89efabed9fafe7e468b1a011c152080f" os="android"/>
+	<gpus>
+		<gpu id="0x860"/>
+	</gpus>
+	<counters>
+		<counter key="0x1c4" type="ARM_Mali-Midgard_fragment" cores="1">
+		</counter>
+		<counter key="0x1c8" type="ARM_Mali-Midgard_opencl" cores="1">
+		</counter>
+		<counter key="0x1c6" type="ARM_Mali-Midgard_vertex" cores="1">
+		</counter>
+		<counter key="0x17c" type="ARMv8_Cortex_A53_ccnt" event="0x11">
+		</counter>
+		<counter key="0x17e" type="ARMv8_Cortex_A53_cnt0" event="0x8">
+		</counter>
+		<counter key="0x180" type="ARMv8_Cortex_A53_cnt1" event="0x10">
+		</counter>
+		<counter key="0x182" type="ARMv8_Cortex_A53_cnt2" event="0x12">
+		</counter>
+		<counter key="0x184" type="ARMv8_Cortex_A53_cnt3" event="0x3">
+		</counter>
+		<counter key="0x186" type="ARMv8_Cortex_A53_cnt4" event="0x4">
+		</counter>
+		<counter key="0x1a4" type="ARMv8_Cortex_A53_freq">
+		</counter>
+		<counter key="0x1aa" type="ARMv8_Cortex_A53_system" cores="1">
+		</counter>
+		<counter key="0x1ac" type="ARMv8_Cortex_A53_user" cores="1">
+		</counter>
+		<counter key="0x18a" type="ARMv8_Cortex_A72_ccnt" event="0x11">
+		</counter>
+		<counter key="0x18c" type="ARMv8_Cortex_A72_cnt0" event="0x8">
+		</counter>
+		<counter key="0x18e" type="ARMv8_Cortex_A72_cnt1" event="0x10">
+		</counter>
+		<counter key="0x190" type="ARMv8_Cortex_A72_cnt2" event="0x12">
+		</counter>
+		<counter key="0x192" type="ARMv8_Cortex_A72_cnt3" event="0x3">
+		</counter>
+		<counter key="0x194" type="ARMv8_Cortex_A72_cnt4" event="0x4">
+		</counter>
+		<counter key="0x1a6" type="ARMv8_Cortex_A72_freq">
+		</counter>
+		<counter key="0x1ae" type="ARMv8_Cortex_A72_system" cores="1">
+		</counter>
+		<counter key="0x1b0" type="ARMv8_Cortex_A72_user" cores="1">
+		</counter>
+		<counter key="0x1ea" type="Linux_block_rq_rd">
+		</counter>
+		<counter key="0x1ec" type="Linux_block_rq_wr">
+		</counter>
+		<counter key="0x1f0" type="Linux_meminfo_memfree">
+		</counter>
+		<counter key="0x1ee" type="Linux_meminfo_memused2">
+		</counter>
+		<counter key="0x4" type="ARM_Mali-CONST_BUS_WIDTH_BITS" title="Mali Constants" name="Bus Width Bits" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+		<counter key="0x6" type="ARM_Mali-CONST_L2_SLICE_COUNT" title="Mali Constants" name="L2 Slice Count" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+		<counter key="0x8" type="ARM_Mali-CONST_SHADER_CORE_COUNT" title="Mali Constants" name="Shader Core Count" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+	</counters>
+</captured>

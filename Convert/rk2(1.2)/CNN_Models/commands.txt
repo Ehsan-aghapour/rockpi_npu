@@ -1,0 +1,29 @@
+###
+# First convert keras model to pb using rkit env (because rk2 has not keras installed) 
+# notice: converting models with other tensorflow versions (ai or ai2) cause error in convert to rknn format
+
+##Then use rk env for converting models:
+#MobileNet (do not forget to change input and output names in convert.py):
+python3 convert.py /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/MobileNet/MobileNet.pb
+
+#ResNet50 (do not forget to change input and output names in convert.py):
+python3 convert.py /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/Resnet50/ResNet50.pb
+
+#AlexNet:
+python3 convert.py /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/AlexNet/bvlc_alexnet/new/deploy.prototxt \
+/home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/AlexNet/bvlc_alexnet/new/bvlc_alexnet.caffemodel
+#Then: 
+mv deploy.rknn Alex_caffe.rknn
+
+
+GoogleNet:
+python3 convert.py /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/GoogleNet/bvlc_googlenet/new/deploy.prototxt\
+ /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/GoogleNet/bvlc_googlenet/new/bvlc_googlenet.caffemodel
+#Then:
+mv deploy.rknn Google_caffe.rknn
+
+#SqueezeNet:
+python3 convert.py /home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/SqueezeNet-master/SqueezeNet_v1.0/new/deploy.prototxt \
+/home/ehsan/UvA/ARMCL/ARMCL-Local/scripts/blobs_extractor/Working_tree/models/SqueezeNet-master/SqueezeNet_v1.0/new/squeezenet_v1.0.caffemodel
+#Then:
+mv deploy.rknn Squeeze_caffe.rknn

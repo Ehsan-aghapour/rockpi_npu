@@ -1,0 +1,2 @@
+
+/media/ehsan/Learn/SUT/environment_compile_c++_for_android/bin/clang++ -pie call_gator_ioctl.cpp

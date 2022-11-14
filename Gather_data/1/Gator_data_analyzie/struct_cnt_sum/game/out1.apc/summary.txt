@@ -1,0 +1,20 @@
+Capture
+duration: 34.79780312 s
+
+Target
+system date: Thu Jul 09 05:05:48 IRDT 2020
+uptime: 130.020210395 s
+monotonic delta: 130.020213001 s
+time of day since Unix epoch: 1594254948994940085 ns
+nosync: 
+uname: Linux localhost 4.9.78-147536-g7304d83b6c94-dirty #103 SMP PREEMPT Wed Jul 8 21:53:13 +0430 2020 aa
+mali_type: 6xx
+PAGESIZE: 4096
+core 0:3: Cortex-A53 (0x041d03) [3:{1.3.0}]
+core 0:2: Cortex-A53 (0x041d03) [2:{1.2.0}]
+core 0:1: Cortex-A53 (0x041d03) [1:{1.1.0}]
+core 0:0: Cortex-A53 (0x041d03) [0:{1.0.0}]
+core 0:7: Cortex-A73 (0x041d09) [7:{0.3.0}]
+core 0:6: Cortex-A73 (0x041d09) [6:{0.2.0}]
+core 0:5: Cortex-A73 (0x041d09) [5:{0.1.0}]
+core 0:4: Cortex-A73 (0x041d09) [4:{0.0.0}]

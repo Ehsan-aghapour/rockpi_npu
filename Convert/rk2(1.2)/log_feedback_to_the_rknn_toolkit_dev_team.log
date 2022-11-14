@@ -1,0 +1,14 @@
+D Using CPPUTILS: True
+E Invalid RKNN model path: ./model.rknn
+D target set by user is: rk3399pro
+D Starting ntp or adb, target is RK3399PRO, host is None
+D Start adb...
+E Connect to Device Failure (-1)
+E Catch exception when init runtime!
+E Traceback (most recent call last):
+E   File "rknn/api/rknn_base.py", line 868, in rknn.api.rknn_base.RKNNBase.init_runtime
+E   File "rknn/api/rknn_runtime.py", line 171, in rknn.api.rknn_runtime.RKNNRuntime.__init__
+E   File "rknn/api/rknn_platform_utils.py", line 318, in rknn.api.rknn_platform_utils.start_ntp_or_adb
+E Exception: Init runtime environment failed!
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues

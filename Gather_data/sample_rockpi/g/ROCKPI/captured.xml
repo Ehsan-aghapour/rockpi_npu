@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<captured version="1" live_energy_delta="983796132" created="1641661302" streamline_version="780" type="PERF" protocol="780">
+	<target name="ROCKPI N10" sample_rate="10007" cores="6" gpu_cores="1" cpuid="0x41d08" supports_live="yes" gatord_src_md5sum="882e66d51cf7d828354abaab9b4bb6ae" gatord_build_id="83107edf89efabed9fafe7e468b1a011c152080f" os="android"/>
+	<gpus>
+		<gpu id="0x860"/>
+	</gpus>
+	<counters>
+		<counter key="0xda" type="ARM_Mali-T86x_ARITH_WORDS">
+		</counter>
+		<counter key="0xd0" type="ARM_Mali-T86x_COMPUTE_ACTIVE">
+		</counter>
+		<counter key="0xd2" type="ARM_Mali-T86x_COMPUTE_TASKS">
+		</counter>
+		<counter key="0xd4" type="ARM_Mali-T86x_COMPUTE_THREADS">
+		</counter>
+		<counter key="0xac" type="ARM_Mali-T86x_FRAG_ACTIVE">
+		</counter>
+		<counter key="0xb0" type="ARM_Mali-T86x_FRAG_PRIMITIVES_DROPPED">
+		</counter>
+		<counter key="0xc4" type="ARM_Mali-T86x_FRAG_QUADS_EZS_KILLED">
+		</counter>
+		<counter key="0xbc" type="ARM_Mali-T86x_FRAG_THREADS">
+		</counter>
+		<counter key="0xe" type="ARM_Mali-T86x_GPU_ACTIVE">
+		</counter>
+		<counter key="0x10" type="ARM_Mali-T86x_IRQ_ACTIVE">
+		</counter>
+		<counter key="0x16" type="ARM_Mali-T86x_JS0_ACTIVE">
+		</counter>
+		<counter key="0x14" type="ARM_Mali-T86x_JS0_TASKS">
+		</counter>
+		<counter key="0x24" type="ARM_Mali-T86x_JS1_ACTIVE">
+		</counter>
+		<counter key="0x32" type="ARM_Mali-T86x_JS2_ACTIVE">
+		</counter>
+		<counter key="0x168" type="ARM_Mali-T86x_L2_EXT_AR_STALL">
+		</counter>
+		<counter key="0x16c" type="ARM_Mali-T86x_L2_EXT_RD_BUF_FULL">
+		</counter>
+		<counter key="0x13c" type="ARM_Mali-T86x_L2_EXT_READ_BEATS">
+		</counter>
+		<counter key="0x148" type="ARM_Mali-T86x_L2_READ_HIT">
+		</counter>
+		<counter key="0x154" type="ARM_Mali-T86x_L2_WRITE_HIT">
+		</counter>
+		<counter key="0x112" type="ARM_Mali-T86x_LSC_DIRTY_LINE">
+		</counter>
+		<counter key="0x114" type="ARM_Mali-T86x_LSC_SNOOPS">
+		</counter>
+		<counter key="0x108" type="ARM_Mali-T86x_LSC_WRITE_HITS">
+		</counter>
+		<counter key="0xe4" type="ARM_Mali-T86x_LS_ISSUES">
+		</counter>
+		<counter key="0xfa" type="ARM_Mali-T86x_TEX_RECIRC_FMISS">
+		</counter>
+		<counter key="0xf0" type="ARM_Mali-T86x_TEX_WORDS">
+		</counter>
+		<counter key="0x4e" type="ARM_Mali-T86x_TI_BACK_FACING">
+		</counter>
+		<counter key="0x56" type="ARM_Mali-T86x_TI_LEVEL0">
+		</counter>
+		<counter key="0x58" type="ARM_Mali-T86x_TI_LEVEL1">
+		</counter>
+		<counter key="0x54" type="ARM_Mali-T86x_TI_PRIM_CLIPPED">
+		</counter>
+		<counter key="0x3e" type="ARM_Mali-T86x_TI_TRIANGLES">
+		</counter>
+		<counter key="0xd8" type="ARM_Mali-T86x_TRIPIPE_ACTIVE">
+		</counter>
+		<counter key="0x17c" type="ARMv8_Cortex_A53_ccnt" event="0x11">
+		</counter>
+		<counter key="0x17e" type="ARMv8_Cortex_A53_cnt0" event="0x8">
+		</counter>
+		<counter key="0x180" type="ARMv8_Cortex_A53_cnt1" event="0x10">
+		</counter>
+		<counter key="0x182" type="ARMv8_Cortex_A53_cnt2" event="0x12">
+		</counter>
+		<counter key="0x184" type="ARMv8_Cortex_A53_cnt3" event="0x3">
+		</counter>
+		<counter key="0x186" type="ARMv8_Cortex_A53_cnt4" event="0x4">
+		</counter>
+		<counter key="0x1a4" type="ARMv8_Cortex_A53_freq">
+		</counter>
+		<counter key="0x1aa" type="ARMv8_Cortex_A53_system" cores="1">
+		</counter>
+		<counter key="0x1ac" type="ARMv8_Cortex_A53_user" cores="1">
+		</counter>
+		<counter key="0x18a" type="ARMv8_Cortex_A72_ccnt" event="0x11">
+		</counter>
+		<counter key="0x18c" type="ARMv8_Cortex_A72_cnt0" event="0x8">
+		</counter>
+		<counter key="0x18e" type="ARMv8_Cortex_A72_cnt1" event="0x10">
+		</counter>
+		<counter key="0x190" type="ARMv8_Cortex_A72_cnt2" event="0x12">
+		</counter>
+		<counter key="0x192" type="ARMv8_Cortex_A72_cnt3" event="0x3">
+		</counter>
+		<counter key="0x194" type="ARMv8_Cortex_A72_cnt4" event="0x4">
+		</counter>
+		<counter key="0x1a6" type="ARMv8_Cortex_A72_freq">
+		</counter>
+		<counter key="0x1ae" type="ARMv8_Cortex_A72_system" cores="1">
+		</counter>
+		<counter key="0x1b0" type="ARMv8_Cortex_A72_user" cores="1">
+		</counter>
+		<counter key="0x1d2" type="Linux_block_rq_rd">
+		</counter>
+		<counter key="0x1d4" type="Linux_block_rq_wr">
+		</counter>
+		<counter key="0x1d8" type="Linux_meminfo_memfree">
+		</counter>
+		<counter key="0x1d6" type="Linux_meminfo_memused2">
+		</counter>
+		<counter key="0x1b2" type="PERF_COUNT_SW_CPU_CLOCK">
+		</counter>
+		<counter key="0x4" type="ARM_Mali-CONST_BUS_WIDTH_BITS" title="Mali Constants" name="Bus Width Bits" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+		<counter key="0x6" type="ARM_Mali-CONST_L2_SLICE_COUNT" title="Mali Constants" name="L2 Slice Count" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+		<counter key="0x8" type="ARM_Mali-CONST_SHADER_CORE_COUNT" title="Mali Constants" name="Shader Core Count" class="CONSTANT" devtype_basic="system-wide" display="ACCUMULATE" hide_by_default="yes" rendering_type="filled" series_composition="stacked" mode="per-core">
+		</counter>
+	</counters>
+</captured>

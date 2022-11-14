@@ -1,0 +1,3 @@
+
+Only Alexnet input size is 227 in ARMCL, other networks input size is 224
+However in Khadas npu models squeezenet model also has 227 size
